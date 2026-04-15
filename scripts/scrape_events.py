@@ -25,15 +25,9 @@ import re
 import time
 import urllib.parse
 import urllib.request
+import xml.etree.ElementTree as ET
 from pathlib import Path
 from typing import Any
-
-try:
-    import feedparser
-    HAS_FEEDPARSER = True
-except ImportError:
-    HAS_FEEDPARSER = False
-    print("[warn] feedparser not installed — RSS scraping disabled")
 
 try:
     from bs4 import BeautifulSoup
@@ -385,31 +379,86 @@ def scrape_wikicfp() -> list[dict]:
 # SOURCE: RSS feeds
 # ──────────────────────────────────────────────────────────────────────────────
 
-def scrape_rss_feeds() -> list[dict]:
-    if not HAS_FEEDPARSER:
-        print("[rss] skipped — feedparser not installed")
-        return []
+def _parse_feed(raw: bytes, feed_url: str) -> list[tuple[str, str, str, str]]:
+    """
+    Minimal RSS/Atom parser using stdlib xml.etree.ElementTree.
+    Returns list of (title, link, summary, published) tuples.
+    """
+    ATOM = "http://www.w3.org/2005/Atom"
+    entries: list[tuple[str, str, str, str]] = []
 
+    try:
+        root = ET.fromstring(raw)
+    except ET.ParseError:
+        return entries
+
+    tag = root.tag.lower()
+
+    if "atom" in tag or root.tag == f"{{{ATOM}}}feed":
+        # Atom feed
+        ns = {"a": ATOM}
+        for entry in root.findall("a:entry", ns) or root.findall("{%s}entry" % ATOM):
+            title = (entry.findtext("a:title", "", ns) or entry.findtext("{%s}title" % ATOM, "")).strip()
+            link_el = entry.find("a:link", ns) or entry.find("{%s}link" % ATOM)
+            link = (link_el.get("href", "") if link_el is not None else "").strip()
+            summary = (entry.findtext("a:summary", "", ns) or entry.findtext("{%s}summary" % ATOM, "") or
+                       entry.findtext("a:content", "", ns) or entry.findtext("{%s}content" % ATOM, "")).strip()
+            published = (entry.findtext("a:published", "", ns) or entry.findtext("{%s}published" % ATOM, "") or
+                         entry.findtext("a:updated", "", ns) or "TBC").strip()
+            if title:
+                entries.append((title, link, summary, published[:16]))
+    else:
+        # RSS 2.0 / RSS 1.0
+        items = root.findall(".//item")
+        channel = root.find(".//channel")
+        for item in items:
+            title = (item.findtext("title") or "").strip()
+            link = (item.findtext("link") or "").strip()
+            summary = (item.findtext("description") or item.findtext("summary") or "").strip()
+            # Strip HTML tags from summary
+            summary = re.sub(r"<[^>]+>", " ", summary)
+            published = (item.findtext("pubDate") or item.findtext("published") or "TBC").strip()
+            if title:
+                entries.append((title, link, summary, published[:16]))
+
+    return entries[:30]
+
+
+def _feed_title(raw: bytes) -> str:
+    """Extract channel/feed title from raw XML."""
+    ATOM = "http://www.w3.org/2005/Atom"
+    try:
+        root = ET.fromstring(raw)
+        for path in [
+            "channel/title",
+            f"{{{ATOM}}}title",
+            ".//title",
+        ]:
+            t = root.findtext(path)
+            if t:
+                return t.strip()
+    except ET.ParseError:
+        pass
+    return ""
+
+
+def scrape_rss_feeds() -> list[dict]:
     results: list[dict] = []
     seen_urls: set[str] = set()
 
     for feed_url in RSS_FEEDS:
         time.sleep(0.5)
+        raw = fetch(feed_url)
+        if not raw:
+            continue
         try:
-            feed = feedparser.parse(feed_url)
-            source_name = feed.feed.get("title", feed_url)
-
-            for entry in feed.entries[:30]:
-                url = getattr(entry, "link", "")
+            source_name = _feed_title(raw) or feed_url
+            for title, url, summary, published in _parse_feed(raw, feed_url):
                 if url in seen_urls:
                     continue
                 seen_urls.add(url)
 
-                title = getattr(entry, "title", "Untitled")
-                summary = getattr(entry, "summary", "")
-                published = getattr(entry, "published", "TBC")
                 full_text = f"{title} {summary}"
-
                 score, breakdown = score_text(full_text)
                 if score < SCORE_THRESHOLD:
                     continue
@@ -417,7 +466,7 @@ def scrape_rss_feeds() -> list[dict]:
                 tag = tag_event(full_text)
                 results.append({
                     "title": truncate(title, 120),
-                    "date": published[:16] if published != "TBC" else "TBC",
+                    "date": published,
                     "location": "TBC",
                     "host": source_name,
                     "applies": classify_verdict(score),
