@@ -34,12 +34,16 @@ jobs:
 
       - name: Generate Morning Edition
         run: python scripts/generate_morning_edition.py
+        env:
+          GITHUB_REPOSITORY: ${{ github.repository }}
 
       - name: Prepare Pages site
         run: |
           mkdir -p site
           cp index.html site/index.html
+          cp tracker.html site/tracker.html
           cp -r issues site/issues
+          cp -r data site/data
 
       - name: Configure GitHub Pages
         uses: actions/configure-pages@v5
