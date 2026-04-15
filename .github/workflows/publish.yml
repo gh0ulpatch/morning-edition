@@ -3,7 +3,12 @@ name: Publish Morning Edition
 on:
   workflow_dispatch:
   schedule:
-    - cron: '5 6 * * *'
+    # 08:45 UK time year-round, accounting for clock changes:
+    #   45 7 * * *  →  08:45 BST  (UTC+1, late Mar – late Oct)
+    #   45 8 * * *  →  08:45 GMT  (UTC+0, late Oct – late Mar)
+    # Both crons fire every day; the guard step below skips the redundant run.
+    - cron: '45 7 * * *'
+    - cron: '45 8 * * *'
 
 permissions:
   contents: write
@@ -21,23 +26,66 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
+      # Both crons fire every day. This step checks whether today's issue
+      # already exists in the repo (committed by whichever run fired first)
+      # and sets skip=true so the second run is a no-op.
+      - name: Guard — skip if already published today
+        id: guard
+        run: |
+          TODAY=$(date -u +%Y-%m-%d)
+          echo "ISSUE_DATE=${TODAY}" >> $GITHUB_ENV
+          if [ -f "issues/${TODAY}.html" ]; then
+            echo "Already published ${TODAY} — skipping."
+            echo "skip=true" >> $GITHUB_OUTPUT
+          else
+            echo "skip=false" >> $GITHUB_OUTPUT
+          fi
+
       - name: Set up Python
+        if: steps.guard.outputs.skip != 'true'
         uses: actions/setup-python@v5
         with:
           python-version: '3.12'
 
       - name: Install Python dependencies
+        if: steps.guard.outputs.skip != 'true'
         run: pip install -r requirements.txt
 
       - name: Scrape events
+        if: steps.guard.outputs.skip != 'true'
         run: python scripts/scrape_events.py
 
       - name: Generate Morning Edition
+        if: steps.guard.outputs.skip != 'true'
         run: python scripts/generate_morning_edition.py
         env:
           GITHUB_REPOSITORY: ${{ github.repository }}
 
+      # Commit generated files back to the repo so that:
+      #   1. The guard step above works on the next day's runs
+      #   2. data/tracker.json accumulates across days
+      - name: Commit generated files
+        if: steps.guard.outputs.skip != 'true'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add issues/ tracker.html index.html data/
+          git diff --staged --quiet || git commit -m "chore: morning edition ${{ env.ISSUE_DATE }} [skip ci]"
+          git push
+
+      - name: Send digest email
+        if: steps.guard.outputs.skip != 'true'
+        run: python scripts/send_digest.py
+        env:
+          SMTP_HOST:     ${{ secrets.SMTP_HOST }}
+          SMTP_PORT:     ${{ secrets.SMTP_PORT }}
+          SMTP_USER:     ${{ secrets.SMTP_USER }}
+          SMTP_PASSWORD: ${{ secrets.SMTP_PASSWORD }}
+          EMAIL_FROM:    ${{ secrets.EMAIL_FROM }}
+          EMAIL_TO:      ${{ secrets.EMAIL_TO }}
+
       - name: Prepare Pages site
+        if: steps.guard.outputs.skip != 'true'
         run: |
           mkdir -p site
           cp index.html site/index.html
@@ -46,14 +94,17 @@ jobs:
           cp -r data site/data
 
       - name: Configure GitHub Pages
+        if: steps.guard.outputs.skip != 'true'
         uses: actions/configure-pages@v5
 
       - name: Upload Pages artifact
+        if: steps.guard.outputs.skip != 'true'
         uses: actions/upload-pages-artifact@v3
         with:
           path: site
           include-hidden-files: true
 
       - name: Deploy to GitHub Pages
+        if: steps.guard.outputs.skip != 'true'
         id: deployment
         uses: actions/deploy-pages@v4
