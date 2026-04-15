@@ -1,4 +1,4 @@
-nname: Publish Morning Edition
+name: Publish Morning Edition
 
 on:
   schedule:
