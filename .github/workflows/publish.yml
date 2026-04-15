@@ -1,4 +1,4 @@
-name: Publish Morning Edition
+nname: Publish Morning Edition
 
 on:
   schedule:
@@ -20,6 +20,7 @@ jobs:
     runs-on: ubuntu-latest
     environment:
       name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
 
     steps:
       - name: Checkout repository
@@ -59,11 +60,9 @@ jobs:
 
       - name: Upload Pages artifact
         if: steps.london_time.outputs.run_build == 'true' || github.event_name == 'workflow_dispatch'
-        uses: actions/upload-pages-artifact@v4
+        uses: actions/upload-pages-artifact@v5
         with:
           path: site
+          include-hidden-files: true
 
       - name: Deploy to GitHub Pages
-        if: steps.london_time.outputs.run_build == 'true' || github.event_name == 'workflow_dispatch'
-        id: deployment
-        uses: actions/deploy-pages@v4
