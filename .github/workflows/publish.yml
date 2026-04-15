@@ -1,11 +1,9 @@
 name: Publish Morning Edition
 
 on:
-  schedule:
-    # Run twice to survive BST/GMT differences, then check London time inside the workflow
-    - cron: '5 6 * * *'
-    - cron: '5 7 * * *'
   workflow_dispatch:
+  schedule:
+    - cron: '5 6 * * *'
 
 env:
   FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
@@ -26,43 +24,29 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v6
 
-      - name: Decide whether to run now in London time
-        id: london_time
-        run: |
-          HOUR=$(TZ='Europe/London' date +%H)
-          if [ "$HOUR" = "07" ]; then
-            echo "run_build=true" >> "$GITHUB_OUTPUT"
-          else
-            echo "run_build=false" >> "$GITHUB_OUTPUT"
-          fi
-
       - name: Set up Python
-        if: steps.london_time.outputs.run_build == 'true' || github.event_name == 'workflow_dispatch'
         uses: actions/setup-python@v6
         with:
           python-version: '3.12'
 
       - name: Generate Morning Edition
-        if: steps.london_time.outputs.run_build == 'true' || github.event_name == 'workflow_dispatch'
-        run: |
-          python scripts/generate_morning_edition.py
+        run: python scripts/generate_morning_edition.py
 
       - name: Prepare Pages site
-        if: steps.london_time.outputs.run_build == 'true' || github.event_name == 'workflow_dispatch'
         run: |
           mkdir -p site
           cp index.html site/index.html
           cp -r issues site/issues
 
       - name: Configure GitHub Pages
-        if: steps.london_time.outputs.run_build == 'true' || github.event_name == 'workflow_dispatch'
         uses: actions/configure-pages@v5
 
       - name: Upload Pages artifact
-        if: steps.london_time.outputs.run_build == 'true' || github.event_name == 'workflow_dispatch'
         uses: actions/upload-pages-artifact@v5
         with:
           path: site
           include-hidden-files: true
 
       - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v5
