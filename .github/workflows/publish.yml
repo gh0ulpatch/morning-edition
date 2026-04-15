@@ -2,11 +2,13 @@ name: Publish Morning Edition
 
 on:
   schedule:
-    # Run at both 06:05 UTC and 07:05 UTC, then check Europe/London in the job.
-    # This avoids BST/GMT drift.
+    # Run twice to survive BST/GMT differences, then check London time inside the workflow
     - cron: '5 6 * * *'
     - cron: '5 7 * * *'
   workflow_dispatch:
+
+env:
+  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
 
 permissions:
   contents: write
@@ -21,7 +23,7 @@ jobs:
 
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@v6
 
       - name: Decide whether to run now in London time
         id: london_time
@@ -35,14 +37,9 @@ jobs:
 
       - name: Set up Python
         if: steps.london_time.outputs.run_build == 'true' || github.event_name == 'workflow_dispatch'
-        uses: actions/setup-python@v5
+        uses: actions/setup-python@v6
         with:
           python-version: '3.12'
-
-      - name: Install Python dependencies
-        if: steps.london_time.outputs.run_build == 'true' || github.event_name == 'workflow_dispatch'
-        run: |
-          python -m pip install --upgrade pip
 
       - name: Generate Morning Edition
         if: steps.london_time.outputs.run_build == 'true' || github.event_name == 'workflow_dispatch'
@@ -55,7 +52,6 @@ jobs:
           mkdir -p site
           cp index.html site/index.html
           cp -r issues site/issues
-          if [ -d templates ]; then cp -r templates site/templates; fi
 
       - name: Configure GitHub Pages
         if: steps.london_time.outputs.run_build == 'true' || github.event_name == 'workflow_dispatch'
