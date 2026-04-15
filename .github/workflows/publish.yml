@@ -26,6 +26,12 @@ jobs:
         with:
           python-version: '3.12'
 
+      - name: Install Python dependencies
+        run: pip install -r requirements.txt
+
+      - name: Scrape events
+        run: python scripts/scrape_events.py
+
       - name: Generate Morning Edition
         run: python scripts/generate_morning_edition.py
 
