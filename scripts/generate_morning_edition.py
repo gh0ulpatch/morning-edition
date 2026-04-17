@@ -25,10 +25,24 @@ def load_events():
         data = json.load(f)
     if not isinstance(data, list):
         raise ValueError("sample_events.json must contain a JSON list")
+
+    # Events already featured in any previous issue are excluded so the
+    # same conference never repeats across issues.
+    already_featured: set[str] = set()
+    if TRACKER_FILE.exists():
+        with open(TRACKER_FILE, "r", encoding="utf-8") as f:
+            tracker = json.load(f)
+        already_featured = {row["source"] for row in tracker}
+
     cleaned = []
+    skipped = 0
     for i, item in enumerate(data, start=1):
         if not isinstance(item, dict):
             raise ValueError(f"Item {i} in sample_events.json is not an object")
+        source = str(item.get("source", "#"))
+        if source in already_featured:
+            skipped += 1
+            continue
         cleaned.append({
             "title":    str(item.get("title",    "Untitled conference")),
             "date":     str(item.get("date",     "TBC")),
@@ -39,8 +53,11 @@ def load_events():
             "angle":    str(item.get("angle",    "AI conference")),
             "why":      str(item.get("why",      "")),
             "watch":    str(item.get("watch",    "")),
-            "source":   str(item.get("source",   "#")),
+            "source":   source,
         })
+
+    if skipped:
+        print(f"Dedup: skipped {skipped} event(s) already featured in a previous issue")
     return cleaned
 
 
