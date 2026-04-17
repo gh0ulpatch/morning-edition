@@ -3,33 +3,35 @@ name: Publish Morning Edition
 on:
   workflow_dispatch:
   schedule:
-    # 08:45 UK time year-round, accounting for clock changes:
-    #   45 7 * * *  →  08:45 BST  (UTC+1, late Mar – late Oct)
-    #   45 8 * * *  →  08:45 GMT  (UTC+0, late Oct – late Mar)
-    # Both crons fire every day; the guard step below skips the redundant run.
+    # 08:45 UK time year-round, accounting for GMT/BST clock changes:
+    #   45 7 * * *  →  08:45 BST  (UTC+1, last Sun Mar – last Sun Oct)
+    #   45 8 * * *  →  08:45 GMT  (UTC+0, last Sun Oct – last Sun Mar)
+    # Both crons fire every day. The guard step skips the second run
+    # if today's issue was already committed by the first.
     - cron: '45 7 * * *'
     - cron: '45 8 * * *'
 
 permissions:
-  contents: write
-  pages: write
-  id-token: write
+  contents: write   # commit generated files back to the repo
+  pages: write      # deploy to GitHub Pages
+  id-token: write   # OIDC token for Pages deployment
 
 jobs:
-  build-and-deploy:
+  publish:
     runs-on: ubuntu-latest
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
 
     steps:
+      # ── 1. Checkout ────────────────────────────────────────────────────────
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      # Both crons fire every day. This step checks whether today's issue
-      # already exists in the repo (committed by whichever run fired first)
-      # and sets skip=true so the second run is a no-op.
-      - name: Guard — skip if already published today
+      # ── 2. Guard ───────────────────────────────────────────────────────────
+      # Skip everything if today's issue is already in the repo.
+      # This makes the second daily cron a clean no-op.
+      - name: Check if already published today
         id: guard
         run: |
           TODAY=$(date -u +%Y-%m-%d)
@@ -41,29 +43,40 @@ jobs:
             echo "skip=false" >> $GITHUB_OUTPUT
           fi
 
+      # ── 3. Python ──────────────────────────────────────────────────────────
       - name: Set up Python
         if: steps.guard.outputs.skip != 'true'
         uses: actions/setup-python@v5
         with:
           python-version: '3.12'
 
-      - name: Install Python dependencies
+      - name: Install dependencies
         if: steps.guard.outputs.skip != 'true'
         run: pip install -r requirements.txt
 
+      # ── 4. Scrape ──────────────────────────────────────────────────────────
       - name: Scrape events
         if: steps.guard.outputs.skip != 'true'
         run: python scripts/scrape_events.py
 
+      # ── 5. Generate ────────────────────────────────────────────────────────
+      # Produces:
+      #   issues/{date}.html         full magazine
+      #   issues/{date}-digest.html  email digest
+      #   tracker.html               cumulative conference table
+      #   data/tracker.json          backing store (persists across runs)
+      #   index.html                 redirect to latest issue
       - name: Generate Morning Edition
         if: steps.guard.outputs.skip != 'true'
         run: python scripts/generate_morning_edition.py
         env:
           GITHUB_REPOSITORY: ${{ github.repository }}
 
-      # Commit generated files back to the repo so that:
-      #   1. The guard step above works on the next day's runs
-      #   2. data/tracker.json accumulates across days
+      # ── 6. Commit generated files back ─────────────────────────────────────
+      # Persists tracker.json and the issue files so that:
+      #   • The guard step works correctly on tomorrow's run
+      #   • tracker.json accumulates across days
+      #   • Issues are browsable in the repo
       - name: Commit generated files
         if: steps.guard.outputs.skip != 'true'
         run: |
@@ -73,25 +86,32 @@ jobs:
           git diff --staged --quiet || git commit -m "chore: morning edition ${{ env.ISSUE_DATE }} [skip ci]"
           git push
 
+      # ── 7. Send email via GOV.UK Notify ────────────────────────────────────
+      # Required secrets (Settings → Secrets and variables → Actions):
+      #   NOTIFY_API_KEY       your Notify API key
+      #   NOTIFY_TEMPLATE_ID   template ID from the Notify dashboard
+      #   EMAIL_TO             comma-separated recipient addresses
+      #
+      # To generate the template text to paste into Notify, run locally:
+      #   python scripts/send_notify.py --print-template
       - name: Send digest email
         if: steps.guard.outputs.skip != 'true'
-        run: python scripts/send_digest.py
+        run: python scripts/send_notify.py
         env:
-          SMTP_HOST:     ${{ secrets.SMTP_HOST }}
-          SMTP_PORT:     ${{ secrets.SMTP_PORT }}
-          SMTP_USER:     ${{ secrets.SMTP_USER }}
-          SMTP_PASSWORD: ${{ secrets.SMTP_PASSWORD }}
-          EMAIL_FROM:    ${{ secrets.EMAIL_FROM }}
-          EMAIL_TO:      ${{ secrets.EMAIL_TO }}
+          NOTIFY_API_KEY:      ${{ secrets.NOTIFY_API_KEY }}
+          NOTIFY_TEMPLATE_ID:  ${{ secrets.NOTIFY_TEMPLATE_ID }}
+          EMAIL_TO:            ${{ secrets.EMAIL_TO }}
+          GITHUB_REPOSITORY:   ${{ github.repository }}
 
+      # ── 8. Deploy to GitHub Pages ──────────────────────────────────────────
       - name: Prepare Pages site
         if: steps.guard.outputs.skip != 'true'
         run: |
           mkdir -p site
-          cp index.html site/index.html
+          cp index.html   site/index.html
           cp tracker.html site/tracker.html
-          cp -r issues site/issues
-          cp -r data site/data
+          cp -r issues    site/issues
+          cp -r data      site/data
 
       - name: Configure GitHub Pages
         if: steps.guard.outputs.skip != 'true'
