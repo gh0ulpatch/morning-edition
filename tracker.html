@@ -1,0 +1,248 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Morning Edition · Conference Tracker</title>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; }
+    body { margin:0; padding:0; font-family:Arial,Helvetica,sans-serif; background:#f0ece2; color:#111; }
+    header { background:linear-gradient(150deg,#1a1a1a 0%,#2e2416 100%); padding:28px 32px; }
+    header h1 { font-family:Georgia,serif; font-size:32px; color:#f5efe4; margin:0 0 4px; letter-spacing:-.03em; }
+    header p { font-size:12px; color:#9a8060; margin:0; letter-spacing:.1em; text-transform:uppercase; }
+    .toolbar { padding:14px 32px; background:#e8e2d4; border-bottom:1px solid #d4cfc0; display:flex; gap:12px; align-items:center; flex-wrap:wrap; }
+    .toolbar label { font-size:12px; font-weight:700; color:#666; letter-spacing:.08em; text-transform:uppercase; }
+    .toolbar select { font-size:13px; padding:5px 10px; border:1px solid #c8c0a8; border-radius:3px; background:#fff; color:#333; }
+    .toolbar input { font-size:13px; padding:5px 10px; border:1px solid #c8c0a8; border-radius:3px; background:#fff; color:#333; width:220px; }
+    .count { margin-left:auto; font-size:12px; color:#888; }
+    .wrap { overflow-x:auto; padding:0 32px 40px; }
+    table { width:100%; border-collapse:collapse; margin-top:16px; background:#fff; border-radius:4px; overflow:hidden; border:1px solid #ddd8cc; }
+    thead tr { background:#1a1a1a; color:#c8b89a; }
+    thead th { padding:11px 14px; text-align:left; font-size:11px; letter-spacing:.1em; text-transform:uppercase; font-weight:700; white-space:nowrap; cursor:pointer; user-select:none; }
+    thead th:hover { background:#2e2416; }
+    thead th.sort-asc::after { content:" ↑"; opacity:.7; }
+    thead th.sort-desc::after { content:" ↓"; opacity:.7; }
+    tbody tr { border-bottom:1px solid #f0ece2; }
+    tbody tr:hover { background:#faf8f3; }
+    tbody td { padding:11px 14px; font-size:13px; vertical-align:top; line-height:1.4; }
+    .hidden { display:none !important; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Morning Edition</h1>
+    <p>Conference tracker &nbsp;·&nbsp; AI harm · safety · security · policy</p>
+  </header>
+
+  <div class="toolbar">
+    <label for="f-verdict">Verdict</label>
+    <select id="f-verdict" onchange="applyFilters()">
+      <option value="">All</option>
+      <option>DIRECTLY APPLIES</option>
+      <option>APPLIES</option>
+      <option>MONITOR</option>
+    </select>
+
+    <label for="f-tag">Domain</label>
+    <select id="f-tag" onchange="applyFilters()">
+      <option value="">All</option>
+    </select>
+
+    <input id="f-search" type="search" placeholder="Search title, host, location…" oninput="applyFilters()">
+
+    <span class="count" id="row-count"></span>
+  </div>
+
+  <div class="wrap">
+    <table id="tracker-table">
+      <thead>
+        <tr>
+          <th onclick="sortBy(0)">Issue</th>
+          <th onclick="sortBy(1)">#</th>
+          <th onclick="sortBy(2)">Verdict</th>
+          <th onclick="sortBy(3)">Conference</th>
+          <th onclick="sortBy(4)">Domain</th>
+          <th onclick="sortBy(5)">When</th>
+          <th onclick="sortBy(6)">Where</th>
+          <th onclick="sortBy(7)">Host</th>
+          <th onclick="sortBy(8)">Why it matters</th>
+          <th>Source</th>
+        </tr>
+      </thead>
+      <tbody>
+        
+        <tr>
+          <td style="white-space:nowrap;">2026-04-15</td>
+          <td style="text-align:center;color:#aaa;">10</td>
+          <td><span style="background:#1a3d1a;color:#d4f5d4;font-size:10px;font-weight:900;letter-spacing:.08em;text-transform:uppercase;padding:2px 7px;border-radius:999px;white-space:nowrap;">DIRECTLY APPLIES</span></td>
+          <td><strong>UN Group of Governmental Experts on LAWS</strong></td>
+          <td><span style="background:#f0ece2;color:#666;font-size:11px;font-weight:700;padding:2px 7px;border-radius:999px;white-space:nowrap;">Nuclear &amp; WMD</span></td>
+          <td style="white-space:nowrap;">Mar &amp; Aug 2026</td>
+          <td>Geneva, Switzerland</td>
+          <td>UN Office for Disarmament Affairs</td>
+          <td style="font-size:13px;max-width:260px;">Intergovernmental expert group negotiating norms around lethal autonomous weapons systems under the Convention on Certain Conventional Weapons.</td>
+          <td><a href="https://www.un.org/disarmament/the-convention-on-certain-conventional-weapons/" target="_blank" rel="noopener" style="color:#8b4513;font-weight:700;white-space:nowrap;">Source ↗</a></td>
+        </tr>
+        <tr>
+          <td style="white-space:nowrap;">2026-04-15</td>
+          <td style="text-align:center;color:#aaa;">9</td>
+          <td><span style="background:#1a3d1a;color:#d4f5d4;font-size:10px;font-weight:900;letter-spacing:.08em;text-transform:uppercase;padding:2px 7px;border-radius:999px;white-space:nowrap;">DIRECTLY APPLIES</span></td>
+          <td><strong>Electoral Integrity &amp; AI Disinformation Forum</strong></td>
+          <td><span style="background:#f0ece2;color:#666;font-size:11px;font-weight:700;padding:2px 7px;border-radius:999px;white-space:nowrap;">Election Integrity</span></td>
+          <td style="white-space:nowrap;">28 Feb 2026</td>
+          <td>Online + London</td>
+          <td>Alan Turing Institute + UNDP</td>
+          <td style="font-size:13px;max-width:260px;">Roundtable on AI-generated influence operations, synthetic media in elections, and platform regulatory responses.</td>
+          <td><a href="https://www.turing.ac.uk/" target="_blank" rel="noopener" style="color:#8b4513;font-weight:700;white-space:nowrap;">Source ↗</a></td>
+        </tr>
+        <tr>
+          <td style="white-space:nowrap;">2026-04-15</td>
+          <td style="text-align:center;color:#aaa;">8</td>
+          <td><span style="background:#1a3d1a;color:#d4f5d4;font-size:10px;font-weight:900;letter-spacing:.08em;text-transform:uppercase;padding:2px 7px;border-radius:999px;white-space:nowrap;">DIRECTLY APPLIES</span></td>
+          <td><strong>Biosecurity and Emerging Technology Summit</strong></td>
+          <td><span style="background:#f0ece2;color:#666;font-size:11px;font-weight:700;padding:2px 7px;border-radius:999px;white-space:nowrap;">Biosecurity</span></td>
+          <td style="white-space:nowrap;">14–15 Apr 2026</td>
+          <td>Washington D.C., USA</td>
+          <td>Johns Hopkins Center for Health Security</td>
+          <td style="font-size:13px;max-width:260px;">Examines AI-accelerated dual-use biology risks, including protein-folding tools, automated lab systems, and biosurveillance.</td>
+          <td><a href="https://www.centerforhealthsecurity.org/" target="_blank" rel="noopener" style="color:#8b4513;font-weight:700;white-space:nowrap;">Source ↗</a></td>
+        </tr>
+        <tr>
+          <td style="white-space:nowrap;">2026-04-15</td>
+          <td style="text-align:center;color:#aaa;">7</td>
+          <td><span style="background:#1a3d1a;color:#d4f5d4;font-size:10px;font-weight:900;letter-spacing:.08em;text-transform:uppercase;padding:2px 7px;border-radius:999px;white-space:nowrap;">DIRECTLY APPLIES</span></td>
+          <td><strong>Europol Cybercrime Conference 2026</strong></td>
+          <td><span style="background:#f0ece2;color:#666;font-size:11px;font-weight:700;padding:2px 7px;border-radius:999px;white-space:nowrap;">Financial Crime</span></td>
+          <td style="white-space:nowrap;">22–23 Oct 2026</td>
+          <td>The Hague, Netherlands</td>
+          <td>Europol EC3</td>
+          <td style="font-size:13px;max-width:260px;">Law-enforcement-facing conference covering AI-enabled fraud, deepfake crime, ransomware-as-a-service, and crypto asset tracing.</td>
+          <td><a href="https://www.europol.europa.eu/activities-services/events" target="_blank" rel="noopener" style="color:#8b4513;font-weight:700;white-space:nowrap;">Source ↗</a></td>
+        </tr>
+        <tr>
+          <td style="white-space:nowrap;">2026-04-15</td>
+          <td style="text-align:center;color:#aaa;">6</td>
+          <td><span style="background:#5c3800;color:#ffe8a0;font-size:10px;font-weight:900;letter-spacing:.08em;text-transform:uppercase;padding:2px 7px;border-radius:999px;white-space:nowrap;">APPLIES</span></td>
+          <td><strong>Internet Governance Forum 2026</strong></td>
+          <td><span style="background:#f0ece2;color:#666;font-size:11px;font-weight:700;padding:2px 7px;border-radius:999px;white-space:nowrap;">Multilateral</span></td>
+          <td style="white-space:nowrap;">16–20 Nov 2026</td>
+          <td>Riyadh, Saudi Arabia</td>
+          <td>UN DESA</td>
+          <td style="font-size:13px;max-width:260px;">Annual UN multistakeholder forum; 2026 will centre AI governance, platform liability, and cross-border data flows.</td>
+          <td><a href="https://www.intgovforum.org/" target="_blank" rel="noopener" style="color:#8b4513;font-weight:700;white-space:nowrap;">Source ↗</a></td>
+        </tr>
+        <tr>
+          <td style="white-space:nowrap;">2026-04-15</td>
+          <td style="text-align:center;color:#aaa;">5</td>
+          <td><span style="background:#5c3800;color:#ffe8a0;font-size:10px;font-weight:900;letter-spacing:.08em;text-transform:uppercase;padding:2px 7px;border-radius:999px;white-space:nowrap;">APPLIES</span></td>
+          <td><strong>NeurIPS 2026 — Workshop on Socially Responsible ML</strong></td>
+          <td><span style="background:#f0ece2;color:#666;font-size:11px;font-weight:700;padding:2px 7px;border-radius:999px;white-space:nowrap;">AI Safety</span></td>
+          <td style="white-space:nowrap;">6–14 Dec 2026</td>
+          <td>Vancouver, Canada</td>
+          <td>NeurIPS Foundation</td>
+          <td style="font-size:13px;max-width:260px;">The largest ML conference hosts a dedicated workshop on fairness, accountability, robustness, and societal harms from deployed models.</td>
+          <td><a href="https://neurips.cc/" target="_blank" rel="noopener" style="color:#8b4513;font-weight:700;white-space:nowrap;">Source ↗</a></td>
+        </tr>
+        <tr>
+          <td style="white-space:nowrap;">2026-04-15</td>
+          <td style="text-align:center;color:#aaa;">4</td>
+          <td><span style="background:#1a3d1a;color:#d4f5d4;font-size:10px;font-weight:900;letter-spacing:.08em;text-transform:uppercase;padding:2px 7px;border-radius:999px;white-space:nowrap;">DIRECTLY APPLIES</span></td>
+          <td><strong>Global Conference on Criminal Justice and AI</strong></td>
+          <td><span style="background:#f0ece2;color:#666;font-size:11px;font-weight:700;padding:2px 7px;border-radius:999px;white-space:nowrap;">Counter-Terrorism</span></td>
+          <td style="white-space:nowrap;">3–4 Sep 2026</td>
+          <td>The Hague, Netherlands</td>
+          <td>International Bar Association + UNODC</td>
+          <td style="font-size:13px;max-width:260px;">Focuses on AI as both a tool for law enforcement and a vector for organised crime, terrorism financing, and judicial bias.</td>
+          <td><a href="https://www.ibanet.org/" target="_blank" rel="noopener" style="color:#8b4513;font-weight:700;white-space:nowrap;">Source ↗</a></td>
+        </tr>
+        <tr>
+          <td style="white-space:nowrap;">2026-04-15</td>
+          <td style="text-align:center;color:#aaa;">3</td>
+          <td><span style="background:#1a3d1a;color:#d4f5d4;font-size:10px;font-weight:900;letter-spacing:.08em;text-transform:uppercase;padding:2px 7px;border-radius:999px;white-space:nowrap;">DIRECTLY APPLIES</span></td>
+          <td><strong>IEEE Symposium on Security &amp; Privacy 2026</strong></td>
+          <td><span style="background:#f0ece2;color:#666;font-size:11px;font-weight:700;padding:2px 7px;border-radius:999px;white-space:nowrap;">Cybersecurity</span></td>
+          <td style="white-space:nowrap;">18–21 May 2026</td>
+          <td>San Francisco, CA</td>
+          <td>IEEE</td>
+          <td style="font-size:13px;max-width:260px;">Premier academic venue for offensive and defensive security research, with a growing track on adversarial ML, model theft, and AI-enabled attacks.</td>
+          <td><a href="https://www.ieee-security.org/TC/SP2026/" target="_blank" rel="noopener" style="color:#8b4513;font-weight:700;white-space:nowrap;">Source ↗</a></td>
+        </tr>
+        <tr>
+          <td style="white-space:nowrap;">2026-04-15</td>
+          <td style="text-align:center;color:#aaa;">2</td>
+          <td><span style="background:#1a3d1a;color:#d4f5d4;font-size:10px;font-weight:900;letter-spacing:.08em;text-transform:uppercase;padding:2px 7px;border-radius:999px;white-space:nowrap;">DIRECTLY APPLIES</span></td>
+          <td><strong>CPDP 2026 · Competing Visions, Shared Futures</strong></td>
+          <td><span style="background:#f0ece2;color:#666;font-size:11px;font-weight:700;padding:2px 7px;border-radius:999px;white-space:nowrap;">EU Governance</span></td>
+          <td style="white-space:nowrap;">19–22 May 2026</td>
+          <td>Brussels, Belgium</td>
+          <td>CPDP Conferences</td>
+          <td style="font-size:13px;max-width:260px;">High-signal Brussels conference covering AI governance, digital rulemaking, privacy, sovereignty and resilience.</td>
+          <td><a href="https://www.cpdpconferences.org/" target="_blank" rel="noopener" style="color:#8b4513;font-weight:700;white-space:nowrap;">Source ↗</a></td>
+        </tr>
+        <tr>
+          <td style="white-space:nowrap;">2026-04-15</td>
+          <td style="text-align:center;color:#aaa;">1</td>
+          <td><span style="background:#1a3d1a;color:#d4f5d4;font-size:10px;font-weight:900;letter-spacing:.08em;text-transform:uppercase;padding:2px 7px;border-radius:999px;white-space:nowrap;">DIRECTLY APPLIES</span></td>
+          <td><strong>AI for Good Global Summit 2026 + UN Global Dialogue on AI Governance</strong></td>
+          <td><span style="background:#f0ece2;color:#666;font-size:11px;font-weight:700;padding:2px 7px;border-radius:999px;white-space:nowrap;">Multilateral</span></td>
+          <td style="white-space:nowrap;">6–10 Jul 2026</td>
+          <td>Geneva, Switzerland</td>
+          <td>ITU + UN system + Government of Switzerland</td>
+          <td style="font-size:13px;max-width:260px;">The strongest multilateral fixture in the AI governance calendar, combining policy, standards, capacity-building and practical deployment signal.</td>
+          <td><a href="https://aiforgood.itu.int/summit26/" target="_blank" rel="noopener" style="color:#8b4513;font-weight:700;white-space:nowrap;">Source ↗</a></td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <script>
+    // Populate domain filter from live table data
+    (function() {
+      const tags = new Set();
+      document.querySelectorAll('#tracker-table tbody tr td:nth-child(5) span').forEach(el => tags.add(el.textContent.trim()));
+      const sel = document.getElementById('f-tag');
+      [...tags].sort().forEach(t => { const o = document.createElement('option'); o.textContent = t; sel.appendChild(o); });
+    })();
+
+    function applyFilters() {
+      const verdict = document.getElementById('f-verdict').value.toLowerCase();
+      const tag     = document.getElementById('f-tag').value.toLowerCase();
+      const search  = document.getElementById('f-search').value.toLowerCase();
+      let visible = 0;
+      document.querySelectorAll('#tracker-table tbody tr').forEach(row => {
+        const cells = row.querySelectorAll('td');
+        const rowVerdict  = cells[2].textContent.trim().toLowerCase();
+        const rowTag      = cells[4].textContent.trim().toLowerCase();
+        const rowText     = row.textContent.toLowerCase();
+        const show = (!verdict || rowVerdict.includes(verdict))
+                  && (!tag     || rowTag === tag)
+                  && (!search  || rowText.includes(search));
+        row.classList.toggle('hidden', !show);
+        if (show) visible++;
+      });
+      document.getElementById('row-count').textContent = visible + ' conference' + (visible !== 1 ? 's' : '');
+    }
+
+    // Simple column sort
+    let sortCol = 0, sortDir = 1;
+    function sortBy(col) {
+      const table = document.getElementById('tracker-table');
+      const headers = table.querySelectorAll('thead th');
+      headers.forEach((h, i) => { h.classList.remove('sort-asc','sort-desc'); });
+      if (sortCol === col) { sortDir *= -1; } else { sortDir = 1; sortCol = col; }
+      headers[col].classList.add(sortDir === 1 ? 'sort-asc' : 'sort-desc');
+      const tbody = table.querySelector('tbody');
+      const rows = [...tbody.querySelectorAll('tr')];
+      rows.sort((a, b) => {
+        const at = a.querySelectorAll('td')[col].textContent.trim();
+        const bt = b.querySelectorAll('td')[col].textContent.trim();
+        return at.localeCompare(bt, undefined, {numeric:true}) * sortDir;
+      });
+      rows.forEach(r => tbody.appendChild(r));
+      applyFilters();
+    }
+
+    applyFilters();
+  </script>
+</body>
+</html>
