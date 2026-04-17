@@ -2,6 +2,11 @@ name: Publish Morning Edition
 
 on:
   workflow_dispatch:
+    inputs:
+      test_email:
+        description: 'Send a test email using existing data (skips scrape, generate, commit, deploy)'
+        type: boolean
+        default: false
   schedule:
     # 08:45 UK time year-round, accounting for GMT/BST clock changes:
     #   45 7 * * *  →  08:45 BST  (UTC+1, last Sun Mar – last Sun Oct)
@@ -36,11 +41,17 @@ jobs:
         run: |
           TODAY=$(date -u +%Y-%m-%d)
           echo "ISSUE_DATE=${TODAY}" >> $GITHUB_ENV
-          if [ -f "issues/${TODAY}.html" ]; then
+          if [ "${{ github.event.inputs.test_email }}" = "true" ]; then
+            echo "Test email mode — skipping guard."
+            echo "skip=false" >> $GITHUB_OUTPUT
+            echo "test_only=true" >> $GITHUB_OUTPUT
+          elif [ -f "issues/${TODAY}.html" ]; then
             echo "Already published ${TODAY} — skipping."
             echo "skip=true" >> $GITHUB_OUTPUT
+            echo "test_only=false" >> $GITHUB_OUTPUT
           else
             echo "skip=false" >> $GITHUB_OUTPUT
+            echo "test_only=false" >> $GITHUB_OUTPUT
           fi
 
       # ── 3. Python ──────────────────────────────────────────────────────────
@@ -56,7 +67,7 @@ jobs:
 
       # ── 4. Scrape ──────────────────────────────────────────────────────────
       - name: Scrape events
-        if: steps.guard.outputs.skip != 'true'
+        if: steps.guard.outputs.skip != 'true' && steps.guard.outputs.test_only != 'true'
         run: python scripts/scrape_events.py
 
       # ── 5. Generate ────────────────────────────────────────────────────────
@@ -67,7 +78,7 @@ jobs:
       #   data/tracker.json          backing store (persists across runs)
       #   index.html                 redirect to latest issue
       - name: Generate Morning Edition
-        if: steps.guard.outputs.skip != 'true'
+        if: steps.guard.outputs.skip != 'true' && steps.guard.outputs.test_only != 'true'
         run: python scripts/generate_morning_edition.py
         env:
           GITHUB_REPOSITORY: ${{ github.repository }}
@@ -78,7 +89,7 @@ jobs:
       #   • tracker.json accumulates across days
       #   • Issues are browsable in the repo
       - name: Commit generated files
-        if: steps.guard.outputs.skip != 'true'
+        if: steps.guard.outputs.skip != 'true' && steps.guard.outputs.test_only != 'true'
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
@@ -97,7 +108,7 @@ jobs:
       #   SHAREPOINT_LIST_NAME       List name (created automatically if absent)
       # See scripts/upload_to_sharepoint.py for full Azure AD setup instructions.
       - name: Upload to SharePoint
-        if: steps.guard.outputs.skip != 'true'
+        if: steps.guard.outputs.skip != 'true' && steps.guard.outputs.test_only != 'true'
         run: python scripts/upload_to_sharepoint.py
         env:
           SHAREPOINT_TENANT_ID:      ${{ secrets.SHAREPOINT_TENANT_ID }}
@@ -125,7 +136,7 @@ jobs:
 
       # ── 10. Deploy to GitHub Pages ─────────────────────────────────────────
       - name: Prepare Pages site
-        if: steps.guard.outputs.skip != 'true'
+        if: steps.guard.outputs.skip != 'true' && steps.guard.outputs.test_only != 'true'
         run: |
           mkdir -p site
           cp index.html   site/index.html
@@ -134,17 +145,17 @@ jobs:
           cp -r data      site/data
 
       - name: Configure GitHub Pages
-        if: steps.guard.outputs.skip != 'true'
+        if: steps.guard.outputs.skip != 'true' && steps.guard.outputs.test_only != 'true'
         uses: actions/configure-pages@v5
 
       - name: Upload Pages artifact
-        if: steps.guard.outputs.skip != 'true'
+        if: steps.guard.outputs.skip != 'true' && steps.guard.outputs.test_only != 'true'
         uses: actions/upload-pages-artifact@v3
         with:
           path: site
           include-hidden-files: true
 
       - name: Deploy to GitHub Pages
-        if: steps.guard.outputs.skip != 'true'
+        if: steps.guard.outputs.skip != 'true' && steps.guard.outputs.test_only != 'true'
         id: deployment
         uses: actions/deploy-pages@v4
