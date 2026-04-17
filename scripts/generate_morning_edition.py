@@ -27,38 +27,22 @@ def load_events():
     if not isinstance(data, list):
         raise ValueError("sample_events.json must contain a JSON list")
 
-    # Events already featured in any previous issue are excluded so the
-    # same conference never repeats across issues.
-    already_featured: set[str] = set()
-    if TRACKER_FILE.exists():
-        with open(TRACKER_FILE, "r", encoding="utf-8") as f:
-            tracker = json.load(f)
-        already_featured = {row["source"] for row in tracker}
-
     cleaned = []
-    skipped = 0
     for i, item in enumerate(data, start=1):
         if not isinstance(item, dict):
             raise ValueError(f"Item {i} in sample_events.json is not an object")
-        source = str(item.get("source", "#"))
-        if source in already_featured:
-            skipped += 1
-            continue
         cleaned.append({
             "title":    str(item.get("title",    "Untitled conference")),
             "date":     str(item.get("date",     "TBC")),
             "location": str(item.get("location", "TBC")),
             "host":     str(item.get("host",     "TBC")),
-            "applies":  str(item.get("applies",  "APPLIES")),
-            "tag":      str(item.get("tag",      "policy")),
+            "applies":  str(item.get("applies",  "Monitor")),
+            "tag":      str(item.get("tag",      "AI Governance")),
             "angle":    str(item.get("angle",    "AI conference")),
             "why":      str(item.get("why",      "")),
             "watch":    str(item.get("watch",    "")),
-            "source":   source,
+            "source":   str(item.get("source",   "#")),
         })
-
-    if skipped:
-        print(f"Dedup: skipped {skipped} event(s) already featured in a previous issue")
     return cleaned
 
 
@@ -94,17 +78,22 @@ def update_tracker(issue_date, conferences):
     return tracker
 
 
-def magazine_url(issue_date):
-    """Construct the absolute GitHub Pages URL for this issue, or fall back to relative."""
+def _pages_base() -> str:
     base = os.environ.get("MORNING_EDITION_PAGES_URL", "").rstrip("/")
     if not base:
         repo = os.environ.get("GITHUB_REPOSITORY", "")
         if repo:
             owner, name = repo.split("/", 1)
             base = f"https://{owner}.github.io/{name}"
-    if base:
-        return f"{base}/issues/{issue_date}.html"
-    return f"./issues/{issue_date}.html"
+    return base
+
+def magazine_url(issue_date):
+    base = _pages_base()
+    return f"{base}/issues/{issue_date}.html" if base else f"./issues/{issue_date}.html"
+
+def tracker_page_url():
+    base = _pages_base()
+    return f"{base}/tracker.html" if base else "./tracker.html"
 
 
 # ──────────────────────────────────────────────────────────────────────────────
@@ -209,7 +198,7 @@ def format_month(ym: str) -> str:
 # RENDERER 1 — Full magazine (existing)
 # ──────────────────────────────────────────────────────────────────────────────
 
-def render_issue(issue_date, conferences):
+def render_issue(issue_date, conferences, tracker_url="./tracker.html"):
     palettes = [
         {"bg": "#fffdf8", "fg": "#111111", "accent": "#ead9b8"},
         {"bg": "#0e1a32", "fg": "#f7f8fb", "accent": "#1a2650"},
@@ -254,6 +243,18 @@ def render_issue(issue_date, conferences):
   </div>
 </section>""")
 
+    shown = conferences[:10]
+    attend  = sum(1 for c in shown if c.get("applies") == "Attend")
+    monitor = sum(1 for c in shown if c.get("applies") == "Monitor")
+    ignore  = sum(1 for c in shown if c.get("applies") == "Ignore")
+    harm_areas = list(dict.fromkeys(c.get("tag", "") for c in shown if c.get("tag")))
+    harm_str = " · ".join(harm_areas[:4]) + (" + more" if len(harm_areas) > 4 else "")
+    verdict_line = " · ".join(filter(None, [
+        f"{attend} Attend" if attend else "",
+        f"{monitor} Monitor" if monitor else "",
+        f"{ignore} Ignore" if ignore else "",
+    ]))
+
     return f"""<!doctype html>
 <html lang="en">
 <head>
@@ -271,6 +272,7 @@ def render_issue(issue_date, conferences):
     .signal-col {{ display:grid; gap:14px; align-content:start; }}
     .signal {{ border:1px solid rgba(17,17,17,.16); border-radius:24px; background:rgba(255,255,255,.38); padding:18px; font-size:20px; line-height:1.3; }}
     .signal strong {{ display:block; font-size:21px; margin-bottom:8px; }}
+    .signal a {{ color:inherit; font-weight:700; }}
     @media (max-width:1050px) {{ .cover {{ grid-template-columns:1fr; }} }}
   </style>
 </head>
@@ -278,16 +280,16 @@ def render_issue(issue_date, conferences):
   <section class="cover">
     <div>
       <div class="kicker">AI harm · safety · security · policy</div>
-      <h1>Ten conferences worth your attention now.</h1>
-      <div class="deck">A policy-leaning morning magazine focused on conferences that matter for AI safety, security, governance, law, and multilateral signal.</div>
+      <h1>{len(shown)} conference{'s' if len(shown) != 1 else ''} worth your attention now.</h1>
+      <div class="deck">{issue_date} · {verdict_line}</div>
       <div class="index">
-        {''.join(f"<div class='index-item'>{i:02d}. {esc(c['title'])}</div>" for i, c in enumerate(conferences[:10], start=1))}
+        {''.join(f"<div class='index-item'>{i:02d}. {esc(c['title'])}</div>" for i, c in enumerate(shown, start=1))}
       </div>
     </div>
     <div class="signal-col">
-      <div class="signal"><strong>Signal</strong>Strong weight given to multilateral, government, legal, security, and governance relevance.</div>
-      <div class="signal"><strong>Signal</strong>Built as a single self-contained HTML issue with large editorial typography.</div>
-      <div class="signal"><strong>Signal</strong>Each conference gets its own spread and source link.</div>
+      <div class="signal"><strong>Verdicts</strong>{verdict_line}</div>
+      <div class="signal"><strong>Harm areas</strong>{esc(harm_str)}</div>
+      <div class="signal"><strong>Track all conferences</strong><a href="{esc(tracker_url)}">View the cumulative conference tracker ↗</a></div>
     </div>
   </section>
   {''.join(spreads)}
@@ -636,10 +638,11 @@ def main():
     events = load_events()
     issue_date = datetime.now().strftime("%Y-%m-%d")
     mag_url = magazine_url(issue_date)
+    t_url   = tracker_page_url()
 
     # 1. Full magazine
     issue_file = ISSUES_DIR / f"{issue_date}.html"
-    issue_file.write_text(render_issue(issue_date, events), encoding="utf-8")
+    issue_file.write_text(render_issue(issue_date, events, t_url), encoding="utf-8")
     print(f"Magazine  → {issue_file}")
 
     # 2. Email digest

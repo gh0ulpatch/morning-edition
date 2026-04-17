@@ -2,13 +2,12 @@
 """
 scrape_events.py — Morning Edition data scraper.
 
-Casts a wide net across four source types looking for any event where AI
+Casts a wide net across three source types looking for any event where AI
 intersects with harm, misuse, or exploitation — even if AI isn't in the title.
 
 Sources:
-  - WikiCFP     (~30 search queries)
-  - RSS feeds   (~25 authoritative feeds)
-  - Reddit      (~11 subreddits via public JSON API)
+  - WikiCFP     (~30 search queries + targeted topic RSS feeds)
+  - RSS feeds   (~20 authoritative feeds)
   - Custom sites (~7 think tanks / policy institutions)
 
 Each candidate is scored against four weighted criteria:
