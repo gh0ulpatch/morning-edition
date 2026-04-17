@@ -662,6 +662,10 @@ def main() -> None:
     for ev in all_events:
         ev.pop("_score", None)
 
+    if not all_events:
+        print(f"Scraper returned 0 results — keeping existing {DATA_FILE} unchanged.")
+        return
+
     DATA_FILE.parent.mkdir(exist_ok=True)
     DATA_FILE.write_text(
         json.dumps(all_events, indent=2, ensure_ascii=False),
