@@ -79,7 +79,7 @@ def build_conference_list(events: list[dict]) -> str:
         verdict = c.get("applies", "")
         tag     = c.get("tag", "")
         lines.append(
-            f"**{i}. {c['title']}**\n"
+            f"**{i:02d} — {c['title']}**\n"
             f"{verdict} · {tag}\n"
             f"{c['date']} · {c['location']} · {c['host']}\n"
             f"\n"

@@ -105,27 +105,7 @@ jobs:
           git diff --staged --quiet || git commit -m "chore: morning edition ${{ env.ISSUE_DATE }} [skip ci]"
           git push
 
-      # ── 7. Upload to SharePoint ────────────────────────────────────────────
-      # Upserts every conference in data/tracker.json into a native SharePoint
-      # List — one row per conference, deduped by source URL.
-      # Required secrets:
-      #   SHAREPOINT_TENANT_ID       Azure AD directory (tenant) ID
-      #   SHAREPOINT_CLIENT_ID       App registration client ID
-      #   SHAREPOINT_CLIENT_SECRET   App registration client secret
-      #   SHAREPOINT_SITE_URL        e.g. https://yourorg.sharepoint.com/sites/yoursite
-      #   SHAREPOINT_LIST_NAME       List name (created automatically if absent)
-      # See scripts/upload_to_sharepoint.py for full Azure AD setup instructions.
-      - name: Upload to SharePoint
-        if: steps.guard.outputs.skip != 'true' && steps.guard.outputs.test_only != 'true'
-        run: python scripts/upload_to_sharepoint.py
-        env:
-          SHAREPOINT_TENANT_ID:      ${{ secrets.SHAREPOINT_TENANT_ID }}
-          SHAREPOINT_CLIENT_ID:      ${{ secrets.SHAREPOINT_CLIENT_ID }}
-          SHAREPOINT_CLIENT_SECRET:  ${{ secrets.SHAREPOINT_CLIENT_SECRET }}
-          SHAREPOINT_SITE_URL:       ${{ secrets.SHAREPOINT_SITE_URL }}
-          SHAREPOINT_LIST_NAME:      ${{ secrets.SHAREPOINT_LIST_NAME }}
-
-      # ── 9. Send email via GOV.UK Notify ────────────────────────────────────
+      # ── 7. Send email via GOV.UK Notify ────────────────────────────────────
       # Required secrets (Settings → Secrets and variables → Actions):
       #   NOTIFY_API_KEY       your Notify API key
       #   NOTIFY_TEMPLATE_ID   template ID from the Notify dashboard

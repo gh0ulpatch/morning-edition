@@ -257,10 +257,10 @@ def tag_event(text: str) -> str:
 
 def classify_verdict(score: float) -> str:
     if score >= 0.55:
-        return "DIRECTLY APPLIES"
+        return "Attend"
     if score >= 0.30:
-        return "APPLIES"
-    return "MONITOR"
+        return "Monitor"
+    return "Ignore"
 
 
 def build_angle(tag: str, breakdown: dict[str, float]) -> str:

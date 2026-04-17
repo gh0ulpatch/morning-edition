@@ -3,6 +3,7 @@ from datetime import datetime
 import html
 import json
 import os
+import re
 
 ROOT = Path(__file__).resolve().parents[1]
 DATA_FILE = ROOT / "data" / "sample_events.json"
@@ -73,7 +74,13 @@ def update_tracker(issue_date, conferences):
     added = 0
     for i, c in enumerate(conferences, start=1):
         if c["source"] not in existing_sources:
-            tracker.append({"issue_date": issue_date, "issue_index": i, **c})
+            tracker.append({
+                "issue_date": issue_date,
+                "issue_index": i,
+                "region": infer_region(c.get("location", "")),
+                "month": extract_month(c.get("date", ""), issue_date),
+                **c,
+            })
             existing_sources.add(c["source"])
             added += 1
 
@@ -109,9 +116,9 @@ def esc(value):
 
 
 VERDICT_STYLE = {
-    "DIRECTLY APPLIES": "background:#1a3d1a;color:#d4f5d4;",
-    "APPLIES":          "background:#5c3800;color:#ffe8a0;",
-    "MONITOR":          "background:#2e2e2e;color:#d8d8d8;",
+    "Attend":  "background:#1a4d2e;color:#c6f0d5;",
+    "Monitor": "background:#6b4000;color:#ffeaa0;",
+    "Ignore":  "background:#3a3a3a;color:#e8e8e8;",
 }
 
 def verdict_badge(applies):
@@ -122,6 +129,80 @@ def verdict_badge(applies):
         f'text-transform:uppercase;padding:3px 8px;border-radius:999px;'
         f'font-family:Arial,Helvetica,sans-serif;">{esc(applies)}</span>'
     )
+
+
+# Region inference
+_REGION_MAP = [
+    (["virtual", "online", "remote", "hybrid", "zoom", "webinar"], "Online / Virtual"),
+    (["uk", "united kingdom", "england", "scotland", "wales", "london", "oxford",
+      "cambridge", "edinburgh", "manchester", "birmingham", "brussels", "belgium",
+      "paris", "france", "berlin", "germany", "frankfurt", "munich", "amsterdam",
+      "netherlands", "the hague", "rotterdam", "geneva", "switzerland", "zurich",
+      "rome", "italy", "milan", "madrid", "spain", "barcelona", "stockholm",
+      "sweden", "oslo", "norway", "copenhagen", "denmark", "helsinki", "finland",
+      "vienna", "austria", "prague", "czech", "warsaw", "poland", "budapest",
+      "hungary", "lisbon", "portugal", "dublin", "ireland", "greece", "athens",
+      "estonia", "latvia", "lithuania", "luxembourg", "malta", "iceland"], "Europe"),
+    (["usa", "united states", "washington", "new york", "san francisco", "chicago",
+      "boston", "seattle", "los angeles", "austin", "denver", "atlanta", "miami",
+      "silicon valley", "bay area", "canada", "toronto", "vancouver", "montreal",
+      "ottawa", "calgary", " dc", "d.c."], "North America"),
+    (["brazil", "são paulo", "sao paulo", "rio", "argentina", "buenos aires",
+      "chile", "santiago", "colombia", "bogotá", "bogota", "peru", "lima",
+      "venezuela", "ecuador", "uruguay", "paraguay", "bolivia"], "Latin America"),
+    (["mexico", "costa rica", "panama", "cuba", "guatemala", "honduras",
+      "el salvador", "nicaragua", "caribbean", "dominican", "puerto rico", "jamaica"], "Central America"),
+    (["china", "beijing", "shanghai", "japan", "tokyo", "india", "delhi", "mumbai",
+      "bangalore", "bengaluru", "korea", "seoul", "singapore", "hong kong", "taiwan",
+      "thailand", "bangkok", "indonesia", "jakarta", "malaysia", "kuala lumpur",
+      "philippines", "manila", "vietnam", "hanoi", "cambodia", "myanmar",
+      "sri lanka", "pakistan", "bangladesh", "nepal", "kazakhstan", "uzbekistan"], "Asia"),
+    (["uae", "dubai", "abu dhabi", "saudi arabia", "riyadh", "jeddah", "qatar",
+      "doha", "kuwait", "bahrain", "israel", "tel aviv", "jordan", "amman",
+      "egypt", "cairo", "iran", "tehran", "iraq", "turkey", "istanbul",
+      "ankara", "lebanon", "oman"], "Middle East"),
+    (["south africa", "johannesburg", "cape town", "nigeria", "lagos", "kenya",
+      "nairobi", "ghana", "ethiopia", "addis ababa", "morocco", "casablanca",
+      "tunisia", "rwanda", "kigali", "senegal", "dakar", "tanzania",
+      "uganda", "cameroon", "ivory coast", "zimbabwe", "angola", "mozambique"], "Africa"),
+    (["australia", "sydney", "melbourne", "brisbane", "perth", "adelaide",
+      "canberra", "new zealand", "auckland", "wellington", "fiji", "samoa",
+      "tonga", "papua new guinea"], "Oceania"),
+]
+
+def infer_region(location: str) -> str:
+    loc = location.lower()
+    for keywords, region in _REGION_MAP:
+        if any(k in loc for k in keywords):
+            return region
+    return "Other"
+
+
+_MONTH_ABBRS = {
+    "jan": "01", "feb": "02", "mar": "03", "apr": "04",
+    "may": "05", "jun": "06", "jul": "07", "aug": "08",
+    "sep": "09", "oct": "10", "nov": "11", "dec": "12",
+}
+_MONTH_LABELS = {
+    "01": "January", "02": "February", "03": "March", "04": "April",
+    "05": "May",     "06": "June",     "07": "July",  "08": "August",
+    "09": "September", "10": "October", "11": "November", "12": "December",
+}
+
+def extract_month(date_str: str, issue_date: str = "") -> str:
+    dl = date_str.lower()
+    year_m = re.search(r'\b(20\d{2})\b', date_str)
+    year = year_m.group(1) if year_m else (issue_date[:4] if issue_date else "")
+    for abbr, num in _MONTH_ABBRS.items():
+        if abbr in dl:
+            return f"{year}-{num}" if year else num
+    return ""
+
+def format_month(ym: str) -> str:
+    if not ym or "-" not in ym:
+        return ym
+    year, mon = ym.split("-", 1)
+    return f"{_MONTH_LABELS.get(mon, mon)} {year}"
 
 
 # ──────────────────────────────────────────────────────────────────────────────
@@ -310,40 +391,55 @@ def render_email_digest(issue_date, conferences, mag_url):
 
 
 # ──────────────────────────────────────────────────────────────────────────────
-# RENDERER 3 — Cumulative tracker (SharePoint-embeddable)
+# RENDERER 3 — Cumulative conference tracker
 # ──────────────────────────────────────────────────────────────────────────────
 
 def render_tracker(tracker_rows):
     verdict_colors = {
-        "DIRECTLY APPLIES": ("#1a3d1a", "#d4f5d4"),
-        "APPLIES":          ("#5c3800", "#ffe8a0"),
-        "MONITOR":          ("#2e2e2e", "#d8d8d8"),
+        "Attend":  ("#1a4d2e", "#c6f0d5"),
+        "Monitor": ("#6b4000", "#ffeaa0"),
+        "Ignore":  ("#3a3a3a", "#e8e8e8"),
     }
 
     def badge(applies):
-        bg, fg = verdict_colors.get(applies, ("#444", "#fff"))
+        bg, fg = verdict_colors.get(applies, ("#555", "#eee"))
         return (
-            f'<span style="background:{bg};color:{fg};'
-            f'font-size:10px;font-weight:900;letter-spacing:.08em;'
-            f'text-transform:uppercase;padding:2px 7px;border-radius:999px;'
+            f'<span style="display:inline-block;background:{bg};color:{fg};'
+            f'font-size:11px;font-weight:700;letter-spacing:.05em;'
+            f'text-transform:uppercase;padding:3px 9px;border-radius:3px;'
             f'white-space:nowrap;">{esc(applies)}</span>'
         )
 
     rows_html = ""
     for row in tracker_rows:
+        region  = row.get("region")  or infer_region(row.get("location", ""))
+        month   = row.get("month")   or extract_month(row.get("date", ""), row.get("issue_date", ""))
+        applies = row.get("applies", "")
+        tag     = row.get("tag", "")
         rows_html += f"""
-        <tr>
-          <td style="white-space:nowrap;">{esc(row.get('issue_date',''))}</td>
-          <td style="text-align:center;color:#aaa;">{row.get('issue_index','')}</td>
-          <td>{badge(row.get('applies',''))}</td>
+        <tr data-verdict="{esc(applies)}" data-harm="{esc(tag)}" data-region="{esc(region)}" data-month="{esc(month)}">
+          <td style="white-space:nowrap;font-variant-numeric:tabular-nums;">{esc(row.get('issue_date',''))}</td>
+          <td style="text-align:center;color:#999;font-variant-numeric:tabular-nums;">{row.get('issue_index','')}</td>
+          <td>{badge(applies)}</td>
           <td><strong>{esc(row.get('title',''))}</strong></td>
-          <td><span style="background:#f0ece2;color:#666;font-size:11px;font-weight:700;padding:2px 7px;border-radius:999px;white-space:nowrap;">{esc(row.get('tag',''))}</span></td>
+          <td><span style="background:#ede8db;color:#5a5040;font-size:11px;font-weight:600;padding:2px 8px;border-radius:3px;white-space:nowrap;">{esc(tag)}</span></td>
           <td style="white-space:nowrap;">{esc(row.get('date',''))}</td>
+          <td style="white-space:nowrap;">{esc(region)}</td>
           <td>{esc(row.get('location',''))}</td>
           <td>{esc(row.get('host',''))}</td>
           <td style="font-size:13px;max-width:260px;">{esc(row.get('why',''))}</td>
-          <td><a href="{esc(row.get('source','#'))}" target="_blank" rel="noopener" style="color:#8b4513;font-weight:700;white-space:nowrap;">Source ↗</a></td>
+          <td><a href="{esc(row.get('source','#'))}" target="_blank" rel="noopener"
+               style="color:#7a3c0f;font-weight:600;white-space:nowrap;text-decoration:none;">Source ↗</a></td>
         </tr>"""
+
+    harm_areas = sorted({row.get("tag","") for row in tracker_rows if row.get("tag")})
+    months     = sorted({
+        row.get("month") or extract_month(row.get("date",""), row.get("issue_date",""))
+        for row in tracker_rows
+    } - {""})
+
+    harm_options  = ''.join(f'<option value="{esc(h)}">{esc(h)}</option>' for h in harm_areas)
+    month_options = ''.join(f'<option value="{esc(m)}">{esc(format_month(m))}</option>' for m in months)
 
     return f"""<!doctype html>
 <html lang="en">
@@ -352,26 +448,40 @@ def render_tracker(tracker_rows):
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <title>Morning Edition · Conference Tracker</title>
   <style>
-    *, *::before, *::after {{ box-sizing: border-box; }}
-    body {{ margin:0; padding:0; font-family:Arial,Helvetica,sans-serif; background:#f0ece2; color:#111; }}
-    header {{ background:linear-gradient(150deg,#1a1a1a 0%,#2e2416 100%); padding:28px 32px; }}
-    header h1 {{ font-family:Georgia,serif; font-size:32px; color:#f5efe4; margin:0 0 4px; letter-spacing:-.03em; }}
-    header p {{ font-size:12px; color:#9a8060; margin:0; letter-spacing:.1em; text-transform:uppercase; }}
-    .toolbar {{ padding:14px 32px; background:#e8e2d4; border-bottom:1px solid #d4cfc0; display:flex; gap:12px; align-items:center; flex-wrap:wrap; }}
-    .toolbar label {{ font-size:12px; font-weight:700; color:#666; letter-spacing:.08em; text-transform:uppercase; }}
-    .toolbar select {{ font-size:13px; padding:5px 10px; border:1px solid #c8c0a8; border-radius:3px; background:#fff; color:#333; }}
-    .toolbar input {{ font-size:13px; padding:5px 10px; border:1px solid #c8c0a8; border-radius:3px; background:#fff; color:#333; width:220px; }}
-    .count {{ margin-left:auto; font-size:12px; color:#888; }}
-    .wrap {{ overflow-x:auto; padding:0 32px 40px; }}
-    table {{ width:100%; border-collapse:collapse; margin-top:16px; background:#fff; border-radius:4px; overflow:hidden; border:1px solid #ddd8cc; }}
-    thead tr {{ background:#1a1a1a; color:#c8b89a; }}
-    thead th {{ padding:11px 14px; text-align:left; font-size:11px; letter-spacing:.1em; text-transform:uppercase; font-weight:700; white-space:nowrap; cursor:pointer; user-select:none; }}
-    thead th:hover {{ background:#2e2416; }}
-    thead th.sort-asc::after {{ content:" ↑"; opacity:.7; }}
-    thead th.sort-desc::after {{ content:" ↓"; opacity:.7; }}
-    tbody tr {{ border-bottom:1px solid #f0ece2; }}
-    tbody tr:hover {{ background:#faf8f3; }}
-    tbody td {{ padding:11px 14px; font-size:13px; vertical-align:top; line-height:1.4; }}
+    *, *::before, *::after {{ box-sizing:border-box; }}
+    body {{ margin:0; padding:0; font-family:Arial,Helvetica,sans-serif; font-size:14px; background:#f5f2ec; color:#1a1a1a; line-height:1.4; }}
+    .sr-only {{ position:absolute; width:1px; height:1px; padding:0; overflow:hidden; clip:rect(0,0,0,0); white-space:nowrap; border:0; }}
+
+    /* Header — subdued, functional */
+    header {{ background:#2a2218; padding:20px 28px; display:flex; align-items:baseline; gap:16px; }}
+    header h1 {{ font-family:Georgia,serif; font-size:22px; color:#e8e0d0; margin:0; font-weight:normal; letter-spacing:-.02em; }}
+    header p {{ font-size:11px; color:#7a6d56; margin:0; letter-spacing:.1em; text-transform:uppercase; }}
+
+    /* Filter toolbar */
+    .toolbar {{ display:flex; flex-wrap:wrap; gap:10px 20px; align-items:flex-end; padding:14px 28px; background:#edeae2; border-bottom:1px solid #d8d3c8; }}
+    .filter-group {{ display:flex; flex-direction:column; gap:4px; }}
+    .filter-group label {{ font-size:11px; font-weight:700; color:#6a6050; letter-spacing:.08em; text-transform:uppercase; }}
+    .filter-group select,
+    .filter-group input {{ font-size:13px; padding:5px 9px; border:1px solid #c4bfb2; border-radius:3px; background:#fff; color:#1a1a1a; min-width:130px; }}
+    .filter-group input {{ min-width:200px; }}
+    .filter-group select:focus,
+    .filter-group input:focus {{ outline:2px solid #7a5c30; outline-offset:1px; border-color:#7a5c30; }}
+    .count {{ font-size:12px; color:#7a7060; align-self:flex-end; padding-bottom:6px; margin-left:auto; }}
+
+    /* Table */
+    .wrap {{ overflow-x:auto; padding:16px 28px 48px; }}
+    table {{ width:100%; border-collapse:collapse; background:#fff; border:1px solid #ddd8ce; border-radius:3px; overflow:hidden; }}
+    caption {{ caption-side:bottom; font-size:11px; color:#999; padding:8px 0 0; text-align:left; }}
+    thead tr {{ background:#2a2218; }}
+    thead th {{ padding:10px 13px; text-align:left; font-size:11px; letter-spacing:.09em; text-transform:uppercase; font-weight:700; color:#c8b89a; white-space:nowrap; cursor:pointer; user-select:none; border:none; }}
+    thead th:focus {{ outline:2px solid #c8a96e; outline-offset:-2px; }}
+    thead th[aria-sort="ascending"]::after  {{ content:" ↑"; opacity:.6; }}
+    thead th[aria-sort="descending"]::after {{ content:" ↓"; opacity:.6; }}
+    thead th:not([aria-sort]):hover::after  {{ content:" ↕"; opacity:.3; }}
+    tbody tr {{ border-bottom:1px solid #edebe5; }}
+    tbody tr:nth-child(even) {{ background:#faf8f4; }}
+    tbody tr:hover {{ background:#f2ede3; }}
+    tbody td {{ padding:10px 13px; font-size:13px; vertical-align:top; }}
     .hidden {{ display:none !important; }}
   </style>
 </head>
@@ -381,85 +491,108 @@ def render_tracker(tracker_rows):
     <p>Conference tracker &nbsp;·&nbsp; AI harm · safety · security · policy</p>
   </header>
 
-  <div class="toolbar">
-    <label for="f-verdict">Verdict</label>
-    <select id="f-verdict" onchange="applyFilters()">
-      <option value="">All</option>
-      <option>DIRECTLY APPLIES</option>
-      <option>APPLIES</option>
-      <option>MONITOR</option>
-    </select>
-
-    <label for="f-tag">Domain</label>
-    <select id="f-tag" onchange="applyFilters()">
-      <option value="">All</option>
-    </select>
-
-    <input id="f-search" type="search" placeholder="Search title, host, location…" oninput="applyFilters()">
-
-    <span class="count" id="row-count"></span>
+  <div class="toolbar" role="search" aria-label="Filter conferences">
+    <div class="filter-group">
+      <label for="f-verdict">Verdict</label>
+      <select id="f-verdict" onchange="applyFilters()">
+        <option value="">All verdicts</option>
+        <option>Attend</option>
+        <option>Monitor</option>
+        <option>Ignore</option>
+      </select>
+    </div>
+    <div class="filter-group">
+      <label for="f-harm">Harm area</label>
+      <select id="f-harm" onchange="applyFilters()">
+        <option value="">All harm areas</option>
+        {harm_options}
+      </select>
+    </div>
+    <div class="filter-group">
+      <label for="f-region">Region</label>
+      <select id="f-region" onchange="applyFilters()">
+        <option value="">All regions</option>
+        <option>Africa</option>
+        <option>Asia</option>
+        <option>Central America</option>
+        <option>Europe</option>
+        <option>Latin America</option>
+        <option>Middle East</option>
+        <option>North America</option>
+        <option>Oceania</option>
+        <option>Online / Virtual</option>
+        <option>Other</option>
+      </select>
+    </div>
+    <div class="filter-group">
+      <label for="f-month">Month</label>
+      <select id="f-month" onchange="applyFilters()">
+        <option value="">All months</option>
+        {month_options}
+      </select>
+    </div>
+    <div class="filter-group">
+      <label for="f-search">Search</label>
+      <input id="f-search" type="search" placeholder="Title, host, location…" oninput="applyFilters()">
+    </div>
+    <span class="count" id="row-count" role="status" aria-live="polite"></span>
   </div>
 
   <div class="wrap">
-    <table id="tracker-table">
+    <table id="tracker-table" aria-label="Conference tracker">
       <thead>
         <tr>
-          <th onclick="sortBy(0)">Issue</th>
-          <th onclick="sortBy(1)">#</th>
-          <th onclick="sortBy(2)">Verdict</th>
-          <th onclick="sortBy(3)">Conference</th>
-          <th onclick="sortBy(4)">Domain</th>
-          <th onclick="sortBy(5)">When</th>
-          <th onclick="sortBy(6)">Where</th>
-          <th onclick="sortBy(7)">Host</th>
-          <th onclick="sortBy(8)">Why it matters</th>
-          <th>Source</th>
+          <th scope="col" tabindex="0" onclick="sortBy(0)" onkeydown="if(event.key==='Enter')sortBy(0)">Issue</th>
+          <th scope="col" tabindex="0" onclick="sortBy(1)" onkeydown="if(event.key==='Enter')sortBy(1)">#</th>
+          <th scope="col" tabindex="0" onclick="sortBy(2)" onkeydown="if(event.key==='Enter')sortBy(2)">Verdict</th>
+          <th scope="col" tabindex="0" onclick="sortBy(3)" onkeydown="if(event.key==='Enter')sortBy(3)">Conference</th>
+          <th scope="col" tabindex="0" onclick="sortBy(4)" onkeydown="if(event.key==='Enter')sortBy(4)">Harm area</th>
+          <th scope="col" tabindex="0" onclick="sortBy(5)" onkeydown="if(event.key==='Enter')sortBy(5)">When</th>
+          <th scope="col" tabindex="0" onclick="sortBy(6)" onkeydown="if(event.key==='Enter')sortBy(6)">Region</th>
+          <th scope="col" tabindex="0" onclick="sortBy(7)" onkeydown="if(event.key==='Enter')sortBy(7)">Location</th>
+          <th scope="col" tabindex="0" onclick="sortBy(8)" onkeydown="if(event.key==='Enter')sortBy(8)">Host</th>
+          <th scope="col" tabindex="0" onclick="sortBy(9)" onkeydown="if(event.key==='Enter')sortBy(9)">Why it matters</th>
+          <th scope="col">Source</th>
         </tr>
       </thead>
       <tbody>
         {rows_html}
       </tbody>
+      <caption>Click any column header to sort. Use filters above to narrow results.</caption>
     </table>
   </div>
 
   <script>
-    // Populate domain filter from live table data
-    (function() {{
-      const tags = new Set();
-      document.querySelectorAll('#tracker-table tbody tr td:nth-child(5) span').forEach(el => tags.add(el.textContent.trim()));
-      const sel = document.getElementById('f-tag');
-      [...tags].sort().forEach(t => {{ const o = document.createElement('option'); o.textContent = t; sel.appendChild(o); }});
-    }})();
-
     function applyFilters() {{
-      const verdict = document.getElementById('f-verdict').value.toLowerCase();
-      const tag     = document.getElementById('f-tag').value.toLowerCase();
+      const verdict = document.getElementById('f-verdict').value;
+      const harm    = document.getElementById('f-harm').value;
+      const region  = document.getElementById('f-region').value;
+      const month   = document.getElementById('f-month').value;
       const search  = document.getElementById('f-search').value.toLowerCase();
       let visible = 0;
       document.querySelectorAll('#tracker-table tbody tr').forEach(row => {{
-        const cells = row.querySelectorAll('td');
-        const rowVerdict  = cells[2].textContent.trim().toLowerCase();
-        const rowTag      = cells[4].textContent.trim().toLowerCase();
-        const rowText     = row.textContent.toLowerCase();
-        const show = (!verdict || rowVerdict.includes(verdict))
-                  && (!tag     || rowTag === tag)
-                  && (!search  || rowText.includes(search));
+        const d = row.dataset;
+        const show = (!verdict || d.verdict === verdict)
+                  && (!harm    || d.harm    === harm)
+                  && (!region  || d.region  === region)
+                  && (!month   || d.month   === month)
+                  && (!search  || row.textContent.toLowerCase().includes(search));
         row.classList.toggle('hidden', !show);
         if (show) visible++;
       }});
-      document.getElementById('row-count').textContent = visible + ' conference' + (visible !== 1 ? 's' : '');
+      document.getElementById('row-count').textContent =
+        visible + ' conference' + (visible !== 1 ? 's' : '');
     }}
 
-    // Simple column sort
-    let sortCol = 0, sortDir = 1;
+    let sortCol = -1, sortDir = 1;
     function sortBy(col) {{
-      const table = document.getElementById('tracker-table');
+      const table   = document.getElementById('tracker-table');
       const headers = table.querySelectorAll('thead th');
-      headers.forEach((h, i) => {{ h.classList.remove('sort-asc','sort-desc'); }});
+      headers.forEach(h => h.removeAttribute('aria-sort'));
       if (sortCol === col) {{ sortDir *= -1; }} else {{ sortDir = 1; sortCol = col; }}
-      headers[col].classList.add(sortDir === 1 ? 'sort-asc' : 'sort-desc');
+      headers[col].setAttribute('aria-sort', sortDir === 1 ? 'ascending' : 'descending');
       const tbody = table.querySelector('tbody');
-      const rows = [...tbody.querySelectorAll('tr')];
+      const rows  = [...tbody.querySelectorAll('tr')];
       rows.sort((a, b) => {{
         const at = a.querySelectorAll('td')[col].textContent.trim();
         const bt = b.querySelectorAll('td')[col].textContent.trim();
