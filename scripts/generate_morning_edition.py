@@ -255,6 +255,12 @@ def render_issue(issue_date, conferences, tracker_url="./tracker.html"):
         f"{ignore} Ignore" if ignore else "",
     ]))
 
+    index_items = ''.join(
+        f'<div class="index-item" style="animation-delay:{0.55 + i*0.07:.2f}s">'
+        f'{i:02d}. {esc(c["title"])}</div>'
+        for i, c in enumerate(shown, start=1)
+    )
+
     return f"""<!doctype html>
 <html lang="en">
 <head>
@@ -262,18 +268,76 @@ def render_issue(issue_date, conferences, tracker_url="./tracker.html"):
   <title>Morning Edition · {issue_date}</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <style>
+    @keyframes fadeUp {{
+      from {{ opacity:0; transform:translateY(22px); }}
+      to   {{ opacity:1; transform:translateY(0); }}
+    }}
+    @keyframes fadeIn {{
+      from {{ opacity:0; }}
+      to   {{ opacity:1; }}
+    }}
+    @keyframes gradientShift {{
+      0%   {{ background-position: 0% 50%; }}
+      50%  {{ background-position: 100% 50%; }}
+      100% {{ background-position: 0% 50%; }}
+    }}
+
     body {{ margin:0; font-family:Arial,sans-serif; background:#f7f3ea; color:#111111; }}
-    .cover {{ min-height:100vh; display:grid; grid-template-columns:1.15fr .85fr; gap:26px; padding:48px 32px 34px; background:linear-gradient(160deg,#f7f1e7 0%,#efe4c9 55%,#e5d5b6 100%); }}
-    .cover h1 {{ font-family:Georgia,serif; font-size:110px; line-height:.9; letter-spacing:-.07em; margin:0; max-width:8ch; }}
-    .kicker {{ font-size:20px; font-weight:900; letter-spacing:.12em; text-transform:uppercase; margin-bottom:16px; }}
-    .deck {{ margin-top:22px; font-size:28px; line-height:1.2; max-width:18ch; }}
-    .index {{ margin-top:26px; display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:12px; }}
-    .index-item {{ border-top:2px solid #111111; padding-top:10px; font-size:20px; line-height:1.2; }}
-    .signal-col {{ display:grid; gap:14px; align-content:start; }}
-    .signal {{ border:1px solid rgba(17,17,17,.16); border-radius:24px; background:rgba(255,255,255,.38); padding:18px; font-size:20px; line-height:1.3; }}
+
+    .cover {{
+      min-height:100vh;
+      display:grid;
+      grid-template-columns:1.15fr .85fr;
+      gap:26px;
+      padding:48px 32px 34px;
+      background:linear-gradient(160deg,#f7f1e7,#efe4c9,#e5d5b6,#ede3ca,#f2e8d5);
+      background-size:300% 300%;
+      animation: gradientShift 12s ease infinite;
+    }}
+
+    .kicker {{
+      font-size:20px; font-weight:900; letter-spacing:.12em; text-transform:uppercase;
+      margin-bottom:16px;
+      opacity:0; animation: fadeUp .6s ease forwards; animation-delay:.1s;
+    }}
+    .cover h1 {{
+      font-family:Georgia,serif; font-size:110px; line-height:.9;
+      letter-spacing:-.07em; margin:0; max-width:8ch;
+      opacity:0; animation: fadeUp .7s ease forwards; animation-delay:.25s;
+    }}
+    .deck {{
+      margin-top:22px; font-size:28px; line-height:1.2; max-width:18ch;
+      opacity:0; animation: fadeUp .6s ease forwards; animation-delay:.42s;
+    }}
+    .index {{
+      margin-top:26px;
+      display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:12px;
+    }}
+    .index-item {{
+      border-top:2px solid #111111; padding-top:10px;
+      font-size:20px; line-height:1.2;
+      opacity:0; animation: fadeUp .5s ease forwards;
+    }}
+
+    .signal-col {{
+      display:grid; gap:14px; align-content:start;
+      opacity:0; animation: fadeIn .8s ease forwards; animation-delay:.9s;
+    }}
+    .signal {{
+      border:1px solid rgba(17,17,17,.16); border-radius:24px;
+      background:rgba(255,255,255,.38); padding:18px;
+      font-size:20px; line-height:1.3;
+    }}
     .signal strong {{ display:block; font-size:21px; margin-bottom:8px; }}
     .signal a {{ color:inherit; font-weight:700; }}
+
     @media (max-width:1050px) {{ .cover {{ grid-template-columns:1fr; }} }}
+    @media (prefers-reduced-motion: reduce) {{
+      *, *::before, *::after {{
+        animation-duration:.01ms !important;
+        animation-delay:.01ms !important;
+      }}
+    }}
   </style>
 </head>
 <body>
@@ -282,9 +346,7 @@ def render_issue(issue_date, conferences, tracker_url="./tracker.html"):
       <div class="kicker">AI harm · safety · security · policy</div>
       <h1>{len(shown)} conference{'s' if len(shown) != 1 else ''} worth your attention now.</h1>
       <div class="deck">{issue_date} · {verdict_line}</div>
-      <div class="index">
-        {''.join(f"<div class='index-item'>{i:02d}. {esc(c['title'])}</div>" for i, c in enumerate(shown, start=1))}
-      </div>
+      <div class="index">{index_items}</div>
     </div>
     <div class="signal-col">
       <div class="signal"><strong>Verdicts</strong>{verdict_line}</div>
