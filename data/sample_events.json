@@ -12,18 +12,6 @@
     "source": "https://www.eff.org/deeplinks/2026/04/digital-hopes-real-power-how-arab-spring-fueled-global-surveillance-boom"
   },
   {
-    "title": "EFF’s Submission to the UN OHCHR on Protection of Human Rights Defenders in the Digital Age",
-    "date": "Thu, 02 Apr 2026",
-    "location": "TBC",
-    "host": "Deeplinks",
-    "applies": "Attend",
-    "tag": "Privacy & Surveillance",
-    "angle": "Privacy & Surveillance / policy & regulation",
-    "why": "Governments around the world are adopting new laws and policies aimed at addressing online harms, including laws intended to curb cybercrime and disinformation, and ostensibly protect user safety.…",
-    "watch": "Sourced from Deeplinks — verify dates and AI relevance.",
-    "source": "https://www.eff.org/deeplinks/2026/04/effs-submission-un-ohchr-protection-human-rights-defenders-digital-age"
-  },
-  {
     "title": "Google and Amazon: Acknowledged Risks, and Ignored Responsibilities",
     "date": "Thu, 02 Apr 2026",
     "location": "TBC",
@@ -72,18 +60,6 @@
     "source": "https://www.eff.org/deeplinks/2026/04/digital-hopes-real-power-rise-network-shutdowns"
   },
   {
-    "title": "The Missing Knowledge Layer in AI: A Framework for Stable Human-AI Reasoning",
-    "date": "Fri, 17 Apr 2026",
-    "location": "TBC",
-    "host": "cs.CY updates on arXiv.org",
-    "applies": "Attend",
-    "tag": "EU Governance",
-    "angle": "EU Governance / policy & regulation",
-    "why": "arXiv:2604.14881v1 Announce Type: cross Abstract: Large language models are increasingly integrated into decision-making in areas such as healthcare, law, finance, engineering, and government. Yet…",
-    "watch": "Sourced from cs.CY updates on arXiv.org — verify dates and AI relevance.",
-    "source": "https://arxiv.org/abs/2604.14881"
-  },
-  {
     "title": "The Dangers of California’s Legislation to Censor 3D Printing",
     "date": "Mon, 13 Apr 2026",
     "location": "TBC",
@@ -94,18 +70,6 @@
     "why": "California’s bill, A.B. 2047 , will not only mandate censorware — software which exists to bluntly block your speech as a user — on all 3D printers; it will also criminalize the use of open-source…",
     "watch": "Sourced from Deeplinks — verify dates and AI relevance.",
     "source": "https://www.eff.org/deeplinks/2026/04/dangers-californias-legislation-censor-3d-printing"
-  },
-  {
-    "title": "Robustness Analysis of Machine Learning Models for IoT Intrusion Detection Under Data Poisoning Attacks",
-    "date": "Fri, 17 Apr 2026",
-    "location": "TBC",
-    "host": "cs.CR updates on arXiv.org",
-    "applies": "Monitor",
-    "tag": "Cybersecurity",
-    "angle": "Cybersecurity / technical AI",
-    "why": "arXiv:2604.14444v1 Announce Type: new Abstract: Ensuring the reliability of machine learning-based intrusion detection systems remains a critical challenge in Internet of Things (IoT) environments,…",
-    "watch": "Sourced from cs.CR updates on arXiv.org — verify dates and AI relevance.",
-    "source": "https://arxiv.org/abs/2604.14444"
   },
   {
     "title": "War as a Pretext: Gulf States Are Tightening the Screws on Speech—Again",
@@ -180,28 +144,16 @@
     "source": "https://www.eff.org/deeplinks/2026/04/tech-nonprofits-feds-dont-weaponize-procurement-undermine-ai-trust-and-safety"
   },
   {
-    "title": "Governing Reflective Human-AI Collaboration: A Framework for Epistemic Scaffolding and Traceable Reasoning",
+    "title": "Keep Pushing: We Get 10 More Days to Reform Section 702",
     "date": "Fri, 17 Apr 2026",
     "location": "TBC",
-    "host": "cs.CY updates on arXiv.org",
+    "host": "Deeplinks",
     "applies": "Monitor",
-    "tag": "EU Governance",
-    "angle": "EU Governance / governance & institutions",
-    "why": "arXiv:2604.14898v1 Announce Type: cross Abstract: Large language models have advanced rapidly, from pattern recognition to emerging forms of reasoning, yet they remain confined to linguistic…",
-    "watch": "Sourced from cs.CY updates on arXiv.org — verify dates and AI relevance.",
-    "source": "https://arxiv.org/abs/2604.14898"
-  },
-  {
-    "title": "MLDAS: Machine Learning Dynamic Algorithm Selection for Software-Defined Networking Security",
-    "date": "Fri, 17 Apr 2026",
-    "location": "TBC",
-    "host": "cs.CR updates on arXiv.org",
-    "applies": "Monitor",
-    "tag": "Cybersecurity",
-    "angle": "Cybersecurity / technical AI",
-    "why": "arXiv:2604.14957v1 Announce Type: cross Abstract: Network security is a critical concern in the digital landscape of today, with users demanding secure browsing experiences and protection of their…",
-    "watch": "Sourced from cs.CR updates on arXiv.org — verify dates and AI relevance.",
-    "source": "https://arxiv.org/abs/2604.14957"
+    "tag": "Privacy & Surveillance",
+    "angle": "Privacy & Surveillance / policy & regulation",
+    "why": "In a dramatic middle-of-the-night stand off, a bipartisan set of lawmakers pushing for true reform and privacy protections for Americans bought us some more time to fight! They are holding out for,…",
+    "watch": "Sourced from Deeplinks — verify dates and AI relevance.",
+    "source": "https://www.eff.org/deeplinks/2026/04/keep-pushing-we-get-10-more-days-reform-section-702"
   },
   {
     "title": "Weakening Speech Protections Will Punish All of Us—Not Just Meta",
@@ -238,5 +190,53 @@
     "why": "This is the first post in a series on 3D print blocking, for the next entry check out Print Blocking Won't Work - Permission to Print Part 2 When legislators give companies an excuse to write…",
     "watch": "Sourced from Deeplinks — verify dates and AI relevance.",
     "source": "https://www.eff.org/deeplinks/2026/04/print-blocking-anti-consumer-permission-print-part-1"
+  },
+  {
+    "title": "Comparison Shopping Is Not a (Computer) Crime",
+    "date": "Thu, 09 Apr 2026",
+    "location": "TBC",
+    "host": "Deeplinks",
+    "applies": "Monitor",
+    "tag": "Cybersecurity",
+    "angle": "Cybersecurity / policy & regulation",
+    "why": "As long as people have had more than one purchasing option, they’ve been comparing those options and looking for bargains. Online shoppers are no exception; in fact, one of the potential benefits of…",
+    "watch": "Sourced from Deeplinks — verify dates and AI relevance.",
+    "source": "https://www.eff.org/deeplinks/2026/04/comparison-shopping-not-computer-crime"
+  },
+  {
+    "title": "The FAA’s “Temporary” Flight Restriction for Drones is a Blatant Attempt to Criminalize Filming ICE",
+    "date": "Fri, 03 Apr 2026",
+    "location": "TBC",
+    "host": "Deeplinks",
+    "applies": "Monitor",
+    "tag": "AI Governance",
+    "angle": "AI Governance / policy & regulation",
+    "why": "Legal intern Raj Gambhir was the principal author of this post. The Trump administration has restricted the First Amendment right to record law enforcement by issuing an unprecedented nationwide…",
+    "watch": "Sourced from Deeplinks — verify dates and AI relevance.",
+    "source": "https://www.eff.org/deeplinks/2026/04/faas-temporary-flight-restriction-drones-blatant-attempt-criminalize-filming-ice"
+  },
+  {
+    "title": "EFF Calls on Kuwait to Release Journalist Ahmed Shihab-Eldin",
+    "date": "Wed, 15 Apr 2026",
+    "location": "TBC",
+    "host": "Deeplinks",
+    "applies": "Monitor",
+    "tag": "Multilateral",
+    "angle": "Multilateral / policy & regulation",
+    "why": "EFF calls on the Kuwaiti government to immediately release journalist Ahmed Shihab-Eldin. An award-winning journalist and television host who worked for Al Jazeera for many years, Shihab-Eldin—a dual…",
+    "watch": "Sourced from Deeplinks — verify dates and AI relevance.",
+    "source": "https://www.eff.org/deeplinks/2026/04/eff-calls-kuwait-release-journalist-ahmed-shihab-eldin"
+  },
+  {
+    "title": "A Baseless Copyright Claim Against a Web Host—and Why It Failed",
+    "date": "Thu, 02 Apr 2026",
+    "location": "TBC",
+    "host": "Deeplinks",
+    "applies": "Monitor",
+    "tag": "AI Governance",
+    "angle": "AI Governance / policy & regulation",
+    "why": "Copyright law is supposed to encourage creativity. Too often, it’s used to extract payouts from others. Higbee &amp; Associates, a law firm known for sending copyright demand letters to website…",
+    "watch": "Sourced from Deeplinks — verify dates and AI relevance.",
+    "source": "https://www.eff.org/deeplinks/2026/03/baseless-copyright-claim-against-web-host-and-why-it-failed"
   }
 ]
