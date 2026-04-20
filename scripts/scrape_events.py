@@ -266,6 +266,153 @@ CUSTOM_SITES: list[dict[str, str]] = [
         "date_selector": "time",
         "desc_selector": "p",
     },
+    # ── Multilateral / intergovernmental event pages ─────────────────────────
+    {
+        "name": "NATO Events",
+        "url": "https://www.nato.int/cps/en/natohq/events.htm",
+        "event_selector": ".events-listing li",
+        "title_selector": "a",
+        "date_selector": ".date",
+        "desc_selector": "p",
+    },
+    {
+        "name": "OECD Events",
+        "url": "https://www.oecd.org/en/about/events.html",
+        "event_selector": "article",
+        "title_selector": "h3",
+        "date_selector": "time",
+        "desc_selector": "p",
+    },
+    {
+        "name": "WEF Events",
+        "url": "https://www.weforum.org/events/",
+        "event_selector": "article",
+        "title_selector": "h3",
+        "date_selector": "time",
+        "desc_selector": "p",
+    },
+    {
+        "name": "OSCE Events",
+        "url": "https://www.osce.org/calendar",
+        "event_selector": ".event-item",
+        "title_selector": "h3",
+        "date_selector": ".date",
+        "desc_selector": "p",
+    },
+    {
+        "name": "World Bank Events",
+        "url": "https://www.worldbank.org/en/events",
+        "event_selector": "article",
+        "title_selector": "h3",
+        "date_selector": "time",
+        "desc_selector": "p",
+    },
+    {
+        "name": "IMF Seminars",
+        "url": "https://www.imf.org/en/News/Seminars",
+        "event_selector": ".news-item",
+        "title_selector": "h3",
+        "date_selector": ".date",
+        "desc_selector": "p",
+    },
+    {
+        "name": "UN Events",
+        "url": "https://www.un.org/en/events",
+        "event_selector": "article",
+        "title_selector": "h3",
+        "date_selector": "time",
+        "desc_selector": "p",
+    },
+    {
+        "name": "GPAI Summit",
+        "url": "https://gpai.ai/projects/",
+        "event_selector": "article",
+        "title_selector": "h3",
+        "date_selector": "time",
+        "desc_selector": "p",
+    },
+    # ── AI company event pages ───────────────────────────────────────────────
+    {
+        "name": "OpenAI Events",
+        "url": "https://openai.com/events",
+        "event_selector": "article",
+        "title_selector": "h2",
+        "date_selector": "time",
+        "desc_selector": "p",
+    },
+    {
+        "name": "Anthropic Events",
+        "url": "https://www.anthropic.com/events",
+        "event_selector": "article",
+        "title_selector": "h2",
+        "date_selector": "time",
+        "desc_selector": "p",
+    },
+    {
+        "name": "Google DeepMind Events",
+        "url": "https://deepmind.google/events/",
+        "event_selector": "article",
+        "title_selector": "h3",
+        "date_selector": "time",
+        "desc_selector": "p",
+    },
+    {
+        "name": "Microsoft AI Events",
+        "url": "https://www.microsoft.com/en-us/ai/events",
+        "event_selector": "article",
+        "title_selector": "h3",
+        "date_selector": "time",
+        "desc_selector": "p",
+    },
+    {
+        "name": "Meta AI Research",
+        "url": "https://ai.meta.com/events/",
+        "event_selector": "article",
+        "title_selector": "h3",
+        "date_selector": "time",
+        "desc_selector": "p",
+    },
+    # ── UK conference venues ─────────────────────────────────────────────────
+    {
+        "name": "ExCeL London",
+        "url": "https://www.excel.london/organiser/events",
+        "event_selector": "article",
+        "title_selector": "h3",
+        "date_selector": "time",
+        "desc_selector": "p",
+    },
+    {
+        "name": "QEII Centre",
+        "url": "https://qeiicentre.london/events/",
+        "event_selector": "article",
+        "title_selector": "h2",
+        "date_selector": "time",
+        "desc_selector": "p",
+    },
+    {
+        "name": "ICC Birmingham",
+        "url": "https://www.theicc.co.uk/whats-on/",
+        "event_selector": "article",
+        "title_selector": "h3",
+        "date_selector": "time",
+        "desc_selector": "p",
+    },
+    {
+        "name": "Edinburgh ICC",
+        "url": "https://www.eicc.co.uk/events/",
+        "event_selector": "article",
+        "title_selector": "h3",
+        "date_selector": "time",
+        "desc_selector": "p",
+    },
+    {
+        "name": "Manchester Central",
+        "url": "https://manchestercentral.co.uk/whats-on/",
+        "event_selector": "article",
+        "title_selector": "h3",
+        "date_selector": "time",
+        "desc_selector": "p",
+    },
 ]
 
 # ──────────────────────────────────────────────────────────────────────────────
@@ -554,14 +701,15 @@ def _feed_title(raw: bytes) -> str:
 
 # ──────────────────────────────────────────────────────────────────────────────
 # TRUSTED SOURCE ALLOWLIST
-# Events from these domains always pass — no score or event-gate filter applied.
+# Events from these domains bypass the score threshold but still pass through
+# _is_event_like() — so news articles are still filtered out.
 # ──────────────────────────────────────────────────────────────────────────────
 
 _TRUSTED_DOMAINS: set[str] = {
     # Major AI companies
-    "openai.com", "anthropic.com", "deepmind.com", "ai.google",
-    "microsoft.com", "meta.com", "mistral.ai", "cohere.com", "xai.com",
-    "inflection.ai",
+    "openai.com", "anthropic.com", "deepmind.com", "ai.google", "google.com",
+    "microsoft.com", "meta.com", "meta.ai", "mistral.ai", "cohere.com", "xai.com",
+    "inflection.ai", "stability.ai", "huggingface.co",
     # UK government
     "gov.uk", "ncsc.gov.uk", "ico.org.uk",
     # US government
@@ -570,11 +718,15 @@ _TRUSTED_DOMAINS: set[str] = {
     "europa.eu", "europarl.europa.eu",
     # Multilateral & intergovernmental
     "un.org", "itu.int", "oecd.org", "nato.int", "weforum.org",
-    "unesco.org", "coe.int", "gpai.ai", "g7", "g20",
+    "unesco.org", "coe.int", "gpai.ai", "osce.org",
+    "worldbank.org", "imf.org", "interpol.int",
     # Leading AI safety & policy orgs
     "aisi.gov.uk", "futureoflife.org", "safe.ai",
     "partnershiponai.org", "hai.stanford.edu",
     "alignmentforum.org", "lesswrong.com",
+    # UK conference venues — scrape all events, score filters relevance
+    "excel.london", "qeiicentre.london", "theicc.co.uk",
+    "eicc.co.uk", "manchestercentral.co.uk",
 }
 
 
@@ -585,7 +737,7 @@ def _is_trusted(url: str, host: str = "") -> bool:
 
 
 # Keywords that suggest an item is actually a conference/event rather than a news article.
-# RSS feeds from news/blog sources are filtered through this gate.
+# ALL items pass through this gate — trusted sources are not exempt.
 _EVENT_TERMS = {
     "conference", "summit", "workshop", "forum", "symposium", "congress",
     "roundtable", "convening", "seminar", "webinar", "colloquium",
@@ -593,6 +745,14 @@ _EVENT_TERMS = {
     "annual meeting", "convention", "expo", "conclave", "dialogue",
     "side event", "high-level meeting", "ministerial", "assembly",
     "trustcon",
+    # Multilateral / policy terms
+    "expert meeting", "expert group", "policy dialogue", "high-level event",
+    "intergovernmental", "plenary", "working group", "technical meeting",
+    "ministerial meeting", "general assembly", "special session",
+    # Venue / event signals
+    "register now", "registration open", "register here", "sign up",
+    "save the date", "call for participation", "open to", "join us",
+    "hosted by", "co-hosted", "taking place", "will be held",
 }
 
 # Feeds that are already conference-specific — bypass the event gate
@@ -627,7 +787,7 @@ def scrape_rss_feeds() -> list[dict]:
 
                 trusted = _is_trusted(url, source_name)
 
-                if not trusted and not _is_event_like(title, summary, feed_url):
+                if not _is_event_like(title, summary, feed_url):
                     continue
 
                 full_text = f"{title} {summary}"
