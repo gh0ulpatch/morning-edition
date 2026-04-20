@@ -2,13 +2,12 @@
 """
 scrape_events.py — Morning Edition data scraper.
 
-Casts a wide net across four source types looking for any event where AI
+Casts a wide net across three source types looking for any event where AI
 intersects with harm, misuse, or exploitation — even if AI isn't in the title.
 
 Sources:
-  - WikiCFP     (~30 search queries)
-  - RSS feeds   (~25 authoritative feeds)
-  - Reddit      (~11 subreddits via public JSON API)
+  - WikiCFP     (~30 search queries + targeted topic RSS feeds)
+  - RSS feeds   (~20 authoritative feeds)
   - Custom sites (~7 think tanks / policy institutions)
 
 Each candidate is scored against four weighted criteria:
@@ -442,7 +441,28 @@ def _feed_title(raw: bytes) -> str:
     return ""
 
 
-def scrape_rss_feeds() -> list[dict]:
+# Keywords that suggest an item is actually a conference/event rather than a news article.
+# RSS feeds from news/blog sources are filtered through this gate.
+_EVENT_TERMS = {
+    "conference", "summit", "workshop", "forum", "symposium", "congress",
+    "roundtable", "convening", "seminar", "webinar", "colloquium",
+    "call for papers", "cfp", "call for submissions", "call for abstracts",
+    "annual meeting", "convention", "expo", "conclave", "dialogue",
+    "side event", "high-level meeting", "ministerial", "assembly",
+}
+
+# Feeds that are already conference-specific — bypass the event gate
+_CONFERENCE_FEEDS = {
+    "http://www.wikicfp.com",
+    "https://www.usenix.org",
+}
+
+def _is_event_like(title: str, summary: str, feed_url: str) -> bool:
+    """Return True if the item looks like a genuine event/conference listing."""
+    if any(feed_url.startswith(prefix) for prefix in _CONFERENCE_FEEDS):
+        return True
+    text = f"{title} {summary}".lower()
+    return any(term in text for term in _EVENT_TERMS)
     results: list[dict] = []
     seen_urls: set[str] = set()
 
@@ -457,6 +477,9 @@ def scrape_rss_feeds() -> list[dict]:
                 if url in seen_urls:
                     continue
                 seen_urls.add(url)
+
+                if not _is_event_like(title, summary, feed_url):
+                    continue
 
                 full_text = f"{title} {summary}"
                 score, breakdown = score_text(full_text)
