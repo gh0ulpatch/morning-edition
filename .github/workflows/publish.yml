@@ -77,6 +77,8 @@ jobs:
       - name: Scrape events
         if: steps.guard.outputs.skip != 'true' && steps.guard.outputs.test_only != 'true'
         run: python scripts/scrape_events.py
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
 
       # ── 5. Generate ────────────────────────────────────────────────────────
       # Produces:
@@ -114,7 +116,7 @@ jobs:
       # To generate the template text to paste into Notify, run locally:
       #   python scripts/send_notify.py --print-template
       - name: Send digest email
-        if: steps.guard.outputs.skip != 'true'
+        if: steps.guard.outputs.skip != 'true' && steps.guard.outputs.test_only != 'true'
         run: python scripts/send_notify.py
         env:
           NOTIFY_API_KEY:      ${{ secrets.NOTIFY_API_KEY }}
