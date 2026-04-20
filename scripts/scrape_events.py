@@ -86,22 +86,6 @@ RSS_FEEDS: list[str] = [
     "https://www.iwf.org.uk/feed/",
 ]
 
-# (subreddit, keyword_filter_or_None)
-# None = include all posts; list = must contain at least one term
-SUBREDDITS: list[tuple[str, list[str] | None]] = [
-    ("aisafety", None),
-    ("AIethics", None),
-    ("AIPolicy", None),
-    ("MachineLearning", ["conference", "workshop", "summit", "call for papers", "cfp"]),
-    ("netsec", ["ai", "machine learning", "conference", "summit"]),
-    ("cybersecurity", ["ai", "artificial intelligence", "conference", "summit"]),
-    ("privacy", ["ai", "conference", "law", "regulation", "policy"]),
-    ("bioinformatics", ["ai", "conference", "summit", "workshop"]),
-    ("LegalTech", ["ai", "conference", "regulation"]),
-    ("technology", ["ai safety", "ai governance", "ai harm", "ai regulation", "ai policy"]),
-    ("artificial", ["safety", "governance", "harm", "policy", "regulation", "crime"]),
-]
-
 CUSTOM_SITES: list[dict[str, str]] = [
     {
         "name": "Chatham House",
@@ -409,7 +393,6 @@ def _parse_feed(raw: bytes, feed_url: str) -> list[tuple[str, str, str, str]]:
     else:
         # RSS 2.0 / RSS 1.0
         items = root.findall(".//item")
-        channel = root.find(".//channel")
         for item in items:
             title = (item.findtext("title") or "").strip()
             link = (item.findtext("link") or "").strip()
@@ -511,66 +494,6 @@ def scrape_rss_feeds() -> list[dict]:
             print(f"  [rss] error parsing {feed_url}: {exc}")
 
     print(f"[rss] {len(results)} items from {len(RSS_FEEDS)} feeds")
-    return results
-
-
-# ──────────────────────────────────────────────────────────────────────────────
-# SOURCE: Reddit (public JSON API, no auth required)
-# ──────────────────────────────────────────────────────────────────────────────
-
-def scrape_reddit() -> list[dict]:
-    results: list[dict] = []
-    seen_urls: set[str] = set()
-
-    for subreddit, filter_terms in SUBREDDITS:
-        time.sleep(2.0)  # Reddit enforces a strict rate limit
-        url = f"https://www.reddit.com/r/{subreddit}/new.json?limit=25"
-        raw = fetch(url)
-        if not raw:
-            continue
-
-        try:
-            data = json.loads(raw)
-            posts = data.get("data", {}).get("children", [])
-            for post in posts:
-                p = post.get("data", {})
-                title = p.get("title", "")
-                selftext = p.get("selftext", "")
-                post_url = p.get("url", "")
-                permalink = "https://reddit.com" + p.get("permalink", "")
-
-                if post_url in seen_urls:
-                    continue
-                seen_urls.add(post_url)
-
-                full_text = f"{title} {selftext}".lower()
-
-                # Subreddit-specific keyword gate
-                if filter_terms and not any(t in full_text for t in filter_terms):
-                    continue
-
-                score, breakdown = score_text(full_text)
-                if score < SCORE_THRESHOLD:
-                    continue
-
-                tag = tag_event(full_text)
-                results.append({
-                    "title": truncate(title, 120),
-                    "date": "TBC",
-                    "location": "TBC",
-                    "host": f"r/{subreddit}",
-                    "applies": classify_verdict(score),
-                    "tag": tag,
-                    "angle": build_angle(tag, breakdown),
-                    "why": truncate(selftext or title, 200),
-                    "watch": f"Surfaced via r/{subreddit} — validate date, location, and event type.",
-                    "source": post_url if post_url.startswith("http") else permalink,
-                    "_score": score,
-                })
-        except Exception as exc:
-            print(f"  [reddit] error for r/{subreddit}: {exc}")
-
-    print(f"[reddit] {len(results)} posts from {len(SUBREDDITS)} subreddits")
     return results
 
 

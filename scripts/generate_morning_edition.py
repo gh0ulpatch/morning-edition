@@ -215,7 +215,7 @@ def render_issue(issue_date, conferences, tracker_url="./tracker.html"):
     for i, c in enumerate(conferences[:10], start=1):
         theme = palettes[(i - 1) % len(palettes)]
         spreads.append(f"""
-<section style="min-height:100vh;padding:36px 30px;border-top:1px solid rgba(0,0,0,.15);background:{theme['bg']};color:{theme['fg']};">
+<section class="spread" style="min-height:100vh;padding:36px 30px;border-top:1px solid rgba(0,0,0,.15);background:{theme['bg']};color:{theme['fg']};">
   <div style="display:grid;grid-template-columns:1fr 1fr;gap:28px;align-items:start;min-height:calc(100vh - 72px);">
     <div>
       <div style="font-size:18px;font-weight:900;text-transform:uppercase;letter-spacing:.12em;margin-bottom:10px;">{esc(c['angle'])}</div>
@@ -232,9 +232,10 @@ def render_issue(issue_date, conferences, tracker_url="./tracker.html"):
         <div style="font-size:16px;font-weight:900;padding:10px 14px;border:1px solid currentColor;border-radius:999px;">{esc(c['applies'])}</div>
         <div style="font-size:16px;font-weight:900;padding:10px 14px;border:1px solid currentColor;border-radius:999px;">{esc(c['tag'])}</div>
       </div>
+      <div style="font-size:13px;font-weight:900;text-transform:uppercase;letter-spacing:.1em;margin-bottom:6px;opacity:.6;">Why it matters</div>
       <div style="font-size:28px;line-height:1.2;max-width:30ch;">{esc(c['why'])}</div>
       <div style="margin-top:18px;border:1px solid rgba(0,0,0,.18);border-radius:20px;padding:18px 20px;font-size:22px;line-height:1.35;max-width:42ch;background:{theme['accent']};">
-        <strong>Why it matters:</strong> {esc(c['watch'])}
+        <strong>Watch:</strong> {esc(c['watch'])}
       </div>
       <p style="margin-top:16px;font-size:18px;font-weight:700;">
         <a href="{esc(c['source'])}" target="_blank" rel="noopener" style="color:inherit;">Open source ↗</a>
@@ -331,12 +332,23 @@ def render_issue(issue_date, conferences, tracker_url="./tracker.html"):
     .signal strong {{ display:block; font-size:21px; margin-bottom:8px; }}
     .signal a {{ color:inherit; font-weight:700; }}
 
+    .spread {{
+      opacity:0;
+      transform:translateY(20px);
+      transition:opacity .65s ease, transform .65s ease;
+    }}
+    .spread.in-view {{
+      opacity:1;
+      transform:none;
+    }}
+
     @media (max-width:1050px) {{ .cover {{ grid-template-columns:1fr; }} }}
     @media (prefers-reduced-motion: reduce) {{
       *, *::before, *::after {{
         animation-duration:.01ms !important;
         animation-delay:.01ms !important;
       }}
+      .spread {{ opacity:1; transform:none; transition:none; }}
     }}
   </style>
 </head>
@@ -355,6 +367,19 @@ def render_issue(issue_date, conferences, tracker_url="./tracker.html"):
     </div>
   </section>
   {''.join(spreads)}
+  <script>
+    (function() {{
+      var io = new IntersectionObserver(function(entries) {{
+        entries.forEach(function(e) {{
+          if (e.isIntersecting) {{
+            e.target.classList.add('in-view');
+            io.unobserve(e.target);
+          }}
+        }});
+      }}, {{ threshold: 0.04 }});
+      document.querySelectorAll('.spread').forEach(function(s) {{ io.observe(s); }});
+    }})();
+  </script>
 </body>
 </html>"""
 
