@@ -334,8 +334,6 @@ DOMAIN_TAGS: dict[str, list[str]] = {
 
 # Minimum combined score to include a result
 SCORE_THRESHOLD = 0.15
-# How many events to write to the data file (generator uses top 10)
-MAX_EVENTS = 20
 
 # ──────────────────────────────────────────────────────────────────────────────
 # SCORING, TAGGING & CLASSIFICATION
@@ -873,7 +871,6 @@ def main() -> None:
     print(f"After dedup:               {len(all_events)}")
 
     all_events.sort(key=lambda e: e.get("_score", 0), reverse=True)
-    all_events = all_events[:MAX_EVENTS]
 
     for ev in all_events:
         ev.pop("_score", None)

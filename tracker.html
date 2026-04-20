@@ -62,7 +62,7 @@
       <label for="f-harm">Harm area</label>
       <select id="f-harm" onchange="applyFilters()">
         <option value="">All harm areas</option>
-        <option value="AI Governance">AI Governance</option><option value="AI Safety">AI Safety</option><option value="Biosecurity">Biosecurity</option><option value="Counter-Terrorism">Counter-Terrorism</option><option value="Cybersecurity">Cybersecurity</option><option value="EU Governance">EU Governance</option><option value="Election Integrity">Election Integrity</option><option value="Financial Crime">Financial Crime</option><option value="Multilateral">Multilateral</option><option value="Nuclear &amp; WMD">Nuclear &amp; WMD</option><option value="Privacy &amp; Surveillance">Privacy &amp; Surveillance</option>
+        <option value="AI Safety">AI Safety</option><option value="Biosecurity">Biosecurity</option><option value="Counter-Terrorism">Counter-Terrorism</option><option value="Cybersecurity">Cybersecurity</option><option value="EU Governance">EU Governance</option><option value="Election Integrity">Election Integrity</option><option value="Financial Crime">Financial Crime</option><option value="Multilateral">Multilateral</option><option value="Nuclear &amp; WMD">Nuclear &amp; WMD</option><option value="Privacy &amp; Surveillance">Privacy &amp; Surveillance</option>
       </select>
     </div>
     <div class="filter-group">
@@ -89,6 +89,13 @@
       </select>
     </div>
     <div class="filter-group">
+      <label for="f-org">Org type</label>
+      <select id="f-org" onchange="applyFilters()">
+        <option value="">All org types</option>
+        <option value="Government">Government</option><option value="Multilateral">Multilateral</option><option value="AI Company">AI Company</option><option value="Think Tank">Think Tank</option><option value="Academia">Academia</option><option value="Civil Society">Civil Society</option><option value="Security">Security</option><option value="Industry / Other">Industry / Other</option>
+      </select>
+    </div>
+    <div class="filter-group">
       <label for="f-search">Search</label>
       <input id="f-search" type="search" placeholder="Title, host, location…" oninput="applyFilters()">
     </div>
@@ -106,85 +113,46 @@
           <th scope="col" tabindex="0" onclick="sortBy(4)" onkeydown="if(event.key==='Enter')sortBy(4)">Harm area</th>
           <th scope="col" tabindex="0" onclick="sortBy(5)" onkeydown="if(event.key==='Enter')sortBy(5)">When</th>
           <th scope="col" tabindex="0" onclick="sortBy(6)" onkeydown="if(event.key==='Enter')sortBy(6)">Region</th>
-          <th scope="col" tabindex="0" onclick="sortBy(7)" onkeydown="if(event.key==='Enter')sortBy(7)">Location</th>
-          <th scope="col" tabindex="0" onclick="sortBy(8)" onkeydown="if(event.key==='Enter')sortBy(8)">Host</th>
-          <th scope="col" tabindex="0" onclick="sortBy(9)" onkeydown="if(event.key==='Enter')sortBy(9)">Why it matters</th>
+          <th scope="col" tabindex="0" onclick="sortBy(7)" onkeydown="if(event.key==='Enter')sortBy(7)">Org type</th>
+          <th scope="col" tabindex="0" onclick="sortBy(8)" onkeydown="if(event.key==='Enter')sortBy(8)">Location</th>
+          <th scope="col" tabindex="0" onclick="sortBy(9)" onkeydown="if(event.key==='Enter')sortBy(9)">Host</th>
+          <th scope="col" tabindex="0" onclick="sortBy(10)" onkeydown="if(event.key==='Enter')sortBy(10)">Why it matters</th>
           <th scope="col">Source</th>
         </tr>
       </thead>
       <tbody>
         
-        <tr data-verdict="Ignore" data-harm="Multilateral" data-region="Other" data-month="2026-04">
+        <tr data-verdict="Monitor" data-harm="Cybersecurity" data-region="Other" data-month="2026-04" data-org="Civil Society">
           <td style="white-space:nowrap;font-variant-numeric:tabular-nums;">2026-04-20</td>
           <td style="text-align:center;color:#999;font-variant-numeric:tabular-nums;">20</td>
-          <td><span style="display:inline-block;background:#3a3a3a;color:#e8e8e8;font-size:11px;font-weight:700;letter-spacing:.05em;text-transform:uppercase;padding:3px 9px;border-radius:3px;white-space:nowrap;">Ignore</span></td>
-          <td><strong>A Protocol-Agnostic Backscatter-Based Security Layer for Ultra-Low-Power SWIPT IoT Networks</strong></td>
-          <td><span style="background:#ede8db;color:#5a5040;font-size:11px;font-weight:600;padding:2px 8px;border-radius:3px;white-space:nowrap;">Multilateral</span></td>
-          <td style="white-space:nowrap;">Mon, 20 Apr 2026</td>
-          <td style="white-space:nowrap;">Other</td>
-          <td>TBC</td>
-          <td>cs.CR updates on arXiv.org</td>
-          <td style="font-size:13px;max-width:260px;">This paper presents a lightweight, protocol-agnostic security enhancement for Simultaneous Wireless Information and Power Transfer (SWIPT) in Internet of Things (IoT) applications. Building on a…</td>
-          <td><a href="https://arxiv.org/abs/2604.15831" target="_blank" rel="noopener"
-               style="color:#7a3c0f;font-weight:600;white-space:nowrap;text-decoration:none;">Source ↗</a></td>
-        </tr>
-        <tr data-verdict="Ignore" data-harm="EU Governance" data-region="Other" data-month="">
-          <td style="white-space:nowrap;font-variant-numeric:tabular-nums;">2026-04-20</td>
-          <td style="text-align:center;color:#999;font-variant-numeric:tabular-nums;">19</td>
-          <td><span style="display:inline-block;background:#3a3a3a;color:#e8e8e8;font-size:11px;font-weight:700;letter-spacing:.05em;text-transform:uppercase;padding:3px 9px;border-radius:3px;white-space:nowrap;">Ignore</span></td>
-          <td><strong>DfP 2026</strong></td>
-          <td><span style="background:#ede8db;color:#5a5040;font-size:11px;font-weight:600;padding:2px 8px;border-radius:3px;white-space:nowrap;">EU Governance</span></td>
-          <td style="white-space:nowrap;">Event</td>
-          <td style="white-space:nowrap;">Other</td>
-          <td>Where</td>
-          <td>TBC</td>
-          <td style="font-size:13px;max-width:260px;">DfP 2026</td>
-          <td><a href="http://www.wikicfp.com/cfp/servlet/event.showcfp?eventid=194448&amp;copyownerid=190712" target="_blank" rel="noopener"
-               style="color:#7a3c0f;font-weight:600;white-space:nowrap;text-decoration:none;">Source ↗</a></td>
-        </tr>
-        <tr data-verdict="Monitor" data-harm="Cybersecurity" data-region="Other" data-month="2026-04">
-          <td style="white-space:nowrap;font-variant-numeric:tabular-nums;">2026-04-20</td>
-          <td style="text-align:center;color:#999;font-variant-numeric:tabular-nums;">18</td>
           <td><span style="display:inline-block;background:#6b4000;color:#ffeaa0;font-size:11px;font-weight:700;letter-spacing:.05em;text-transform:uppercase;padding:3px 9px;border-radius:3px;white-space:nowrap;">Monitor</span></td>
-          <td><strong>QUACK! Making the (Rubber) Ducky Talk: A Systematic Study of Keystroke Dynamics for HID Injection Detection</strong></td>
-          <td><span style="background:#ede8db;color:#5a5040;font-size:11px;font-weight:600;padding:2px 8px;border-radius:3px;white-space:nowrap;">Cybersecurity</span></td>
-          <td style="white-space:nowrap;">Mon, 20 Apr 2026</td>
-          <td style="white-space:nowrap;">Other</td>
-          <td>TBC</td>
-          <td>cs.CR updates on arXiv.org</td>
-          <td style="font-size:13px;max-width:260px;">Modern computing systems inherently trust human input devices, creating an exploitable attack surface for adversarial automation. USB Human Interface Device (HID) emulation attacks, such as those…</td>
-          <td><a href="https://arxiv.org/abs/2604.15845" target="_blank" rel="noopener"
-               style="color:#7a3c0f;font-weight:600;white-space:nowrap;text-decoration:none;">Source ↗</a></td>
-        </tr>
-        <tr data-verdict="Monitor" data-harm="Cybersecurity" data-region="Other" data-month="2026-04">
-          <td style="white-space:nowrap;font-variant-numeric:tabular-nums;">2026-04-20</td>
-          <td style="text-align:center;color:#999;font-variant-numeric:tabular-nums;">17</td>
-          <td><span style="display:inline-block;background:#6b4000;color:#ffeaa0;font-size:11px;font-weight:700;letter-spacing:.05em;text-transform:uppercase;padding:3px 9px;border-radius:3px;white-space:nowrap;">Monitor</span></td>
-          <td><strong>Yikes, Encryption’s Y2K Moment is Coming Years Early</strong></td>
+          <td><strong>Comparison Shopping Is Not a (Computer) Crime</strong></td>
           <td><span style="background:#ede8db;color:#5a5040;font-size:11px;font-weight:600;padding:2px 8px;border-radius:3px;white-space:nowrap;">Cybersecurity</span></td>
           <td style="white-space:nowrap;">Thu, 09 Apr 2026</td>
           <td style="white-space:nowrap;">Other</td>
+          <td style="white-space:nowrap;">Civil Society</td>
           <td>TBC</td>
           <td>Deeplinks</td>
-          <td style="font-size:13px;max-width:260px;">Google moved up its estimated deadline for quantum preparedness in cryptography to 2029—only 33 months from now. That’s earlier than previous deadlines , and they proposed the new post-quantum…</td>
-          <td><a href="https://www.eff.org/deeplinks/2026/04/yikes-encryptions-y2k-moment-coming-years-early" target="_blank" rel="noopener"
+          <td style="font-size:13px;max-width:260px;">As long as people have had more than one purchasing option, they’ve been comparing those options and looking for bargains. Online shoppers are no exception; in fact, one of the potential benefits of…</td>
+          <td><a href="https://www.eff.org/deeplinks/2026/04/comparison-shopping-not-computer-crime" target="_blank" rel="noopener"
                style="color:#7a3c0f;font-weight:600;white-space:nowrap;text-decoration:none;">Source ↗</a></td>
         </tr>
-        <tr data-verdict="Monitor" data-harm="EU Governance" data-region="Other" data-month="">
+        <tr data-verdict="Monitor" data-harm="Cybersecurity" data-region="Other" data-month="2026-04" data-org="Industry / Other">
           <td style="white-space:nowrap;font-variant-numeric:tabular-nums;">2026-04-20</td>
-          <td style="text-align:center;color:#999;font-variant-numeric:tabular-nums;">16</td>
+          <td style="text-align:center;color:#999;font-variant-numeric:tabular-nums;">19</td>
           <td><span style="display:inline-block;background:#6b4000;color:#ffeaa0;font-size:11px;font-weight:700;letter-spacing:.05em;text-transform:uppercase;padding:3px 9px;border-radius:3px;white-space:nowrap;">Monitor</span></td>
-          <td><strong>WOA 2026</strong></td>
-          <td><span style="background:#ede8db;color:#5a5040;font-size:11px;font-weight:600;padding:2px 8px;border-radius:3px;white-space:nowrap;">EU Governance</span></td>
-          <td style="white-space:nowrap;">Event</td>
+          <td><strong>Into the Gray Zone: Domain Contexts Can Blur LLM Safety Boundaries</strong></td>
+          <td><span style="background:#ede8db;color:#5a5040;font-size:11px;font-weight:600;padding:2px 8px;border-radius:3px;white-space:nowrap;">Cybersecurity</span></td>
+          <td style="white-space:nowrap;">Mon, 20 Apr 2026</td>
           <td style="white-space:nowrap;">Other</td>
-          <td>Where</td>
+          <td style="white-space:nowrap;">Industry / Other</td>
           <td>TBC</td>
-          <td style="font-size:13px;max-width:260px;">WOA 2026</td>
-          <td><a href="http://www.wikicfp.com/cfp/servlet/event.showcfp?eventid=192074&amp;copyownerid=197051" target="_blank" rel="noopener"
+          <td>cs.CR updates on arXiv.org</td>
+          <td style="font-size:13px;max-width:260px;">arXiv:2604.15717v1 Announce Type: new Abstract: A central goal of LLM alignment is to balance helpfulness with harmlessness, yet these objectives conflict when the same knowledge serves both…</td>
+          <td><a href="https://arxiv.org/abs/2604.15717" target="_blank" rel="noopener"
                style="color:#7a3c0f;font-weight:600;white-space:nowrap;text-decoration:none;">Source ↗</a></td>
         </tr>
-        <tr data-verdict="Attend" data-harm="Election Integrity" data-region="Online / Virtual" data-month="2026-02">
+        <tr data-verdict="Attend" data-harm="Election Integrity" data-region="Online / Virtual" data-month="2026-02" data-org="Think Tank">
           <td style="white-space:nowrap;font-variant-numeric:tabular-nums;">2026-04-20</td>
           <td style="text-align:center;color:#999;font-variant-numeric:tabular-nums;">15</td>
           <td><span style="display:inline-block;background:#1a4d2e;color:#c6f0d5;font-size:11px;font-weight:700;letter-spacing:.05em;text-transform:uppercase;padding:3px 9px;border-radius:3px;white-space:nowrap;">Attend</span></td>
@@ -192,27 +160,29 @@
           <td><span style="background:#ede8db;color:#5a5040;font-size:11px;font-weight:600;padding:2px 8px;border-radius:3px;white-space:nowrap;">Election Integrity</span></td>
           <td style="white-space:nowrap;">28 Feb 2026</td>
           <td style="white-space:nowrap;">Online / Virtual</td>
+          <td style="white-space:nowrap;">Think Tank</td>
           <td>Online + London</td>
           <td>Alan Turing Institute + UNDP</td>
           <td style="font-size:13px;max-width:260px;">Roundtable on AI-generated influence operations, synthetic media in elections, and platform regulatory responses.</td>
           <td><a href="https://www.turing.ac.uk/" target="_blank" rel="noopener"
                style="color:#7a3c0f;font-weight:600;white-space:nowrap;text-decoration:none;">Source ↗</a></td>
         </tr>
-        <tr data-verdict="Monitor" data-harm="EU Governance" data-region="Other" data-month="2026-04">
+        <tr data-verdict="Monitor" data-harm="Privacy &amp; Surveillance" data-region="Other" data-month="2026-04" data-org="Civil Society">
           <td style="white-space:nowrap;font-variant-numeric:tabular-nums;">2026-04-20</td>
           <td style="text-align:center;color:#999;font-variant-numeric:tabular-nums;">15</td>
           <td><span style="display:inline-block;background:#6b4000;color:#ffeaa0;font-size:11px;font-weight:700;letter-spacing:.05em;text-transform:uppercase;padding:3px 9px;border-radius:3px;white-space:nowrap;">Monitor</span></td>
-          <td><strong>From Vulnerable Data Subjects to Vulnerabilizing Data Practices: Navigating the Protection Paradox in AI-Based Analyses…</strong></td>
-          <td><span style="background:#ede8db;color:#5a5040;font-size:11px;font-weight:600;padding:2px 8px;border-radius:3px;white-space:nowrap;">EU Governance</span></td>
-          <td style="white-space:nowrap;">Mon, 20 Apr 2026</td>
+          <td><strong>Keep Pushing: We Get 10 More Days to Reform Section 702</strong></td>
+          <td><span style="background:#ede8db;color:#5a5040;font-size:11px;font-weight:600;padding:2px 8px;border-radius:3px;white-space:nowrap;">Privacy &amp; Surveillance</span></td>
+          <td style="white-space:nowrap;">Fri, 17 Apr 2026</td>
           <td style="white-space:nowrap;">Other</td>
+          <td style="white-space:nowrap;">Civil Society</td>
           <td>TBC</td>
-          <td>cs.CY updates on arXiv.org</td>
-          <td style="font-size:13px;max-width:260px;">This paper traces a conceptual shift from understanding vulnerability as a static, essentialized property of data subjects to examining how it is actively enacted through data practices. Unlike…</td>
-          <td><a href="https://arxiv.org/abs/2604.15990" target="_blank" rel="noopener"
+          <td>Deeplinks</td>
+          <td style="font-size:13px;max-width:260px;">In a dramatic middle-of-the-night stand off, a bipartisan set of lawmakers pushing for true reform and privacy protections for Americans bought us some more time to fight! They are holding out for,…</td>
+          <td><a href="https://www.eff.org/deeplinks/2026/04/keep-pushing-we-get-10-more-days-reform-section-702" target="_blank" rel="noopener"
                style="color:#7a3c0f;font-weight:600;white-space:nowrap;text-decoration:none;">Source ↗</a></td>
         </tr>
-        <tr data-verdict="Attend" data-harm="Biosecurity" data-region="North America" data-month="2026-04">
+        <tr data-verdict="Attend" data-harm="Biosecurity" data-region="North America" data-month="2026-04" data-org="Think Tank">
           <td style="white-space:nowrap;font-variant-numeric:tabular-nums;">2026-04-20</td>
           <td style="text-align:center;color:#999;font-variant-numeric:tabular-nums;">14</td>
           <td><span style="display:inline-block;background:#1a4d2e;color:#c6f0d5;font-size:11px;font-weight:700;letter-spacing:.05em;text-transform:uppercase;padding:3px 9px;border-radius:3px;white-space:nowrap;">Attend</span></td>
@@ -220,27 +190,14 @@
           <td><span style="background:#ede8db;color:#5a5040;font-size:11px;font-weight:600;padding:2px 8px;border-radius:3px;white-space:nowrap;">Biosecurity</span></td>
           <td style="white-space:nowrap;">14–15 Apr 2026</td>
           <td style="white-space:nowrap;">North America</td>
+          <td style="white-space:nowrap;">Think Tank</td>
           <td>Washington D.C., USA</td>
           <td>Johns Hopkins Center for Health Security</td>
           <td style="font-size:13px;max-width:260px;">Examines AI-accelerated dual-use biology risks, including protein-folding tools, automated lab systems, and biosurveillance.</td>
           <td><a href="https://www.centerforhealthsecurity.org/" target="_blank" rel="noopener"
                style="color:#7a3c0f;font-weight:600;white-space:nowrap;text-decoration:none;">Source ↗</a></td>
         </tr>
-        <tr data-verdict="Monitor" data-harm="Privacy &amp; Surveillance" data-region="Other" data-month="2026-04">
-          <td style="white-space:nowrap;font-variant-numeric:tabular-nums;">2026-04-20</td>
-          <td style="text-align:center;color:#999;font-variant-numeric:tabular-nums;">14</td>
-          <td><span style="display:inline-block;background:#6b4000;color:#ffeaa0;font-size:11px;font-weight:700;letter-spacing:.05em;text-transform:uppercase;padding:3px 9px;border-radius:3px;white-space:nowrap;">Monitor</span></td>
-          <td><strong>We Need You: Our Privacy Cannot Afford a Clean Extension of Section 702</strong></td>
-          <td><span style="background:#ede8db;color:#5a5040;font-size:11px;font-weight:600;padding:2px 8px;border-radius:3px;white-space:nowrap;">Privacy &amp; Surveillance</span></td>
-          <td style="white-space:nowrap;">Fri, 10 Apr 2026</td>
-          <td style="white-space:nowrap;">Other</td>
-          <td>TBC</td>
-          <td>Deeplinks</td>
-          <td style="font-size:13px;max-width:260px;">We go through this every couple of years: Section 702 of the Foreign Intelligence Surveillance Act (FISA), which of Americans’ communications with foreign persons overseas is up for renewal. As…</td>
-          <td><a href="https://www.eff.org/deeplinks/2026/04/we-need-you-our-privacy-cannot-afford-clean-extension-section-702" target="_blank" rel="noopener"
-               style="color:#7a3c0f;font-weight:600;white-space:nowrap;text-decoration:none;">Source ↗</a></td>
-        </tr>
-        <tr data-verdict="Attend" data-harm="Financial Crime" data-region="Europe" data-month="2026-10">
+        <tr data-verdict="Attend" data-harm="Financial Crime" data-region="Europe" data-month="2026-10" data-org="Government">
           <td style="white-space:nowrap;font-variant-numeric:tabular-nums;">2026-04-20</td>
           <td style="text-align:center;color:#999;font-variant-numeric:tabular-nums;">13</td>
           <td><span style="display:inline-block;background:#1a4d2e;color:#c6f0d5;font-size:11px;font-weight:700;letter-spacing:.05em;text-transform:uppercase;padding:3px 9px;border-radius:3px;white-space:nowrap;">Attend</span></td>
@@ -248,69 +205,14 @@
           <td><span style="background:#ede8db;color:#5a5040;font-size:11px;font-weight:600;padding:2px 8px;border-radius:3px;white-space:nowrap;">Financial Crime</span></td>
           <td style="white-space:nowrap;">22–23 Oct 2026</td>
           <td style="white-space:nowrap;">Europe</td>
+          <td style="white-space:nowrap;">Government</td>
           <td>The Hague, Netherlands</td>
           <td>Europol EC3</td>
           <td style="font-size:13px;max-width:260px;">Law-enforcement-facing conference covering AI-enabled fraud, deepfake crime, ransomware-as-a-service, and crypto asset tracing.</td>
           <td><a href="https://www.europol.europa.eu/activities-services/events" target="_blank" rel="noopener"
                style="color:#7a3c0f;font-weight:600;white-space:nowrap;text-decoration:none;">Source ↗</a></td>
         </tr>
-        <tr data-verdict="Monitor" data-harm="Privacy &amp; Surveillance" data-region="Other" data-month="2026-04">
-          <td style="white-space:nowrap;font-variant-numeric:tabular-nums;">2026-04-20</td>
-          <td style="text-align:center;color:#999;font-variant-numeric:tabular-nums;">13</td>
-          <td><span style="display:inline-block;background:#6b4000;color:#ffeaa0;font-size:11px;font-weight:700;letter-spacing:.05em;text-transform:uppercase;padding:3px 9px;border-radius:3px;white-space:nowrap;">Monitor</span></td>
-          <td><strong>EFF 🤝 HOPE: Join Us This August!</strong></td>
-          <td><span style="background:#ede8db;color:#5a5040;font-size:11px;font-weight:600;padding:2px 8px;border-radius:3px;white-space:nowrap;">Privacy &amp; Surveillance</span></td>
-          <td style="white-space:nowrap;">Mon, 13 Apr 2026</td>
-          <td style="white-space:nowrap;">Other</td>
-          <td>TBC</td>
-          <td>Deeplinks</td>
-          <td style="font-size:13px;max-width:260px;">Protecting privacy and free speech online takes more than policy work—it takes community. Conferences like HOPE are where that community comes together to learn, connect, and push these ideals…</td>
-          <td><a href="https://www.eff.org/deeplinks/2026/04/eff-hope-join-us-august" target="_blank" rel="noopener"
-               style="color:#7a3c0f;font-weight:600;white-space:nowrap;text-decoration:none;">Source ↗</a></td>
-        </tr>
-        <tr data-verdict="Monitor" data-harm="AI Governance" data-region="Other" data-month="2026-04">
-          <td style="white-space:nowrap;font-variant-numeric:tabular-nums;">2026-04-20</td>
-          <td style="text-align:center;color:#999;font-variant-numeric:tabular-nums;">12</td>
-          <td><span style="display:inline-block;background:#6b4000;color:#ffeaa0;font-size:11px;font-weight:700;letter-spacing:.05em;text-transform:uppercase;padding:3px 9px;border-radius:3px;white-space:nowrap;">Monitor</span></td>
-          <td><strong>Preregistered Belief Revision Contracts</strong></td>
-          <td><span style="background:#ede8db;color:#5a5040;font-size:11px;font-weight:600;padding:2px 8px;border-radius:3px;white-space:nowrap;">AI Governance</span></td>
-          <td style="white-space:nowrap;">Mon, 20 Apr 2026</td>
-          <td style="white-space:nowrap;">Other</td>
-          <td>TBC</td>
-          <td>cs.AI updates on arXiv.org</td>
-          <td style="font-size:13px;max-width:260px;">Deliberative multi-agent systems allow agents to exchange messages and revise beliefs over time. While this interaction is meant to improve performance, it can also create dangerous conformity…</td>
-          <td><a href="https://arxiv.org/abs/2604.15558" target="_blank" rel="noopener"
-               style="color:#7a3c0f;font-weight:600;white-space:nowrap;text-decoration:none;">Source ↗</a></td>
-        </tr>
-        <tr data-verdict="Monitor" data-harm="AI Governance" data-region="Other" data-month="2026-04">
-          <td style="white-space:nowrap;font-variant-numeric:tabular-nums;">2026-04-20</td>
-          <td style="text-align:center;color:#999;font-variant-numeric:tabular-nums;">11</td>
-          <td><span style="display:inline-block;background:#6b4000;color:#ffeaa0;font-size:11px;font-weight:700;letter-spacing:.05em;text-transform:uppercase;padding:3px 9px;border-radius:3px;white-space:nowrap;">Monitor</span></td>
-          <td><strong>The FAA’s “Temporary” Flight Restriction for Drones is a Blatant Attempt to Criminalize Filming ICE</strong></td>
-          <td><span style="background:#ede8db;color:#5a5040;font-size:11px;font-weight:600;padding:2px 8px;border-radius:3px;white-space:nowrap;">AI Governance</span></td>
-          <td style="white-space:nowrap;">Fri, 03 Apr 2026</td>
-          <td style="white-space:nowrap;">Other</td>
-          <td>TBC</td>
-          <td>Deeplinks</td>
-          <td style="font-size:13px;max-width:260px;">Legal intern Raj Gambhir was the principal author of this post. The Trump administration has restricted the First Amendment right to record law enforcement by issuing an unprecedented nationwide…</td>
-          <td><a href="https://www.eff.org/deeplinks/2026/04/faas-temporary-flight-restriction-drones-blatant-attempt-criminalize-filming-ice" target="_blank" rel="noopener"
-               style="color:#7a3c0f;font-weight:600;white-space:nowrap;text-decoration:none;">Source ↗</a></td>
-        </tr>
-        <tr data-verdict="Monitor" data-harm="Cybersecurity" data-region="Other" data-month="2026-04">
-          <td style="white-space:nowrap;font-variant-numeric:tabular-nums;">2026-04-20</td>
-          <td style="text-align:center;color:#999;font-variant-numeric:tabular-nums;">10</td>
-          <td><span style="display:inline-block;background:#6b4000;color:#ffeaa0;font-size:11px;font-weight:700;letter-spacing:.05em;text-transform:uppercase;padding:3px 9px;border-radius:3px;white-space:nowrap;">Monitor</span></td>
-          <td><strong>Comparison Shopping Is Not a (Computer) Crime</strong></td>
-          <td><span style="background:#ede8db;color:#5a5040;font-size:11px;font-weight:600;padding:2px 8px;border-radius:3px;white-space:nowrap;">Cybersecurity</span></td>
-          <td style="white-space:nowrap;">Thu, 09 Apr 2026</td>
-          <td style="white-space:nowrap;">Other</td>
-          <td>TBC</td>
-          <td>Deeplinks</td>
-          <td style="font-size:13px;max-width:260px;">As long as people have had more than one purchasing option, they’ve been comparing those options and looking for bargains. Online shoppers are no exception; in fact, one of the potential benefits of…</td>
-          <td><a href="https://www.eff.org/deeplinks/2026/04/comparison-shopping-not-computer-crime" target="_blank" rel="noopener"
-               style="color:#7a3c0f;font-weight:600;white-space:nowrap;text-decoration:none;">Source ↗</a></td>
-        </tr>
-        <tr data-verdict="Monitor" data-harm="AI Safety" data-region="North America" data-month="2026-12">
+        <tr data-verdict="Monitor" data-harm="AI Safety" data-region="North America" data-month="2026-12" data-org="Academia">
           <td style="white-space:nowrap;font-variant-numeric:tabular-nums;">2026-04-20</td>
           <td style="text-align:center;color:#999;font-variant-numeric:tabular-nums;">7</td>
           <td><span style="display:inline-block;background:#6b4000;color:#ffeaa0;font-size:11px;font-weight:700;letter-spacing:.05em;text-transform:uppercase;padding:3px 9px;border-radius:3px;white-space:nowrap;">Monitor</span></td>
@@ -318,27 +220,29 @@
           <td><span style="background:#ede8db;color:#5a5040;font-size:11px;font-weight:600;padding:2px 8px;border-radius:3px;white-space:nowrap;">AI Safety</span></td>
           <td style="white-space:nowrap;">6–14 Dec 2026</td>
           <td style="white-space:nowrap;">North America</td>
+          <td style="white-space:nowrap;">Academia</td>
           <td>Vancouver, Canada</td>
           <td>NeurIPS Foundation</td>
           <td style="font-size:13px;max-width:260px;">The largest ML conference hosts a dedicated workshop on fairness, accountability, robustness, and societal harms from deployed models.</td>
           <td><a href="https://neurips.cc/" target="_blank" rel="noopener"
                style="color:#7a3c0f;font-weight:600;white-space:nowrap;text-decoration:none;">Source ↗</a></td>
         </tr>
-        <tr data-verdict="Monitor" data-harm="Privacy &amp; Surveillance" data-region="Other" data-month="2026-04">
+        <tr data-verdict="Attend" data-harm="EU Governance" data-region="Other" data-month="2026-04" data-org="Industry / Other">
           <td style="white-space:nowrap;font-variant-numeric:tabular-nums;">2026-04-20</td>
           <td style="text-align:center;color:#999;font-variant-numeric:tabular-nums;">7</td>
-          <td><span style="display:inline-block;background:#6b4000;color:#ffeaa0;font-size:11px;font-weight:700;letter-spacing:.05em;text-transform:uppercase;padding:3px 9px;border-radius:3px;white-space:nowrap;">Monitor</span></td>
-          <td><strong>Keep Pushing: We Get 10 More Days to Reform Section 702</strong></td>
-          <td><span style="background:#ede8db;color:#5a5040;font-size:11px;font-weight:600;padding:2px 8px;border-radius:3px;white-space:nowrap;">Privacy &amp; Surveillance</span></td>
-          <td style="white-space:nowrap;">Fri, 17 Apr 2026</td>
+          <td><span style="display:inline-block;background:#1a4d2e;color:#c6f0d5;font-size:11px;font-weight:700;letter-spacing:.05em;text-transform:uppercase;padding:3px 9px;border-radius:3px;white-space:nowrap;">Attend</span></td>
+          <td><strong>SoK: Security of Autonomous LLM Agents in Agentic Commerce</strong></td>
+          <td><span style="background:#ede8db;color:#5a5040;font-size:11px;font-weight:600;padding:2px 8px;border-radius:3px;white-space:nowrap;">EU Governance</span></td>
+          <td style="white-space:nowrap;">Mon, 20 Apr 2026</td>
           <td style="white-space:nowrap;">Other</td>
+          <td style="white-space:nowrap;">Industry / Other</td>
           <td>TBC</td>
-          <td>Deeplinks</td>
-          <td style="font-size:13px;max-width:260px;">In a dramatic middle-of-the-night stand off, a bipartisan set of lawmakers pushing for true reform and privacy protections for Americans bought us some more time to fight! They are holding out for,…</td>
-          <td><a href="https://www.eff.org/deeplinks/2026/04/keep-pushing-we-get-10-more-days-reform-section-702" target="_blank" rel="noopener"
+          <td>cs.CR updates on arXiv.org</td>
+          <td style="font-size:13px;max-width:260px;">arXiv:2604.15367v1 Announce Type: new Abstract: Autonomous large language model (LLM) agents such as OpenClaw are pushing agentic commerce from human-supervised assistance toward machine actors that…</td>
+          <td><a href="https://arxiv.org/abs/2604.15367" target="_blank" rel="noopener"
                style="color:#7a3c0f;font-weight:600;white-space:nowrap;text-decoration:none;">Source ↗</a></td>
         </tr>
-        <tr data-verdict="Attend" data-harm="Counter-Terrorism" data-region="Europe" data-month="2026-09">
+        <tr data-verdict="Attend" data-harm="Counter-Terrorism" data-region="Europe" data-month="2026-09" data-org="Industry / Other">
           <td style="white-space:nowrap;font-variant-numeric:tabular-nums;">2026-04-20</td>
           <td style="text-align:center;color:#999;font-variant-numeric:tabular-nums;">6</td>
           <td><span style="display:inline-block;background:#1a4d2e;color:#c6f0d5;font-size:11px;font-weight:700;letter-spacing:.05em;text-transform:uppercase;padding:3px 9px;border-radius:3px;white-space:nowrap;">Attend</span></td>
@@ -346,27 +250,29 @@
           <td><span style="background:#ede8db;color:#5a5040;font-size:11px;font-weight:600;padding:2px 8px;border-radius:3px;white-space:nowrap;">Counter-Terrorism</span></td>
           <td style="white-space:nowrap;">3–4 Sep 2026</td>
           <td style="white-space:nowrap;">Europe</td>
+          <td style="white-space:nowrap;">Industry / Other</td>
           <td>The Hague, Netherlands</td>
           <td>International Bar Association + UNODC</td>
           <td style="font-size:13px;max-width:260px;">Focuses on AI as both a tool for law enforcement and a vector for organised crime, terrorism financing, and judicial bias.</td>
           <td><a href="https://www.ibanet.org/" target="_blank" rel="noopener"
                style="color:#7a3c0f;font-weight:600;white-space:nowrap;text-decoration:none;">Source ↗</a></td>
         </tr>
-        <tr data-verdict="Attend" data-harm="EU Governance" data-region="Other" data-month="2026-04">
+        <tr data-verdict="Attend" data-harm="EU Governance" data-region="Other" data-month="2026-04" data-org="Industry / Other">
           <td style="white-space:nowrap;font-variant-numeric:tabular-nums;">2026-04-20</td>
-          <td style="text-align:center;color:#999;font-variant-numeric:tabular-nums;">5</td>
+          <td style="text-align:center;color:#999;font-variant-numeric:tabular-nums;">2</td>
           <td><span style="display:inline-block;background:#1a4d2e;color:#c6f0d5;font-size:11px;font-weight:700;letter-spacing:.05em;text-transform:uppercase;padding:3px 9px;border-radius:3px;white-space:nowrap;">Attend</span></td>
-          <td><strong>SoK: Security of Autonomous LLM Agents in Agentic Commerce</strong></td>
+          <td><strong>Puppets or partners? Governing cyborg propaganda in the digital public square</strong></td>
           <td><span style="background:#ede8db;color:#5a5040;font-size:11px;font-weight:600;padding:2px 8px;border-radius:3px;white-space:nowrap;">EU Governance</span></td>
           <td style="white-space:nowrap;">Mon, 20 Apr 2026</td>
           <td style="white-space:nowrap;">Other</td>
+          <td style="white-space:nowrap;">Industry / Other</td>
           <td>TBC</td>
-          <td>cs.CR updates on arXiv.org</td>
-          <td style="font-size:13px;max-width:260px;">Autonomous large language model (LLM) agents such as OpenClaw are pushing agentic commerce from human-supervised assistance toward machine actors that can negotiate, purchase services, manage digital…</td>
-          <td><a href="https://arxiv.org/abs/2604.15367" target="_blank" rel="noopener"
+          <td>cs.CY updates on arXiv.org</td>
+          <td style="font-size:13px;max-width:260px;">arXiv:2602.13088v2 Announce Type: replace Abstract: The distinction between genuine grassroots activism and automated influence operations is collapsing. While contemporary policy debates prioritize…</td>
+          <td><a href="https://arxiv.org/abs/2602.13088" target="_blank" rel="noopener"
                style="color:#7a3c0f;font-weight:600;white-space:nowrap;text-decoration:none;">Source ↗</a></td>
         </tr>
-        <tr data-verdict="APPLIES" data-harm="Nuclear &amp; WMD" data-region="Other" data-month="2026-04">
+        <tr data-verdict="APPLIES" data-harm="Nuclear &amp; WMD" data-region="Other" data-month="2026-04" data-org="Civil Society">
           <td style="white-space:nowrap;font-variant-numeric:tabular-nums;">2026-04-17</td>
           <td style="text-align:center;color:#999;font-variant-numeric:tabular-nums;">20</td>
           <td><span style="display:inline-block;background:#555;color:#eee;font-size:11px;font-weight:700;letter-spacing:.05em;text-transform:uppercase;padding:3px 9px;border-radius:3px;white-space:nowrap;">APPLIES</span></td>
@@ -374,13 +280,14 @@
           <td><span style="background:#ede8db;color:#5a5040;font-size:11px;font-weight:600;padding:2px 8px;border-radius:3px;white-space:nowrap;">Nuclear &amp; WMD</span></td>
           <td style="white-space:nowrap;">Thu, 02 Apr 2026</td>
           <td style="white-space:nowrap;">Other</td>
+          <td style="white-space:nowrap;">Civil Society</td>
           <td>TBC</td>
           <td>Deeplinks</td>
           <td style="font-size:13px;max-width:260px;">This is the first post in a series on 3D print blocking, for the next entry check out Print Blocking Won&#x27;t Work - Permission to Print Part 2 When legislators give companies an excuse to write…</td>
           <td><a href="https://www.eff.org/deeplinks/2026/04/print-blocking-anti-consumer-permission-print-part-1" target="_blank" rel="noopener"
                style="color:#7a3c0f;font-weight:600;white-space:nowrap;text-decoration:none;">Source ↗</a></td>
         </tr>
-        <tr data-verdict="APPLIES" data-harm="Multilateral" data-region="Other" data-month="">
+        <tr data-verdict="APPLIES" data-harm="Multilateral" data-region="Other" data-month="" data-org="Industry / Other">
           <td style="white-space:nowrap;font-variant-numeric:tabular-nums;">2026-04-17</td>
           <td style="text-align:center;color:#999;font-variant-numeric:tabular-nums;">19</td>
           <td><span style="display:inline-block;background:#555;color:#eee;font-size:11px;font-weight:700;letter-spacing:.05em;text-transform:uppercase;padding:3px 9px;border-radius:3px;white-space:nowrap;">APPLIES</span></td>
@@ -388,13 +295,14 @@
           <td><span style="background:#ede8db;color:#5a5040;font-size:11px;font-weight:600;padding:2px 8px;border-radius:3px;white-space:nowrap;">Multilateral</span></td>
           <td style="white-space:nowrap;">Event</td>
           <td style="white-space:nowrap;">Other</td>
+          <td style="white-space:nowrap;">Industry / Other</td>
           <td>Where</td>
           <td>TBC</td>
           <td style="font-size:13px;max-width:260px;">RETRAI - 2026</td>
           <td><a href="http://www.wikicfp.com/cfp/servlet/event.showcfp?eventid=192629&amp;copyownerid=197417" target="_blank" rel="noopener"
                style="color:#7a3c0f;font-weight:600;white-space:nowrap;text-decoration:none;">Source ↗</a></td>
         </tr>
-        <tr data-verdict="APPLIES" data-harm="Privacy &amp; Surveillance" data-region="Other" data-month="2026-04">
+        <tr data-verdict="APPLIES" data-harm="Privacy &amp; Surveillance" data-region="Other" data-month="2026-04" data-org="Civil Society">
           <td style="white-space:nowrap;font-variant-numeric:tabular-nums;">2026-04-17</td>
           <td style="text-align:center;color:#999;font-variant-numeric:tabular-nums;">18</td>
           <td><span style="display:inline-block;background:#555;color:#eee;font-size:11px;font-weight:700;letter-spacing:.05em;text-transform:uppercase;padding:3px 9px;border-radius:3px;white-space:nowrap;">APPLIES</span></td>
@@ -402,13 +310,14 @@
           <td><span style="background:#ede8db;color:#5a5040;font-size:11px;font-weight:600;padding:2px 8px;border-radius:3px;white-space:nowrap;">Privacy &amp; Surveillance</span></td>
           <td style="white-space:nowrap;">Thu, 02 Apr 2026</td>
           <td style="white-space:nowrap;">Other</td>
+          <td style="white-space:nowrap;">Civil Society</td>
           <td>TBC</td>
           <td>Deeplinks</td>
           <td style="font-size:13px;max-width:260px;">Recently, a California Superior Court jury found that Meta and YouTube harmed a user through some of the features they offered. And a New Mexico jury concluded that Meta deceived young users into…</td>
           <td><a href="https://www.eff.org/deeplinks/2026/04/dont-weaken-speech-protections-just-punish-meta" target="_blank" rel="noopener"
                style="color:#7a3c0f;font-weight:600;white-space:nowrap;text-decoration:none;">Source ↗</a></td>
         </tr>
-        <tr data-verdict="APPLIES" data-harm="Cybersecurity" data-region="Other" data-month="2026-04">
+        <tr data-verdict="APPLIES" data-harm="Cybersecurity" data-region="Other" data-month="2026-04" data-org="Industry / Other">
           <td style="white-space:nowrap;font-variant-numeric:tabular-nums;">2026-04-17</td>
           <td style="text-align:center;color:#999;font-variant-numeric:tabular-nums;">17</td>
           <td><span style="display:inline-block;background:#555;color:#eee;font-size:11px;font-weight:700;letter-spacing:.05em;text-transform:uppercase;padding:3px 9px;border-radius:3px;white-space:nowrap;">APPLIES</span></td>
@@ -416,13 +325,14 @@
           <td><span style="background:#ede8db;color:#5a5040;font-size:11px;font-weight:600;padding:2px 8px;border-radius:3px;white-space:nowrap;">Cybersecurity</span></td>
           <td style="white-space:nowrap;">Fri, 17 Apr 2026</td>
           <td style="white-space:nowrap;">Other</td>
+          <td style="white-space:nowrap;">Industry / Other</td>
           <td>TBC</td>
           <td>cs.CR updates on arXiv.org</td>
           <td style="font-size:13px;max-width:260px;">arXiv:2604.14957v1 Announce Type: cross Abstract: Network security is a critical concern in the digital landscape of today, with users demanding secure browsing experiences and protection of their…</td>
           <td><a href="https://arxiv.org/abs/2604.14957" target="_blank" rel="noopener"
                style="color:#7a3c0f;font-weight:600;white-space:nowrap;text-decoration:none;">Source ↗</a></td>
         </tr>
-        <tr data-verdict="APPLIES" data-harm="EU Governance" data-region="Other" data-month="2026-04">
+        <tr data-verdict="APPLIES" data-harm="EU Governance" data-region="Other" data-month="2026-04" data-org="Industry / Other">
           <td style="white-space:nowrap;font-variant-numeric:tabular-nums;">2026-04-17</td>
           <td style="text-align:center;color:#999;font-variant-numeric:tabular-nums;">16</td>
           <td><span style="display:inline-block;background:#555;color:#eee;font-size:11px;font-weight:700;letter-spacing:.05em;text-transform:uppercase;padding:3px 9px;border-radius:3px;white-space:nowrap;">APPLIES</span></td>
@@ -430,13 +340,14 @@
           <td><span style="background:#ede8db;color:#5a5040;font-size:11px;font-weight:600;padding:2px 8px;border-radius:3px;white-space:nowrap;">EU Governance</span></td>
           <td style="white-space:nowrap;">Fri, 17 Apr 2026</td>
           <td style="white-space:nowrap;">Other</td>
+          <td style="white-space:nowrap;">Industry / Other</td>
           <td>TBC</td>
           <td>cs.CY updates on arXiv.org</td>
           <td style="font-size:13px;max-width:260px;">arXiv:2604.14898v1 Announce Type: cross Abstract: Large language models have advanced rapidly, from pattern recognition to emerging forms of reasoning, yet they remain confined to linguistic…</td>
           <td><a href="https://arxiv.org/abs/2604.14898" target="_blank" rel="noopener"
                style="color:#7a3c0f;font-weight:600;white-space:nowrap;text-decoration:none;">Source ↗</a></td>
         </tr>
-        <tr data-verdict="APPLIES" data-harm="Privacy &amp; Surveillance" data-region="Other" data-month="2026-04">
+        <tr data-verdict="APPLIES" data-harm="Privacy &amp; Surveillance" data-region="Other" data-month="2026-04" data-org="Civil Society">
           <td style="white-space:nowrap;font-variant-numeric:tabular-nums;">2026-04-17</td>
           <td style="text-align:center;color:#999;font-variant-numeric:tabular-nums;">15</td>
           <td><span style="display:inline-block;background:#555;color:#eee;font-size:11px;font-weight:700;letter-spacing:.05em;text-transform:uppercase;padding:3px 9px;border-radius:3px;white-space:nowrap;">APPLIES</span></td>
@@ -444,13 +355,14 @@
           <td><span style="background:#ede8db;color:#5a5040;font-size:11px;font-weight:600;padding:2px 8px;border-radius:3px;white-space:nowrap;">Privacy &amp; Surveillance</span></td>
           <td style="white-space:nowrap;">Fri, 03 Apr 2026</td>
           <td style="white-space:nowrap;">Other</td>
+          <td style="white-space:nowrap;">Civil Society</td>
           <td>TBC</td>
           <td>Deeplinks</td>
           <td style="font-size:13px;max-width:260px;">While the very public fight continues between the Department of Defense and Anthropic over whether the government can punish a company for refusing to allow its technology to be used for mass…</td>
           <td><a href="https://www.eff.org/deeplinks/2026/04/tech-nonprofits-feds-dont-weaponize-procurement-undermine-ai-trust-and-safety" target="_blank" rel="noopener"
                style="color:#7a3c0f;font-weight:600;white-space:nowrap;text-decoration:none;">Source ↗</a></td>
         </tr>
-        <tr data-verdict="APPLIES" data-harm="Privacy &amp; Surveillance" data-region="Other" data-month="2026-04">
+        <tr data-verdict="APPLIES" data-harm="Privacy &amp; Surveillance" data-region="Other" data-month="2026-04" data-org="Civil Society">
           <td style="white-space:nowrap;font-variant-numeric:tabular-nums;">2026-04-17</td>
           <td style="text-align:center;color:#999;font-variant-numeric:tabular-nums;">14</td>
           <td><span style="display:inline-block;background:#555;color:#eee;font-size:11px;font-weight:700;letter-spacing:.05em;text-transform:uppercase;padding:3px 9px;border-radius:3px;white-space:nowrap;">APPLIES</span></td>
@@ -458,13 +370,14 @@
           <td><span style="background:#ede8db;color:#5a5040;font-size:11px;font-weight:600;padding:2px 8px;border-radius:3px;white-space:nowrap;">Privacy &amp; Surveillance</span></td>
           <td style="white-space:nowrap;">Tue, 14 Apr 2026</td>
           <td style="white-space:nowrap;">Other</td>
+          <td style="white-space:nowrap;">Civil Society</td>
           <td>TBC</td>
           <td>Deeplinks</td>
           <td style="font-size:13px;max-width:260px;">In September 2024, Amandla Thomas-Johnson was a Ph.D. candidate studying in the U.S. on a student visa when he briefly attended a pro-Palestinian protest. In April 2025, Immigration and Customs…</td>
           <td><a href="https://www.eff.org/deeplinks/2026/04/google-broke-its-promise-me-now-ice-has-my-data" target="_blank" rel="noopener"
                style="color:#7a3c0f;font-weight:600;white-space:nowrap;text-decoration:none;">Source ↗</a></td>
         </tr>
-        <tr data-verdict="APPLIES" data-harm="Cybersecurity" data-region="Other" data-month="2026-04">
+        <tr data-verdict="APPLIES" data-harm="Cybersecurity" data-region="Other" data-month="2026-04" data-org="Civil Society">
           <td style="white-space:nowrap;font-variant-numeric:tabular-nums;">2026-04-17</td>
           <td style="text-align:center;color:#999;font-variant-numeric:tabular-nums;">13</td>
           <td><span style="display:inline-block;background:#555;color:#eee;font-size:11px;font-weight:700;letter-spacing:.05em;text-transform:uppercase;padding:3px 9px;border-radius:3px;white-space:nowrap;">APPLIES</span></td>
@@ -472,13 +385,14 @@
           <td><span style="background:#ede8db;color:#5a5040;font-size:11px;font-weight:600;padding:2px 8px;border-radius:3px;white-space:nowrap;">Cybersecurity</span></td>
           <td style="white-space:nowrap;">Thu, 02 Apr 2026</td>
           <td style="white-space:nowrap;">Other</td>
+          <td style="white-space:nowrap;">Civil Society</td>
           <td>TBC</td>
           <td>Deeplinks</td>
           <td style="font-size:13px;max-width:260px;">This is the second post in a series on 3D print blocking, for the first entry check out: Print Blocking is Anti-Consumer - Permission to Print Part 1 Legislators across the U.S. are proposing laws to…</td>
           <td><a href="https://www.eff.org/deeplinks/2026/04/print-blocking-wont-work-permission-print-part-2" target="_blank" rel="noopener"
                style="color:#7a3c0f;font-weight:600;white-space:nowrap;text-decoration:none;">Source ↗</a></td>
         </tr>
-        <tr data-verdict="APPLIES" data-harm="EU Governance" data-region="Other" data-month="2026-04">
+        <tr data-verdict="APPLIES" data-harm="EU Governance" data-region="Other" data-month="2026-04" data-org="Civil Society">
           <td style="white-space:nowrap;font-variant-numeric:tabular-nums;">2026-04-17</td>
           <td style="text-align:center;color:#999;font-variant-numeric:tabular-nums;">12</td>
           <td><span style="display:inline-block;background:#555;color:#eee;font-size:11px;font-weight:700;letter-spacing:.05em;text-transform:uppercase;padding:3px 9px;border-radius:3px;white-space:nowrap;">APPLIES</span></td>
@@ -486,13 +400,14 @@
           <td><span style="background:#ede8db;color:#5a5040;font-size:11px;font-weight:600;padding:2px 8px;border-radius:3px;white-space:nowrap;">EU Governance</span></td>
           <td style="white-space:nowrap;">Tue, 07 Apr 2026</td>
           <td style="white-space:nowrap;">Other</td>
+          <td style="white-space:nowrap;">Civil Society</td>
           <td>TBC</td>
           <td>Deeplinks</td>
           <td style="font-size:13px;max-width:260px;">The EU’s so-called Chat Control plan , which would mandate mass scanning and other encryption breaking measures, has had some good news lately . The most controversial idea, the forced requirement to…</td>
           <td><a href="https://www.eff.org/deeplinks/2026/04/eu-parliament-blocks-mass-scanning-our-chats-whats-next" target="_blank" rel="noopener"
                style="color:#7a3c0f;font-weight:600;white-space:nowrap;text-decoration:none;">Source ↗</a></td>
         </tr>
-        <tr data-verdict="APPLIES" data-harm="Cybersecurity" data-region="Other" data-month="2026-04">
+        <tr data-verdict="APPLIES" data-harm="Cybersecurity" data-region="Other" data-month="2026-04" data-org="Civil Society">
           <td style="white-space:nowrap;font-variant-numeric:tabular-nums;">2026-04-17</td>
           <td style="text-align:center;color:#999;font-variant-numeric:tabular-nums;">11</td>
           <td><span style="display:inline-block;background:#555;color:#eee;font-size:11px;font-weight:700;letter-spacing:.05em;text-transform:uppercase;padding:3px 9px;border-radius:3px;white-space:nowrap;">APPLIES</span></td>
@@ -500,13 +415,14 @@
           <td><span style="background:#ede8db;color:#5a5040;font-size:11px;font-weight:600;padding:2px 8px;border-radius:3px;white-space:nowrap;">Cybersecurity</span></td>
           <td style="white-space:nowrap;">Wed, 08 Apr 2026</td>
           <td style="white-space:nowrap;">Other</td>
+          <td style="white-space:nowrap;">Civil Society</td>
           <td>TBC</td>
           <td>Deeplinks</td>
           <td style="font-size:13px;max-width:260px;">On March 23, the FCC issued an update to their Covered List, a list of equipment banned from obtaining regulatory approval necessary for U.S. sale (and thus effectively a ban on sale of new devices),…</td>
           <td><a href="https://www.eff.org/deeplinks/2026/04/banning-new-foreign-routers-mistargets-products-fix-real-problem" target="_blank" rel="noopener"
                style="color:#7a3c0f;font-weight:600;white-space:nowrap;text-decoration:none;">Source ↗</a></td>
         </tr>
-        <tr data-verdict="APPLIES" data-harm="Multilateral" data-region="Other" data-month="2026-04">
+        <tr data-verdict="APPLIES" data-harm="Multilateral" data-region="Other" data-month="2026-04" data-org="Civil Society">
           <td style="white-space:nowrap;font-variant-numeric:tabular-nums;">2026-04-17</td>
           <td style="text-align:center;color:#999;font-variant-numeric:tabular-nums;">10</td>
           <td><span style="display:inline-block;background:#555;color:#eee;font-size:11px;font-weight:700;letter-spacing:.05em;text-transform:uppercase;padding:3px 9px;border-radius:3px;white-space:nowrap;">APPLIES</span></td>
@@ -514,13 +430,14 @@
           <td><span style="background:#ede8db;color:#5a5040;font-size:11px;font-weight:600;padding:2px 8px;border-radius:3px;white-space:nowrap;">Multilateral</span></td>
           <td style="white-space:nowrap;">Mon, 13 Apr 2026</td>
           <td style="white-space:nowrap;">Other</td>
+          <td style="white-space:nowrap;">Civil Society</td>
           <td>TBC</td>
           <td>Deeplinks</td>
           <td style="font-size:13px;max-width:260px;">War does not only reshape borders. It also reshapes what can be seen, said, and remembered. When governments invoke “misinformation” during wartime, they often mean something simpler: speech they do…</td>
           <td><a href="https://www.eff.org/deeplinks/2026/04/war-pretext-gulf-states-are-tightening-screws-speech-again" target="_blank" rel="noopener"
                style="color:#7a3c0f;font-weight:600;white-space:nowrap;text-decoration:none;">Source ↗</a></td>
         </tr>
-        <tr data-verdict="APPLIES" data-harm="Cybersecurity" data-region="Other" data-month="2026-04">
+        <tr data-verdict="APPLIES" data-harm="Cybersecurity" data-region="Other" data-month="2026-04" data-org="Industry / Other">
           <td style="white-space:nowrap;font-variant-numeric:tabular-nums;">2026-04-17</td>
           <td style="text-align:center;color:#999;font-variant-numeric:tabular-nums;">9</td>
           <td><span style="display:inline-block;background:#555;color:#eee;font-size:11px;font-weight:700;letter-spacing:.05em;text-transform:uppercase;padding:3px 9px;border-radius:3px;white-space:nowrap;">APPLIES</span></td>
@@ -528,13 +445,14 @@
           <td><span style="background:#ede8db;color:#5a5040;font-size:11px;font-weight:600;padding:2px 8px;border-radius:3px;white-space:nowrap;">Cybersecurity</span></td>
           <td style="white-space:nowrap;">Fri, 17 Apr 2026</td>
           <td style="white-space:nowrap;">Other</td>
+          <td style="white-space:nowrap;">Industry / Other</td>
           <td>TBC</td>
           <td>cs.CR updates on arXiv.org</td>
           <td style="font-size:13px;max-width:260px;">arXiv:2604.14444v1 Announce Type: new Abstract: Ensuring the reliability of machine learning-based intrusion detection systems remains a critical challenge in Internet of Things (IoT) environments,…</td>
           <td><a href="https://arxiv.org/abs/2604.14444" target="_blank" rel="noopener"
                style="color:#7a3c0f;font-weight:600;white-space:nowrap;text-decoration:none;">Source ↗</a></td>
         </tr>
-        <tr data-verdict="APPLIES" data-harm="Privacy &amp; Surveillance" data-region="Other" data-month="2026-04">
+        <tr data-verdict="APPLIES" data-harm="Privacy &amp; Surveillance" data-region="Other" data-month="2026-04" data-org="Civil Society">
           <td style="white-space:nowrap;font-variant-numeric:tabular-nums;">2026-04-17</td>
           <td style="text-align:center;color:#999;font-variant-numeric:tabular-nums;">8</td>
           <td><span style="display:inline-block;background:#555;color:#eee;font-size:11px;font-weight:700;letter-spacing:.05em;text-transform:uppercase;padding:3px 9px;border-radius:3px;white-space:nowrap;">APPLIES</span></td>
@@ -542,13 +460,14 @@
           <td><span style="background:#ede8db;color:#5a5040;font-size:11px;font-weight:600;padding:2px 8px;border-radius:3px;white-space:nowrap;">Privacy &amp; Surveillance</span></td>
           <td style="white-space:nowrap;">Mon, 13 Apr 2026</td>
           <td style="white-space:nowrap;">Other</td>
+          <td style="white-space:nowrap;">Civil Society</td>
           <td>TBC</td>
           <td>Deeplinks</td>
           <td style="font-size:13px;max-width:260px;">California’s bill, A.B. 2047 , will not only mandate censorware — software which exists to bluntly block your speech as a user — on all 3D printers; it will also criminalize the use of open-source…</td>
           <td><a href="https://www.eff.org/deeplinks/2026/04/dangers-californias-legislation-censor-3d-printing" target="_blank" rel="noopener"
                style="color:#7a3c0f;font-weight:600;white-space:nowrap;text-decoration:none;">Source ↗</a></td>
         </tr>
-        <tr data-verdict="DIRECTLY APPLIES" data-harm="EU Governance" data-region="Other" data-month="2026-04">
+        <tr data-verdict="DIRECTLY APPLIES" data-harm="EU Governance" data-region="Other" data-month="2026-04" data-org="Industry / Other">
           <td style="white-space:nowrap;font-variant-numeric:tabular-nums;">2026-04-17</td>
           <td style="text-align:center;color:#999;font-variant-numeric:tabular-nums;">7</td>
           <td><span style="display:inline-block;background:#555;color:#eee;font-size:11px;font-weight:700;letter-spacing:.05em;text-transform:uppercase;padding:3px 9px;border-radius:3px;white-space:nowrap;">DIRECTLY APPLIES</span></td>
@@ -556,13 +475,14 @@
           <td><span style="background:#ede8db;color:#5a5040;font-size:11px;font-weight:600;padding:2px 8px;border-radius:3px;white-space:nowrap;">EU Governance</span></td>
           <td style="white-space:nowrap;">Fri, 17 Apr 2026</td>
           <td style="white-space:nowrap;">Other</td>
+          <td style="white-space:nowrap;">Industry / Other</td>
           <td>TBC</td>
           <td>cs.CY updates on arXiv.org</td>
           <td style="font-size:13px;max-width:260px;">arXiv:2604.14881v1 Announce Type: cross Abstract: Large language models are increasingly integrated into decision-making in areas such as healthcare, law, finance, engineering, and government. Yet…</td>
           <td><a href="https://arxiv.org/abs/2604.14881" target="_blank" rel="noopener"
                style="color:#7a3c0f;font-weight:600;white-space:nowrap;text-decoration:none;">Source ↗</a></td>
         </tr>
-        <tr data-verdict="DIRECTLY APPLIES" data-harm="Election Integrity" data-region="Other" data-month="2026-04">
+        <tr data-verdict="DIRECTLY APPLIES" data-harm="Election Integrity" data-region="Other" data-month="2026-04" data-org="Civil Society">
           <td style="white-space:nowrap;font-variant-numeric:tabular-nums;">2026-04-17</td>
           <td style="text-align:center;color:#999;font-variant-numeric:tabular-nums;">6</td>
           <td><span style="display:inline-block;background:#555;color:#eee;font-size:11px;font-weight:700;letter-spacing:.05em;text-transform:uppercase;padding:3px 9px;border-radius:3px;white-space:nowrap;">DIRECTLY APPLIES</span></td>
@@ -570,13 +490,14 @@
           <td><span style="background:#ede8db;color:#5a5040;font-size:11px;font-weight:600;padding:2px 8px;border-radius:3px;white-space:nowrap;">Election Integrity</span></td>
           <td style="white-space:nowrap;">Wed, 15 Apr 2026</td>
           <td style="white-space:nowrap;">Other</td>
+          <td style="white-space:nowrap;">Civil Society</td>
           <td>TBC</td>
           <td>Deeplinks</td>
           <td style="font-size:13px;max-width:260px;">This is the fourth installment of a blog series reflecting on the global digital legacy of the 2011 Arab uprisings. You can read the rest of the series here . Iran’s internet has been intermittently…</td>
           <td><a href="https://www.eff.org/deeplinks/2026/04/digital-hopes-real-power-rise-network-shutdowns" target="_blank" rel="noopener"
                style="color:#7a3c0f;font-weight:600;white-space:nowrap;text-decoration:none;">Source ↗</a></td>
         </tr>
-        <tr data-verdict="DIRECTLY APPLIES" data-harm="Privacy &amp; Surveillance" data-region="Other" data-month="2026-04">
+        <tr data-verdict="DIRECTLY APPLIES" data-harm="Privacy &amp; Surveillance" data-region="Other" data-month="2026-04" data-org="Civil Society">
           <td style="white-space:nowrap;font-variant-numeric:tabular-nums;">2026-04-17</td>
           <td style="text-align:center;color:#999;font-variant-numeric:tabular-nums;">5</td>
           <td><span style="display:inline-block;background:#555;color:#eee;font-size:11px;font-weight:700;letter-spacing:.05em;text-transform:uppercase;padding:3px 9px;border-radius:3px;white-space:nowrap;">DIRECTLY APPLIES</span></td>
@@ -584,13 +505,14 @@
           <td><span style="background:#ede8db;color:#5a5040;font-size:11px;font-weight:600;padding:2px 8px;border-radius:3px;white-space:nowrap;">Privacy &amp; Surveillance</span></td>
           <td style="white-space:nowrap;">Thu, 16 Apr 2026</td>
           <td style="white-space:nowrap;">Other</td>
+          <td style="white-space:nowrap;">Civil Society</td>
           <td>TBC</td>
           <td>Deeplinks</td>
           <td style="font-size:13px;max-width:260px;">New York&#x27;s proposed 2026-2027 budget currently includes provisions that will require all 3D printers sold in the state to run print-blocking censorware —software that surveils every print for…</td>
           <td><a href="https://www.eff.org/deeplinks/2026/04/stop-new-yorks-attack-3d-printing" target="_blank" rel="noopener"
                style="color:#7a3c0f;font-weight:600;white-space:nowrap;text-decoration:none;">Source ↗</a></td>
         </tr>
-        <tr data-verdict="DIRECTLY APPLIES" data-harm="Cybersecurity" data-region="Other" data-month="2026-04">
+        <tr data-verdict="DIRECTLY APPLIES" data-harm="Cybersecurity" data-region="Other" data-month="2026-04" data-org="Civil Society">
           <td style="white-space:nowrap;font-variant-numeric:tabular-nums;">2026-04-17</td>
           <td style="text-align:center;color:#999;font-variant-numeric:tabular-nums;">4</td>
           <td><span style="display:inline-block;background:#555;color:#eee;font-size:11px;font-weight:700;letter-spacing:.05em;text-transform:uppercase;padding:3px 9px;border-radius:3px;white-space:nowrap;">DIRECTLY APPLIES</span></td>
@@ -598,13 +520,14 @@
           <td><span style="background:#ede8db;color:#5a5040;font-size:11px;font-weight:600;padding:2px 8px;border-radius:3px;white-space:nowrap;">Cybersecurity</span></td>
           <td style="white-space:nowrap;">Mon, 13 Apr 2026</td>
           <td style="white-space:nowrap;">Other</td>
+          <td style="white-space:nowrap;">Civil Society</td>
           <td>TBC</td>
           <td>Deeplinks</td>
           <td style="font-size:13px;max-width:260px;">Dr. Jean Linis-Dinco is an activist-researcher working at the intersection of human rights and technology. Born in the Philippines and shaped by firsthand experience with inequality and state…</td>
           <td><a href="https://www.eff.org/deeplinks/2026/04/speaking-freely-dr-jean-linis-dinco" target="_blank" rel="noopener"
                style="color:#7a3c0f;font-weight:600;white-space:nowrap;text-decoration:none;">Source ↗</a></td>
         </tr>
-        <tr data-verdict="DIRECTLY APPLIES" data-harm="Privacy &amp; Surveillance" data-region="Other" data-month="2026-04">
+        <tr data-verdict="DIRECTLY APPLIES" data-harm="Privacy &amp; Surveillance" data-region="Other" data-month="2026-04" data-org="Civil Society">
           <td style="white-space:nowrap;font-variant-numeric:tabular-nums;">2026-04-17</td>
           <td style="text-align:center;color:#999;font-variant-numeric:tabular-nums;">3</td>
           <td><span style="display:inline-block;background:#555;color:#eee;font-size:11px;font-weight:700;letter-spacing:.05em;text-transform:uppercase;padding:3px 9px;border-radius:3px;white-space:nowrap;">DIRECTLY APPLIES</span></td>
@@ -612,13 +535,14 @@
           <td><span style="background:#ede8db;color:#5a5040;font-size:11px;font-weight:600;padding:2px 8px;border-radius:3px;white-space:nowrap;">Privacy &amp; Surveillance</span></td>
           <td style="white-space:nowrap;">Thu, 02 Apr 2026</td>
           <td style="white-space:nowrap;">Other</td>
+          <td style="white-space:nowrap;">Civil Society</td>
           <td>TBC</td>
           <td>Deeplinks</td>
           <td style="font-size:13px;max-width:260px;">In late 2024, we urged Google and Amazon to honor their human rights commitments, to be more transparent with the public, and to take meaningful action to address the risks posed by Project Nimbus,…</td>
           <td><a href="https://www.eff.org/deeplinks/2026/04/google-and-amazon-acknowledged-risks-and-ignored-responsibilities" target="_blank" rel="noopener"
                style="color:#7a3c0f;font-weight:600;white-space:nowrap;text-decoration:none;">Source ↗</a></td>
         </tr>
-        <tr data-verdict="DIRECTLY APPLIES" data-harm="Privacy &amp; Surveillance" data-region="Other" data-month="2026-04">
+        <tr data-verdict="DIRECTLY APPLIES" data-harm="Privacy &amp; Surveillance" data-region="Other" data-month="2026-04" data-org="Civil Society">
           <td style="white-space:nowrap;font-variant-numeric:tabular-nums;">2026-04-17</td>
           <td style="text-align:center;color:#999;font-variant-numeric:tabular-nums;">2</td>
           <td><span style="display:inline-block;background:#555;color:#eee;font-size:11px;font-weight:700;letter-spacing:.05em;text-transform:uppercase;padding:3px 9px;border-radius:3px;white-space:nowrap;">DIRECTLY APPLIES</span></td>
@@ -626,13 +550,14 @@
           <td><span style="background:#ede8db;color:#5a5040;font-size:11px;font-weight:600;padding:2px 8px;border-radius:3px;white-space:nowrap;">Privacy &amp; Surveillance</span></td>
           <td style="white-space:nowrap;">Thu, 02 Apr 2026</td>
           <td style="white-space:nowrap;">Other</td>
+          <td style="white-space:nowrap;">Civil Society</td>
           <td>TBC</td>
           <td>Deeplinks</td>
           <td style="font-size:13px;max-width:260px;">Governments around the world are adopting new laws and policies aimed at addressing online harms, including laws intended to curb cybercrime and disinformation, and ostensibly protect user safety.…</td>
           <td><a href="https://www.eff.org/deeplinks/2026/04/effs-submission-un-ohchr-protection-human-rights-defenders-digital-age" target="_blank" rel="noopener"
                style="color:#7a3c0f;font-weight:600;white-space:nowrap;text-decoration:none;">Source ↗</a></td>
         </tr>
-        <tr data-verdict="DIRECTLY APPLIES" data-harm="Multilateral" data-region="Other" data-month="2026-04">
+        <tr data-verdict="DIRECTLY APPLIES" data-harm="Multilateral" data-region="Other" data-month="2026-04" data-org="Civil Society">
           <td style="white-space:nowrap;font-variant-numeric:tabular-nums;">2026-04-17</td>
           <td style="text-align:center;color:#999;font-variant-numeric:tabular-nums;">1</td>
           <td><span style="display:inline-block;background:#555;color:#eee;font-size:11px;font-weight:700;letter-spacing:.05em;text-transform:uppercase;padding:3px 9px;border-radius:3px;white-space:nowrap;">DIRECTLY APPLIES</span></td>
@@ -640,6 +565,7 @@
           <td><span style="background:#ede8db;color:#5a5040;font-size:11px;font-weight:600;padding:2px 8px;border-radius:3px;white-space:nowrap;">Multilateral</span></td>
           <td style="white-space:nowrap;">Wed, 08 Apr 2026</td>
           <td style="white-space:nowrap;">Other</td>
+          <td style="white-space:nowrap;">Civil Society</td>
           <td>TBC</td>
           <td>Deeplinks</td>
           <td style="font-size:13px;max-width:260px;">This is the third installment of a blog series reflecting on the global digital legacy of the 2011 Arab uprisings. You can read the first post here , and the second here . When people recall the 2011…</td>
@@ -657,6 +583,7 @@
       const harm    = document.getElementById('f-harm').value;
       const region  = document.getElementById('f-region').value;
       const month   = document.getElementById('f-month').value;
+      const org     = document.getElementById('f-org').value;
       const search  = document.getElementById('f-search').value.toLowerCase();
       let visible = 0;
       document.querySelectorAll('#tracker-table tbody tr').forEach(row => {
@@ -665,6 +592,7 @@
                   && (!harm    || d.harm    === harm)
                   && (!region  || d.region  === region)
                   && (!month   || d.month   === month)
+                  && (!org     || d.org     === org)
                   && (!search  || row.textContent.toLowerCase().includes(search));
         row.classList.toggle('hidden', !show);
         if (show) visible++;
