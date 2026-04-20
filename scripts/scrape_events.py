@@ -239,9 +239,9 @@ def tag_event(text: str) -> str:
 
 
 def classify_verdict(score: float) -> str:
-    if score >= 0.55:
-        return "Attend"
     if score >= 0.30:
+        return "Attend"
+    if score >= 0.15:
         return "Monitor"
     return "Ignore"
 

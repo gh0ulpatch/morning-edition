@@ -75,11 +75,11 @@ Morning Edition · AI harm · safety · security · policy\
 
 def build_conference_list(events: list[dict]) -> str:
     lines = []
-    for i, c in enumerate(events[:10], start=1):
+    for c in events[:10]:
         verdict = c.get("applies", "")
         tag     = c.get("tag", "")
         lines.append(
-            f"{i:02d}. {c['title']}\n"
+            f"{c['title']}\n"
             f"{verdict} · {tag}\n"
             f"{c['date']} · {c['location']} · {c['host']}\n"
             f"\n"
