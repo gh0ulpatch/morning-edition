@@ -418,6 +418,10 @@ def _parse_feed(raw: bytes, feed_url: str) -> list[tuple[str, str, str, str]]:
             summary = re.sub(r"<[^>]+>", " ", summary)
             published = (item.findtext("pubDate") or item.findtext("published") or "TBC").strip()
             if title:
+                # Strip arXiv boilerplate prefix before storing
+                summary = re.sub(
+                    r'^arXiv:\S+\s+Announce\s+Type:\s+\w+\s+Abstract:\s*',
+                    '', summary, flags=re.IGNORECASE).strip()
                 entries.append((title, link, summary, published[:16]))
 
     return entries[:30]
@@ -463,6 +467,9 @@ def _is_event_like(title: str, summary: str, feed_url: str) -> bool:
         return True
     text = f"{title} {summary}".lower()
     return any(term in text for term in _EVENT_TERMS)
+
+
+def scrape_rss_feeds() -> list[dict]:
     results: list[dict] = []
     seen_urls: set[str] = set()
 
@@ -663,6 +670,100 @@ def deduplicate(events: list[dict]) -> list[dict]:
 
 
 # ──────────────────────────────────────────────────────────────────────────────
+# AI ENRICHMENT
+# ──────────────────────────────────────────────────────────────────────────────
+
+_BOILERPLATE_WHY = re.compile(
+    r'^(arXiv:|Sourced (via|from)\s)',
+    re.IGNORECASE,
+)
+_BOILERPLATE_WATCH = re.compile(
+    r'^Sourced (via|from)\s+.*?—\s*(verify dates|check agenda)',
+    re.IGNORECASE,
+)
+
+
+def _needs_enrichment(ev: dict) -> bool:
+    return bool(
+        _BOILERPLATE_WHY.match(ev.get("why", ""))
+        or _BOILERPLATE_WATCH.match(ev.get("watch", ""))
+    )
+
+
+def _enrich_with_ai(events: list[dict]) -> list[dict]:
+    """Replace boilerplate why/watch fields with AI editorial summaries."""
+    import os
+    try:
+        import anthropic
+    except ImportError:
+        print("[enrich] skipped — anthropic package not installed")
+        return events
+
+    api_key = os.environ.get("ANTHROPIC_API_KEY")
+    if not api_key:
+        print("[enrich] skipped — ANTHROPIC_API_KEY not set")
+        return events
+
+    to_enrich = [(i, ev) for i, ev in enumerate(events) if _needs_enrichment(ev)]
+    if not to_enrich:
+        print("[enrich] no events need enrichment")
+        return events
+
+    print(f"[enrich] enriching {len(to_enrich)} events with AI summaries…")
+
+    items_text = "\n\n".join(
+        f"EVENT {idx + 1}:\nTitle: {ev['title']}\nRaw summary: {ev['why']}\n"
+        f"Source: {ev['source']}\nTag: {ev['tag']}"
+        for idx, (_, ev) in enumerate(to_enrich)
+    )
+
+    system_prompt = (
+        "You are an editorial analyst for Morning Edition, a daily briefing on AI harm, "
+        "safety, security, and governance read by senior UK government officials and policy "
+        "analysts. For each event, write:\n"
+        "1. \"why\": 1-2 sentences explaining why this matters for AI harm/safety/governance "
+        "professionals. Be concrete about the risk or policy angle. No jargon.\n"
+        "2. \"watch\": 1 sentence with a specific action or caveat — what to verify, monitor, "
+        "or follow up on. Start with an action verb.\n\n"
+        "Respond with a JSON array ONLY — no prose, no markdown fences. "
+        "Each element: {\"why\": \"...\", \"watch\": \"...\"}. "
+        "Array length must equal the number of EVENT blocks."
+    )
+
+    try:
+        import anthropic as _anthropic
+        client = _anthropic.Anthropic(api_key=api_key)
+        response = client.messages.create(
+            model="claude-haiku-4-5",
+            max_tokens=2048,
+            system=[{
+                "type": "text",
+                "text": system_prompt,
+                "cache_control": {"type": "ephemeral"},
+            }],
+            messages=[{"role": "user", "content": items_text}],
+        )
+        raw = response.content[0].text.strip()
+        raw = re.sub(r"^```(?:json)?\s*", "", raw)
+        raw = re.sub(r"\s*```$", "", raw)
+        enriched = json.loads(raw)
+
+        result = list(events)
+        for idx, (orig_i, _) in enumerate(to_enrich):
+            if idx < len(enriched):
+                result[orig_i] = dict(result[orig_i])
+                result[orig_i]["why"] = enriched[idx].get("why", result[orig_i]["why"])
+                result[orig_i]["watch"] = enriched[idx].get("watch", result[orig_i]["watch"])
+
+        print(f"[enrich] enriched {len(enriched)} events")
+        return result
+
+    except Exception as exc:
+        print(f"[enrich] AI enrichment failed — keeping originals: {exc}")
+        return events
+
+
+# ──────────────────────────────────────────────────────────────────────────────
 # MAIN
 # ──────────────────────────────────────────────────────────────────────────────
 
@@ -672,7 +773,6 @@ def main() -> None:
     all_events: list[dict] = []
     all_events.extend(scrape_wikicfp())
     all_events.extend(scrape_rss_feeds())
-    all_events.extend(scrape_reddit())
     all_events.extend(scrape_custom_sites())
 
     print(f"\nRaw results before dedup: {len(all_events)}")
@@ -684,6 +784,8 @@ def main() -> None:
 
     for ev in all_events:
         ev.pop("_score", None)
+
+    all_events = _enrich_with_ai(all_events)
 
     if not all_events:
         print(f"Scraper returned 0 results — keeping existing {DATA_FILE} unchanged.")

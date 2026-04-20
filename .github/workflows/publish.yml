@@ -77,6 +77,8 @@ jobs:
       - name: Scrape events
         if: steps.guard.outputs.skip != 'true' && steps.guard.outputs.test_only != 'true'
         run: python scripts/scrape_events.py
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
 
       # ── 5. Generate ────────────────────────────────────────────────────────
       # Produces:
