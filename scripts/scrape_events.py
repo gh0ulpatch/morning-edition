@@ -372,7 +372,8 @@ CUSTOM_SITES: list[dict[str, str]] = [
         "date_selector": "time",
         "desc_selector": "p",
     },
-    # ── UK conference venues ─────────────────────────────────────────────────
+    # ── Conference venues — global ───────────────────────────────────────────
+    # UK
     {
         "name": "ExCeL London",
         "url": "https://www.excel.london/organiser/events",
@@ -408,6 +409,129 @@ CUSTOM_SITES: list[dict[str, str]] = [
     {
         "name": "Manchester Central",
         "url": "https://manchestercentral.co.uk/whats-on/",
+        "event_selector": "article",
+        "title_selector": "h3",
+        "date_selector": "time",
+        "desc_selector": "p",
+    },
+    # USA
+    {
+        "name": "Javits Center",
+        "url": "https://www.javitscenter.com/events/",
+        "event_selector": "article",
+        "title_selector": "h3",
+        "date_selector": "time",
+        "desc_selector": "p",
+    },
+    {
+        "name": "Walter E. Washington Convention Center",
+        "url": "https://www.dcconvention.com/events-calendar/",
+        "event_selector": "article",
+        "title_selector": "h3",
+        "date_selector": "time",
+        "desc_selector": "p",
+    },
+    {
+        "name": "Moscone Center",
+        "url": "https://www.moscone.com/events-at-moscone/",
+        "event_selector": "article",
+        "title_selector": "h3",
+        "date_selector": "time",
+        "desc_selector": "p",
+    },
+    {
+        "name": "McCormick Place",
+        "url": "https://www.mccormickplace.com/events/",
+        "event_selector": "article",
+        "title_selector": "h3",
+        "date_selector": "time",
+        "desc_selector": "p",
+    },
+    # Europe
+    {
+        "name": "Messe Berlin",
+        "url": "https://www.messe-berlin.de/en/events/",
+        "event_selector": "article",
+        "title_selector": "h3",
+        "date_selector": "time",
+        "desc_selector": "p",
+    },
+    {
+        "name": "Amsterdam RAI",
+        "url": "https://www.rai.nl/en/events/",
+        "event_selector": "article",
+        "title_selector": "h3",
+        "date_selector": "time",
+        "desc_selector": "p",
+    },
+    {
+        "name": "Palexpo Geneva",
+        "url": "https://www.palexpo.ch/en/events/",
+        "event_selector": "article",
+        "title_selector": "h3",
+        "date_selector": "time",
+        "desc_selector": "p",
+    },
+    {
+        "name": "Fira Barcelona",
+        "url": "https://www.firabarcelona.com/en/events/",
+        "event_selector": "article",
+        "title_selector": "h3",
+        "date_selector": "time",
+        "desc_selector": "p",
+    },
+    {
+        "name": "Austria Center Vienna",
+        "url": "https://www.acv.at/en/events/",
+        "event_selector": "article",
+        "title_selector": "h3",
+        "date_selector": "time",
+        "desc_selector": "p",
+    },
+    {
+        "name": "Palais des Congrès Paris",
+        "url": "https://www.palaisdescongres-paris.com/en/agenda/",
+        "event_selector": "article",
+        "title_selector": "h3",
+        "date_selector": "time",
+        "desc_selector": "p",
+    },
+    {
+        "name": "CICG Geneva",
+        "url": "https://www.cicg.ch/en/events/",
+        "event_selector": "article",
+        "title_selector": "h3",
+        "date_selector": "time",
+        "desc_selector": "p",
+    },
+    # Asia-Pacific
+    {
+        "name": "Suntec Singapore",
+        "url": "https://www.suntecsingapore.com/events/",
+        "event_selector": "article",
+        "title_selector": "h3",
+        "date_selector": "time",
+        "desc_selector": "p",
+    },
+    {
+        "name": "Marina Bay Sands",
+        "url": "https://www.marinabaysands.com/meetings-and-events/calendar.html",
+        "event_selector": "article",
+        "title_selector": "h3",
+        "date_selector": "time",
+        "desc_selector": "p",
+    },
+    {
+        "name": "COEX Seoul",
+        "url": "https://www.coex.co.kr/eng/conference/eventList.do",
+        "event_selector": "li",
+        "title_selector": "h4",
+        "date_selector": "span",
+        "desc_selector": "p",
+    },
+    {
+        "name": "Tokyo Big Sight",
+        "url": "https://www.bigsight.jp/english/events/",
         "event_selector": "article",
         "title_selector": "h3",
         "date_selector": "time",
@@ -724,9 +848,17 @@ _TRUSTED_DOMAINS: set[str] = {
     "aisi.gov.uk", "futureoflife.org", "safe.ai",
     "partnershiponai.org", "hai.stanford.edu",
     "alignmentforum.org", "lesswrong.com",
-    # UK conference venues — scrape all events, score filters relevance
+    # Conference venues — scrape all events, score filters relevance
+    # UK
     "excel.london", "qeiicentre.london", "theicc.co.uk",
     "eicc.co.uk", "manchestercentral.co.uk",
+    # USA
+    "javitscenter.com", "dcconvention.com", "moscone.com", "mccormickplace.com",
+    # Europe
+    "messe-berlin.de", "rai.nl", "palexpo.ch", "firabarcelona.com",
+    "acv.at", "palaisdescongres-paris.com", "cicg.ch",
+    # Asia-Pacific
+    "suntecsingapore.com", "marinabaysands.com", "coex.co.kr", "bigsight.jp",
 }
 
 
