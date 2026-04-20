@@ -63,6 +63,7 @@ def update_tracker(issue_date, conferences):
                 "issue_index": i,
                 "region": infer_region(c.get("location", "")),
                 "month": extract_month(c.get("date", ""), issue_date),
+                "org_type": infer_org_type(c.get("host", ""), c.get("source", "")),
                 **c,
             })
             existing_sources.add(c["source"])
@@ -165,6 +166,71 @@ def infer_region(location: str) -> str:
         if any(k in loc for k in keywords):
             return region
     return "Other"
+
+
+_ORG_TYPE_MAP = [
+    ("Government", [
+        "whitehouse.gov", "nist.gov", "ftc.gov", "dhs.gov", "cisa.gov",
+        "gov.uk", "ncsc.gov.uk", "ico.org.uk", "aisi.gov.uk",
+        "europa.eu", "europarl.europa.eu",
+        ".gov", ".gov.", "government", "ministry", "department of ",
+        "home office", "cabinet office", "ofcom", "ofgem",
+        "senate.gov", "congress.gov", "house.gov",
+    ]),
+    ("Multilateral", [
+        "un.org", "itu.int", "oecd.org", "nato.int", "weforum.org",
+        "unesco.org", "coe.int", "gpai.ai", "icrc.org", "iaea.org",
+        "imf.org", "worldbank.org", "who.int", "interpol.int",
+        "g7", "g20", "g8", "global partnership", "international forum",
+        "world summit", "united nations", "council of europe",
+    ]),
+    ("AI Company", [
+        "openai.com", "anthropic.com", "deepmind.com", "ai.google", "google.com",
+        "microsoft.com", "meta.com", "meta.ai", "mistral.ai", "cohere.com",
+        "xai.com", "stability.ai", "huggingface.co", "nvidia.com",
+        "amazon.com", "aws.amazon", "ibm.com", "oracle.com",
+        "palantir.com", "inflection.ai", "scale.ai",
+    ]),
+    ("Think Tank", [
+        "futureoflife.org", "safe.ai", "cais.ai", "partnershiponai.org",
+        "hai.stanford.edu", "alignmentforum.org", "lesswrong.com",
+        "rand.org", "brookings.edu", "cfr.org", "chathamhouse.org",
+        "rusi.org", "ada-lovelace.org", "turing.ac.uk", "cdt.org",
+        "cnas.org", "csis.org", "ainowinstitute.org", "datasociety.net",
+        "miri.org", "aisi", "ai safety institute",
+        "think tank", "thinktank", "policy institute", "research institute",
+        "foundation for", "institute for", "centre for", "center for",
+    ]),
+    ("Academia", [
+        ".edu", "ac.uk", "university", "universit", "college of",
+        "mit.edu", "stanford.edu", "harvard.edu", "oxford.ac.uk",
+        "cam.ac.uk", "ucl.ac.uk", "imperial.ac.uk", "ed.ac.uk",
+        "carnegie mellon", "cmu.edu", "cornell.edu", "yale.edu",
+        "conference on ", "acm.org", "ieee.org", "neurips.cc",
+        "icml.cc", "iclr.cc", "aaai.org",
+    ]),
+    ("Civil Society", [
+        "eff.org", "amnesty.org", "accessnow.org", "article19.org",
+        "privacy international", "big brother watch", "liberty", "aclu.org",
+        "hrw.org", "human rights", "civil liberties", "digital rights",
+        "algorithmic justice", "fairness", "ngo", "nonprofit",
+        "trustcon", "tspa.org",
+    ]),
+    ("Security", [
+        "ncsc.gov.uk", "cisa.gov", "sans.org", "defcon.org",
+        "rsaconference.com", "blackhat.com", "securityweekly.com",
+        "cyberuk", "cyberconference", "infosec", "usenix.org",
+        "firstconf.org", "virusbulletin.com",
+    ]),
+]
+
+
+def infer_org_type(host: str, source: str) -> str:
+    combined = f"{host} {source}".lower()
+    for org_type, keywords in _ORG_TYPE_MAP:
+        if any(k in combined for k in keywords):
+            return org_type
+    return "Industry / Other"
 
 
 _MONTH_ABBRS = {
@@ -501,12 +567,13 @@ def render_tracker(tracker_rows):
 
     rows_html = ""
     for row in tracker_rows:
-        region  = row.get("region")  or infer_region(row.get("location", ""))
-        month   = row.get("month")   or extract_month(row.get("date", ""), row.get("issue_date", ""))
-        applies = row.get("applies", "")
-        tag     = row.get("tag", "")
+        region   = row.get("region")   or infer_region(row.get("location", ""))
+        month    = row.get("month")    or extract_month(row.get("date", ""), row.get("issue_date", ""))
+        org_type = row.get("org_type") or infer_org_type(row.get("host", ""), row.get("source", ""))
+        applies  = row.get("applies", "")
+        tag      = row.get("tag", "")
         rows_html += f"""
-        <tr data-verdict="{esc(applies)}" data-harm="{esc(tag)}" data-region="{esc(region)}" data-month="{esc(month)}">
+        <tr data-verdict="{esc(applies)}" data-harm="{esc(tag)}" data-region="{esc(region)}" data-month="{esc(month)}" data-org="{esc(org_type)}">
           <td style="white-space:nowrap;font-variant-numeric:tabular-nums;">{esc(row.get('issue_date',''))}</td>
           <td style="text-align:center;color:#999;font-variant-numeric:tabular-nums;">{row.get('issue_index','')}</td>
           <td>{badge(applies)}</td>
@@ -514,6 +581,7 @@ def render_tracker(tracker_rows):
           <td><span style="background:#ede8db;color:#5a5040;font-size:11px;font-weight:600;padding:2px 8px;border-radius:3px;white-space:nowrap;">{esc(tag)}</span></td>
           <td style="white-space:nowrap;">{esc(row.get('date',''))}</td>
           <td style="white-space:nowrap;">{esc(region)}</td>
+          <td style="white-space:nowrap;">{esc(org_type)}</td>
           <td>{esc(row.get('location',''))}</td>
           <td>{esc(row.get('host',''))}</td>
           <td style="font-size:13px;max-width:260px;">{esc(row.get('why',''))}</td>
@@ -529,6 +597,11 @@ def render_tracker(tracker_rows):
 
     harm_options  = ''.join(f'<option value="{esc(h)}">{esc(h)}</option>' for h in harm_areas)
     month_options = ''.join(f'<option value="{esc(m)}">{esc(format_month(m))}</option>' for m in months)
+    _ORG_TYPES = [
+        "Government", "Multilateral", "AI Company", "Think Tank",
+        "Academia", "Civil Society", "Security", "Industry / Other",
+    ]
+    org_options = ''.join(f'<option value="{esc(o)}">{esc(o)}</option>' for o in _ORG_TYPES)
 
     return f"""<!doctype html>
 <html lang="en">
@@ -621,6 +694,13 @@ def render_tracker(tracker_rows):
       </select>
     </div>
     <div class="filter-group">
+      <label for="f-org">Org type</label>
+      <select id="f-org" onchange="applyFilters()">
+        <option value="">All org types</option>
+        {org_options}
+      </select>
+    </div>
+    <div class="filter-group">
       <label for="f-search">Search</label>
       <input id="f-search" type="search" placeholder="Title, host, location…" oninput="applyFilters()">
     </div>
@@ -638,9 +718,10 @@ def render_tracker(tracker_rows):
           <th scope="col" tabindex="0" onclick="sortBy(4)" onkeydown="if(event.key==='Enter')sortBy(4)">Harm area</th>
           <th scope="col" tabindex="0" onclick="sortBy(5)" onkeydown="if(event.key==='Enter')sortBy(5)">When</th>
           <th scope="col" tabindex="0" onclick="sortBy(6)" onkeydown="if(event.key==='Enter')sortBy(6)">Region</th>
-          <th scope="col" tabindex="0" onclick="sortBy(7)" onkeydown="if(event.key==='Enter')sortBy(7)">Location</th>
-          <th scope="col" tabindex="0" onclick="sortBy(8)" onkeydown="if(event.key==='Enter')sortBy(8)">Host</th>
-          <th scope="col" tabindex="0" onclick="sortBy(9)" onkeydown="if(event.key==='Enter')sortBy(9)">Why it matters</th>
+          <th scope="col" tabindex="0" onclick="sortBy(7)" onkeydown="if(event.key==='Enter')sortBy(7)">Org type</th>
+          <th scope="col" tabindex="0" onclick="sortBy(8)" onkeydown="if(event.key==='Enter')sortBy(8)">Location</th>
+          <th scope="col" tabindex="0" onclick="sortBy(9)" onkeydown="if(event.key==='Enter')sortBy(9)">Host</th>
+          <th scope="col" tabindex="0" onclick="sortBy(10)" onkeydown="if(event.key==='Enter')sortBy(10)">Why it matters</th>
           <th scope="col">Source</th>
         </tr>
       </thead>
@@ -657,6 +738,7 @@ def render_tracker(tracker_rows):
       const harm    = document.getElementById('f-harm').value;
       const region  = document.getElementById('f-region').value;
       const month   = document.getElementById('f-month').value;
+      const org     = document.getElementById('f-org').value;
       const search  = document.getElementById('f-search').value.toLowerCase();
       let visible = 0;
       document.querySelectorAll('#tracker-table tbody tr').forEach(row => {{
@@ -665,6 +747,7 @@ def render_tracker(tracker_rows):
                   && (!harm    || d.harm    === harm)
                   && (!region  || d.region  === region)
                   && (!month   || d.month   === month)
+                  && (!org     || d.org     === org)
                   && (!search  || row.textContent.toLowerCase().includes(search));
         row.classList.toggle('hidden', !show);
         if (show) visible++;

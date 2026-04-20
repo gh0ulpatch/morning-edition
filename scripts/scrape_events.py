@@ -209,7 +209,7 @@ DOMAIN_TAGS: dict[str, list[str]] = {
 # Minimum combined score to include a result
 SCORE_THRESHOLD = 0.15
 # How many events to write to the data file (generator uses top 10)
-MAX_EVENTS = 20
+MAX_EVENTS = 50
 
 # ──────────────────────────────────────────────────────────────────────────────
 # SCORING, TAGGING & CLASSIFICATION
