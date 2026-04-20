@@ -353,13 +353,19 @@ def render_issue(issue_date, conferences, tracker_url="./tracker.html"):
 
     .cover {{
       min-height:100vh;
-      display:grid;
-      grid-template-columns:1.15fr .85fr;
-      gap:26px;
+      display:flex;
+      flex-direction:column;
       padding:48px 32px 34px;
       background:linear-gradient(160deg,#f7f1e7,#efe4c9,#e5d5b6,#ede3ca,#f2e8d5);
       background-size:300% 300%;
       animation: gradientShift 12s ease infinite;
+    }}
+    .cover-top {{
+      display:grid;
+      grid-template-columns:1.15fr .85fr;
+      gap:26px;
+      align-items:start;
+      flex:1;
     }}
 
     .kicker {{
@@ -377,12 +383,12 @@ def render_issue(issue_date, conferences, tracker_url="./tracker.html"):
       opacity:0; animation: fadeUp .6s ease forwards; animation-delay:.42s;
     }}
     .index {{
-      margin-top:26px;
-      display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:12px;
+      margin-top:32px;
+      display:grid; grid-template-columns:repeat(5,minmax(0,1fr)); gap:14px 24px;
     }}
     .index-item {{
       border-top:2px solid #111111; padding-top:10px;
-      font-size:20px; line-height:1.2;
+      font-size:15px; line-height:1.2;
       opacity:0; animation: fadeUp .5s ease forwards;
     }}
 
@@ -408,7 +414,10 @@ def render_issue(issue_date, conferences, tracker_url="./tracker.html"):
       transform:none;
     }}
 
-    @media (max-width:1050px) {{ .cover {{ grid-template-columns:1fr; }} }}
+    @media (max-width:1050px) {{
+      .cover-top {{ grid-template-columns:1fr; }}
+      .index {{ grid-template-columns:repeat(2,minmax(0,1fr)); }}
+    }}
     @media (prefers-reduced-motion: reduce) {{
       *, *::before, *::after {{
         animation-duration:.01ms !important;
@@ -420,17 +429,19 @@ def render_issue(issue_date, conferences, tracker_url="./tracker.html"):
 </head>
 <body>
   <section class="cover">
-    <div>
-      <div class="kicker">AI harm · safety · security · policy</div>
-      <h1>{len(shown)} conference{'s' if len(shown) != 1 else ''} worth your attention now.</h1>
-      <div class="deck">{issue_date} · {verdict_line}</div>
-      <div class="index">{index_items}</div>
+    <div class="cover-top">
+      <div>
+        <div class="kicker">AI harm · safety · security · policy</div>
+        <h1>{len(shown)} conference{'s' if len(shown) != 1 else ''} worth your attention now.</h1>
+        <div class="deck">{issue_date} · {verdict_line}</div>
+      </div>
+      <div class="signal-col">
+        <div class="signal"><strong>Verdicts</strong>{verdict_line}</div>
+        <div class="signal"><strong>Harm areas</strong>{esc(harm_str)}</div>
+        <div class="signal"><strong>Track all conferences</strong><a href="{esc(tracker_url)}">View the cumulative conference tracker ↗</a></div>
+      </div>
     </div>
-    <div class="signal-col">
-      <div class="signal"><strong>Verdicts</strong>{verdict_line}</div>
-      <div class="signal"><strong>Harm areas</strong>{esc(harm_str)}</div>
-      <div class="signal"><strong>Track all conferences</strong><a href="{esc(tracker_url)}">View the cumulative conference tracker ↗</a></div>
-    </div>
+    <div class="index">{index_items}</div>
   </section>
   {''.join(spreads)}
   <script>

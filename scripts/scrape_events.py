@@ -43,36 +43,59 @@ DATA_FILE = ROOT / "data" / "sample_events.json"
 # ──────────────────────────────────────────────────────────────────────────────
 
 WIKICFP_QUERIES: list[str] = [
+    # AI safety & governance
     "ai safety", "ai governance", "adversarial machine learning",
     "ai ethics", "trustworthy ai", "responsible ai",
-    "counter terrorism", "counterterrorism",
-    "financial crime", "anti-money laundering", "fraud detection",
-    "biosecurity", "biological security", "pandemic preparedness",
-    "human rights technology", "digital rights",
-    "child protection", "child safety online",
-    "election security", "election integrity", "disinformation",
-    "nuclear security", "arms control",
+    "ai accountability", "algorithmic accountability", "ai regulation", "ai law",
+    "ai risk", "ai alignment", "frontier ai",
+    # Policy & digital rights
+    "digital policy", "tech policy", "data governance", "platform governance",
+    "digital rights", "human rights technology", "digital governance",
+    "online safety", "internet governance",
+    # Security
+    "counter terrorism", "counterterrorism", "information warfare",
     "cybersecurity policy", "cyber governance",
+    "nuclear security", "arms control",
+    "election security", "election integrity", "disinformation", "misinformation",
+    # Crime & harm
+    "financial crime", "anti-money laundering", "fraud detection",
+    "organised crime", "child protection", "child safety online",
+    # Health & bio
+    "biosecurity", "biological security", "pandemic preparedness",
+    # Surveillance & privacy
     "surveillance", "privacy law",
-    "ai regulation", "ai law",
-    "organised crime", "information warfare",
+    # Trust & content
+    "trust and safety", "content moderation", "platform safety",
+    "online harms", "harmful content", "hate speech",
 ]
 
 RSS_FEEDS: list[str] = [
-    # Government / CERT
+    # UK government
     "https://www.ncsc.gov.uk/api/1/services/v1/report-rss-feed.xml",
     "https://www.gov.uk/search/news-and-communications.atom?keywords=artificial+intelligence&order=updated-newest",
     "https://www.gov.uk/search/news-and-communications.atom?keywords=AI+safety&order=updated-newest",
+    "https://www.gov.uk/search/news-and-communications.atom?keywords=AI+regulation&order=updated-newest",
+    # US government
+    "https://www.nist.gov/news-events/news/rss.xml",
+    "https://www.ftc.gov/feeds/press-release.xml",
+    # EU institutions
+    "https://digital-strategy.ec.europa.eu/en/rss",
+    "https://www.europarl.europa.eu/rss/doc/top-stories/en.xml",
     # Law enforcement / international bodies
     "https://www.europol.europa.eu/rss.xml",
     "https://www.interpol.int/rss/News-and-Events",
+    # Multilateral
+    "https://oecd.ai/en/feed",
+    "https://news.itu.int/feed/",
+    "https://www.un.org/en/rss.xml",
     # Civil society / rights
     "https://www.eff.org/rss/updates.xml",
     "https://privacyinternational.org/rss.xml",
+    "https://cdt.org/feed/",
     # Safety / policy research
     "https://sipri.org/rss.xml",
-    "https://oecd.ai/en/feed",
-    "https://digital-strategy.ec.europa.eu/en/rss",
+    "https://futureoflife.org/feed/",
+    "https://partnershiponai.org/feed/",
     # Academic / preprint
     "http://export.arxiv.org/rss/cs.AI",
     "http://export.arxiv.org/rss/cs.CY",
@@ -82,8 +105,12 @@ RSS_FEEDS: list[str] = [
     "https://cset.georgetown.edu/feed/",
     "https://www.governance.ai/feed",
     "https://www.centerforaisafety.org/feed",
+    "https://hai.stanford.edu/news/feed",
+    "https://lcfi.ac.uk/feed/",
     # Child safety
     "https://www.iwf.org.uk/feed/",
+    # Trust & safety
+    "https://www.tspa.org/feed/",
 ]
 
 CUSTOM_SITES: list[dict[str, str]] = [
@@ -143,6 +170,102 @@ CUSTOM_SITES: list[dict[str, str]] = [
         "date_selector": ".event-date",
         "desc_selector": ".event-summary",
     },
+    {
+        "name": "TrustCon / TSPA",
+        "url": "https://www.tspa.org/programs/trustcon/",
+        "event_selector": "article",
+        "title_selector": "h2",
+        "date_selector": "time",
+        "desc_selector": "p",
+    },
+    {
+        "name": "Stanford HAI",
+        "url": "https://hai.stanford.edu/events",
+        "event_selector": ".event-card",
+        "title_selector": "h3",
+        "date_selector": ".date",
+        "desc_selector": "p",
+    },
+    {
+        "name": "Oxford Internet Institute",
+        "url": "https://www.oii.ox.ac.uk/events/",
+        "event_selector": "article",
+        "title_selector": "h3",
+        "date_selector": "time",
+        "desc_selector": "p",
+    },
+    {
+        "name": "Future of Life Institute",
+        "url": "https://futureoflife.org/programs/events/",
+        "event_selector": "article",
+        "title_selector": "h2",
+        "date_selector": "time",
+        "desc_selector": "p",
+    },
+    {
+        "name": "Partnership on AI",
+        "url": "https://partnershiponai.org/events/",
+        "event_selector": "article",
+        "title_selector": "h3",
+        "date_selector": "time",
+        "desc_selector": "p",
+    },
+    {
+        "name": "Council of Europe AI",
+        "url": "https://www.coe.int/en/web/artificial-intelligence/events-and-activities",
+        "event_selector": "article",
+        "title_selector": "h3",
+        "date_selector": "time",
+        "desc_selector": "p",
+    },
+    {
+        "name": "ITU AI for Good",
+        "url": "https://aiforgood.itu.int/events/",
+        "event_selector": "article",
+        "title_selector": "h2",
+        "date_selector": "time",
+        "desc_selector": "p",
+    },
+    {
+        "name": "NIST AI",
+        "url": "https://www.nist.gov/artificial-intelligence",
+        "event_selector": ".views-row",
+        "title_selector": "h3",
+        "date_selector": ".date-display-single",
+        "desc_selector": "p",
+    },
+    {
+        "name": "Leverhulme CFI",
+        "url": "https://lcfi.ac.uk/events/",
+        "event_selector": "article",
+        "title_selector": "h2",
+        "date_selector": "time",
+        "desc_selector": "p",
+    },
+    {
+        "name": "UK AI Safety Institute",
+        "url": "https://www.gov.uk/government/organisations/ai-safety-institute/about",
+        "event_selector": "article",
+        "title_selector": "h3",
+        "date_selector": "time",
+        "desc_selector": "p",
+    },
+    {
+        "name": "Global Partnership on AI",
+        "url": "https://gpai.ai/events/",
+        "event_selector": "article",
+        "title_selector": "h2",
+        "date_selector": "time",
+        "desc_selector": "p",
+    },
+    {
+        "name": "FAccT Conference",
+        "url": "https://facctconference.org/",
+        "event_selector": "article",
+        "title_selector": "h2",
+        "date_selector": "time",
+        "desc_selector": "p",
+    },
 ]
 
 # ──────────────────────────────────────────────────────────────────────────────
@@ -186,6 +309,8 @@ SCORING_CRITERIA: dict[str, dict[str, Any]] = {
             "surveillance", "military", "weapon", "extremism", "radicaliz",
             "child protection", "csam", "drug", "organised crime", "organized crime",
             "cybercrime", "ransomware", "darknet", "dark web",
+            "trust and safety", "content moderation", "platform safety",
+            "online harms", "harmful content", "integrity",
         ],
     },
 }
@@ -204,6 +329,7 @@ DOMAIN_TAGS: dict[str, list[str]] = {
     "AI Safety": ["ai safety", "alignment", "existential risk", "x-risk", "catastrophic risk", "frontier model"],
     "Privacy & Surveillance": ["privacy", "surveillance", "data protection", "biometric", "mass monitoring", "facial recognition"],
     "Drug Trafficking": ["drug traffick", "narcotics", "fentanyl", "darknet market", "organised crime", "cartel"],
+    "Trust & Safety": ["trust and safety", "content moderation", "platform safety", "online harms", "harmful content", "tspa", "trustcon"],
 }
 
 # Minimum combined score to include a result
@@ -237,9 +363,9 @@ def tag_event(text: str) -> str:
 
 
 def classify_verdict(score: float) -> str:
-    if score >= 0.55:
-        return "Attend"
     if score >= 0.30:
+        return "Attend"
+    if score >= 0.15:
         return "Monitor"
     return "Ignore"
 
@@ -426,6 +552,38 @@ def _feed_title(raw: bytes) -> str:
     return ""
 
 
+# ──────────────────────────────────────────────────────────────────────────────
+# TRUSTED SOURCE ALLOWLIST
+# Events from these domains always pass — no score or event-gate filter applied.
+# ──────────────────────────────────────────────────────────────────────────────
+
+_TRUSTED_DOMAINS: set[str] = {
+    # Major AI companies
+    "openai.com", "anthropic.com", "deepmind.com", "ai.google",
+    "microsoft.com", "meta.com", "mistral.ai", "cohere.com", "xai.com",
+    "inflection.ai",
+    # UK government
+    "gov.uk", "ncsc.gov.uk", "ico.org.uk",
+    # US government
+    "nist.gov", "whitehouse.gov", "ftc.gov", "dhs.gov", "cisa.gov", "state.gov",
+    # EU institutions
+    "europa.eu", "europarl.europa.eu",
+    # Multilateral & intergovernmental
+    "un.org", "itu.int", "oecd.org", "nato.int", "weforum.org",
+    "unesco.org", "coe.int", "gpai.ai", "g7", "g20",
+    # Leading AI safety & policy orgs
+    "aisi.gov.uk", "futureoflife.org", "safe.ai",
+    "partnershiponai.org", "hai.stanford.edu",
+    "alignmentforum.org", "lesswrong.com",
+}
+
+
+def _is_trusted(url: str, host: str = "") -> bool:
+    """Return True if the source is a major AI player, government body, or multilateral org."""
+    combined = f"{url} {host}".lower()
+    return any(domain in combined for domain in _TRUSTED_DOMAINS)
+
+
 # Keywords that suggest an item is actually a conference/event rather than a news article.
 # RSS feeds from news/blog sources are filtered through this gate.
 _EVENT_TERMS = {
@@ -434,6 +592,7 @@ _EVENT_TERMS = {
     "call for papers", "cfp", "call for submissions", "call for abstracts",
     "annual meeting", "convention", "expo", "conclave", "dialogue",
     "side event", "high-level meeting", "ministerial", "assembly",
+    "trustcon",
 }
 
 # Feeds that are already conference-specific — bypass the event gate
@@ -466,13 +625,19 @@ def scrape_rss_feeds() -> list[dict]:
                     continue
                 seen_urls.add(url)
 
-                if not _is_event_like(title, summary, feed_url):
+                trusted = _is_trusted(url, source_name)
+
+                if not trusted and not _is_event_like(title, summary, feed_url):
                     continue
 
                 full_text = f"{title} {summary}"
                 score, breakdown = score_text(full_text)
-                if score < SCORE_THRESHOLD:
+                if not trusted and score < SCORE_THRESHOLD:
                     continue
+
+                applies = classify_verdict(score)
+                if trusted and applies == "Ignore":
+                    applies = "Monitor"
 
                 tag = tag_event(full_text)
                 results.append({
@@ -480,7 +645,7 @@ def scrape_rss_feeds() -> list[dict]:
                     "date": published,
                     "location": "TBC",
                     "host": source_name,
-                    "applies": classify_verdict(score),
+                    "applies": applies,
                     "tag": tag,
                     "angle": build_angle(tag, breakdown),
                     "why": truncate(summary, 200),
@@ -547,8 +712,13 @@ def scrape_custom_sites() -> list[dict]:
 
                 full_text = f"{title} {desc_text}"
                 score, breakdown = score_text(full_text)
-                if score < SCORE_THRESHOLD:
+                trusted = _is_trusted(href or site["url"], site["name"])
+                if not trusted and score < SCORE_THRESHOLD:
                     continue
+
+                applies = classify_verdict(score)
+                if trusted and applies == "Ignore":
+                    applies = "Monitor"
 
                 tag = tag_event(full_text)
                 results.append({
@@ -556,7 +726,7 @@ def scrape_custom_sites() -> list[dict]:
                     "date": date_text,
                     "location": "TBC",
                     "host": site["name"],
-                    "applies": classify_verdict(score),
+                    "applies": applies,
                     "tag": tag,
                     "angle": build_angle(tag, breakdown),
                     "why": truncate(desc_text or title, 200),
