@@ -56,6 +56,8 @@ WIKICFP_QUERIES: list[str] = [
     "surveillance", "privacy law",
     "ai regulation", "ai law",
     "organised crime", "information warfare",
+    "trust and safety", "content moderation", "platform safety",
+    "online harms", "harmful content", "integrity",
 ]
 
 RSS_FEEDS: list[str] = [
@@ -84,6 +86,8 @@ RSS_FEEDS: list[str] = [
     "https://www.centerforaisafety.org/feed",
     # Child safety
     "https://www.iwf.org.uk/feed/",
+    # Trust & safety
+    "https://www.tspa.org/feed/",
 ]
 
 CUSTOM_SITES: list[dict[str, str]] = [
@@ -143,6 +147,14 @@ CUSTOM_SITES: list[dict[str, str]] = [
         "date_selector": ".event-date",
         "desc_selector": ".event-summary",
     },
+    {
+        "name": "TrustCon / TSPA",
+        "url": "https://www.tspa.org/programs/trustcon/",
+        "event_selector": "article",
+        "title_selector": "h2",
+        "date_selector": "time",
+        "desc_selector": "p",
+    },
 ]
 
 # ──────────────────────────────────────────────────────────────────────────────
@@ -186,6 +198,8 @@ SCORING_CRITERIA: dict[str, dict[str, Any]] = {
             "surveillance", "military", "weapon", "extremism", "radicaliz",
             "child protection", "csam", "drug", "organised crime", "organized crime",
             "cybercrime", "ransomware", "darknet", "dark web",
+            "trust and safety", "content moderation", "platform safety",
+            "online harms", "harmful content", "integrity",
         ],
     },
 }
@@ -204,6 +218,7 @@ DOMAIN_TAGS: dict[str, list[str]] = {
     "AI Safety": ["ai safety", "alignment", "existential risk", "x-risk", "catastrophic risk", "frontier model"],
     "Privacy & Surveillance": ["privacy", "surveillance", "data protection", "biometric", "mass monitoring", "facial recognition"],
     "Drug Trafficking": ["drug traffick", "narcotics", "fentanyl", "darknet market", "organised crime", "cartel"],
+    "Trust & Safety": ["trust and safety", "content moderation", "platform safety", "online harms", "harmful content", "tspa", "trustcon"],
 }
 
 # Minimum combined score to include a result
@@ -436,6 +451,7 @@ _EVENT_TERMS = {
     "call for papers", "cfp", "call for submissions", "call for abstracts",
     "annual meeting", "convention", "expo", "conclave", "dialogue",
     "side event", "high-level meeting", "ministerial", "assembly",
+    "trustcon",
 }
 
 # Feeds that are already conference-specific — bypass the event gate
