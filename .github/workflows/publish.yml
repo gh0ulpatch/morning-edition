@@ -11,6 +11,10 @@ on:
         description: 'Force a full pipeline run — bypasses the already-published guard'
         type: boolean
         default: false
+      skip_email:
+        description: 'Run the full pipeline (scrape, generate, commit, deploy) but skip sending the email'
+        type: boolean
+        default: false
   schedule:
     # 08:45 UK time year-round, accounting for GMT/BST clock changes:
     #   45 7 * * *  →  08:45 BST  (UTC+1, last Sun Mar – last Sun Oct)
@@ -116,7 +120,7 @@ jobs:
       # To generate the template text to paste into Notify, run locally:
       #   python scripts/send_notify.py --print-template
       - name: Send digest email
-        if: steps.guard.outputs.skip != 'true' && steps.guard.outputs.test_only != 'true'
+        if: steps.guard.outputs.skip != 'true' && steps.guard.outputs.test_only != 'true' && github.event.inputs.skip_email != 'true'
         run: python scripts/send_notify.py
         env:
           NOTIFY_API_KEY:      ${{ secrets.NOTIFY_API_KEY }}
