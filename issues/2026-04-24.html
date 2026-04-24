@@ -1,0 +1,411 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Morning Edition · 2026-04-24</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+    @keyframes fadeUp {
+      from { opacity:0; transform:translateY(22px); }
+      to   { opacity:1; transform:translateY(0); }
+    }
+    @keyframes fadeIn {
+      from { opacity:0; }
+      to   { opacity:1; }
+    }
+    @keyframes gradientShift {
+      0%   { background-position: 0% 50%; }
+      50%  { background-position: 100% 50%; }
+      100% { background-position: 0% 50%; }
+    }
+
+    body { margin:0; font-family:Arial,sans-serif; background:#f7f3ea; color:#111111; }
+
+    .cover {
+      min-height:100vh;
+      display:flex;
+      flex-direction:column;
+      padding:48px 32px 34px;
+      background:linear-gradient(160deg,#f7f1e7,#efe4c9,#e5d5b6,#ede3ca,#f2e8d5);
+      background-size:300% 300%;
+      animation: gradientShift 12s ease infinite;
+    }
+    .cover-top {
+      display:grid;
+      grid-template-columns:1.15fr .85fr;
+      gap:26px;
+      align-items:start;
+      flex:1;
+    }
+
+    .kicker {
+      font-size:20px; font-weight:900; letter-spacing:.12em; text-transform:uppercase;
+      margin-bottom:16px;
+      opacity:0; animation: fadeUp .6s ease forwards; animation-delay:.1s;
+    }
+    .cover h1 {
+      font-family:Georgia,serif; font-size:110px; line-height:.9;
+      letter-spacing:-.07em; margin:0; max-width:8ch;
+      opacity:0; animation: fadeUp .7s ease forwards; animation-delay:.25s;
+    }
+    .deck {
+      margin-top:22px; font-size:28px; line-height:1.2; max-width:18ch;
+      opacity:0; animation: fadeUp .6s ease forwards; animation-delay:.42s;
+    }
+    .index {
+      margin-top:32px;
+      display:grid; grid-template-columns:repeat(5,minmax(0,1fr)); gap:14px 24px;
+    }
+    .index-item {
+      border-top:2px solid #111111; padding-top:10px;
+      font-size:15px; line-height:1.2;
+      opacity:0; animation: fadeUp .5s ease forwards;
+    }
+
+    .signal-col {
+      display:grid; gap:14px; align-content:start;
+      opacity:0; animation: fadeIn .8s ease forwards; animation-delay:.9s;
+    }
+    .signal {
+      border:1px solid rgba(17,17,17,.16); border-radius:24px;
+      background:rgba(255,255,255,.38); padding:18px;
+      font-size:20px; line-height:1.3;
+    }
+    .signal strong { display:block; font-size:21px; margin-bottom:8px; }
+    .signal a { color:inherit; font-weight:700; }
+
+    .spread {
+      opacity:0;
+      transform:translateY(20px);
+      transition:opacity .65s ease, transform .65s ease;
+    }
+    .spread.in-view {
+      opacity:1;
+      transform:none;
+    }
+
+    @media (max-width:1050px) {
+      .cover-top { grid-template-columns:1fr; }
+      .index { grid-template-columns:repeat(2,minmax(0,1fr)); }
+    }
+    @media (prefers-reduced-motion: reduce) {
+      *, *::before, *::after {
+        animation-duration:.01ms !important;
+        animation-delay:.01ms !important;
+      }
+      .spread { opacity:1; transform:none; transition:none; }
+    }
+  </style>
+</head>
+<body>
+  <section class="cover">
+    <div class="cover-top">
+      <div>
+        <div class="kicker">AI harm · safety · security · policy</div>
+        <h1>10 conferences worth your attention now.</h1>
+        <div class="deck">2026-04-24 · 10 Attend</div>
+      </div>
+      <div class="signal-col">
+        <div class="signal"><strong>Verdicts</strong>10 Attend</div>
+        <div class="signal"><strong>Harm areas</strong>Multilateral · Cybersecurity · Privacy &amp; Surveillance · Election Integrity + more</div>
+        <div class="signal"><strong>Track all conferences</strong><a href="https://gh0ulpatch.github.io/morning-edition/tracker.html">View the cumulative conference tracker ↗</a></div>
+      </div>
+    </div>
+    <div class="index"><div class="index-item" style="animation-delay:0.62s">01. Digital Hopes, Real Power: How the Arab Spring Fueled a Global Surveillance Boom</div><div class="index-item" style="animation-delay:0.69s">02. Speaking Freely: Dr. Jean Linis-Dinco</div><div class="index-item" style="animation-delay:0.76s">03. Stop New York&#x27;s Attack on 3D Printing</div><div class="index-item" style="animation-delay:0.83s">04. Digital Hopes, Real Power: The Rise of Network Shutdowns</div><div class="index-item" style="animation-delay:0.90s">05. Palantir Has a Human Rights Policy. Its ICE Work Tells a Different Story</div><div class="index-item" style="animation-delay:0.97s">06. The Internet Still Works: Reddit Empowers Community Moderation</div><div class="index-item" style="animation-delay:1.04s">07. Keep Pushing: We Get 10 More Days to Reform Section 702</div><div class="index-item" style="animation-delay:1.11s">08. RETRAI -  2026</div><div class="index-item" style="animation-delay:1.18s">09. Comparison Shopping Is Not a (Computer) Crime</div><div class="index-item" style="animation-delay:1.25s">10. The FAA’s “Temporary” Flight Restriction for Drones is a Blatant Attempt to Criminalize Filming ICE</div></div>
+  </section>
+  
+<section class="spread" style="min-height:100vh;padding:36px 30px;border-top:1px solid rgba(0,0,0,.15);background:#fffdf8;color:#111111;">
+  <div style="display:grid;grid-template-columns:1fr 1fr;gap:28px;align-items:start;min-height:calc(100vh - 72px);">
+    <div>
+      <div style="font-size:18px;font-weight:900;text-transform:uppercase;letter-spacing:.12em;margin-bottom:10px;">Multilateral / policy &amp; regulation</div>
+      <div style="font-family:Georgia,serif;font-size:140px;line-height:.85;letter-spacing:-.08em;">01</div>
+      <h2 style="font-family:Georgia,serif;font-size:64px;line-height:.95;letter-spacing:-.05em;margin:8px 0 0;max-width:9ch;">Digital Hopes, Real Power: How the Arab Spring Fueled a Global Surveillance Boom</h2>
+    </div>
+    <div>
+      <div style="display:grid;gap:10px;font-size:24px;line-height:1.25;margin-top:8px;">
+        <div><strong>Date</strong> Wed, 08 Apr 2026</div>
+        <div><strong>Where</strong> TBC</div>
+        <div><strong>Host</strong> Deeplinks</div>
+      </div>
+      <div style="display:flex;gap:12px;flex-wrap:wrap;margin:18px 0 18px;">
+        <div style="font-size:16px;font-weight:900;padding:10px 14px;border:1px solid currentColor;border-radius:999px;">Attend</div>
+        <div style="font-size:16px;font-weight:900;padding:10px 14px;border:1px solid currentColor;border-radius:999px;">Multilateral</div>
+      </div>
+      <div style="font-size:13px;font-weight:900;text-transform:uppercase;letter-spacing:.1em;margin-bottom:6px;opacity:.6;">Why it matters</div>
+      <div style="font-size:28px;line-height:1.2;max-width:30ch;">This is the third installment of a blog series reflecting on the global digital legacy of the 2011 Arab uprisings. You can read the first post here , and the second here . When people recall the 2011…</div>
+      <div style="margin-top:18px;border:1px solid rgba(0,0,0,.18);border-radius:20px;padding:18px 20px;font-size:22px;line-height:1.35;max-width:42ch;background:#ead9b8;">
+        <strong>Watch:</strong> Sourced from Deeplinks — verify dates and AI relevance.
+      </div>
+      <p style="margin-top:16px;font-size:18px;font-weight:700;">
+        <a href="https://www.eff.org/deeplinks/2026/04/digital-hopes-real-power-how-arab-spring-fueled-global-surveillance-boom" target="_blank" rel="noopener" style="color:inherit;">Open source ↗</a>
+      </p>
+    </div>
+  </div>
+</section>
+<section class="spread" style="min-height:100vh;padding:36px 30px;border-top:1px solid rgba(0,0,0,.15);background:#0e1a32;color:#f7f8fb;">
+  <div style="display:grid;grid-template-columns:1fr 1fr;gap:28px;align-items:start;min-height:calc(100vh - 72px);">
+    <div>
+      <div style="font-size:18px;font-weight:900;text-transform:uppercase;letter-spacing:.12em;margin-bottom:10px;">Cybersecurity / policy &amp; regulation</div>
+      <div style="font-family:Georgia,serif;font-size:140px;line-height:.85;letter-spacing:-.08em;">02</div>
+      <h2 style="font-family:Georgia,serif;font-size:64px;line-height:.95;letter-spacing:-.05em;margin:8px 0 0;max-width:9ch;">Speaking Freely: Dr. Jean Linis-Dinco</h2>
+    </div>
+    <div>
+      <div style="display:grid;gap:10px;font-size:24px;line-height:1.25;margin-top:8px;">
+        <div><strong>Date</strong> Mon, 13 Apr 2026</div>
+        <div><strong>Where</strong> TBC</div>
+        <div><strong>Host</strong> Deeplinks</div>
+      </div>
+      <div style="display:flex;gap:12px;flex-wrap:wrap;margin:18px 0 18px;">
+        <div style="font-size:16px;font-weight:900;padding:10px 14px;border:1px solid currentColor;border-radius:999px;">Attend</div>
+        <div style="font-size:16px;font-weight:900;padding:10px 14px;border:1px solid currentColor;border-radius:999px;">Cybersecurity</div>
+      </div>
+      <div style="font-size:13px;font-weight:900;text-transform:uppercase;letter-spacing:.1em;margin-bottom:6px;opacity:.6;">Why it matters</div>
+      <div style="font-size:28px;line-height:1.2;max-width:30ch;">Dr. Jean Linis-Dinco is an activist-researcher working at the intersection of human rights and technology. Born in the Philippines and shaped by firsthand experience with inequality and state…</div>
+      <div style="margin-top:18px;border:1px solid rgba(0,0,0,.18);border-radius:20px;padding:18px 20px;font-size:22px;line-height:1.35;max-width:42ch;background:#1a2650;">
+        <strong>Watch:</strong> Sourced from Deeplinks — verify dates and AI relevance.
+      </div>
+      <p style="margin-top:16px;font-size:18px;font-weight:700;">
+        <a href="https://www.eff.org/deeplinks/2026/04/speaking-freely-dr-jean-linis-dinco" target="_blank" rel="noopener" style="color:inherit;">Open source ↗</a>
+      </p>
+    </div>
+  </div>
+</section>
+<section class="spread" style="min-height:100vh;padding:36px 30px;border-top:1px solid rgba(0,0,0,.15);background:#f7dbe2;color:#541729;">
+  <div style="display:grid;grid-template-columns:1fr 1fr;gap:28px;align-items:start;min-height:calc(100vh - 72px);">
+    <div>
+      <div style="font-size:18px;font-weight:900;text-transform:uppercase;letter-spacing:.12em;margin-bottom:10px;">Privacy &amp; Surveillance / policy &amp; regulation</div>
+      <div style="font-family:Georgia,serif;font-size:140px;line-height:.85;letter-spacing:-.08em;">03</div>
+      <h2 style="font-family:Georgia,serif;font-size:64px;line-height:.95;letter-spacing:-.05em;margin:8px 0 0;max-width:9ch;">Stop New York&#x27;s Attack on 3D Printing</h2>
+    </div>
+    <div>
+      <div style="display:grid;gap:10px;font-size:24px;line-height:1.25;margin-top:8px;">
+        <div><strong>Date</strong> Thu, 16 Apr 2026</div>
+        <div><strong>Where</strong> TBC</div>
+        <div><strong>Host</strong> Deeplinks</div>
+      </div>
+      <div style="display:flex;gap:12px;flex-wrap:wrap;margin:18px 0 18px;">
+        <div style="font-size:16px;font-weight:900;padding:10px 14px;border:1px solid currentColor;border-radius:999px;">Attend</div>
+        <div style="font-size:16px;font-weight:900;padding:10px 14px;border:1px solid currentColor;border-radius:999px;">Privacy &amp; Surveillance</div>
+      </div>
+      <div style="font-size:13px;font-weight:900;text-transform:uppercase;letter-spacing:.1em;margin-bottom:6px;opacity:.6;">Why it matters</div>
+      <div style="font-size:28px;line-height:1.2;max-width:30ch;">New York&#x27;s proposed 2026-2027 budget currently includes provisions that will require all 3D printers sold in the state to run print-blocking censorware —software that surveils every print for…</div>
+      <div style="margin-top:18px;border:1px solid rgba(0,0,0,.18);border-radius:20px;padding:18px 20px;font-size:22px;line-height:1.35;max-width:42ch;background:#f3c3cf;">
+        <strong>Watch:</strong> Sourced from Deeplinks — verify dates and AI relevance.
+      </div>
+      <p style="margin-top:16px;font-size:18px;font-weight:700;">
+        <a href="https://www.eff.org/deeplinks/2026/04/stop-new-yorks-attack-3d-printing" target="_blank" rel="noopener" style="color:inherit;">Open source ↗</a>
+      </p>
+    </div>
+  </div>
+</section>
+<section class="spread" style="min-height:100vh;padding:36px 30px;border-top:1px solid rgba(0,0,0,.15);background:#eee5d5;color:#111111;">
+  <div style="display:grid;grid-template-columns:1fr 1fr;gap:28px;align-items:start;min-height:calc(100vh - 72px);">
+    <div>
+      <div style="font-size:18px;font-weight:900;text-transform:uppercase;letter-spacing:.12em;margin-bottom:10px;">Election Integrity / policy &amp; regulation</div>
+      <div style="font-family:Georgia,serif;font-size:140px;line-height:.85;letter-spacing:-.08em;">04</div>
+      <h2 style="font-family:Georgia,serif;font-size:64px;line-height:.95;letter-spacing:-.05em;margin:8px 0 0;max-width:9ch;">Digital Hopes, Real Power: The Rise of Network Shutdowns</h2>
+    </div>
+    <div>
+      <div style="display:grid;gap:10px;font-size:24px;line-height:1.25;margin-top:8px;">
+        <div><strong>Date</strong> Wed, 15 Apr 2026</div>
+        <div><strong>Where</strong> TBC</div>
+        <div><strong>Host</strong> Deeplinks</div>
+      </div>
+      <div style="display:flex;gap:12px;flex-wrap:wrap;margin:18px 0 18px;">
+        <div style="font-size:16px;font-weight:900;padding:10px 14px;border:1px solid currentColor;border-radius:999px;">Attend</div>
+        <div style="font-size:16px;font-weight:900;padding:10px 14px;border:1px solid currentColor;border-radius:999px;">Election Integrity</div>
+      </div>
+      <div style="font-size:13px;font-weight:900;text-transform:uppercase;letter-spacing:.1em;margin-bottom:6px;opacity:.6;">Why it matters</div>
+      <div style="font-size:28px;line-height:1.2;max-width:30ch;">This is the fourth installment of a blog series reflecting on the global digital legacy of the 2011 Arab uprisings. You can read the rest of the series here . Iran’s internet has been intermittently…</div>
+      <div style="margin-top:18px;border:1px solid rgba(0,0,0,.18);border-radius:20px;padding:18px 20px;font-size:22px;line-height:1.35;max-width:42ch;background:#ddd1bd;">
+        <strong>Watch:</strong> Sourced from Deeplinks — verify dates and AI relevance.
+      </div>
+      <p style="margin-top:16px;font-size:18px;font-weight:700;">
+        <a href="https://www.eff.org/deeplinks/2026/04/digital-hopes-real-power-rise-network-shutdowns" target="_blank" rel="noopener" style="color:inherit;">Open source ↗</a>
+      </p>
+    </div>
+  </div>
+</section>
+<section class="spread" style="min-height:100vh;padding:36px 30px;border-top:1px solid rgba(0,0,0,.15);background:#07150f;color:#d8ffdf;">
+  <div style="display:grid;grid-template-columns:1fr 1fr;gap:28px;align-items:start;min-height:calc(100vh - 72px);">
+    <div>
+      <div style="font-size:18px;font-weight:900;text-transform:uppercase;letter-spacing:.12em;margin-bottom:10px;">Privacy &amp; Surveillance / policy &amp; regulation</div>
+      <div style="font-family:Georgia,serif;font-size:140px;line-height:.85;letter-spacing:-.08em;">05</div>
+      <h2 style="font-family:Georgia,serif;font-size:64px;line-height:.95;letter-spacing:-.05em;margin:8px 0 0;max-width:9ch;">Palantir Has a Human Rights Policy. Its ICE Work Tells a Different Story</h2>
+    </div>
+    <div>
+      <div style="display:grid;gap:10px;font-size:24px;line-height:1.25;margin-top:8px;">
+        <div><strong>Date</strong> Tue, 21 Apr 2026</div>
+        <div><strong>Where</strong> TBC</div>
+        <div><strong>Host</strong> Deeplinks</div>
+      </div>
+      <div style="display:flex;gap:12px;flex-wrap:wrap;margin:18px 0 18px;">
+        <div style="font-size:16px;font-weight:900;padding:10px 14px;border:1px solid currentColor;border-radius:999px;">Attend</div>
+        <div style="font-size:16px;font-weight:900;padding:10px 14px;border:1px solid currentColor;border-radius:999px;">Privacy &amp; Surveillance</div>
+      </div>
+      <div style="font-size:13px;font-weight:900;text-transform:uppercase;letter-spacing:.1em;margin-bottom:6px;opacity:.6;">Why it matters</div>
+      <div style="font-size:28px;line-height:1.2;max-width:30ch;">For years, EFF has pushed technology companies to make real human rights commitments—and to live up to them. In response to growing evidence that Palantir’s tools help power abusive immigration…</div>
+      <div style="margin-top:18px;border:1px solid rgba(0,0,0,.18);border-radius:20px;padding:18px 20px;font-size:22px;line-height:1.35;max-width:42ch;background:#0d2018;">
+        <strong>Watch:</strong> Sourced from Deeplinks — verify dates and AI relevance.
+      </div>
+      <p style="margin-top:16px;font-size:18px;font-weight:700;">
+        <a href="https://www.eff.org/deeplinks/2026/04/palantir-has-human-rights-policy-its-ice-work-tells-different-story" target="_blank" rel="noopener" style="color:inherit;">Open source ↗</a>
+      </p>
+    </div>
+  </div>
+</section>
+<section class="spread" style="min-height:100vh;padding:36px 30px;border-top:1px solid rgba(0,0,0,.15);background:#dbe8ff;color:#111111;">
+  <div style="display:grid;grid-template-columns:1fr 1fr;gap:28px;align-items:start;min-height:calc(100vh - 72px);">
+    <div>
+      <div style="font-size:18px;font-weight:900;text-transform:uppercase;letter-spacing:.12em;margin-bottom:10px;">Trust &amp; Safety / policy &amp; regulation</div>
+      <div style="font-family:Georgia,serif;font-size:140px;line-height:.85;letter-spacing:-.08em;">06</div>
+      <h2 style="font-family:Georgia,serif;font-size:64px;line-height:.95;letter-spacing:-.05em;margin:8px 0 0;max-width:9ch;">The Internet Still Works: Reddit Empowers Community Moderation</h2>
+    </div>
+    <div>
+      <div style="display:grid;gap:10px;font-size:24px;line-height:1.25;margin-top:8px;">
+        <div><strong>Date</strong> Mon, 20 Apr 2026</div>
+        <div><strong>Where</strong> TBC</div>
+        <div><strong>Host</strong> Deeplinks</div>
+      </div>
+      <div style="display:flex;gap:12px;flex-wrap:wrap;margin:18px 0 18px;">
+        <div style="font-size:16px;font-weight:900;padding:10px 14px;border:1px solid currentColor;border-radius:999px;">Attend</div>
+        <div style="font-size:16px;font-weight:900;padding:10px 14px;border:1px solid currentColor;border-radius:999px;">Trust &amp; Safety</div>
+      </div>
+      <div style="font-size:13px;font-weight:900;text-transform:uppercase;letter-spacing:.1em;margin-bottom:6px;opacity:.6;">Why it matters</div>
+      <div style="font-size:28px;line-height:1.2;max-width:30ch;">Section 230 helps make it possible for online communities to host user speech: from restaurant reviews, to fan fiction, to collaborative encyclopedias. But recent debates about the law often overlook…</div>
+      <div style="margin-top:18px;border:1px solid rgba(0,0,0,.18);border-radius:20px;padding:18px 20px;font-size:22px;line-height:1.35;max-width:42ch;background:#cfddff;">
+        <strong>Watch:</strong> Sourced from Deeplinks — verify dates and AI relevance.
+      </div>
+      <p style="margin-top:16px;font-size:18px;font-weight:700;">
+        <a href="https://www.eff.org/deeplinks/2026/04/internet-still-works-reddit-empowers-community-moderation" target="_blank" rel="noopener" style="color:inherit;">Open source ↗</a>
+      </p>
+    </div>
+  </div>
+</section>
+<section class="spread" style="min-height:100vh;padding:36px 30px;border-top:1px solid rgba(0,0,0,.15);background:#e7e1d1;color:#111111;">
+  <div style="display:grid;grid-template-columns:1fr 1fr;gap:28px;align-items:start;min-height:calc(100vh - 72px);">
+    <div>
+      <div style="font-size:18px;font-weight:900;text-transform:uppercase;letter-spacing:.12em;margin-bottom:10px;">Privacy &amp; Surveillance / policy &amp; regulation</div>
+      <div style="font-family:Georgia,serif;font-size:140px;line-height:.85;letter-spacing:-.08em;">07</div>
+      <h2 style="font-family:Georgia,serif;font-size:64px;line-height:.95;letter-spacing:-.05em;margin:8px 0 0;max-width:9ch;">Keep Pushing: We Get 10 More Days to Reform Section 702</h2>
+    </div>
+    <div>
+      <div style="display:grid;gap:10px;font-size:24px;line-height:1.25;margin-top:8px;">
+        <div><strong>Date</strong> Fri, 17 Apr 2026</div>
+        <div><strong>Where</strong> TBC</div>
+        <div><strong>Host</strong> Deeplinks</div>
+      </div>
+      <div style="display:flex;gap:12px;flex-wrap:wrap;margin:18px 0 18px;">
+        <div style="font-size:16px;font-weight:900;padding:10px 14px;border:1px solid currentColor;border-radius:999px;">Attend</div>
+        <div style="font-size:16px;font-weight:900;padding:10px 14px;border:1px solid currentColor;border-radius:999px;">Privacy &amp; Surveillance</div>
+      </div>
+      <div style="font-size:13px;font-weight:900;text-transform:uppercase;letter-spacing:.1em;margin-bottom:6px;opacity:.6;">Why it matters</div>
+      <div style="font-size:28px;line-height:1.2;max-width:30ch;">In a dramatic middle-of-the-night stand off, a bipartisan set of lawmakers pushing for true reform and privacy protections for Americans bought us some more time to fight! They are holding out for,…</div>
+      <div style="margin-top:18px;border:1px solid rgba(0,0,0,.18);border-radius:20px;padding:18px 20px;font-size:22px;line-height:1.35;max-width:42ch;background:#d6cfbb;">
+        <strong>Watch:</strong> Sourced from Deeplinks — verify dates and AI relevance.
+      </div>
+      <p style="margin-top:16px;font-size:18px;font-weight:700;">
+        <a href="https://www.eff.org/deeplinks/2026/04/keep-pushing-we-get-10-more-days-reform-section-702" target="_blank" rel="noopener" style="color:inherit;">Open source ↗</a>
+      </p>
+    </div>
+  </div>
+</section>
+<section class="spread" style="min-height:100vh;padding:36px 30px;border-top:1px solid rgba(0,0,0,.15);background:#efc7bc;color:#111111;">
+  <div style="display:grid;grid-template-columns:1fr 1fr;gap:28px;align-items:start;min-height:calc(100vh - 72px);">
+    <div>
+      <div style="font-size:18px;font-weight:900;text-transform:uppercase;letter-spacing:.12em;margin-bottom:10px;">Multilateral / policy &amp; regulation</div>
+      <div style="font-family:Georgia,serif;font-size:140px;line-height:.85;letter-spacing:-.08em;">08</div>
+      <h2 style="font-family:Georgia,serif;font-size:64px;line-height:.95;letter-spacing:-.05em;margin:8px 0 0;max-width:9ch;">RETRAI -  2026</h2>
+    </div>
+    <div>
+      <div style="display:grid;gap:10px;font-size:24px;line-height:1.25;margin-top:8px;">
+        <div><strong>Date</strong> Event</div>
+        <div><strong>Where</strong> Where</div>
+        <div><strong>Host</strong> TBC</div>
+      </div>
+      <div style="display:flex;gap:12px;flex-wrap:wrap;margin:18px 0 18px;">
+        <div style="font-size:16px;font-weight:900;padding:10px 14px;border:1px solid currentColor;border-radius:999px;">Attend</div>
+        <div style="font-size:16px;font-weight:900;padding:10px 14px;border:1px solid currentColor;border-radius:999px;">Multilateral</div>
+      </div>
+      <div style="font-size:13px;font-weight:900;text-transform:uppercase;letter-spacing:.1em;margin-bottom:6px;opacity:.6;">Why it matters</div>
+      <div style="font-size:28px;line-height:1.2;max-width:30ch;">RETRAI - 2026</div>
+      <div style="margin-top:18px;border:1px solid rgba(0,0,0,.18);border-radius:20px;padding:18px 20px;font-size:22px;line-height:1.35;max-width:42ch;background:#df9f8f;">
+        <strong>Watch:</strong> Sourced via WikiCFP — check agenda for AI harm/misuse sessions.
+      </div>
+      <p style="margin-top:16px;font-size:18px;font-weight:700;">
+        <a href="http://www.wikicfp.com/cfp/servlet/event.showcfp?eventid=192629&amp;copyownerid=197417" target="_blank" rel="noopener" style="color:inherit;">Open source ↗</a>
+      </p>
+    </div>
+  </div>
+</section>
+<section class="spread" style="min-height:100vh;padding:36px 30px;border-top:1px solid rgba(0,0,0,.15);background:#dae8ff;color:#111111;">
+  <div style="display:grid;grid-template-columns:1fr 1fr;gap:28px;align-items:start;min-height:calc(100vh - 72px);">
+    <div>
+      <div style="font-size:18px;font-weight:900;text-transform:uppercase;letter-spacing:.12em;margin-bottom:10px;">Cybersecurity / policy &amp; regulation</div>
+      <div style="font-family:Georgia,serif;font-size:140px;line-height:.85;letter-spacing:-.08em;">09</div>
+      <h2 style="font-family:Georgia,serif;font-size:64px;line-height:.95;letter-spacing:-.05em;margin:8px 0 0;max-width:9ch;">Comparison Shopping Is Not a (Computer) Crime</h2>
+    </div>
+    <div>
+      <div style="display:grid;gap:10px;font-size:24px;line-height:1.25;margin-top:8px;">
+        <div><strong>Date</strong> Thu, 09 Apr 2026</div>
+        <div><strong>Where</strong> TBC</div>
+        <div><strong>Host</strong> Deeplinks</div>
+      </div>
+      <div style="display:flex;gap:12px;flex-wrap:wrap;margin:18px 0 18px;">
+        <div style="font-size:16px;font-weight:900;padding:10px 14px;border:1px solid currentColor;border-radius:999px;">Attend</div>
+        <div style="font-size:16px;font-weight:900;padding:10px 14px;border:1px solid currentColor;border-radius:999px;">Cybersecurity</div>
+      </div>
+      <div style="font-size:13px;font-weight:900;text-transform:uppercase;letter-spacing:.1em;margin-bottom:6px;opacity:.6;">Why it matters</div>
+      <div style="font-size:28px;line-height:1.2;max-width:30ch;">As long as people have had more than one purchasing option, they’ve been comparing those options and looking for bargains. Online shoppers are no exception; in fact, one of the potential benefits of…</div>
+      <div style="margin-top:18px;border:1px solid rgba(0,0,0,.18);border-radius:20px;padding:18px 20px;font-size:22px;line-height:1.35;max-width:42ch;background:#c7dbff;">
+        <strong>Watch:</strong> Sourced from Deeplinks — verify dates and AI relevance.
+      </div>
+      <p style="margin-top:16px;font-size:18px;font-weight:700;">
+        <a href="https://www.eff.org/deeplinks/2026/04/comparison-shopping-not-computer-crime" target="_blank" rel="noopener" style="color:inherit;">Open source ↗</a>
+      </p>
+    </div>
+  </div>
+</section>
+<section class="spread" style="min-height:100vh;padding:36px 30px;border-top:1px solid rgba(0,0,0,.15);background:#432522;color:#fff6ef;">
+  <div style="display:grid;grid-template-columns:1fr 1fr;gap:28px;align-items:start;min-height:calc(100vh - 72px);">
+    <div>
+      <div style="font-size:18px;font-weight:900;text-transform:uppercase;letter-spacing:.12em;margin-bottom:10px;">AI Governance / policy &amp; regulation</div>
+      <div style="font-family:Georgia,serif;font-size:140px;line-height:.85;letter-spacing:-.08em;">10</div>
+      <h2 style="font-family:Georgia,serif;font-size:64px;line-height:.95;letter-spacing:-.05em;margin:8px 0 0;max-width:9ch;">The FAA’s “Temporary” Flight Restriction for Drones is a Blatant Attempt to Criminalize Filming ICE</h2>
+    </div>
+    <div>
+      <div style="display:grid;gap:10px;font-size:24px;line-height:1.25;margin-top:8px;">
+        <div><strong>Date</strong> Fri, 03 Apr 2026</div>
+        <div><strong>Where</strong> TBC</div>
+        <div><strong>Host</strong> Deeplinks</div>
+      </div>
+      <div style="display:flex;gap:12px;flex-wrap:wrap;margin:18px 0 18px;">
+        <div style="font-size:16px;font-weight:900;padding:10px 14px;border:1px solid currentColor;border-radius:999px;">Attend</div>
+        <div style="font-size:16px;font-weight:900;padding:10px 14px;border:1px solid currentColor;border-radius:999px;">AI Governance</div>
+      </div>
+      <div style="font-size:13px;font-weight:900;text-transform:uppercase;letter-spacing:.1em;margin-bottom:6px;opacity:.6;">Why it matters</div>
+      <div style="font-size:28px;line-height:1.2;max-width:30ch;">Legal intern Raj Gambhir was the principal author of this post. Update: On April 15, 2026 the FAA rescinded the TFR (FDC 6/4375) and instead issued an advisory (FDC 6/2824), which states: [Drone]…</div>
+      <div style="margin-top:18px;border:1px solid rgba(0,0,0,.18);border-radius:20px;padding:18px 20px;font-size:22px;line-height:1.35;max-width:42ch;background:#a45f50;">
+        <strong>Watch:</strong> Sourced from Deeplinks — verify dates and AI relevance.
+      </div>
+      <p style="margin-top:16px;font-size:18px;font-weight:700;">
+        <a href="https://www.eff.org/deeplinks/2026/04/faas-temporary-flight-restriction-drones-blatant-attempt-criminalize-filming-ice" target="_blank" rel="noopener" style="color:inherit;">Open source ↗</a>
+      </p>
+    </div>
+  </div>
+</section>
+  <script>
+    (function() {
+      var io = new IntersectionObserver(function(entries) {
+        entries.forEach(function(e) {
+          if (e.isIntersecting) {
+            e.target.classList.add('in-view');
+            io.unobserve(e.target);
+          }
+        });
+      }, { threshold: 0.04 });
+      document.querySelectorAll('.spread').forEach(function(s) { io.observe(s); });
+    })();
+  </script>
+</body>
+</html>

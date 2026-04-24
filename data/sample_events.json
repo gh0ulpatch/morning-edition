@@ -72,30 +72,6 @@
     "source": "https://www.eff.org/deeplinks/2026/04/internet-still-works-reddit-empowers-community-moderation"
   },
   {
-    "title": "Auto-ART: Structured Literature Synthesis and Automated Adversarial Robustness Testing",
-    "date": "Thu, 23 Apr 2026",
-    "location": "TBC",
-    "host": "cs.CR updates on arXiv.org",
-    "applies": "Attend",
-    "tag": "EU Governance",
-    "angle": "EU Governance / technical AI",
-    "why": "Adversarial robustness evaluation underpins every claim of trustworthy ML deployment, yet the field suffers from fragmented protocols and undetected gradient masking. We make two contributions. (1)…",
-    "watch": "Sourced from cs.CR updates on arXiv.org — verify dates and AI relevance.",
-    "source": "https://arxiv.org/abs/2604.20704"
-  },
-  {
-    "title": "LLM Agents Predict Social Media Reactions but Do Not Outperform Text Classifiers: Benchmarking Simulation Accuracy…",
-    "date": "Thu, 23 Apr 2026",
-    "location": "TBC",
-    "host": "cs.CY updates on arXiv.org",
-    "applies": "Attend",
-    "tag": "Multilateral",
-    "angle": "Multilateral / technical AI",
-    "why": "Social media platforms mediate how billions form opinions and engage with public discourse. As autonomous AI agents increasingly participate in these spaces, understanding their behavioral fidelity…",
-    "watch": "Sourced from cs.CY updates on arXiv.org — verify dates and AI relevance.",
-    "source": "https://arxiv.org/abs/2604.19787"
-  },
-  {
     "title": "Keep Pushing: We Get 10 More Days to Reform Section 702",
     "date": "Fri, 17 Apr 2026",
     "location": "TBC",
@@ -144,40 +120,28 @@
     "source": "https://www.eff.org/deeplinks/2026/04/faas-temporary-flight-restriction-drones-blatant-attempt-criminalize-filming-ice"
   },
   {
-    "title": "Soft-Label Governance for Distributional Safety in Multi-Agent Systems",
+    "title": "EFF to 9th Circuit (Again): App Stores Shouldn’t Be Liable for Processing Payments for User Content",
     "date": "Thu, 23 Apr 2026",
     "location": "TBC",
-    "host": "cs.CY updates on arXiv.org",
+    "host": "Deeplinks",
     "applies": "Attend",
-    "tag": "Multilateral",
-    "angle": "Multilateral / governance & institutions",
-    "why": "Multi-agent AI systems exhibit emergent risks that no single agent produces in isolation. Existing safety frameworks rely on binary classifications of agent behavior, discarding the uncertainty…",
-    "watch": "Sourced from cs.CY updates on arXiv.org — verify dates and AI relevance.",
-    "source": "https://arxiv.org/abs/2604.19752"
+    "tag": "Trust & Safety",
+    "angle": "Trust & Safety / policy & regulation",
+    "why": "EFF filed an amicus brief for the second time in the U.S. Court of Appeals for the Ninth Circuit, arguing that allowing cases against the Apple, Google, and Facebook app stores to proceed could lead…",
+    "watch": "Sourced from Deeplinks — verify dates and AI relevance.",
+    "source": "https://www.eff.org/deeplinks/2026/04/eff-9th-circuit-again-app-stores-shouldnt-be-liable-processing-payments-user"
   },
   {
-    "title": "The AI Telco Engineer: Toward Autonomous Discovery of Wireless Communications Algorithms",
-    "date": "Thu, 23 Apr 2026",
-    "location": "TBC",
-    "host": "cs.AI updates on arXiv.org",
-    "applies": "Attend",
-    "tag": "Multilateral",
-    "angle": "Multilateral / technical AI",
-    "why": "Agentic AI is rapidly transforming the way research is conducted, from prototyping ideas to reproducing results found in the literature. In this paper, we explore the ability of agentic AI to…",
-    "watch": "Sourced from cs.AI updates on arXiv.org — verify dates and AI relevance.",
-    "source": "https://arxiv.org/abs/2604.19803"
-  },
-  {
-    "title": "DECIFR: Domain-Aware Exfiltration of Circuit Information from Federated Gradient Reconstruction",
-    "date": "Thu, 23 Apr 2026",
+    "title": "MCP Pitfall Lab: Exposing Developer Pitfalls in MCP Tool Server Security under Multi-Vector Attacks",
+    "date": "Fri, 24 Apr 2026",
     "location": "TBC",
     "host": "cs.CR updates on arXiv.org",
     "applies": "Attend",
-    "tag": "Cybersecurity",
-    "angle": "Cybersecurity / technical AI",
-    "why": "Federated Learning (FL) is a promising approach for multiparty collaboration as a privacy-preserving technique in hardware assurance, but its security against adversaries with domain-specific…",
+    "tag": "AI Governance",
+    "angle": "AI Governance / technical AI",
+    "why": "Model Context Protocol (MCP) is increasingly adopted for tool-integrated LLM agents, but its multi-layer design and third-party server ecosystem expand risks across tool metadata, untrusted outputs,…",
     "watch": "Sourced from cs.CR updates on arXiv.org — verify dates and AI relevance.",
-    "source": "https://arxiv.org/abs/2604.19915"
+    "source": "https://arxiv.org/abs/2604.21477"
   },
   {
     "title": "Copyright and DMCA Best Practices for Fediverse Operators",
@@ -240,40 +204,28 @@
     "source": "https://www.eff.org/deeplinks/2026/04/yikes-encryptions-y2k-moment-coming-years-early"
   },
   {
-    "title": "Hidden Reliability Risks in Large Language Models: Systematic Identification of Precision-Induced Output Disagreements",
+    "title": "Op-ed: Congress’s New Privacy Bill Is Built on Empty Promises",
     "date": "Thu, 23 Apr 2026",
     "location": "TBC",
-    "host": "cs.AI updates on arXiv.org",
+    "host": "Center for Democracy and Technology",
     "applies": "Attend",
-    "tag": "Multilateral",
-    "angle": "Multilateral / technical AI",
-    "why": "Large language models (LLMs) are increasingly deployed under diverse numerical precision configurations, including standard floating-point formats (e.g., bfloat16 and float16) and quantized integer…",
-    "watch": "Sourced from cs.AI updates on arXiv.org — verify dates and AI relevance.",
-    "source": "https://arxiv.org/abs/2604.19790"
+    "tag": "Privacy & Surveillance",
+    "angle": "Privacy & Surveillance / policy & regulation",
+    "why": "This op-ed, authored by CDT’s Eric Null, first appeared in Tech Policy Press on April 23, 2026. A portion of the text has been pasted below. After more than a year since originally seeking comment on…",
+    "watch": "Sourced from Center for Democracy and Technology — verify dates and AI relevance.",
+    "source": "https://cdt.org/insights/op-ed-congresss-new-privacy-bill-is-built-on-empty-promises/"
   },
   {
-    "title": "Bias in the Tails: How Name-conditioned Evaluative Framing in Resume Summaries Destabilizes LLM-based Hiring",
-    "date": "Thu, 23 Apr 2026",
+    "title": "PLAS-Net: Pixel-Level Area Segmentation for UAV-Based Beach Litter Monitoring",
+    "date": "Fri, 24 Apr 2026",
     "location": "TBC",
     "host": "cs.CY updates on arXiv.org",
-    "applies": "Attend",
-    "tag": "Multilateral",
-    "angle": "Multilateral / technical AI",
-    "why": "Research has documented LLMs' name-based bias in hiring and salary recommendations. In this paper, we instead consider a setting where LLMs generate candidate summaries for downstream assessment. In…",
-    "watch": "Sourced from cs.CY updates on arXiv.org — verify dates and AI relevance.",
-    "source": "https://arxiv.org/abs/2604.19984"
-  },
-  {
-    "title": "Mythos and the Unverified Cage: Z3-Based Pre-Deployment Verification for Frontier-Model Sandbox Infrastructure",
-    "date": "Thu, 23 Apr 2026",
-    "location": "TBC",
-    "host": "cs.CR updates on arXiv.org",
     "applies": "Monitor",
-    "tag": "Cybersecurity",
-    "angle": "Cybersecurity / policy & regulation",
-    "why": "The April 2026 Claude Mythos sandbox escape exposed a critical weakness in frontier AI containment: the infrastructure surrounding advanced models remains susceptible to formally characterizable…",
-    "watch": "Sourced from cs.CR updates on arXiv.org — verify dates and AI relevance.",
-    "source": "https://arxiv.org/abs/2604.20496"
+    "tag": "AI Governance",
+    "angle": "AI Governance / policy & regulation",
+    "why": "Accurate quantification of the physical exposure area of beach litter, rather than simple item counts, is essential for credible ecological risk assessment of marine debris. However, automated…",
+    "watch": "Sourced from cs.CY updates on arXiv.org — verify dates and AI relevance.",
+    "source": "https://arxiv.org/abs/2604.21313"
   },
   {
     "title": "DfP 2026",
@@ -300,16 +252,40 @@
     "source": "https://www.un.org/en/card/209805"
   },
   {
-    "title": "Towards Secure Logging: Characterizing and Benchmarking Logging Code Security Issues with LLMs",
-    "date": "Thu, 23 Apr 2026",
+    "title": "Robustness Analysis of POMDP Policies to Observation Perturbations",
+    "date": "Fri, 24 Apr 2026",
     "location": "TBC",
-    "host": "cs.CR updates on arXiv.org",
+    "host": "cs.AI updates on arXiv.org",
     "applies": "Monitor",
-    "tag": "Privacy & Surveillance",
-    "angle": "Privacy & Surveillance / technical AI",
-    "why": "Logging code plays an important role in software systems by recording key events and behaviors, which are essential for debugging and monitoring. However, insecure logging practices can inadvertently…",
-    "watch": "Sourced from cs.CR updates on arXiv.org — verify dates and AI relevance.",
-    "source": "https://arxiv.org/abs/2604.20211"
+    "tag": "AI Governance",
+    "angle": "AI Governance / technical AI",
+    "why": "Policies for Partially Observable Markov Decision Processes (POMDPs) are often designed using a nominal system model. In practice, this model can deviate from the true system during deployment due to…",
+    "watch": "Sourced from cs.AI updates on arXiv.org — verify dates and AI relevance.",
+    "source": "https://arxiv.org/abs/2604.21256"
+  },
+  {
+    "title": "The Shrinking Sweet Spot: How Algorithms, Institutions, and Social Priors Shape Musical Ecosystems",
+    "date": "Fri, 24 Apr 2026",
+    "location": "TBC",
+    "host": "cs.CY updates on arXiv.org",
+    "applies": "Monitor",
+    "tag": "AI Governance",
+    "angle": "AI Governance / policy & regulation",
+    "why": "Why do some national music markets sustain a rich musical diversity whereas others converge on mostly formulaic output? The existing models of cultural consumption (superstar economics, rational…",
+    "watch": "Sourced from cs.CY updates on arXiv.org — verify dates and AI relevance.",
+    "source": "https://arxiv.org/abs/2604.20873"
+  },
+  {
+    "title": "UK statement to the 10th Review Meeting of the Convention on Nuclear Safety (CNS), April 2026",
+    "date": "2026-04-24T11:40",
+    "location": "TBC",
+    "host": "News and communications",
+    "applies": "Monitor",
+    "tag": "Multilateral",
+    "angle": "Multilateral / policy & regulation",
+    "why": "The Convention on Nuclear <mark>Safety</mark> is the key international legally binding instrument for nuclear <mark>safety</mark> that currently has 98 Contracting Parties.",
+    "watch": "Sourced from News and communications — verify dates and AI relevance.",
+    "source": "https://www.gov.uk/government/news/uk-statement-to-the-10th-review-meeting-of-the-convention-on-nuclear-safety-cns-april-2026"
   },
   {
     "title": "Third United Nations Conference on Landlocked Developing Countries (LLDC3)",
@@ -336,18 +312,6 @@
     "source": "https://futureoflife.org/ai-policy/breakfast-4-rumman-chowdhury/"
   },
   {
-    "title": "Potentials and Pitfalls of Applying Federated Learning in Hardware Assurance",
-    "date": "Thu, 23 Apr 2026",
-    "location": "TBC",
-    "host": "cs.CR updates on arXiv.org",
-    "applies": "Monitor",
-    "tag": "Privacy & Surveillance",
-    "angle": "Privacy & Surveillance / technical AI",
-    "why": "As microelectronics flourish and outsourcing of the design and manufacturing stages of integrated circuits (ICs) and printed circuit boards (PCBs) becomes the norm, microelectronics stakeholders must…",
-    "watch": "Sourced from cs.CR updates on arXiv.org — verify dates and AI relevance.",
-    "source": "https://arxiv.org/abs/2604.20020"
-  },
-  {
     "title": "KDD-MLF 2025",
     "date": "Event",
     "location": "Where",
@@ -358,18 +322,6 @@
     "why": "KDD-MLF 2025",
     "watch": "Sourced via WikiCFP — check agenda for AI harm/misuse sessions.",
     "source": "http://www.wikicfp.com/cfp/servlet/event.showcfp?eventid=186399&copyownerid=192394"
-  },
-  {
-    "title": "SoK: The Next Frontier in AV Security: Systematizing Perception Attacks and the Emerging Threat of Multi-Sensor Fusion",
-    "date": "Thu, 23 Apr 2026",
-    "location": "TBC",
-    "host": "cs.CR updates on arXiv.org",
-    "applies": "Monitor",
-    "tag": "Cybersecurity",
-    "angle": "Cybersecurity / technical AI",
-    "why": "Autonomous vehicles (AVs) increasingly rely on multi-sensor perception pipelines that combine data from cameras, lidar, radar, and other modalities to interpret the environment. This SoK systematizes…",
-    "watch": "Sourced from cs.CR updates on arXiv.org — verify dates and AI relevance.",
-    "source": "https://arxiv.org/abs/2604.20621"
   },
   {
     "title": "RWS 2025",
@@ -420,18 +372,6 @@
     "source": "https://www.eff.org/deeplinks/2026/04/how-push-notifications-can-betray-your-privacy-and-what-do-about-it"
   },
   {
-    "title": "TLSCheck 2.0: An Enhanced Memory Forensics Approach to Efficiently Detect TLS Callbacks",
-    "date": "Thu, 23 Apr 2026",
-    "location": "TBC",
-    "host": "cs.CR updates on arXiv.org",
-    "applies": "Monitor",
-    "tag": "Cybersecurity",
-    "angle": "Cybersecurity / policy & regulation",
-    "why": "Memory analysis is a crucial technique in digital forensics that enables investigators to examine the runtime state of a system through physical memory dumps. While significant advances have been…",
-    "watch": "Sourced from cs.CR updates on arXiv.org — verify dates and AI relevance.",
-    "source": "https://arxiv.org/abs/2604.20378"
-  },
-  {
     "title": "AITC 2026",
     "date": "Event",
     "location": "Where",
@@ -454,6 +394,18 @@
     "why": "On 30 March 2026, a coordinated international French-led operation, which was supported by Europol and involved law enforcement and judicial authorities from Germany and Hungary, led to the…",
     "watch": "Sourced from News — verify dates and AI relevance.",
     "source": "https://www.europol.europa.eu/media-press/newsroom/news/vietnam-to-eu-air-8-arrested-in-migrant-smuggling-sting-across-europe"
+  },
+  {
+    "title": "A pragmatic classification of AI incident trajectories",
+    "date": "Fri, 24 Apr 2026",
+    "location": "TBC",
+    "host": "cs.CY updates on arXiv.org",
+    "applies": "Monitor",
+    "tag": "AI Governance",
+    "angle": "AI Governance / policy & regulation",
+    "why": "Public AI incident database counts conflate changes in reporting propensity, deployment growth, and shifts in harm frequency per unit of exposure. These issues introduce significant uncertainties…",
+    "watch": "Sourced from cs.CY updates on arXiv.org — verify dates and AI relevance.",
+    "source": "https://arxiv.org/abs/2604.21412"
   },
   {
     "title": "ICAIR 2024",
@@ -480,18 +432,6 @@
     "source": "https://www.europol.europa.eu/media-press/newsroom/news/guns-for-cannabis-network-hit-europol-high-value-target-arrested-in-international-action"
   },
   {
-    "title": "CVEs With a CVSS Score Greater Than or Equal to 9",
-    "date": "Thu, 23 Apr 2026",
-    "location": "TBC",
-    "host": "cs.CR updates on arXiv.org",
-    "applies": "Monitor",
-    "tag": "Cybersecurity",
-    "angle": "Cybersecurity / technical AI",
-    "why": "Critical vulnerabilities with Common Vulnerability Scoring System scores of 9.0 or higher pose severe risks to organisations' information systems. Timely detection and remediation are essential to…",
-    "watch": "Sourced from cs.CR updates on arXiv.org — verify dates and AI relevance.",
-    "source": "https://arxiv.org/abs/2604.20765"
-  },
-  {
     "title": "ICBAP 2024",
     "date": "International Conference on Business Analytics in Practice",
     "location": "TBC",
@@ -504,16 +444,16 @@
     "source": "http://www.wikicfp.com/cfp/servlet/event.showcfp?eventid=182166&copyownerid=13149"
   },
   {
-    "title": "A legal vacuum on CSAM detection puts children at greater risk",
-    "date": "TBC",
+    "title": "Physically Unclonable Functions for Secure IoT Authentication and Hardware-Anchored AI Model Integrity",
+    "date": "Fri, 24 Apr 2026",
     "location": "TBC",
-    "host": "News",
+    "host": "cs.CR updates on arXiv.org",
     "applies": "Monitor",
-    "tag": "Child Safety",
-    "angle": "Child Safety / technical AI",
-    "why": "The removal of the current legal basis enabling voluntary detection by online platforms could have far-reaching implications for safeguarding children.Last year alone, Europol processed around 1.1…",
-    "watch": "Sourced from News — verify dates and AI relevance.",
-    "source": "https://www.europol.europa.eu/media-press/newsroom/news/combatting-child-sexual-exploitation-statement-catherine-de-bolle"
+    "tag": "AI Governance",
+    "angle": "AI Governance / technical AI",
+    "why": "The rapid integration of artificial intelligence (AI) into Internet of Things (IoT) and edge computing systems has intensified the need for robust, hardware-rooted trust mechanisms capable of…",
+    "watch": "Sourced from cs.CR updates on arXiv.org — verify dates and AI relevance.",
+    "source": "https://arxiv.org/abs/2604.21188"
   },
   {
     "title": "Leading Balkan Cartel member arrested in Montenegro",
@@ -588,6 +528,18 @@
     "source": "https://futureoflife.org/press-release/prominent-scientists-faith-leaders-policymakers-and-artists-call-for-a-prohibition-on-superintelligence/"
   },
   {
+    "title": "Mitigate or Fail: How Risk Management Shapes Cybersecurity Competency",
+    "date": "Fri, 24 Apr 2026",
+    "location": "TBC",
+    "host": "cs.CY updates on arXiv.org",
+    "applies": "Monitor",
+    "tag": "Cybersecurity",
+    "angle": "Cybersecurity / policy & regulation",
+    "why": "Contemporary cybersecurity governance assumes that professionals apply risk reasoning. Yet major organisational failures persist despite investment in tools, staffing, and credentials. This study…",
+    "watch": "Sourced from cs.CY updates on arXiv.org — verify dates and AI relevance.",
+    "source": "https://arxiv.org/abs/2604.21604"
+  },
+  {
     "title": "WAICOM 2022",
     "date": "International Workshop on AI compliance mechanism",
     "location": "TBC",
@@ -610,30 +562,6 @@
     "why": "Today, France and the United Kingdom convened 51 countries for an international summit on the Strait of Hormuz. The meeting underlined the determination of the international community to support…",
     "watch": "Sourced from News and communications — verify dates and AI relevance.",
     "source": "https://www.gov.uk/government/news/joint-statement-by-president-macron-and-prime-minister-starmer-co-chairs-of-the-international-summit-on-the-strait-of-hormuz-17-april-2026"
-  },
-  {
-    "title": "Knowing your customer electronically: Guidance on digital ID acceptance",
-    "date": "Fri, 27 Aug 2021",
-    "location": "TBC",
-    "host": "ITU News",
-    "applies": "Monitor",
-    "tag": "Multilateral",
-    "angle": "Multilateral / policy & regulation",
-    "why": "By ITU News Know your customer (KYC) regulations are designed to ensure that providers of financial services know their customers’ identities, the risks attached to providing services to different…",
-    "watch": "Sourced from ITU News — verify dates and AI relevance.",
-    "source": "https://news.itu.int/knowing-your-customer-electronically-guidance-on-digital-id-acceptance/"
-  },
-  {
-    "title": "Text Steganography with Dynamic Codebook and Multimodal Large Language Model",
-    "date": "Thu, 23 Apr 2026",
-    "location": "TBC",
-    "host": "cs.CR updates on arXiv.org",
-    "applies": "Monitor",
-    "tag": "AI Governance",
-    "angle": "AI Governance / technical AI",
-    "why": "With the popularity of the large language models (LLMs), text steganography has achieved remarkable performance. However, existing methods still have some issues: (1) For the white-box paradigm, this…",
-    "watch": "Sourced from cs.CR updates on arXiv.org — verify dates and AI relevance.",
-    "source": "https://arxiv.org/abs/2604.20269"
   },
   {
     "title": "India AI Impact Summit panel: Towards multilateral agreement on enforcing red lines",
@@ -708,28 +636,16 @@
     "source": "https://www.europarl.europa.eu/news/en/headlines/priorities/parliament-reforms"
   },
   {
-    "title": "What to expect from the AI/ML in 5G Challenge",
-    "date": "Wed, 01 Dec 2021",
+    "title": "Can MLLMs \"Read\" What is Missing?",
+    "date": "Fri, 24 Apr 2026",
     "location": "TBC",
-    "host": "ITU News",
+    "host": "cs.AI updates on arXiv.org",
     "applies": "Monitor",
     "tag": "Multilateral",
     "angle": "Multilateral / technical AI",
-    "why": "ITU News The 2nd Artificial Intelligence/Machine Learning (AI/ML) in 5G Challenge is set to conclude in December, capping a successful debut last year. Organized by the International…",
-    "watch": "Sourced from ITU News — verify dates and AI relevance.",
-    "source": "https://news.itu.int/what-to-expect-from-the-ai-ml-in-5g-challenge/"
-  },
-  {
-    "title": "New standards needed to drive digital agriculture",
-    "date": "Tue, 16 Nov 2021",
-    "location": "TBC",
-    "host": "ITU News",
-    "applies": "Monitor",
-    "tag": "Multilateral",
-    "angle": "Multilateral / technical AI",
-    "why": "ITU Press Release The next wave of technological progress to sustain the world&#8217;s fast-growing global population will capitalize on artificial intelligence (AI) and the Internet of Things (IoT)…",
-    "watch": "Sourced from ITU News — verify dates and AI relevance.",
-    "source": "https://news.itu.int/new-standards-needed-to-drive-digital-agriculture/"
+    "why": "We introduce MMTR-Bench, a benchmark designed to evaluate the intrinsic ability of Multimodal Large Language Models (MLLMs) to reconstruct masked text directly from visual context. Unlike…",
+    "watch": "Sourced from cs.AI updates on arXiv.org — verify dates and AI relevance.",
+    "source": "https://arxiv.org/abs/2604.21277"
   },
   {
     "title": "In Conversation with the 2025 EMEA Summit Programme Committee",
@@ -768,6 +684,30 @@
     "source": "https://www.gov.uk/government/news/call-to-action-for-ai-companies-to-work-with-uk-government-on-national-cyber-defence"
   },
   {
+    "title": "Waste carrier fined after depositing tonnes at illegal site",
+    "date": "2026-04-23T17:48",
+    "location": "TBC",
+    "host": "News and communications",
+    "applies": "Monitor",
+    "tag": "AI Governance",
+    "angle": "AI Governance / policy & regulation",
+    "why": "The Devon waste carrier was fined £1,466 and told to pay back the economic benefit he realised by his illegal activity of £12,300.",
+    "watch": "Sourced from News and communications — verify dates and AI relevance.",
+    "source": "https://www.gov.uk/government/news/waste-carrier-fined-after-depositing-tonnes-at-illegal-site"
+  },
+  {
+    "title": "Waste site clearance underway after court action",
+    "date": "2026-04-23T15:05",
+    "location": "TBC",
+    "host": "News and communications",
+    "applies": "Monitor",
+    "tag": "AI Governance",
+    "angle": "AI Governance / policy & regulation",
+    "why": "Clearance is underway on a West Yorkshire illegal waste site following court action by the Environment Agency.",
+    "watch": "Sourced from News and communications — verify dates and AI relevance.",
+    "source": "https://www.gov.uk/government/news/waste-site-clearance-underway-after-court-action"
+  },
+  {
     "title": "UK Emissions Trading Scheme: ministerial directions to the regulators",
     "date": "2026-04-23T10:07",
     "location": "TBC",
@@ -790,18 +730,6 @@
     "why": "A company and its director have been given a month to clear an illegal waste site or risk further court action.",
     "watch": "Sourced from News and communications — verify dates and AI relevance.",
     "source": "https://www.gov.uk/government/news/court-orders-waste-site-to-be-cleared-after-investigation"
-  },
-  {
-    "title": "Animal Sentience Committee: impact of definitions of animals in law",
-    "date": "2026-04-21T13:43",
-    "location": "TBC",
-    "host": "News and communications",
-    "applies": "Monitor",
-    "tag": "AI Governance",
-    "angle": "AI Governance / policy & regulation",
-    "why": "Letter from the Animal Sentience Committee on the welfare implications of the different definitions of ‘animals’ in UK law.",
-    "watch": "Sourced from News and communications — verify dates and AI relevance.",
-    "source": "https://www.gov.uk/government/publications/animal-sentience-committee-impact-of-definitions-of-animals-in-law"
   },
   {
     "title": "Statement: Head of US Policy on the White House AI legislative recommendations",
@@ -876,16 +804,16 @@
     "source": "https://www.gov.uk/government/speeches/security-minister-statement-on-antisemitic-attacks"
   },
   {
-    "title": "Japan-UK Foreign Ministers’ Strategic Dialogue 2026 – Joint Statement",
-    "date": "2026-04-20T13:45",
+    "title": "Report by the Representative on Freedom of the Media to the OSCE Permanent Council: Joint Statement, April 2026",
+    "date": "2026-04-23T14:33",
     "location": "TBC",
     "host": "News and communications",
     "applies": "Monitor",
     "tag": "AI Governance",
     "angle": "AI Governance / policy & regulation",
-    "why": "The Foreign Secretary met Foreign Minister Motegi in Tokyo on 20 April 2026 for the tenth Japan-UK Foreign Ministers’ Strategic Dialogue.",
+    "why": "UK and others call for action to uphold <mark>safety</mark> of journalists and media freedom against a deteriorating background within some OSCE countries.",
     "watch": "Sourced from News and communications — verify dates and AI relevance.",
-    "source": "https://www.gov.uk/government/news/japan-uk-foreign-ministers-strategic-dialogue-2026-joint-statement"
+    "source": "https://www.gov.uk/government/speeches/report-by-the-representative-on-freedom-of-the-media-to-the-osce-permanent-council-joint-statement-april-2026"
   },
   {
     "title": "NIST Launches Centers for AI in Manufacturing and Critical Infrastructure",
@@ -960,66 +888,6 @@
     "source": "https://www.europarl.europa.eu/news/en/headlines/priorities/covid-19-recovery"
   },
   {
-    "title": "Are networks ready for today’s demand? Here’s how regulators will rethink ICT policy in 2022",
-    "date": "Wed, 19 Jan 2022",
-    "location": "TBC",
-    "host": "ITU News",
-    "applies": "Monitor",
-    "tag": "Multilateral",
-    "angle": "Multilateral / policy & regulation",
-    "why": "By Malcolm Johnson, ITU Deputy Secretary-General Over the last two years, the world’s telecom regulators, network operators and platform providers have responded decisively and effectively to the…",
-    "watch": "Sourced from ITU News — verify dates and AI relevance.",
-    "source": "https://news.itu.int/are-networks-ready-for-todays-demand-heres-how-regulators-will-rethink-ict-policy-in-2022/"
-  },
-  {
-    "title": "Testing labs collaborate to maximize 5G impact",
-    "date": "Tue, 21 Dec 2021",
-    "location": "TBC",
-    "host": "ITU News",
-    "applies": "Monitor",
-    "tag": "Multilateral",
-    "angle": "Multilateral / policy & regulation",
-    "why": "ITU Press Release Standardization experts have formed a new focus group at the International Telecommunication Union (ITU) to optimize the “testbeds&#8221; for rolling out effective, sustainable…",
-    "watch": "Sourced from ITU News — verify dates and AI relevance.",
-    "source": "https://news.itu.int/testing-labs-collaborate-to-maximize-5g-impact/"
-  },
-  {
-    "title": "Building climate-resilient cities through digital transformation",
-    "date": "Fri, 29 Oct 2021",
-    "location": "TBC",
-    "host": "ITU News",
-    "applies": "Monitor",
-    "tag": "Multilateral",
-    "angle": "Multilateral / policy & regulation",
-    "why": "By Malcolm Johnson, ITU Deputy Secretary-General According to a recent&#160;report&#160;from the Intergovernmental Panel on Climate Change (IPCC), human influence has unequivocally contributed to…",
-    "watch": "Sourced from ITU News — verify dates and AI relevance.",
-    "source": "https://news.itu.int/building-climate-resilient-cities-through-digital-transformation/"
-  },
-  {
-    "title": "How public-private collaboration can drive effective digital climate action",
-    "date": "Tue, 28 Sep 2021",
-    "location": "TBC",
-    "host": "ITU News",
-    "applies": "Monitor",
-    "tag": "Multilateral",
-    "angle": "Multilateral / policy & regulation",
-    "why": "by Malcolm Johnson, ITU Deputy Secretary-General The UN Secretary-General’s address to the UN General Assembly last week made it clear: we “are on the edge of an abyss”, in his words. One of the six…",
-    "watch": "Sourced from ITU News — verify dates and AI relevance.",
-    "source": "https://news.itu.int/how-public-private-collaboration-can-drive-effective-digital-climate-action/"
-  },
-  {
-    "title": "Reimagine, recreate, restore: How we can make digital transformation sustainable",
-    "date": "Fri, 04 Jun 2021",
-    "location": "TBC",
-    "host": "ITU News",
-    "applies": "Monitor",
-    "tag": "Multilateral",
-    "angle": "Multilateral / policy & regulation",
-    "why": "by Malcolm Johnson, ITU Deputy Secretary-General Celebrated worldwide every 5 June, World Environment Day offers a renewed opportunity to rethink our relationship with the natural world. It also…",
-    "watch": "Sourced from ITU News — verify dates and AI relevance.",
-    "source": "https://news.itu.int/reimagine-recreate-restore-how-we-can-make-digital-transformation-sustainable/"
-  },
-  {
     "title": "AI Company Safety Practices Fall Short of Public Commitments and Show Structural Weaknesses, as Top Performers Widen…",
     "date": "Tue, 02 Dec 2025",
     "location": "TBC",
@@ -1042,18 +910,6 @@
     "why": "The AI Action Summit will take place in Paris from 10-11 February 2025. Here we list the agenda and key deliverables.",
     "watch": "Sourced from Future of Life Institute — verify dates and AI relevance.",
     "source": "https://futureoflife.org/ai-policy/context-and-agenda-2025-ai-action-summit/"
-  },
-  {
-    "title": "Prioritizing AI Assurance and Civil Society Engagement Following India’s AI Impact Summit",
-    "date": "Thu, 19 Feb 2026",
-    "location": "TBC",
-    "host": "Partnership on AI",
-    "applies": "Monitor",
-    "tag": "AI Governance",
-    "angle": "AI Governance / policy & regulation",
-    "why": "The post Prioritizing AI Assurance and Civil Society Engagement Following India’s AI Impact Summit appeared first on Partnership on AI .",
-    "watch": "Sourced from Partnership on AI — verify dates and AI relevance.",
-    "source": "https://partnershiponai.org/prioritizing-ai-assurance-and-civil-society-engagement-following-indias-ai-impact-summit/"
   },
   {
     "title": "NIST Researchers Develop Photonic Chip Packaging That Can Withstand Extreme Environments",
@@ -1092,30 +948,6 @@
     "source": "https://www.nist.gov/news-events/news/2025/09/caisi-evaluation-deepseek-ai-models-finds-shortcomings-and-risks"
   },
   {
-    "title": "Here’s how tech, standards and collaboration can improve inclusion for persons with disabilities",
-    "date": "Fri, 03 Dec 2021",
-    "location": "TBC",
-    "host": "ITU News",
-    "applies": "Monitor",
-    "tag": "Multilateral",
-    "angle": "Multilateral / governance & institutions",
-    "why": "By Malcolm Johnson, ITU Deputy-Secretary-General Once again, unfortunately, we find ourselves facing a new COVID-19 variant that has put the world on alert. This fragile situation reminds us just how…",
-    "watch": "Sourced from ITU News — verify dates and AI relevance.",
-    "source": "https://news.itu.int/heres-how-tech-standards-and-collaboration-can-improve-inclusion-for-persons-with-disabilities/"
-  },
-  {
-    "title": "How standards boost the benefits of broadcasting",
-    "date": "Thu, 03 Jun 2021",
-    "location": "TBC",
-    "host": "ITU News",
-    "applies": "Monitor",
-    "tag": "Multilateral",
-    "angle": "Multilateral / governance & institutions",
-    "why": "by Malcolm Johnson, ITU Deputy Secretary-General For the last 71 years, the International Telecommunication Union (ITU) has led global standardization across the broadcasting value chain.…",
-    "watch": "Sourced from ITU News — verify dates and AI relevance.",
-    "source": "https://news.itu.int/how-standards-boost-the-benefits-of-broadcasting/"
-  },
-  {
     "title": "Sudan",
     "date": "Thu, 21 Sep 2023",
     "location": "TBC",
@@ -1126,6 +958,30 @@
     "why": "\"Since 15 April, Sudanese people have been facing a destructive war launched by rebel RSF,\" said Abdel-Fattah Al-Burhan Abdelrahman Al-Burhan, President of the Transitional Sovereign Council of…",
     "watch": "Sourced from United Nations — verify dates and AI relevance.",
     "source": "https://www.un.org/en/card/209816"
+  },
+  {
+    "title": "Child sexual exploitation: 12 children identified during Europol’s Victim Identification Taskforce",
+    "date": "TBC",
+    "location": "TBC",
+    "host": "News",
+    "applies": "Monitor",
+    "tag": "Child Safety",
+    "angle": "Child Safety / technical AI",
+    "why": "From 13 to 24 April 2026, 34 specialists in victim identification from Europol, INTERPOL and 31 countries worldwide gathered at Europol’s headquarters in The Hague to identify victims and…",
+    "watch": "Sourced from News — verify dates and AI relevance.",
+    "source": "https://www.europol.europa.eu/media-press/newsroom/news/child-sexual-exploitation-12-children-identified-during-europols-victim-identification-taskforce"
+  },
+  {
+    "title": "New UK-France agreement to reduce illegal crossings",
+    "date": "2026-04-23T19:29",
+    "location": "TBC",
+    "host": "News and communications",
+    "applies": "Monitor",
+    "tag": "AI Governance",
+    "angle": "AI Governance / policy & regulation",
+    "why": "New agreement between the UK and France to step up patrols and <mark>intelligence</mark> operations in France to reduce illegal crossings.",
+    "watch": "Sourced from News and communications — verify dates and AI relevance.",
+    "source": "https://www.gov.uk/government/news/new-uk-france-agreement-to-reduce-illegal-crossings"
   },
   {
     "title": "Security Minister’s speech to CYBERUK 2026",
@@ -1200,16 +1056,16 @@
     "source": "https://www.gov.uk/government/news/science-training-strengthens-reporting-by-journalists-from-ghana-and-nigeria"
   },
   {
-    "title": "Record year for gang busts and knife seizures",
-    "date": "2026-04-05T11:53",
+    "title": "Minister of State statement to the House of Commons: 23 April 2026",
+    "date": "2026-04-23T13:06",
     "location": "TBC",
     "host": "News and communications",
     "applies": "Monitor",
     "tag": "AI Governance",
     "angle": "AI Governance / policy & regulation",
-    "why": "Figures show a record year for county lines enforcement with more gang leaders charged and knives seized than ever before, backed by £34 million in new funding.",
+    "why": "Ian Murray&#39;s statement on the use of UK Biobank data.",
     "watch": "Sourced from News and communications — verify dates and AI relevance.",
-    "source": "https://www.gov.uk/government/news/record-year-for-gang-busts-and-knife-seizures"
+    "source": "https://www.gov.uk/government/speeches/minister-of-state-statement-to-the-house-of-commons-23-april-2026"
   },
   {
     "title": "AI cyber threats: open letter to business leaders",
@@ -1224,18 +1080,6 @@
     "source": "https://www.gov.uk/government/publications/ai-cyber-threats-open-letter-to-business-leaders"
   },
   {
-    "title": "Precautionary recall of blood pressure medication after manufacturing error",
-    "date": "2026-04-20T13:35",
-    "location": "TBC",
-    "host": "News and communications",
-    "applies": "Monitor",
-    "tag": "AI Governance",
-    "angle": "AI Governance / policy & regulation",
-    "why": "The MHRA has advised pharmacy and healthcare professionals to stop supplying the impacted batch and return all remaining stock to their suppliers.",
-    "watch": "Sourced from News and communications — verify dates and AI relevance.",
-    "source": "https://www.gov.uk/government/news/precautionary-recall-of-blood-pressure-medication-after-manufacturing-error"
-  },
-  {
     "title": "Ofqual’s Chief Regulator issues first ‘rebuke’ to exam board for rule breaches",
     "date": "2026-04-22T09:30",
     "location": "TBC",
@@ -1246,18 +1090,6 @@
     "why": "The first ‘Chief <mark>Regulator’s</mark> Rebuke’ has been handed to WJEC CBAC Ltd for serious failures involving 4 of its Eduqas GCSE, AS and A level qualifications.…",
     "watch": "Sourced from News and communications — verify dates and AI relevance.",
     "source": "https://www.gov.uk/government/news/ofquals-chief-regulator-issues-first-rebuke-to-exam-board-for-rule-breaches"
-  },
-  {
-    "title": "Ofgem transformed to strengthen protections for energy consumers",
-    "date": "2026-04-22T00:01",
-    "location": "TBC",
-    "host": "News and communications",
-    "applies": "Monitor",
-    "tag": "AI Governance",
-    "angle": "AI Governance / policy & regulation",
-    "why": "Billpayers set to benefit from a stronger energy <mark>regulator</mark> to ensure they are treated fairly.",
-    "watch": "Sourced from News and communications — verify dates and AI relevance.",
-    "source": "https://www.gov.uk/government/news/ofgem-transformed-to-strengthen-protections-for-energy-consumers"
   },
   {
     "title": "NIST Submits Annual Report to Congress Summarizing FY 2025 Progress on National Construction Safety Team Investigations",
@@ -1332,66 +1164,6 @@
     "source": "https://www.europarl.europa.eu/news/en/headlines/priorities/sakharov-2022"
   },
   {
-    "title": "Connecting the world means connecting small islands too",
-    "date": "Fri, 17 Sep 2021",
-    "location": "TBC",
-    "host": "ITU News",
-    "applies": "Monitor",
-    "tag": "Multilateral",
-    "angle": "Multilateral / policy & regulation",
-    "why": "by Malcolm Johnson, ITU Deputy Secretary-General The last time I went on an official visit to a small island developing state (SIDS) was to St Kitts and Nevis to attend a Caribbean Telecommunications…",
-    "watch": "Sourced from ITU News — verify dates and AI relevance.",
-    "source": "https://news.itu.int/connecting-the-world-means-connecting-small-islands-too/"
-  },
-  {
-    "title": "Harnessing and balancing innovation: Payments in the fintech era",
-    "date": "Tue, 14 Sep 2021",
-    "location": "TBC",
-    "host": "ITU News",
-    "applies": "Monitor",
-    "tag": "Multilateral",
-    "angle": "Multilateral / policy & regulation",
-    "why": "By ITU News Providing everyone with a transaction account to send and receive money electronically is widely considered the first step towards financial inclusion. For the unbanked, such accounts are…",
-    "watch": "Sourced from ITU News — verify dates and AI relevance.",
-    "source": "https://news.itu.int/harnessing-and-balancing-innovation-payments-in-the-fintech-era/"
-  },
-  {
-    "title": "Digital ID: Improving financial access across Latin America",
-    "date": "Fri, 18 Jun 2021",
-    "location": "TBC",
-    "host": "ITU News",
-    "applies": "Monitor",
-    "tag": "Multilateral",
-    "angle": "Multilateral / policy & regulation",
-    "why": "By ITU News Globally, over a billion people are unable to prove their identity, barring their access to crucial services like healthcare and education, as well as to job opportunities in the formal…",
-    "watch": "Sourced from ITU News — verify dates and AI relevance.",
-    "source": "https://news.itu.int/digital-id-improving-financial-access-across-latin-america/"
-  },
-  {
-    "title": "ITU hosts new security lab for digital financial services",
-    "date": "Tue, 18 May 2021",
-    "location": "TBC",
-    "host": "ITU News",
-    "applies": "Monitor",
-    "tag": "Multilateral",
-    "angle": "Multilateral / policy & regulation",
-    "why": "By ITU News A new security lab created by the Financial Inclusion Global Initiative (FIGI)&#160;will support innovators in ensuring the security and resilience of financial applications and enabling…",
-    "watch": "Sourced from ITU News — verify dates and AI relevance.",
-    "source": "https://news.itu.int/itu-hosts-new-security-lab-for-digital-financial-services/"
-  },
-  {
-    "title": "Financial inclusion in focus at FIGI Symposium 2021",
-    "date": "Mon, 03 May 2021",
-    "location": "TBC",
-    "host": "ITU News",
-    "applies": "Monitor",
-    "tag": "Multilateral",
-    "angle": "Multilateral / policy & regulation",
-    "why": "By ITU News 1.7 billion adults have never had a bank account, but 1.1 billion of them have a mobile phone. Formal accounts and savings can&#160;help safeguard against unexpected events such as…",
-    "watch": "Sourced from ITU News — verify dates and AI relevance.",
-    "source": "https://news.itu.int/financial-inclusion-in-focus-at-figi-symposium-2021/"
-  },
-  {
     "title": "The Impact of AI in Education: Navigating the Imminent Future",
     "date": "Thu, 13 Feb 2025",
     "location": "TBC",
@@ -1450,42 +1222,6 @@
     "why": "The Center for AI Standards and Innovation (CAISI) at the U.S. Department of Commerce’s National Institute of Standards and Technology (NIST) has published a Request for Information (RFI) seeking…",
     "watch": "Sourced from NIST News — verify dates and AI relevance.",
     "source": "https://www.nist.gov/news-events/news/2026/01/caisi-issues-request-information-about-securing-ai-agent-systems"
-  },
-  {
-    "title": "Why we need technical standards to manage radio-frequency spectrum efficiently",
-    "date": "Thu, 14 Oct 2021",
-    "location": "TBC",
-    "host": "ITU News",
-    "applies": "Monitor",
-    "tag": "Multilateral",
-    "angle": "Multilateral / governance & institutions",
-    "why": "By Mario Maniewicz, Director, ITU Radiocommunication Bureau The efficient and economical use of the radio-frequency spectrum by all radiocommunication services is critical to advance the world’s…",
-    "watch": "Sourced from ITU News — verify dates and AI relevance.",
-    "source": "https://news.itu.int/why-we-need-technical-standards-to-manage-radio-frequency-spectrum-efficiently/"
-  },
-  {
-    "title": "Up to 8 Gbit/s broadband with new ITU standard MGfast",
-    "date": "Wed, 18 Aug 2021",
-    "location": "TBC",
-    "host": "ITU News",
-    "applies": "Monitor",
-    "tag": "Multilateral",
-    "angle": "Multilateral / governance & institutions",
-    "why": "By ITU News ITU standards experts have achieved another leap forward in broadband access over&#160;telephone wires and coaxial cable&#160;with MGfast, a new access technology capable…",
-    "watch": "Sourced from ITU News — verify dates and AI relevance.",
-    "source": "https://news.itu.int/up-to-8-gbit-s-broadband-with-new-itu-standard-mgfast/"
-  },
-  {
-    "title": "How automated driving can pave the way for safe mobility",
-    "date": "Tue, 30 Mar 2021",
-    "location": "TBC",
-    "host": "ITU News",
-    "applies": "Monitor",
-    "tag": "Multilateral",
-    "angle": "Multilateral / technical AI",
-    "why": "By ITU News The launch of Honda’s first-ever partially self-driving car has thrust the future of automated driving back into the limelight. For automakers and industry partners, frontier technologies…",
-    "watch": "Sourced from ITU News — verify dates and AI relevance.",
-    "source": "https://news.itu.int/how-automated-driving-can-pave-the-way-for-safe-mobility/"
   },
   {
     "title": "Until we meet again",
@@ -1572,16 +1308,16 @@
     "source": "https://www.gov.uk/government/news/cumbrian-collaboration-expands-robotics-training-into-new-era"
   },
   {
-    "title": "Surge in neighbourhood police in communities fighting crime",
-    "date": "2026-04-07T11:56",
+    "title": "40th anniversary of the Chornobyl disaster: UK statement to the OSCE",
+    "date": "2026-04-24T08:10",
     "location": "TBC",
     "host": "News and communications",
     "applies": "Monitor",
-    "tag": "AI Governance",
-    "angle": "AI Governance / cross-sector harm",
-    "why": "Government meets target to put over 3,000 additional neighbourhood police into roles 2 months early.",
+    "tag": "Nuclear & WMD",
+    "angle": "Nuclear & WMD / cross-sector harm",
+    "why": "Deputy Ambassador James Ford marked the 40th anniversary of the Chornobyl disaster, honouring those affected and stressing the enduring human and environmental consequences, while warning that…",
     "watch": "Sourced from News and communications — verify dates and AI relevance.",
-    "source": "https://www.gov.uk/government/news/surge-in-neighbourhood-police-in-communities-fighting-crime"
+    "source": "https://www.gov.uk/government/speeches/40th-anniversary-of-the-chornobyl-disaster-uk-statement-to-the-osce"
   },
   {
     "title": "NIST Releases New Forensic Genetic Reference Material to Help Crime Laboratories Analyze Challenging Cases",
@@ -1618,6 +1354,18 @@
     "why": "A Canadian man has been sentenced by the Public Prosecution Service of Canada to 20 years in prison for terrorism-related offences, following an investigation supported by Europol’s European Counter…",
     "watch": "Sourced from News — verify dates and AI relevance.",
     "source": "https://www.europol.europa.eu/media-press/newsroom/news/intelligence-to-conviction-europol-helps-dismantle-terrorgram-collective"
+  },
+  {
+    "title": "Game-changing digital tracking takes fight to rogue waste traders",
+    "date": "2026-04-24T10:06",
+    "location": "TBC",
+    "host": "News and communications",
+    "applies": "Monitor",
+    "tag": "AI Governance",
+    "angle": "AI Governance / policy & regulation",
+    "why": "New digital waste tracking service to be introduced",
+    "watch": "Sourced from News and communications — verify dates and AI relevance.",
+    "source": "https://www.gov.uk/government/news/game-changing-digital-tracking-takes-fight-to-rogue-waste-traders"
   },
   {
     "title": "Frontier technologies: powering the UK’s digital innovation",
@@ -1771,7 +1519,7 @@
     "applies": "Monitor",
     "tag": "AI Governance",
     "angle": "AI Governance / policy & regulation",
-    "why": "The <mark>safety</mark> of automated passenger services (APS) will be independently assessed, monitored and enforced to ensure they operate responsibly in the UK.…",
+    "why": "The <mark>safety</mark> of automated passenger services (APS) will be independently assessed, monitored and enforced to ensure they operate responsibly in Great Britain.…",
     "watch": "Sourced from News and communications — verify dates and AI relevance.",
     "source": "https://www.gov.uk/government/speeches/automated-passenger-services-permitting-scheme-government-response"
   },
@@ -1848,18 +1596,6 @@
     "source": "https://www.gov.uk/government/news/british-seafood-goes-global-with-15-million-annual-boost"
   },
   {
-    "title": "Vacancy: Inspector of Air Accidents (Recorded Data) – closing 24 May 2026",
-    "date": "2026-04-21T11:17",
-    "location": "TBC",
-    "host": "News and communications",
-    "applies": "Monitor",
-    "tag": "AI Governance",
-    "angle": "AI Governance / policy & regulation",
-    "why": "The Air Accidents Investigation Branch is recruiting for an Inspector of Air Accidents (Recorded Data)",
-    "watch": "Sourced from News and communications — verify dates and AI relevance.",
-    "source": "https://www.gov.uk/government/news/vacancy-inspector-of-air-accidents-recorded-data-closing-24-may-2026"
-  },
-  {
     "title": "Baroness Stuart’s term as Royal Mint Advisory Committee (RMAC) Chair extended for five months",
     "date": "2026-04-23T12:00",
     "location": "TBC",
@@ -1906,18 +1642,6 @@
     "why": "The Charity Commission is today publishing updated guidance for charity trustees on conflicts of interest, with research by the <mark>regulator</mark> suggesting many trustees are unsure how to…",
     "watch": "Sourced from News and communications — verify dates and AI relevance.",
     "source": "https://www.gov.uk/government/news/unmanaged-conflicts-of-interest-increase-risk-of-financial-abuse-in-charities-regulator-warns"
-  },
-  {
-    "title": "​​Letter to the Chair and Chief Executive of the Regulator of Social Housing​",
-    "date": "2026-04-21T13:50",
-    "location": "TBC",
-    "host": "News and communications",
-    "applies": "Monitor",
-    "tag": "AI Governance",
-    "angle": "AI Governance / policy & regulation",
-    "why": "​​A letter from the Secretary of State for Housing, Communities and Local Government to the Chair and Chief Executive of the <mark>Regulator</mark> of Social Housing.",
-    "watch": "Sourced from News and communications — verify dates and AI relevance.",
-    "source": "https://www.gov.uk/government/publications/letter-to-the-chair-and-chief-executive-of-the-regulator-of-social-housing"
   },
   {
     "title": "NIST Weighs In on the Mystery of the Gravitational Constant",
@@ -2184,150 +1908,6 @@
     "source": "https://www.europol.europa.eu/media-press/newsroom/news/spain-24-arrested-in-crackdown-speedboat-migrant-smuggling-network"
   },
   {
-    "title": "ITU News is on the move",
-    "date": "Mon, 14 Feb 2022",
-    "location": "TBC",
-    "host": "ITU News",
-    "applies": "Monitor",
-    "tag": "Multilateral",
-    "angle": "Multilateral / policy & regulation",
-    "why": "ITU News has moved to a new online home that offers a smoother user experience for our growing readership. Our new, fully responsive website will combine the ITU News blog, a database of free and…",
-    "watch": "Sourced from ITU News — verify dates and AI relevance.",
-    "source": "https://news.itu.int/itu-news-is-on-the-move/"
-  },
-  {
-    "title": "World Radio Day: Celebrating trust and accessibility",
-    "date": "Sun, 13 Feb 2022",
-    "location": "TBC",
-    "host": "ITU News",
-    "applies": "Monitor",
-    "tag": "Multilateral",
-    "angle": "Multilateral / policy & regulation",
-    "why": "By Mario Maniewicz, Director, ITU Radiocommunication Bureau With more than a century of history behind it, the humble radio remains one of the most trusted and widely used media for communication…",
-    "watch": "Sourced from ITU News — verify dates and AI relevance.",
-    "source": "https://news.itu.int/world-radio-day-celebrating-trust-and-accessibility/"
-  },
-  {
-    "title": "Kaleidoscope 2021: Physical and virtual worlds converge",
-    "date": "Tue, 30 Nov 2021",
-    "location": "TBC",
-    "host": "ITU News",
-    "applies": "Monitor",
-    "tag": "Multilateral",
-    "angle": "Multilateral / policy & regulation",
-    "why": "ITU News As new and emerging technologies take hold everywhere, research continues to shed light on their full implications for societies, economies, and ongoing tech innovation worldwide. The…",
-    "watch": "Sourced from ITU News — verify dates and AI relevance.",
-    "source": "https://news.itu.int/kaleidoscope-2021-physical-and-virtual-worlds-converge/"
-  },
-  {
-    "title": "World Maritime Day: Keeping seafarers safe and connected",
-    "date": "Thu, 30 Sep 2021",
-    "location": "TBC",
-    "host": "ITU News",
-    "applies": "Monitor",
-    "tag": "Multilateral",
-    "angle": "Multilateral / policy & regulation",
-    "why": "By Mario Maniewicz, Director, ITU Radiocommunication Bureau Throughout the COVID-19 pandemic, seafarers have served as frontline workers maintaining the flow of essential goods, such as food and…",
-    "watch": "Sourced from ITU News — verify dates and AI relevance.",
-    "source": "https://news.itu.int/world-maritime-day-keeping-seafarers-safe-and-connected/"
-  },
-  {
-    "title": "Increasing women’s leadership in financial technology",
-    "date": "Mon, 13 Sep 2021",
-    "location": "TBC",
-    "host": "ITU News",
-    "applies": "Monitor",
-    "tag": "Multilateral",
-    "angle": "Multilateral / policy & regulation",
-    "why": "By ITU News Experts often cite the benefits of financial technology (fintech) and digital finance for women. At the same time, few women are represented in decision-making roles in this fast-growing…",
-    "watch": "Sourced from ITU News — verify dates and AI relevance.",
-    "source": "https://news.itu.int/increasing-womens-leadership-in-financial-technology/"
-  },
-  {
-    "title": "The basis for safer digital finance",
-    "date": "Mon, 06 Sep 2021",
-    "location": "TBC",
-    "host": "ITU News",
-    "applies": "Monitor",
-    "tag": "Multilateral",
-    "angle": "Multilateral / policy & regulation",
-    "why": "By Bilel Jamoussi, Chief, Study Groups Department, ITU Telecommunication Standardization Bureau The transformations we are seeing in numerous fields – from energy and mobility to health care,…",
-    "watch": "Sourced from ITU News — verify dates and AI relevance.",
-    "source": "https://news.itu.int/the-basis-for-safer-digital-finance/"
-  },
-  {
-    "title": "A culture of collaboration certain to sustain",
-    "date": "Mon, 30 Aug 2021",
-    "location": "TBC",
-    "host": "ITU News",
-    "applies": "Monitor",
-    "tag": "Multilateral",
-    "angle": "Multilateral / policy & regulation",
-    "why": "By Chaesub Lee, Director of ITU&#8217;s Telecommunication Standardization Bureau The COVID-19 pandemic has highlighted the key role of digital infrastructure and the need to keep investing in our…",
-    "watch": "Sourced from ITU News — verify dates and AI relevance.",
-    "source": "https://news.itu.int/a-culture-of-collaboration-certain-to-sustain/"
-  },
-  {
-    "title": "Digital is the future of urban energy",
-    "date": "Tue, 10 Aug 2021",
-    "location": "TBC",
-    "host": "ITU News",
-    "applies": "Monitor",
-    "tag": "Multilateral",
-    "angle": "Multilateral / policy & regulation",
-    "why": "By ITU News Cities already account for two-thirds of energy consumption and produce more than 70 per cent of carbon emissions globally every year. With more than half of all people in the world…",
-    "watch": "Sourced from ITU News — verify dates and AI relevance.",
-    "source": "https://news.itu.int/digital-is-the-future-of-urban-energy/"
-  },
-  {
-    "title": "WSIS Forum 2021: ICTs foster inclusive, resilient, sustainable societies and economies",
-    "date": "Mon, 14 Jun 2021",
-    "location": "TBC",
-    "host": "ITU News",
-    "applies": "Monitor",
-    "tag": "Multilateral",
-    "angle": "Multilateral / policy & regulation",
-    "why": "By Malcolm Johnson, ITU Deputy Secretary-General The COVID-19 pandemic has illustrated two things like never before: firstly, the importance of digital technologies – where would we have been over…",
-    "watch": "Sourced from ITU News — verify dates and AI relevance.",
-    "source": "https://news.itu.int/wsis-forum-2021-icts-foster-inclusive-resilient-sustainable-societies-and-economies/"
-  },
-  {
-    "title": "Making fintech safer for consumers",
-    "date": "Fri, 28 May 2021",
-    "location": "TBC",
-    "host": "ITU News",
-    "applies": "Monitor",
-    "tag": "Multilateral",
-    "angle": "Multilateral / policy & regulation",
-    "why": "By ITU News Financial technology, or fintech, has brought financial security within reach for previously underserved people and communities, especially in developing countries. But the benefits…",
-    "watch": "Sourced from ITU News — verify dates and AI relevance.",
-    "source": "https://news.itu.int/making-fintech-safer-for-consumers/"
-  },
-  {
-    "title": "Closing the innovation gap – and the digital divide",
-    "date": "Wed, 05 May 2021",
-    "location": "TBC",
-    "host": "ITU News",
-    "applies": "Monitor",
-    "tag": "Multilateral",
-    "angle": "Multilateral / policy & regulation",
-    "why": "At the heart of the digital divide is a yawning innovation gap. Many national policies and strategies — even in developed countries —&#160;often fail to close it. This has been exacerbated by the…",
-    "watch": "Sourced from ITU News — verify dates and AI relevance.",
-    "source": "https://news.itu.int/closing-the-innovation-gap-and-the-digital-divide/"
-  },
-  {
-    "title": "The technology sector’s environmental duty",
-    "date": "Fri, 23 Apr 2021",
-    "location": "TBC",
-    "host": "ITU News",
-    "applies": "Monitor",
-    "tag": "Multilateral",
-    "angle": "Multilateral / policy & regulation",
-    "why": "by Malcolm Johnson, ITU Deputy Secretary-General Many enterprises are turning to technology to increase efficiency and ‘green’ their own operations. But the ICT sector itself is currently one of the…",
-    "watch": "Sourced from ITU News — verify dates and AI relevance.",
-    "source": "https://news.itu.int/the-technology-sectors-environmental-duty/"
-  },
-  {
     "title": "#UNGA78 - Wrap Day 4",
     "date": "Thu, 21 Sep 2023",
     "location": "TBC",
@@ -2470,6 +2050,18 @@
     "why": "Powerful AI agents are about to hit the market. Here we explore the implications.",
     "watch": "Sourced from Future of Life Institute — verify dates and AI relevance.",
     "source": "https://futureoflife.org/ai/why-you-should-care-about-ai-agents/"
+  },
+  {
+    "title": "African Communities are Leading the Responsible AI Conversation at RightsCon",
+    "date": "Thu, 23 Apr 2026",
+    "location": "TBC",
+    "host": "Partnership on AI",
+    "applies": "Monitor",
+    "tag": "AI Governance",
+    "angle": "AI Governance / policy & regulation",
+    "why": "The post African Communities are Leading the Responsible AI Conversation at RightsCon appeared first on Partnership on AI .",
+    "watch": "Sourced from Partnership on AI — verify dates and AI relevance.",
+    "source": "https://partnershiponai.org/african-communities-are-leading-the-responsible-ai-conversation-at-rightscon/"
   },
   {
     "title": "These 3 Agreements Secured AI Protections for 30,000 Union Workers",
