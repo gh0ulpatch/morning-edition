@@ -1,17 +1,5 @@
 [
   {
-    "title": "Speaking Freely: Dr. Jean Linis-Dinco",
-    "date": "Mon, 13 Apr 2026",
-    "location": "TBC",
-    "host": "Deeplinks",
-    "applies": "Attend",
-    "tag": "Cybersecurity",
-    "angle": "Cybersecurity / policy & regulation",
-    "why": "Dr. Jean Linis-Dinco is an activist-researcher working at the intersection of human rights and technology. Born in the Philippines and shaped by firsthand experience with inequality and state…",
-    "watch": "Sourced from Deeplinks — verify dates and AI relevance.",
-    "source": "https://www.eff.org/deeplinks/2026/04/speaking-freely-dr-jean-linis-dinco"
-  },
-  {
     "title": "Stop New York's Attack on 3D Printing",
     "date": "Thu, 16 Apr 2026",
     "location": "TBC",
@@ -156,30 +144,6 @@
     "source": "http://www.wikicfp.com/cfp/servlet/event.showcfp?eventid=192629&copyownerid=197417"
   },
   {
-    "title": "TRUST: A Framework for Decentralized AI Service v.0.1",
-    "date": "Fri, 01 May 2026",
-    "location": "TBC",
-    "host": "cs.AI updates on arXiv.org",
-    "applies": "Attend",
-    "tag": "Election Integrity",
-    "angle": "Election Integrity / technical AI",
-    "why": "Large Reasoning Models (LRMs) and Multi-Agent Systems (MAS) in high-stakes domains demand reliable verification, yet centralized approaches suffer four limitations: (1) Robustness, with single points…",
-    "watch": "Sourced from cs.AI updates on arXiv.org — verify dates and AI relevance.",
-    "source": "https://arxiv.org/abs/2604.27132"
-  },
-  {
-    "title": "Formulating Subgroup Discovery as a Quantum Optimization Problem for Network Security",
-    "date": "Fri, 01 May 2026",
-    "location": "TBC",
-    "host": "cs.CR updates on arXiv.org",
-    "applies": "Attend",
-    "tag": "Cybersecurity",
-    "angle": "Cybersecurity / policy & regulation",
-    "why": "While current network intrusion detection systems achieve satisfactory accuracy, they often lack explainability. Subgroup Discovery (SD) addresses this by building interpretable rules that…",
-    "watch": "Sourced from cs.CR updates on arXiv.org — verify dates and AI relevance.",
-    "source": "https://arxiv.org/abs/2604.27153"
-  },
-  {
     "title": "The GUARD Act Isn’t Targeting Dangerous AI—It’s Blocking Everyday Internet Use",
     "date": "Mon, 27 Apr 2026",
     "location": "TBC",
@@ -202,18 +166,6 @@
     "why": "EFF filed an amicus brief for the second time in the U.S. Court of Appeals for the Ninth Circuit, arguing that allowing cases against the Apple, Google, and Facebook app stores to proceed could lead…",
     "watch": "Sourced from Deeplinks — verify dates and AI relevance.",
     "source": "https://www.eff.org/deeplinks/2026/04/eff-9th-circuit-again-app-stores-shouldnt-be-liable-processing-payments-user"
-  },
-  {
-    "title": "From Prompt to Physical Actuation: Holistic Threat Modeling of LLM-Enabled Robotic Systems",
-    "date": "Fri, 01 May 2026",
-    "location": "TBC",
-    "host": "cs.CR updates on arXiv.org",
-    "applies": "Attend",
-    "tag": "Multilateral",
-    "angle": "Multilateral / technical AI",
-    "why": "As large language models are integrated into autonomous robotic systems for task planning and control, compromised inputs or unsafe model outputs can propagate through the planning pipeline to…",
-    "watch": "Sourced from cs.CR updates on arXiv.org — verify dates and AI relevance.",
-    "source": "https://arxiv.org/abs/2604.27267"
   },
   {
     "title": "New 2026 ‘IOCTA’ highlights sophisticated tactics and emerging challenges in the digital landscape",
@@ -252,18 +204,6 @@
     "source": "https://www.eff.org/deeplinks/2026/04/eff-hope-join-us-august"
   },
   {
-    "title": "Learning-to-Explain through 20Q Gaming: An Explainable Recommender for Cybersecurity Education",
-    "date": "Fri, 01 May 2026",
-    "location": "TBC",
-    "host": "cs.CY updates on arXiv.org",
-    "applies": "Attend",
-    "tag": "Cybersecurity",
-    "angle": "Cybersecurity / policy & regulation",
-    "why": "The growing sophistication of contemporary cyber threats necessitates a more effective and adaptive approach to cybersecurity training. Intuitive and adaptive approaches to learning, which are often…",
-    "watch": "Sourced from cs.CY updates on arXiv.org — verify dates and AI relevance.",
-    "source": "https://arxiv.org/abs/2604.26964"
-  },
-  {
     "title": "EFF Submission to UN Report on the Role of Media in the Context of Israel’s Policies Toward Palestinians",
     "date": "Wed, 29 Apr 2026",
     "location": "TBC",
@@ -274,18 +214,6 @@
     "why": "The UN Special Rapporteur on the situation of human rights in the Palestinian territories occupied since 1967 recently announced a study addressing the killings and attacks against Palestinian…",
     "watch": "Sourced from Deeplinks — verify dates and AI relevance.",
     "source": "https://www.eff.org/deeplinks/2026/04/eff-submission-un-report-role-media-context-israels-policies-toward-palestinians"
-  },
-  {
-    "title": "The Synthetic Social Graph: Emergent Behavior in AI Agent Communities",
-    "date": "Fri, 01 May 2026",
-    "location": "TBC",
-    "host": "cs.CY updates on arXiv.org",
-    "applies": "Monitor",
-    "tag": "AI Governance",
-    "angle": "AI Governance / policy & regulation",
-    "why": "Large language model (LLM) agents are increasingly deployed in social settings, yet little is known about how they interact in open-ended environments. We present the first comprehensive sociological…",
-    "watch": "Sourced from cs.CY updates on arXiv.org — verify dates and AI relevance.",
-    "source": "https://arxiv.org/abs/2604.27271"
   },
   {
     "title": "DfP 2026",
@@ -310,30 +238,6 @@
     "why": "Michael Lodge (Secretary General, International Seabed Authority) and Emilie McGloane (Director, Peace Boat US) met at the SDG Media Zone to discuss the importance of a new historic treaty - the…",
     "watch": "Sourced from United Nations — verify dates and AI relevance.",
     "source": "https://www.un.org/en/card/209805"
-  },
-  {
-    "title": "Compositional Meta-Learning for Mitigating Task Heterogeneity in Physics-Informed Neural Networks",
-    "date": "Fri, 01 May 2026",
-    "location": "TBC",
-    "host": "cs.AI updates on arXiv.org",
-    "applies": "Monitor",
-    "tag": "Multilateral",
-    "angle": "Multilateral / policy & regulation",
-    "why": "Physics-informed neural networks (PINNs) approximate solutions of partial differential equations (PDEs) by embedding physical laws into the loss function. In parameterized PDE families, variations in…",
-    "watch": "Sourced from cs.AI updates on arXiv.org — verify dates and AI relevance.",
-    "source": "https://arxiv.org/abs/2604.26999"
-  },
-  {
-    "title": "DeepTutor: Towards Agentic Personalized Tutoring",
-    "date": "Fri, 01 May 2026",
-    "location": "TBC",
-    "host": "cs.CY updates on arXiv.org",
-    "applies": "Monitor",
-    "tag": "Multilateral",
-    "angle": "Multilateral / policy & regulation",
-    "why": "Education represents one of the most promising real-world applications for Large Language Models (LLMs). However, conventional tutoring systems rely on static pre-training knowledge that lacks…",
-    "watch": "Sourced from cs.CY updates on arXiv.org — verify dates and AI relevance.",
-    "source": "https://arxiv.org/abs/2604.26962"
   },
   {
     "title": "Third United Nations Conference on Landlocked Developing Countries (LLDC3)",
@@ -444,18 +348,6 @@
     "source": "http://www.wikicfp.com/cfp/servlet/event.showcfp?eventid=194426&copyownerid=152426"
   },
   {
-    "title": "LLM Biases",
-    "date": "Fri, 01 May 2026",
-    "location": "TBC",
-    "host": "cs.CY updates on arXiv.org",
-    "applies": "Monitor",
-    "tag": "AI Governance",
-    "angle": "AI Governance / technical AI",
-    "why": "Transformer-based agentic AI is rapidly being deployed on major platforms to help users shop, watch, and navigate content with less effort. While these systems can deliver impressive performance, a…",
-    "watch": "Sourced from cs.CY updates on arXiv.org — verify dates and AI relevance.",
-    "source": "https://arxiv.org/abs/2604.26960"
-  },
-  {
     "title": "ICBAP 2024",
     "date": "International Conference on Business Analytics in Practice",
     "location": "TBC",
@@ -478,18 +370,6 @@
     "why": "Statement by Ambassador Archie Young, UK Deputy Permanent Representative to the UN, at the UN Security Council meeting on North Korea.",
     "watch": "Sourced from News and communications — verify dates and AI relevance.",
     "source": "https://www.gov.uk/government/speeches/russias-veto-of-the-panel-of-experts-was-a-calculated-move-to-obscure-the-dprks-unlawful-pursuit-of-weapons-of-mass-destruction-uk-statement-at-the-un"
-  },
-  {
-    "title": "C8s: A Confidential Kubernetes Architecture",
-    "date": "Fri, 01 May 2026",
-    "location": "TBC",
-    "host": "cs.CR updates on arXiv.org",
-    "applies": "Monitor",
-    "tag": "Multilateral",
-    "angle": "Multilateral / policy & regulation",
-    "why": "This paper presents C8s, a confidential computing architecture for Kubernetes that provides cryptographically rooted confidentiality, integrity, and verifiability guarantees for Kubernetes clusters…",
-    "watch": "Sourced from cs.CR updates on arXiv.org — verify dates and AI relevance.",
-    "source": "https://arxiv.org/abs/2604.26974"
   },
   {
     "title": "OTF GRIMM one-year anniversary: violence-as-a-service targets published on EU Most Wanted",
@@ -588,18 +468,6 @@
     "source": "https://cdt.org/insights/latest-coalition-push-critical-reforms-needed-to-end-fisa-702-surveillance-abuse/"
   },
   {
-    "title": "Gender Bias in YouTube Exposure: Allocative and Structural Inequalities in Political Information Environments",
-    "date": "Fri, 01 May 2026",
-    "location": "TBC",
-    "host": "cs.CY updates on arXiv.org",
-    "applies": "Monitor",
-    "tag": "AI Governance",
-    "angle": "AI Governance / technical AI",
-    "why": "Recommendation algorithms have become the dominant mechanism for information distribution on digital platforms, profoundly shaping personalized information consumption environments. However, gender…",
-    "watch": "Sourced from cs.CY updates on arXiv.org — verify dates and AI relevance.",
-    "source": "https://arxiv.org/abs/2604.27479"
-  },
-  {
     "title": "India AI Impact Summit panel: Towards multilateral agreement on enforcing red lines",
     "date": "TBC",
     "location": "TBC",
@@ -672,18 +540,6 @@
     "source": "https://www.europarl.europa.eu/news/en/headlines/priorities/parliament-reforms"
   },
   {
-    "title": "Secure Cross-Silo Synthetic Genomic Data Generation",
-    "date": "Fri, 01 May 2026",
-    "location": "TBC",
-    "host": "cs.CR updates on arXiv.org",
-    "applies": "Monitor",
-    "tag": "Privacy & Surveillance",
-    "angle": "Privacy & Surveillance / technical AI",
-    "why": "Access to genomic data is highly regulated due to its sensitive nature. While safeguards are essential, cumbersome data access processes pose a significant barrier to the development of AI methods…",
-    "watch": "Sourced from cs.CR updates on arXiv.org — verify dates and AI relevance.",
-    "source": "https://arxiv.org/abs/2604.27456"
-  },
-  {
     "title": "In Conversation with the 2025 EMEA Summit Programme Committee",
     "date": "Wed, 09 Apr 2025",
     "location": "TBC",
@@ -715,7 +571,7 @@
     "applies": "Monitor",
     "tag": "Multilateral",
     "angle": "Multilateral / governance & institutions",
-    "why": "Also authored by Aditya Vashistha, CDT Non-Resident Fellow &#38;Assistant Professor, Cornell University + Global AI Initiative Lead. The Center for Democracy &#38; Technology (CDT) and Cornell Global…",
+    "why": "Also authored by Aditya Vashistha, CDT Non-Resident Fellow &#38; Assistant Professor, Cornell University + Global AI Initiative Lead. The Center for Democracy &#38; Technology (CDT) and Cornell…",
     "watch": "Sourced from Center for Democracy and Technology — verify dates and AI relevance.",
     "source": "https://cdt.org/insights/cdt-and-cornell-global-ai-initiative-call-for-meaningful-advancements-and-investment-into-linguistic-diversity-at-the-first-un-global-dialogue-on-ai-governance/"
   },
@@ -1039,7 +895,7 @@
     "applies": "Monitor",
     "tag": "Counter-Terrorism",
     "angle": "Counter-Terrorism / technical AI",
-    "why": "National Threat Level increased to SEVERE following Golders Green attack and increasing threat of Islamist and Extreme Right Wing terrorism in the UK.",
+    "why": "National threat level increased to severe following Golders Green attack and increasing threat of Islamist and extreme right-wing terrorism in the UK.",
     "watch": "Sourced from News and communications — verify dates and AI relevance.",
     "source": "https://www.gov.uk/government/news/threat-level-increase-following-antisemitic-terror-attack"
   },
@@ -1116,6 +972,18 @@
     "source": "https://www.gov.uk/government/news/uk-uae-joint-statement-april-2026"
   },
   {
+    "title": "How to think about foreign policy in the new geoeconomic era",
+    "date": "2026-04-24T00:01",
+    "location": "TBC",
+    "host": "News and communications",
+    "applies": "Monitor",
+    "tag": "AI Governance",
+    "angle": "AI Governance / policy & regulation",
+    "why": "The Foreign Secretary has written in The Economist about the need to enhance our economic resilience",
+    "watch": "Sourced from News and communications — verify dates and AI relevance.",
+    "source": "https://www.gov.uk/government/news/how-to-think-about-foreign-policy-in-the-new-geoeconomic-era"
+  },
+  {
     "title": "New UK-France agreement to reduce illegal crossings",
     "date": "2026-04-23T19:29",
     "location": "TBC",
@@ -1128,16 +996,16 @@
     "source": "https://www.gov.uk/government/news/new-uk-france-agreement-to-reduce-illegal-crossings"
   },
   {
-    "title": "Security Minister’s speech to CYBERUK 2026",
-    "date": "2026-04-22T09:30",
+    "title": "MHRA approves Linerixibat (Lynavoy) for the treatment of itch due to biliary tract disease",
+    "date": "2026-05-01T14:26",
     "location": "TBC",
     "host": "News and communications",
     "applies": "Monitor",
-    "tag": "Cybersecurity",
-    "angle": "Cybersecurity / policy & regulation",
-    "why": "Security Minister Dan Jarvis MBE uses speech at CYBERUK to say AI companies should work with government in a “generational endeavour”.",
+    "tag": "AI Governance",
+    "angle": "AI Governance / policy & regulation",
+    "why": "As with all medicines, we will continue to closely monitor the <mark>safety</mark> and effectiveness of linerixibat as it is used more widely.",
     "watch": "Sourced from News and communications — verify dates and AI relevance.",
-    "source": "https://www.gov.uk/government/speeches/security-ministers-speech-to-cyberuk-2026"
+    "source": "https://www.gov.uk/government/news/mhra-approves-linerixibat-lynavoy-for-the-treatment-of-itch-due-to-biliary-tract-disease"
   },
   {
     "title": "PM remarks from criminal justice roundtable: 30 April 2026",
@@ -1308,6 +1176,18 @@
     "source": "https://futureoflife.org/religion/a-buddhist-perspective-on-ai/"
   },
   {
+    "title": "UK National Threat Level raised to SEVERE",
+    "date": "2026-05-01T11:39",
+    "location": "TBC",
+    "host": "News and communications",
+    "applies": "Monitor",
+    "tag": "AI Governance",
+    "angle": "AI Governance / technical AI",
+    "why": "The UK National Threat Level has been raised to SEVERE, meaning an attack is highly likely.",
+    "watch": "Sourced from News and communications — verify dates and AI relevance.",
+    "source": "https://www.gov.uk/government/news/uk-national-threat-level-raised-to-severe"
+  },
+  {
     "title": "Government funds ambulances after arson attack",
     "date": "2026-04-30T16:30",
     "location": "TBC",
@@ -1315,7 +1195,7 @@
     "applies": "Monitor",
     "tag": "AI Governance",
     "angle": "AI Governance / technical AI",
-    "why": "The Government has confirmed it will provide a grant for new electric ambulances to replace those destroyed in arson attack.",
+    "why": "The government has confirmed it will provide a grant for new electric ambulances to replace those destroyed in arson attack.",
     "watch": "Sourced from News and communications — verify dates and AI relevance.",
     "source": "https://www.gov.uk/government/news/government-funds-ambulances-after-arson-attack"
   },
@@ -1548,18 +1428,6 @@
     "source": "https://www.gov.uk/government/news/frontier-technologies-powering-the-uks-digital-innovation"
   },
   {
-    "title": "Poll reveals public’s most iconic trade marks as register turns 150",
-    "date": "2026-04-22T10:00",
-    "location": "TBC",
-    "host": "News and communications",
-    "applies": "Monitor",
-    "tag": "AI Governance",
-    "angle": "AI Governance / policy & regulation",
-    "why": "From chocolate bars to famous cars, and the mark where it all began – Britain crowns its best loved trade marks.",
-    "watch": "Sourced from News and communications — verify dates and AI relevance.",
-    "source": "https://www.gov.uk/government/news/poll-reveals-publics-most-iconic-trade-marks-as-register-turns-150"
-  },
-  {
     "title": "Certification Officer: Announcements",
     "date": "2026-05-01T09:48",
     "location": "TBC",
@@ -1579,7 +1447,7 @@
     "applies": "Monitor",
     "tag": "AI Governance",
     "angle": "AI Governance / policy & regulation",
-    "why": "Secretary of State delivers a speech on NHS urgent and emergency care at Royal College of Emergency Medicine&#39;s (RCEM) Annual Conference in Birmingham",
+    "why": "Secretary of State delivers a speech on NHS urgent and emergency care at Royal College of Emergency Medicine&#39;s (RCEM) annual conference in Birmingham.",
     "watch": "Sourced from News and communications — verify dates and AI relevance.",
     "source": "https://www.gov.uk/government/speeches/health-secretary-gives-address-on-nhs-performance"
   },
@@ -1630,6 +1498,18 @@
     "why": "Following the appointment of Chief Constable Kier Pritchard in January, the Ministry of Defence Police (MDP) has appointed Simon Dobinson as their new Deputy Chief Constable.",
     "watch": "Sourced from News and communications — verify dates and AI relevance.",
     "source": "https://www.gov.uk/government/news/ministry-of-defence-police-appoints-new-deputy-chief-constable"
+  },
+  {
+    "title": "Dorset farmers to pay £33,500 over slurry handling",
+    "date": "2026-05-01T12:48",
+    "location": "TBC",
+    "host": "News and communications",
+    "applies": "Monitor",
+    "tag": "AI Governance",
+    "angle": "AI Governance / policy & regulation",
+    "why": "Farmers failed to properly store slurry in three separate cases, two of which led to pollution incidents.",
+    "watch": "Sourced from News and communications — verify dates and AI relevance.",
+    "source": "https://www.gov.uk/government/news/dorset-farmers-to-pay-33500-over-slurry-handling"
   },
   {
     "title": "Climate scenario analysis",
