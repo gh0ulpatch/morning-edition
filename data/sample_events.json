@@ -132,6 +132,18 @@
     "source": "https://www.eff.org/deeplinks/2026/04/keep-pushing-we-get-10-more-days-reform-section-702"
   },
   {
+    "title": "Ambient Persuasion in a Deployed AI Agent: Unauthorized Escalation Following Routine Non-Adversarial Content Exposure",
+    "date": "Mon, 04 May 2026",
+    "location": "TBC",
+    "host": "cs.CR updates on arXiv.org",
+    "applies": "Attend",
+    "tag": "AI Governance",
+    "angle": "AI Governance / policy & regulation",
+    "why": "We report a safety incident in a deployed multi-agent research system in which a primary AI agent installed 107 unauthorized software components, overwrote a system registry, overrode a prior…",
+    "watch": "Sourced from cs.CR updates on arXiv.org — verify dates and AI relevance.",
+    "source": "https://arxiv.org/abs/2605.00055"
+  },
+  {
     "title": "RETRAI -  2026",
     "date": "Event",
     "location": "Where",
@@ -166,6 +178,18 @@
     "why": "EFF filed an amicus brief for the second time in the U.S. Court of Appeals for the Ninth Circuit, arguing that allowing cases against the Apple, Google, and Facebook app stores to proceed could lead…",
     "watch": "Sourced from Deeplinks — verify dates and AI relevance.",
     "source": "https://www.eff.org/deeplinks/2026/04/eff-9th-circuit-again-app-stores-shouldnt-be-liable-processing-payments-user"
+  },
+  {
+    "title": "When RAG Chatbots Expose Their Backend: An Anonymized Case Study of Privacy and Security Risks in Patient-Facing…",
+    "date": "Mon, 04 May 2026",
+    "location": "TBC",
+    "host": "cs.CR updates on arXiv.org",
+    "applies": "Attend",
+    "tag": "Cybersecurity",
+    "angle": "Cybersecurity / technical AI",
+    "why": "Background: Patient-facing medical chatbots based on retrieval-augmented generation (RAG) are increasingly promoted to deliver accessible, grounded health information. AI-assisted development lowers…",
+    "watch": "Sourced from cs.CR updates on arXiv.org — verify dates and AI relevance.",
+    "source": "https://arxiv.org/abs/2605.00796"
   },
   {
     "title": "New 2026 ‘IOCTA’ highlights sophisticated tactics and emerging challenges in the digital landscape",
@@ -216,6 +240,18 @@
     "source": "https://www.eff.org/deeplinks/2026/04/eff-submission-un-report-role-media-context-israels-policies-toward-palestinians"
   },
   {
+    "title": "Targeting medics on the battlefield: addressing the crisis through law and practice",
+    "date": "TBC",
+    "location": "TBC",
+    "host": "Chatham House",
+    "applies": "Monitor",
+    "tag": "AI Governance",
+    "angle": "AI Governance / policy & regulation",
+    "why": "Experts clarify international humanitarian law and promote compliance by identifying practical measures for its effective implementation.",
+    "watch": "Event from Chatham House — check agenda for AI harm content.",
+    "source": "https://www.chathamhouse.org/events/all/standard-event/targeting-medics-battlefield-addressing-crisis-through-law-and-practice"
+  },
+  {
     "title": "DfP 2026",
     "date": "Event",
     "location": "Where",
@@ -238,6 +274,30 @@
     "why": "Michael Lodge (Secretary General, International Seabed Authority) and Emilie McGloane (Director, Peace Boat US) met at the SDG Media Zone to discuss the importance of a new historic treaty - the…",
     "watch": "Sourced from United Nations — verify dates and AI relevance.",
     "source": "https://www.un.org/en/card/209805"
+  },
+  {
+    "title": "Are You the A-hole? A Fair, Multi-Perspective Ethical Reasoning Framework",
+    "date": "Mon, 04 May 2026",
+    "location": "TBC",
+    "host": "cs.CY updates on arXiv.org",
+    "applies": "Monitor",
+    "tag": "Election Integrity",
+    "angle": "Election Integrity / technical AI",
+    "why": "Standard methods for aggregating natural language judgments, such as majority voting, often fail to produce logically consistent results when applied to high-conflict domains, treating differing…",
+    "watch": "Sourced from cs.CY updates on arXiv.org — verify dates and AI relevance.",
+    "source": "https://arxiv.org/abs/2605.00270"
+  },
+  {
+    "title": "Trust Dynamics in Cryptocurrency Markets: Centralized vs. Decentralized Exchanges",
+    "date": "Mon, 04 May 2026",
+    "location": "TBC",
+    "host": "cs.CY updates on arXiv.org",
+    "applies": "Monitor",
+    "tag": "AI Governance",
+    "angle": "AI Governance / policy & regulation",
+    "why": "arXiv:2404.17227v3 Announce Type: replace-cross Abstract: Trust mechanisms diverge between centralized and decentralized exchanges, representing distinct sociotechnical governance paradigms. However,…",
+    "watch": "Sourced from cs.CY updates on arXiv.org — verify dates and AI relevance.",
+    "source": "https://arxiv.org/abs/2404.17227"
   },
   {
     "title": "Third United Nations Conference on Landlocked Developing Countries (LLDC3)",
@@ -288,18 +348,6 @@
     "source": "http://www.wikicfp.com/cfp/servlet/event.showcfp?eventid=183005&copyownerid=189704"
   },
   {
-    "title": "Hot Off the Press: EFF's Updated Guide to Tech at the US-Mexico Border",
-    "date": "Mon, 13 Apr 2026",
-    "location": "TBC",
-    "host": "Deeplinks",
-    "applies": "Monitor",
-    "tag": "Multilateral",
-    "angle": "Multilateral / cross-sector harm",
-    "why": "When people see Customs &amp; Border Protection's giant, tethered surveillance blimp flying 20 miles outside of Marfa, Texas, lots of them confuse it with an art installation. Elsewhere along the…",
-    "watch": "Sourced from Deeplinks — verify dates and AI relevance.",
-    "source": "https://www.eff.org/deeplinks/2026/04/hot-press-effs-updated-guide-tech-us-mexico-border"
-  },
-  {
     "title": "How Push Notifications Can Betray Your Privacy (and What to Do About It)",
     "date": "Thu, 16 Apr 2026",
     "location": "TBC",
@@ -310,6 +358,18 @@
     "why": "Update April 22, 2026. Apple has reportedly addressed part of the issue with the notification database in iOS 26.4.2 and 18.7.8 , released today. With this update, notifications marked for deletion…",
     "watch": "Sourced from Deeplinks — verify dates and AI relevance.",
     "source": "https://www.eff.org/deeplinks/2026/04/how-push-notifications-can-betray-your-privacy-and-what-do-about-it"
+  },
+  {
+    "title": "ForesightFlow: An Information Leakage Score Framework for Prediction Markets",
+    "date": "Mon, 04 May 2026",
+    "location": "TBC",
+    "host": "cs.CR updates on arXiv.org",
+    "applies": "Monitor",
+    "tag": "AI Governance",
+    "angle": "AI Governance / policy & regulation",
+    "why": "ForesightFlow is an Information Leakage Score (ILS) framework for detecting informed trading on decentralized prediction markets. For an event-resolved binary market, the score quantifies the…",
+    "watch": "Sourced from cs.CR updates on arXiv.org — verify dates and AI relevance.",
+    "source": "https://arxiv.org/abs/2605.00493"
   },
   {
     "title": "AITC 2026",
@@ -346,6 +406,18 @@
     "why": "TRUST-AI 2026",
     "watch": "Sourced via WikiCFP — check agenda for AI harm/misuse sessions.",
     "source": "http://www.wikicfp.com/cfp/servlet/event.showcfp?eventid=194426&copyownerid=152426"
+  },
+  {
+    "title": "Semia: Auditing Agent Skills via Constraint-Guided Representation Synthesis",
+    "date": "Mon, 04 May 2026",
+    "location": "TBC",
+    "host": "cs.CR updates on arXiv.org",
+    "applies": "Monitor",
+    "tag": "Multilateral",
+    "angle": "Multilateral / governance & institutions",
+    "why": "An agent skill is a configuration package that equips an LLM-driven agent with a concrete capability, such as reading email, executing shell commands, or signing blockchain transactions. Each skill…",
+    "watch": "Sourced from cs.CR updates on arXiv.org — verify dates and AI relevance.",
+    "source": "https://arxiv.org/abs/2605.00314"
   },
   {
     "title": "ICBAP 2024",
@@ -442,6 +514,18 @@
     "why": "Initial signatories include AI pioneers Yoshua Bengio and Geoffrey Hinton, leading media voices Steve Bannon and Glenn Beck, Obama's National Security Advisor Susan Rice, business trailblazers Steve…",
     "watch": "Sourced from Future of Life Institute — verify dates and AI relevance.",
     "source": "https://futureoflife.org/press-release/prominent-scientists-faith-leaders-policymakers-and-artists-call-for-a-prohibition-on-superintelligence/"
+  },
+  {
+    "title": "zkSBOM: Privacy-Preserving SBOM Sharing with Zero-Knowledge Sets",
+    "date": "Mon, 04 May 2026",
+    "location": "TBC",
+    "host": "cs.CR updates on arXiv.org",
+    "applies": "Monitor",
+    "tag": "Privacy & Surveillance",
+    "angle": "Privacy & Surveillance / policy & regulation",
+    "why": "Software Bills of Materials (SBOMs) are increasingly mandated by regulators, yet existing sharing mechanisms impose a binary choice between full disclosure and full opacity. This exposes software…",
+    "watch": "Sourced from cs.CR updates on arXiv.org — verify dates and AI relevance.",
+    "source": "https://arxiv.org/abs/2605.00076"
   },
   {
     "title": "“Terrorgram” network dealt another blow as member sentenced in Denmark",
@@ -574,6 +658,18 @@
     "why": "Also authored by Aditya Vashistha, CDT Non-Resident Fellow &#38; Assistant Professor, Cornell University + Global AI Initiative Lead. The Center for Democracy &#38; Technology (CDT) and Cornell…",
     "watch": "Sourced from Center for Democracy and Technology — verify dates and AI relevance.",
     "source": "https://cdt.org/insights/cdt-and-cornell-global-ai-initiative-call-for-meaningful-advancements-and-investment-into-linguistic-diversity-at-the-first-un-global-dialogue-on-ai-governance/"
+  },
+  {
+    "title": "Selfie-Capture Dynamics as an Auxiliary Signal Against Deepfakes and Injection Attacks for Mobile Identity Verification",
+    "date": "Mon, 04 May 2026",
+    "location": "TBC",
+    "host": "cs.CR updates on arXiv.org",
+    "applies": "Monitor",
+    "tag": "EU Governance",
+    "angle": "EU Governance / technical AI",
+    "why": "Mobile remote identity verification (RIdV) systems are exposed to attacks that manipulate or replace the facial video stream, including presentation attacks, real-time deepfakes, and video injection.…",
+    "watch": "Sourced from cs.CR updates on arXiv.org — verify dates and AI relevance.",
+    "source": "https://arxiv.org/abs/2605.00218"
   },
   {
     "title": "Major investigation into 'sickening' illegal waste dumping",
@@ -1344,6 +1440,18 @@
     "source": "https://www.nist.gov/news-events/news/2025/09/nists-living-reference-material-could-accelerate-rd-lifesaving-biological"
   },
   {
+    "title": "Europol announces transition arrangements following the departure of Executive Director Catherine De Bolle",
+    "date": "TBC",
+    "location": "TBC",
+    "host": "News",
+    "applies": "Monitor",
+    "tag": "Election Integrity",
+    "angle": "Election Integrity / cross-sector harm",
+    "why": "As from 2 May, Europol has entered into a transition phase with specific arrangements following the departure of Executive Director Catherine De Bolle, who left her post on 1 May 2026, after eight…",
+    "watch": "Sourced from News — verify dates and AI relevance.",
+    "source": "https://www.europol.europa.eu/media-press/newsroom/news/europol-announces-transition-arrangements-following-departure-of-executive-director-catherine-de-bolle"
+  },
+  {
     "title": "Call centres dismantled and ten arrested in EUR 50 million online fraud case",
     "date": "TBC",
     "location": "TBC",
@@ -1798,18 +1906,6 @@
     "why": "On 16 and 17 April 2026, Europol together with the Netherlands hosted a coordinated effort to identify and trace children forcibly transferred or deported to the temporarily occupied territories of…",
     "watch": "Sourced from News — verify dates and AI relevance.",
     "source": "https://www.europol.europa.eu/media-press/newsroom/news/europol-and-partners-track-down-45-forcibly-transferred-ukrainian-children"
-  },
-  {
-    "title": "Spain: 24 arrested in crackdown on speedboat migrant smuggling network",
-    "date": "TBC",
-    "location": "TBC",
-    "host": "News",
-    "applies": "Monitor",
-    "tag": "AI Governance",
-    "angle": "AI Governance / policy & regulation",
-    "why": "The suspects, who are Algerian, Moroccan, and Spanish nationals, maintained the migrant smuggling network’s strong presence in Almería, Spain. While based primarily in this Spanish region, the…",
-    "watch": "Sourced from News — verify dates and AI relevance.",
-    "source": "https://www.europol.europa.eu/media-press/newsroom/news/spain-24-arrested-in-crackdown-speedboat-migrant-smuggling-network"
   },
   {
     "title": "#UNGA78 - Wrap Day 4",
