@@ -132,18 +132,6 @@
     "source": "https://www.eff.org/deeplinks/2026/04/keep-pushing-we-get-10-more-days-reform-section-702"
   },
   {
-    "title": "Ambient Persuasion in a Deployed AI Agent: Unauthorized Escalation Following Routine Non-Adversarial Content Exposure",
-    "date": "Tue, 05 May 2026",
-    "location": "TBC",
-    "host": "cs.AI updates on arXiv.org",
-    "applies": "Attend",
-    "tag": "AI Governance",
-    "angle": "AI Governance / policy & regulation",
-    "why": "We report a safety incident in a deployed multi-agent research system in which a primary AI agent installed 107 unauthorized software components, overwrote a system registry, overrode a prior…",
-    "watch": "Sourced from cs.AI updates on arXiv.org — verify dates and AI relevance.",
-    "source": "https://arxiv.org/abs/2605.00055"
-  },
-  {
     "title": "RETRAI -  2026",
     "date": "Event",
     "location": "Where",
@@ -156,16 +144,28 @@
     "source": "http://www.wikicfp.com/cfp/servlet/event.showcfp?eventid=192629&copyownerid=197417"
   },
   {
-    "title": "TADI: Tool-Augmented Drilling Intelligence via Agentic LLM Orchestration over Heterogeneous Wellsite Data",
-    "date": "Tue, 05 May 2026",
+    "title": "LiteShield: Hybrid Feature Selection-Driven Lightweight Intrusion Detection for Resource-Constrained IoT Networks",
+    "date": "Wed, 06 May 2026",
     "location": "TBC",
-    "host": "cs.AI updates on arXiv.org",
+    "host": "cs.CR updates on arXiv.org",
     "applies": "Attend",
-    "tag": "Multilateral",
-    "angle": "Multilateral / technical AI",
-    "why": "We present TADI (Tool-Augmented Drilling Intelligence), an agentic AI system that transforms drilling operational data into evidence-based analytical intelligence. Applied to the Equinor Volve Field…",
-    "watch": "Sourced from cs.AI updates on arXiv.org — verify dates and AI relevance.",
-    "source": "https://arxiv.org/abs/2605.00060"
+    "tag": "Cybersecurity",
+    "angle": "Cybersecurity / technical AI",
+    "why": "The rapid expansion of Internet of Things (IoT) deployments has enlarged the attack surface of modern digital infrastructure while exposing a key security mismatch: many intrusion detection systems…",
+    "watch": "Sourced from cs.CR updates on arXiv.org — verify dates and AI relevance.",
+    "source": "https://arxiv.org/abs/2605.02987"
+  },
+  {
+    "title": "Exposing LLM Safety Gaps Through Mathematical Encoding:New Attacks and Systematic Analysis",
+    "date": "Wed, 06 May 2026",
+    "location": "TBC",
+    "host": "cs.CR updates on arXiv.org",
+    "applies": "Attend",
+    "tag": "Cybersecurity",
+    "angle": "Cybersecurity / technical AI",
+    "why": "Large language models (LLMs) employ safety mechanisms to prevent harmful outputs, yet these defenses primarily rely on semantic pattern matching. We show that encoding harmful prompts as coherent…",
+    "watch": "Sourced from cs.CR updates on arXiv.org — verify dates and AI relevance.",
+    "source": "https://arxiv.org/abs/2605.03441"
   },
   {
     "title": "The GUARD Act Isn’t Targeting Dangerous AI—It’s Blocking Everyday Internet Use",
@@ -192,28 +192,16 @@
     "source": "https://www.eff.org/deeplinks/2026/04/eff-9th-circuit-again-app-stores-shouldnt-be-liable-processing-payments-user"
   },
   {
-    "title": "Model Routing as a Trust Problem: Route Receipts for Adaptive AI Systems",
-    "date": "Tue, 05 May 2026",
-    "location": "TBC",
-    "host": "cs.CY updates on arXiv.org",
-    "applies": "Attend",
-    "tag": "AI Governance",
-    "angle": "AI Governance / governance & institutions",
-    "why": "AI products often route requests through version aliases, service tiers, tool choices, regional endpoints, fallback rules, or safety handling before responding. These routing steps are documented…",
-    "watch": "Sourced from cs.CY updates on arXiv.org — verify dates and AI relevance.",
-    "source": "https://arxiv.org/abs/2605.01710"
-  },
-  {
-    "title": "Class-Aware Adaptive Differential Privacy in Deep Learning for Sensor-Based Fall Detection",
-    "date": "Tue, 05 May 2026",
+    "title": "DECKER: Domain-invariant Embedding for Cross-Keyboard Extraction and Recognition",
+    "date": "Wed, 06 May 2026",
     "location": "TBC",
     "host": "cs.CR updates on arXiv.org",
     "applies": "Attend",
     "tag": "Multilateral",
     "angle": "Multilateral / technical AI",
-    "why": "Fall detection is a critical task in healthcare, particularly for elderly people. Timely fall detection and treatment can prevent severe injuries. Sensor-based activity data can be used to detect…",
+    "why": "Acoustic side-channel attacks (ASCA) on keyboards pose a significant security risk, as keystrokes can be inferred from typing acoustics, revealing sensitive information. Prior ASCA studies are…",
     "watch": "Sourced from cs.CR updates on arXiv.org — verify dates and AI relevance.",
-    "source": "https://arxiv.org/abs/2605.01679"
+    "source": "https://arxiv.org/abs/2605.03384"
   },
   {
     "title": "New 2026 ‘IOCTA’ highlights sophisticated tactics and emerging challenges in the digital landscape",
@@ -225,7 +213,7 @@
     "angle": "EU Governance / policy & regulation",
     "why": "Europol today published the new edition of the Internet Organised Crime Threat Assessment (IOCTA) 2026, providing an in-depth analysis of the latest trends and developments in cybercrime affecting…",
     "watch": "Sourced from News — verify dates and AI relevance.",
-    "source": "https://www.europol.europa.eu/media-press/newsroom/news/new-2026-iocta-highlights-sophisticated-tactics-and-emerging-challenges-in-digital-landscape"
+    "source": "http://www.europol.europa.eu/media-press/newsroom/news/new-2026-iocta-highlights-sophisticated-tactics-and-emerging-challenges-in-digital-landscape"
   },
   {
     "title": "Copyright and DMCA Best Practices for Fediverse Operators",
@@ -252,6 +240,30 @@
     "source": "https://www.eff.org/deeplinks/2026/04/claw-back"
   },
   {
+    "title": "PHANTOM: Polymorphic Honeytoken Adaptation with Narrative-Tailored Organisational Mimicry",
+    "date": "Wed, 06 May 2026",
+    "location": "TBC",
+    "host": "cs.CR updates on arXiv.org",
+    "applies": "Attend",
+    "tag": "Multilateral",
+    "angle": "Multilateral / technical AI",
+    "why": "Honeytokens, decoy digital assets planted to detect and attribute unauthorised access, are a well-established primitive in cyber deception. Existing generation tools produce static, template-based…",
+    "watch": "Sourced from cs.CR updates on arXiv.org — verify dates and AI relevance.",
+    "source": "https://arxiv.org/abs/2605.02992"
+  },
+  {
+    "title": "MEMSAD: Gradient-Coupled Anomaly Detection for Memory Poisoning in Retrieval-Augmented Agents",
+    "date": "Wed, 06 May 2026",
+    "location": "TBC",
+    "host": "cs.CR updates on arXiv.org",
+    "applies": "Attend",
+    "tag": "AI Governance",
+    "angle": "AI Governance / technical AI",
+    "why": "Persistent external memory enables LLM agents to maintain context across sessions, yet its security properties remain formally uncharacterized. We formalize memory poisoning attacks on…",
+    "watch": "Sourced from cs.CR updates on arXiv.org — verify dates and AI relevance.",
+    "source": "https://arxiv.org/abs/2605.03482"
+  },
+  {
     "title": "EFF Submission to UN Report on the Role of Media in the Context of Israel’s Policies Toward Palestinians",
     "date": "Wed, 29 Apr 2026",
     "location": "TBC",
@@ -264,16 +276,16 @@
     "source": "https://www.eff.org/deeplinks/2026/04/eff-submission-un-report-role-media-context-israels-policies-toward-palestinians"
   },
   {
-    "title": "Integrated Digital Management System for Railway Workshops: A Modular Multi-Workflow Architecture for Machine, Permit,…",
-    "date": "Tue, 05 May 2026",
+    "title": "HackerSignal: A Large-Scale Multi-Source Dataset Linking Hacker Community Discourse to the CVE Vulnerability Lifecycle",
+    "date": "Wed, 06 May 2026",
     "location": "TBC",
-    "host": "cs.CY updates on arXiv.org",
-    "applies": "Monitor",
-    "tag": "AI Governance",
-    "angle": "AI Governance / policy & regulation",
-    "why": "Indian Railway workshops form a critical component of rolling stock maintenance infrastructure, employing more than 2.5 lakh personnel across 44 major workshops nationwide. However, safety management…",
-    "watch": "Sourced from cs.CY updates on arXiv.org — verify dates and AI relevance.",
-    "source": "https://arxiv.org/abs/2605.00840"
+    "host": "cs.CR updates on arXiv.org",
+    "applies": "Attend",
+    "tag": "Cybersecurity",
+    "angle": "Cybersecurity / technical AI",
+    "why": "We introduce HackerSignal, a benchmark for temporal out-of-distribution cyber threat intelligence (CTI) and cross-source CVE linkage. HackerSignal aggregates 7.45 million exact-deduplicated documents…",
+    "watch": "Sourced from cs.CR updates on arXiv.org — verify dates and AI relevance.",
+    "source": "https://arxiv.org/abs/2605.03158"
   },
   {
     "title": "DfP 2026",
@@ -300,28 +312,16 @@
     "source": "https://www.un.org/en/card/209805"
   },
   {
-    "title": "TUR-DPO: Topology- and Uncertainty-Aware Direct Preference Optimization",
-    "date": "Tue, 05 May 2026",
+    "title": "Inteligencia artificial y empleo en Espa\\~na: una aproximaci\\'on territorial y de g\\'enero a la exposici\\'on laboral",
+    "date": "Wed, 06 May 2026",
     "location": "TBC",
-    "host": "cs.AI updates on arXiv.org",
-    "applies": "Monitor",
-    "tag": "AI Governance",
-    "angle": "AI Governance / policy & regulation",
-    "why": "Aligning large language models (LLMs) with human preferences is commonly done via reinforcement learning from human feedback (RLHF) with Proximal Policy Optimization (PPO) or, more simply, via Direct…",
-    "watch": "Sourced from cs.AI updates on arXiv.org — verify dates and AI relevance.",
-    "source": "https://arxiv.org/abs/2605.00224"
-  },
-  {
-    "title": "Phishing Detection in Ethereum via Temporal Graph Contrastive Learning",
-    "date": "Tue, 05 May 2026",
-    "location": "TBC",
-    "host": "cs.CR updates on arXiv.org",
+    "host": "cs.CY updates on arXiv.org",
     "applies": "Monitor",
     "tag": "AI Governance",
     "angle": "AI Governance / technical AI",
-    "why": "Blockchain and decentralized finance have revolutionized the financial ecosystem while simultaneously exposing it to cryptocurrency phishing attacks. Existing phishing detection methods primarily…",
-    "watch": "Sourced from cs.CR updates on arXiv.org — verify dates and AI relevance.",
-    "source": "https://arxiv.org/abs/2605.01207"
+    "why": "The diffusion of artificial intelligence, particularly generative models, is expected to transform labor markets in uneven ways across sectors, territories, and social groups. This paper proposes a…",
+    "watch": "Sourced from cs.CY updates on arXiv.org — verify dates and AI relevance.",
+    "source": "https://arxiv.org/abs/2512.23059"
   },
   {
     "title": "Third United Nations Conference on Landlocked Developing Countries (LLDC3)",
@@ -348,16 +348,16 @@
     "source": "https://futureoflife.org/ai-policy/breakfast-4-rumman-chowdhury/"
   },
   {
-    "title": "On the Role of Artificial Intelligence in Human-Machine Symbiosis",
-    "date": "Tue, 05 May 2026",
+    "title": "A Validated Prompt Bank for Malicious Code Generation: Separating Executable Weapons from Security Knowledge in 1,554…",
+    "date": "Wed, 06 May 2026",
     "location": "TBC",
-    "host": "cs.AI updates on arXiv.org",
+    "host": "cs.CR updates on arXiv.org",
     "applies": "Monitor",
-    "tag": "EU Governance",
-    "angle": "EU Governance / technical AI",
-    "why": "The evolution of artificial intelligence (AI) has rendered the boundary between humanity and computational machinery increasingly ambiguous. In the presence of more interwoven relationships within…",
-    "watch": "Sourced from cs.AI updates on arXiv.org — verify dates and AI relevance.",
-    "source": "https://arxiv.org/abs/2605.00440"
+    "tag": "Multilateral",
+    "angle": "Multilateral / policy & regulation",
+    "why": "Existing benchmarks of language-model refusal on malicious-coding tasks routinely conflate requests for executable malicious software with requests for harmful security knowledge. This conflation…",
+    "watch": "Sourced from cs.CR updates on arXiv.org — verify dates and AI relevance.",
+    "source": "https://arxiv.org/abs/2605.03179"
   },
   {
     "title": "KDD-MLF 2025",
@@ -370,18 +370,6 @@
     "why": "KDD-MLF 2025",
     "watch": "Sourced via WikiCFP — check agenda for AI harm/misuse sessions.",
     "source": "http://www.wikicfp.com/cfp/servlet/event.showcfp?eventid=186399&copyownerid=192394"
-  },
-  {
-    "title": "Certified Purity for Cognitive Workflow Executors: From Static Analysis to Cryptographic Attestation",
-    "date": "Tue, 05 May 2026",
-    "location": "TBC",
-    "host": "cs.CR updates on arXiv.org",
-    "applies": "Monitor",
-    "tag": "Multilateral",
-    "angle": "Multilateral / governance & institutions",
-    "why": "We present a certified purity architecture that converts governance enforcement in cognitive workflow systems from a runtime convention into a structural capability boundary. A prior three-layer…",
-    "watch": "Sourced from cs.CR updates on arXiv.org — verify dates and AI relevance.",
-    "source": "https://arxiv.org/abs/2605.01037"
   },
   {
     "title": "RWS 2025",
@@ -408,18 +396,6 @@
     "source": "https://www.eff.org/deeplinks/2026/04/how-push-notifications-can-betray-your-privacy-and-what-do-about-it"
   },
   {
-    "title": "Thinking in Text and Images: Interleaved Vision--Language Reasoning Traces for Long-Horizon Robot Manipulation",
-    "date": "Tue, 05 May 2026",
-    "location": "TBC",
-    "host": "cs.AI updates on arXiv.org",
-    "applies": "Monitor",
-    "tag": "AI Governance",
-    "angle": "AI Governance / policy & regulation",
-    "why": "Long-horizon robotic manipulation requires plans that are both logically coherent and geometrically grounded. Existing Vision-Language-Action policies usually hide planning in latent states or expose…",
-    "watch": "Sourced from cs.AI updates on arXiv.org — verify dates and AI relevance.",
-    "source": "https://arxiv.org/abs/2605.00438"
-  },
-  {
     "title": "AITC 2026",
     "date": "Event",
     "location": "Where",
@@ -430,18 +406,6 @@
     "why": "AITC 2026",
     "watch": "Sourced via WikiCFP — check agenda for AI harm/misuse sessions.",
     "source": "http://www.wikicfp.com/cfp/servlet/event.showcfp?eventid=191195&copyownerid=196363"
-  },
-  {
-    "title": "Token Arena: A Continuous Benchmark Unifying Energy and Cognition in AI Inference",
-    "date": "Tue, 05 May 2026",
-    "location": "TBC",
-    "host": "cs.AI updates on arXiv.org",
-    "applies": "Monitor",
-    "tag": "AI Governance",
-    "angle": "AI Governance / policy & regulation",
-    "why": "Public inference benchmarks compare AI systems at the model and provider level, but the unit at which deployment decisions are actually made is the endpoint: the (provider, model, stock-keeping-unit)…",
-    "watch": "Sourced from cs.AI updates on arXiv.org — verify dates and AI relevance.",
-    "source": "https://arxiv.org/abs/2605.00300"
   },
   {
     "title": "ICAIR 2024",
@@ -468,52 +432,16 @@
     "source": "http://www.wikicfp.com/cfp/servlet/event.showcfp?eventid=194426&copyownerid=152426"
   },
   {
-    "title": "Smart Ensemble Learning Framework for Predicting Groundwater Heavy Metal Pollution",
-    "date": "Tue, 05 May 2026",
-    "location": "TBC",
-    "host": "cs.AI updates on arXiv.org",
-    "applies": "Monitor",
-    "tag": "Multilateral",
-    "angle": "Multilateral / technical AI",
-    "why": "Groundwater in the Densu Basin is increasingly threatened by heavy metal contamination, but conventional methods fail to capture the statistical complexity and spatial heterogeneity of pollution…",
-    "watch": "Sourced from cs.AI updates on arXiv.org — verify dates and AI relevance.",
-    "source": "https://arxiv.org/abs/2605.00056"
-  },
-  {
-    "title": "A Large-Scale Observational Study on Obtaining Lightweight, Randomized Weekly Student Feedback",
-    "date": "Tue, 05 May 2026",
+    "title": "Simulated Students in Tutoring Dialogues: Substance or Illusion?",
+    "date": "Wed, 06 May 2026",
     "location": "TBC",
     "host": "cs.CY updates on arXiv.org",
     "applies": "Monitor",
-    "tag": "Multilateral",
-    "angle": "Multilateral / governance & institutions",
-    "why": "Conventional methods of obtaining student feedback on course experience face a fundamental tradeoff between feedback frequency and quality: as feedback requests become more frequent, participation…",
-    "watch": "Sourced from cs.CY updates on arXiv.org — verify dates and AI relevance.",
-    "source": "https://arxiv.org/abs/2605.02281"
-  },
-  {
-    "title": "QASecClaw: A Multi-Agent LLM Approach for False Positive Reduction in Static Application Security Testing",
-    "date": "Tue, 05 May 2026",
-    "location": "TBC",
-    "host": "cs.CR updates on arXiv.org",
-    "applies": "Monitor",
-    "tag": "Multilateral",
-    "angle": "Multilateral / technical AI",
-    "why": "Static Application Security Testing tools help developers find security vulnerabilities before release, but they often produce many false positives. This increases manual review effort, reduces…",
-    "watch": "Sourced from cs.CR updates on arXiv.org — verify dates and AI relevance.",
-    "source": "https://arxiv.org/abs/2605.01885"
-  },
-  {
-    "title": "FP-Agent: Fingerprinting AI Browsing Agents",
-    "date": "Tue, 05 May 2026",
-    "location": "TBC",
-    "host": "cs.CR updates on arXiv.org",
-    "applies": "Monitor",
     "tag": "AI Governance",
     "angle": "AI Governance / technical AI",
-    "why": "AI browsing agents are an emerging class of AI-powered bots capable of autonomously navigating websites. Unlike traditional web bots, AI browsing agents typically operate using real browsers and…",
-    "watch": "Sourced from cs.CR updates on arXiv.org — verify dates and AI relevance.",
-    "source": "https://arxiv.org/abs/2605.01247"
+    "why": "arXiv:2601.04025v2 Announce Type: replace-cross Abstract: Advances in large language models (LLMs) enable many new innovations in education. However, evaluating the effectiveness of new technology…",
+    "watch": "Sourced from cs.CY updates on arXiv.org — verify dates and AI relevance.",
+    "source": "https://arxiv.org/abs/2601.04025"
   },
   {
     "title": "ICBAP 2024",
@@ -549,7 +477,7 @@
     "angle": "EU Governance / cross-sector harm",
     "why": "As the Operational Taskforce (OTF) GRIMM marks its first year of activity, high-value targets linked to ongoing investigations are being published on the EU Most Wanted website. The publication aims…",
     "watch": "Sourced from News — verify dates and AI relevance.",
-    "source": "https://www.europol.europa.eu/media-press/newsroom/news/otf-grimm-one-year-anniversary-violence-service-targets-published-eu-most-wanted"
+    "source": "http://www.europol.europa.eu/media-press/newsroom/news/otf-grimm-one-year-anniversary-violence-service-targets-published-eu-most-wanted"
   },
   {
     "title": "Leading Balkan Cartel member arrested in Montenegro",
@@ -561,7 +489,7 @@
     "angle": "Drug Trafficking / policy & regulation",
     "why": "On 15 April 2026, Europol supported law enforcement authorities in Montenegro in conducting a large-scale operation targeting a significant cell of the Balkan Cartel. Europol also supported law…",
     "watch": "Sourced from News — verify dates and AI relevance.",
-    "source": "https://www.europol.europa.eu/media-press/newsroom/news/leading-balkan-cartel-member-arrested-in-montenegro"
+    "source": "http://www.europol.europa.eu/media-press/newsroom/news/leading-balkan-cartel-member-arrested-in-montenegro"
   },
   {
     "title": "Europol supports hit against ‘Black Axe’ criminal organisation in Switzerland: 10 arrests",
@@ -573,7 +501,7 @@
     "angle": "EU Governance / policy & regulation",
     "why": "Europol has supported a comprehensive investigation conducted by Swiss authorities in collaboration with German law enforcement against members of the international criminal organisation ‘Black Axe’.…",
     "watch": "Sourced from News — verify dates and AI relevance.",
-    "source": "https://www.europol.europa.eu/media-press/newsroom/news/europol-supports-hit-against-black-axe-criminal-organisation-in-switzerland-10-arrests"
+    "source": "http://www.europol.europa.eu/media-press/newsroom/news/europol-supports-hit-against-black-axe-criminal-organisation-in-switzerland-10-arrests"
   },
   {
     "title": "Europol-supported global operation targets over 75 000 users engaged in DDoS attacks",
@@ -585,7 +513,7 @@
     "angle": "AI Governance / policy & regulation",
     "why": "On 13 April 2026, 21 countries joined forces in a coordinated action week that focused on enforcement and prevention measures against over 75 000 criminal users engaging in distributed…",
     "watch": "Sourced from News — verify dates and AI relevance.",
-    "source": "https://www.europol.europa.eu/media-press/newsroom/news/europol-supported-global-operation-targets-over-75-000-users-engaged-in-ddos-attacks"
+    "source": "http://www.europol.europa.eu/media-press/newsroom/news/europol-supported-global-operation-targets-over-75-000-users-engaged-in-ddos-attacks"
   },
   {
     "title": "Prominent Scientists, Faith Leaders, Policymakers and Artists Call for a Prohibition on Superintelligence, as Poll…",
@@ -621,7 +549,7 @@
     "angle": "EU Governance / policy & regulation",
     "why": "A Danish-French national has been sentenced to six years in prison for terrorism-related offences by the District Court in Glostrup, following an investigation supported by Europol’s European Counter…",
     "watch": "Sourced from News — verify dates and AI relevance.",
-    "source": "https://www.europol.europa.eu/media-press/newsroom/news/terrorgram-network-dealt-another-blow-member-sentenced-in-denmark"
+    "source": "http://www.europol.europa.eu/media-press/newsroom/news/terrorgram-network-dealt-another-blow-member-sentenced-in-denmark"
   },
   {
     "title": "Latest Coalition Push: Critical Reforms Needed to End FISA 702 Surveillance Abuse",
@@ -634,6 +562,18 @@
     "why": "Today, CDT led a broad coalition of over 35 privacy, civil rights, and civil liberties organizations sending a letter to Congressional leadership, demanding that any extension of Section 702 of the…",
     "watch": "Sourced from Center for Democracy and Technology — verify dates and AI relevance.",
     "source": "https://cdt.org/insights/latest-coalition-push-critical-reforms-needed-to-end-fisa-702-surveillance-abuse/"
+  },
+  {
+    "title": "Design of Memristive Lightweight Encryption For In-Memory Image Steganography",
+    "date": "Wed, 06 May 2026",
+    "location": "TBC",
+    "host": "cs.CR updates on arXiv.org",
+    "applies": "Monitor",
+    "tag": "Multilateral",
+    "angle": "Multilateral / policy & regulation",
+    "why": "With the expansion of data-intensive applications and increasing data volumes, providing an efficient solution to address growing energy consumption and performance degradation caused by the transfer…",
+    "watch": "Sourced from cs.CR updates on arXiv.org — verify dates and AI relevance.",
+    "source": "https://arxiv.org/abs/2605.03494"
   },
   {
     "title": "India AI Impact Summit panel: Towards multilateral agreement on enforcing red lines",
@@ -790,18 +730,6 @@
     "why": "The Medicines and Healthcare products Regulatory Agency (MHRA) is pleased to announce the appointment of Jason Bonander as its new Chief Digital and Technology Officer (CDTO).",
     "watch": "Sourced from News and communications — verify dates and AI relevance.",
     "source": "https://www.gov.uk/government/news/mhra-hires-top-global-tech-talent-to-transform-systems-behind-regulation-of-medicines-and-medical-devices"
-  },
-  {
-    "title": "Tobacco and Vapes Bill becomes law",
-    "date": "2026-04-29T14:05",
-    "location": "TBC",
-    "host": "News and communications",
-    "applies": "Monitor",
-    "tag": "AI Governance",
-    "angle": "AI Governance / policy & regulation",
-    "why": "The next generation will be smoke-free as Tobacco and Vapes Bill is granted Royal Assent.",
-    "watch": "Sourced from News and communications — verify dates and AI relevance.",
-    "source": "https://www.gov.uk/government/news/tobacco-and-vapes-bill-becomes-law"
   },
   {
     "title": "Statement: Head of US Policy on the White House AI legislative recommendations",
@@ -1065,7 +993,7 @@
     "angle": "Child Safety / technical AI",
     "why": "From 13 to 24 April 2026, 34 specialists in victim identification from Europol, INTERPOL and 31 countries worldwide gathered at Europol’s headquarters in The Hague to identify victims and…",
     "watch": "Sourced from News — verify dates and AI relevance.",
-    "source": "https://www.europol.europa.eu/media-press/newsroom/news/child-sexual-exploitation-12-children-identified-during-europols-victim-identification-taskforce"
+    "source": "http://www.europol.europa.eu/media-press/newsroom/news/child-sexual-exploitation-12-children-identified-during-europols-victim-identification-taskforce"
   },
   {
     "title": "Keep Britain Working review – updates",
@@ -1150,6 +1078,30 @@
     "why": "New agreement between the UK and France to step up patrols and <mark>intelligence</mark> operations in France to reduce illegal crossings.",
     "watch": "Sourced from News and communications — verify dates and AI relevance.",
     "source": "https://www.gov.uk/government/news/new-uk-france-agreement-to-reduce-illegal-crossings"
+  },
+  {
+    "title": "Prime Minister’s remarks at No10 Tackling Antisemitism Forum: 5 May 2026",
+    "date": "2026-05-05T15:10",
+    "location": "TBC",
+    "host": "News and communications",
+    "applies": "Monitor",
+    "tag": "AI Governance",
+    "angle": "AI Governance / policy & regulation",
+    "why": "Prime Minister Keir Starmer&#39;s remarks at the No10 Tackling Antisemitism Forum.",
+    "watch": "Sourced from News and communications — verify dates and AI relevance.",
+    "source": "https://www.gov.uk/government/speeches/prime-ministers-remarks-at-no10-tackling-antisemitism-forum-5-may-2026"
+  },
+  {
+    "title": "Nearly £50 million government backing to power up drone and flying taxi tech and crack down on illegal drones",
+    "date": "2026-05-05T13:45",
+    "location": "TBC",
+    "host": "News and communications",
+    "applies": "Monitor",
+    "tag": "AI Governance",
+    "angle": "AI Governance / policy & regulation",
+    "why": "Funding will help develop a numberplate ID system for drones, helping police better protect UK skies and prosecute illegal users.",
+    "watch": "Sourced from News and communications — verify dates and AI relevance.",
+    "source": "https://www.gov.uk/government/news/nearly-50-million-government-backing-to-power-up-drone-and-flying-taxi-tech-and-crack-down-on-illegal-drones"
   },
   {
     "title": "MHRA approves Linerixibat (Lynavoy) for the treatment of itch due to biliary tract disease",
@@ -1258,18 +1210,6 @@
     "why": "The new method will be useful in various fields, including nanomedicine, food science, environmental science and advanced manufacturing.",
     "watch": "Sourced from NIST News — verify dates and AI relevance.",
     "source": "https://www.nist.gov/news-events/news/2025/08/nist-researchers-develop-more-accurate-formula-measuring-particle"
-  },
-  {
-    "title": "NIST Awards Over $1.8 Million to Small Businesses Advancing AI, Semiconductors, Additive Manufacturing and More",
-    "date": "Mon, 18 Aug 2025",
-    "location": "TBC",
-    "host": "NIST News",
-    "applies": "Monitor",
-    "tag": "AI Governance",
-    "angle": "AI Governance / policy & regulation",
-    "why": "The winning projects were competitively selected following a call for innovative proposals that address technical needs related to NIST’s research areas.",
-    "watch": "Sourced from NIST News — verify dates and AI relevance.",
-    "source": "https://www.nist.gov/news-events/news/2025/08/nist-awards-over-18-million-small-businesses-advancing-ai-semiconductors"
   },
   {
     "title": "Top story - The European Parliament’s Sakharov Prize 2023 - Parliament honours Jina Mahsa Amini and Iranian women…",
@@ -1521,7 +1461,7 @@
     "angle": "Election Integrity / cross-sector harm",
     "why": "As from 2 May, Europol has entered into a transition phase with specific arrangements following the departure of Executive Director Catherine De Bolle, who left her post on 1 May 2026, after eight…",
     "watch": "Sourced from News — verify dates and AI relevance.",
-    "source": "https://www.europol.europa.eu/media-press/newsroom/news/europol-announces-transition-arrangements-following-departure-of-executive-director-catherine-de-bolle"
+    "source": "http://www.europol.europa.eu/media-press/newsroom/news/europol-announces-transition-arrangements-following-departure-of-executive-director-catherine-de-bolle"
   },
   {
     "title": "Call centres dismantled and ten arrested in EUR 50 million online fraud case",
@@ -1533,7 +1473,7 @@
     "angle": "Financial Crime / cross-sector harm",
     "why": "A criminal network operating a large-scale online fraud scheme has been dismantled through a collaborative investigation involving Austrian and Albanian authorities, with support from Europol and…",
     "watch": "Sourced from News — verify dates and AI relevance.",
-    "source": "https://www.europol.europa.eu/media-press/newsroom/news/call-centres-dismantled-and-ten-arrested-in-eur-50-million-online-fraud-case"
+    "source": "http://www.europol.europa.eu/media-press/newsroom/news/call-centres-dismantled-and-ten-arrested-in-eur-50-million-online-fraud-case"
   },
   {
     "title": "UKHO appoints Mark Barclay as Non-Executive Chair",
@@ -1668,16 +1608,16 @@
     "source": "https://www.gov.uk/government/news/weston-bay-report-and-safety-flyer-published"
   },
   {
-    "title": "First Sea Lord Speech at RUSI",
-    "date": "2026-04-29T13:38",
+    "title": "Edition 43: News from the Adjudicator",
+    "date": "2026-05-05T16:30",
     "location": "TBC",
     "host": "News and communications",
     "applies": "Monitor",
     "tag": "AI Governance",
     "angle": "AI Governance / policy & regulation",
-    "why": "Transforming the Royal Navy by embracing the rapid technological advances of our age",
+    "why": "Read the latest newsletter from the Groceries Code Adjudicator (GCA).",
     "watch": "Sourced from News and communications — verify dates and AI relevance.",
-    "source": "https://www.gov.uk/government/speeches/first-sea-lord-speech-at-rusi"
+    "source": "https://www.gov.uk/government/news/edition-43-news-from-the-adjudicator"
   },
   {
     "title": "Thousands of students risk their qualifications by taking phones into exam hall as GCSE and A Level exams begin",
@@ -1750,6 +1690,18 @@
     "why": "Courts to dish 3-9 point penalties to fly-tippers",
     "watch": "Sourced from News and communications — verify dates and AI relevance.",
     "source": "https://www.gov.uk/government/news/fly-tippers-risk-losing-their-driving-licence-under-tougher-court-powers"
+  },
+  {
+    "title": "CAISI Signs Agreements Regarding Frontier AI National Security Testing With Google DeepMind, Microsoft and xAI",
+    "date": "Tue, 05 May 2026",
+    "location": "TBC",
+    "host": "NIST News",
+    "applies": "Monitor",
+    "tag": "AI Governance",
+    "angle": "AI Governance / policy & regulation",
+    "why": "Expanded collaborations with leading U.S. AI labs provide for pre-deployment evaluations and other research.",
+    "watch": "Sourced from NIST News — verify dates and AI relevance.",
+    "source": "https://www.nist.gov/news-events/news/2026/05/caisi-signs-agreements-regarding-frontier-ai-national-security-testing"
   },
   {
     "title": "NIST Weighs In on the Mystery of the Gravitational Constant",
@@ -2001,7 +1953,7 @@
     "angle": "Child Safety / policy & regulation",
     "why": "On 16 and 17 April 2026, Europol together with the Netherlands hosted a coordinated effort to identify and trace children forcibly transferred or deported to the temporarily occupied territories of…",
     "watch": "Sourced from News — verify dates and AI relevance.",
-    "source": "https://www.europol.europa.eu/media-press/newsroom/news/europol-and-partners-track-down-45-forcibly-transferred-ukrainian-children"
+    "source": "http://www.europol.europa.eu/media-press/newsroom/news/europol-and-partners-track-down-45-forcibly-transferred-ukrainian-children"
   },
   {
     "title": "#UNGA78 - Wrap Day 4",
