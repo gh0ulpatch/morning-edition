@@ -12,6 +12,18 @@
     "source": "https://www.eff.org/deeplinks/2026/05/eff-fourth-circuit-electronic-device-searches-border-require-warrant"
   },
   {
+    "title": "Precautionary Governance of Autonomous AI: Legal Personhood as Functional Instrument",
+    "date": "Thu, 14 May 2026",
+    "location": "TBC",
+    "host": "cs.CY updates on arXiv.org",
+    "applies": "Attend",
+    "tag": "Multilateral",
+    "angle": "Multilateral / policy & regulation",
+    "why": "Autonomous AI systems generate responsibility gaps: consequential actions that cannot be satisfactorily attributed to developers, operators, or users under existing legal frameworks. The prevailing…",
+    "watch": "Sourced from cs.CY updates on arXiv.org — verify dates and AI relevance.",
+    "source": "https://arxiv.org/abs/2605.12505"
+  },
+  {
     "title": "The SECURE Data Act is Not a Serious Piece of Privacy Legislation",
     "date": "Wed, 06 May 2026",
     "location": "TBC",
@@ -22,6 +34,18 @@
     "why": "The federal SECURE Data Act is not a serious consumer privacy bill, and its provisions—if enacted—would be a retreat from already insufficient state protections. Republicans on the House Energy and…",
     "watch": "Sourced from Deeplinks — verify dates and AI relevance.",
     "source": "https://www.eff.org/deeplinks/2026/05/secure-data-act-not-serious-piece-privacy-legislation"
+  },
+  {
+    "title": "The Science is Not Settled: How Weak Evidence is Fueling a National Push to Ban Social Media for Youth",
+    "date": "Wed, 13 May 2026",
+    "location": "TBC",
+    "host": "Deeplinks",
+    "applies": "Attend",
+    "tag": "Cybersecurity",
+    "angle": "Cybersecurity / policy & regulation",
+    "why": "As statehouses ramp up for 2026, we’re seeing a familiar and concerning trend of lawmakers rushing to regulate the internet based on shockingly shaky science. From the California State Assembly to…",
+    "watch": "Sourced from Deeplinks — verify dates and AI relevance.",
+    "source": "https://www.eff.org/deeplinks/2026/05/science-not-settled-how-weak-evidence-fueling-national-push-ban-social-media-youth"
   },
   {
     "title": "EFF Challenges Secrecy In Eastern District of Texas Patent Case",
@@ -132,28 +156,28 @@
     "source": "http://www.wikicfp.com/cfp/servlet/event.showcfp?eventid=192629&copyownerid=197417"
   },
   {
-    "title": "Comment and Control: Hijacking Agentic Workflows via Context-Grounded Evolution",
-    "date": "Wed, 13 May 2026",
+    "title": "Model-Agnostic Lifelong LLM Safety via Externalized Attack-Defense Co-Evolution",
+    "date": "Thu, 14 May 2026",
     "location": "TBC",
     "host": "cs.CR updates on arXiv.org",
     "applies": "Attend",
     "tag": "Cybersecurity",
     "angle": "Cybersecurity / technical AI",
-    "why": "Automation platforms such as GitHub Actions and n8n are increasingly adopting so-called agentic workflows, which integrate Large Language Model (LLM) agents for tasks such as code review and data…",
+    "why": "Large language models remain vulnerable to adversarial prompts that elicit harmful outputs. Existing safety paradigms typically couple red-teaming and post-training in a closed, policy-centric loop,…",
     "watch": "Sourced from cs.CR updates on arXiv.org — verify dates and AI relevance.",
-    "source": "https://arxiv.org/abs/2605.11229"
+    "source": "https://arxiv.org/abs/2605.13411"
   },
   {
-    "title": "Can a Single Message Paralyze the AI Infrastructure? The Rise of AbO-DDoS Attacks through Targeted Mobius Injection",
-    "date": "Wed, 13 May 2026",
+    "title": "Think Twice, Act Once: Verifier-Guided Action Selection For Embodied Agents",
+    "date": "Thu, 14 May 2026",
     "location": "TBC",
-    "host": "cs.CR updates on arXiv.org",
+    "host": "cs.AI updates on arXiv.org",
     "applies": "Attend",
-    "tag": "Cybersecurity",
-    "angle": "Cybersecurity / technical AI",
-    "why": "Large Language Model (LLM) agents have emerged as key intermediaries, orchestrating complex interactions between human users and a wide range of digital services and LLM infrastructures. While prior…",
-    "watch": "Sourced from cs.CR updates on arXiv.org — verify dates and AI relevance.",
-    "source": "https://arxiv.org/abs/2605.11442"
+    "tag": "Election Integrity",
+    "angle": "Election Integrity / technical AI",
+    "why": "Building generalist embodied agents capable of solving complex real-world tasks remains a fundamental challenge in AI. Multimodal Large Language Models (MLLMs) have significantly advanced the…",
+    "watch": "Sourced from cs.AI updates on arXiv.org — verify dates and AI relevance.",
+    "source": "https://arxiv.org/abs/2605.12620"
   },
   {
     "title": "EFF Launches New Offline Campaign for Saudi Wikipedian Osama Khalid",
@@ -180,16 +204,40 @@
     "source": "https://www.eff.org/deeplinks/2026/04/guard-act-isnt-targeting-dangerous-ai-its-blocking-everyday-internet-use"
   },
   {
-    "title": "EFF to 9th Circuit (Again): App Stores Shouldn’t Be Liable for Processing Payments for User Content",
-    "date": "Thu, 23 Apr 2026",
+    "title": "Not All Anquan Is the Same: A Terminological Proposal for Chinese Computer Science and Engineering",
+    "date": "Thu, 14 May 2026",
     "location": "TBC",
-    "host": "Deeplinks",
+    "host": "cs.CY updates on arXiv.org",
     "applies": "Attend",
-    "tag": "Trust & Safety",
-    "angle": "Trust & Safety / policy & regulation",
-    "why": "EFF filed an amicus brief for the second time in the U.S. Court of Appeals for the Ninth Circuit, arguing that allowing cases against the Apple, Google, and Facebook app stores to proceed could lead…",
-    "watch": "Sourced from Deeplinks — verify dates and AI relevance.",
-    "source": "https://www.eff.org/deeplinks/2026/04/eff-9th-circuit-again-app-stores-shouldnt-be-liable-processing-payments-user"
+    "tag": "Multilateral",
+    "angle": "Multilateral / governance & institutions",
+    "why": "In Chinese computer science and engineering, safety and security have long been translated by the same word, \"anquan\". This convention is concise in ordinary communication, but it creates persistent…",
+    "watch": "Sourced from cs.CY updates on arXiv.org — verify dates and AI relevance.",
+    "source": "https://arxiv.org/abs/2605.13069"
+  },
+  {
+    "title": "Context Matters: Auditing Gender Bias in T2I Generation through Risk-Tiered Use-Case Profiles",
+    "date": "Thu, 14 May 2026",
+    "location": "TBC",
+    "host": "cs.CY updates on arXiv.org",
+    "applies": "Attend",
+    "tag": "EU Governance",
+    "angle": "EU Governance / governance & institutions",
+    "why": "Text-to-image (T2I) generative models are increasingly used to produce content for education, media, and public-facing communication, and are starting to be integrated into higher-impact pipelines.…",
+    "watch": "Sourced from cs.CY updates on arXiv.org — verify dates and AI relevance.",
+    "source": "https://arxiv.org/abs/2605.13113"
+  },
+  {
+    "title": "Moltbook Moderation: Uncovering Hidden Intent Through Multi-Turn Dialogue",
+    "date": "Thu, 14 May 2026",
+    "location": "TBC",
+    "host": "cs.AI updates on arXiv.org",
+    "applies": "Attend",
+    "tag": "Cybersecurity",
+    "angle": "Cybersecurity / technical AI",
+    "why": "The emergence of multi-agent systems introduces novel moderation challenges that extend beyond content filtering. Agents with {\\em malicious intent} may contribute harmful content that appears benign…",
+    "watch": "Sourced from cs.AI updates on arXiv.org — verify dates and AI relevance.",
+    "source": "https://arxiv.org/abs/2605.12856"
   },
   {
     "title": "New 2026 ‘IOCTA’ highlights sophisticated tactics and emerging challenges in the digital landscape",
@@ -202,6 +250,30 @@
     "why": "Europol today published the new edition of the Internet Organised Crime Threat Assessment (IOCTA) 2026, providing an in-depth analysis of the latest trends and developments in cybercrime affecting…",
     "watch": "Sourced from News — verify dates and AI relevance.",
     "source": "https://www.europol.europa.eu/media-press/newsroom/news/new-2026-iocta-highlights-sophisticated-tactics-and-emerging-challenges-in-digital-landscape"
+  },
+  {
+    "title": "BackFlush: Knowledge-Free Backdoor Detection and Elimination with Watermark Preservation in Large Language Models",
+    "date": "Thu, 14 May 2026",
+    "location": "TBC",
+    "host": "cs.CR updates on arXiv.org",
+    "applies": "Attend",
+    "tag": "AI Governance",
+    "angle": "AI Governance / technical AI",
+    "why": "In recent trends, one can observe Large Language Models (LLMs) are exposed to backdoor attacks where vicious triggers added during training or model editing to elicit harmful outputs on specific…",
+    "watch": "Sourced from cs.CR updates on arXiv.org — verify dates and AI relevance.",
+    "source": "https://arxiv.org/abs/2605.12529"
+  },
+  {
+    "title": "DiffusionHijack: Supply-Chain PRNG Backdoor Attack on Diffusion Models and Quantum Random Number Defense",
+    "date": "Thu, 14 May 2026",
+    "location": "TBC",
+    "host": "cs.CR updates on arXiv.org",
+    "applies": "Attend",
+    "tag": "Cybersecurity",
+    "angle": "Cybersecurity / technical AI",
+    "why": "Diffusion models depend on pseudo-random number generators (PRNGs) for latent noise sampling. We present DiffusionHijack, a supply-chain backdoor attack that hijacks the PRNG to deterministically…",
+    "watch": "Sourced from cs.CR updates on arXiv.org — verify dates and AI relevance.",
+    "source": "https://arxiv.org/abs/2605.13115"
   },
   {
     "title": "Shut Down Turnkey Totalitarianism",
@@ -228,64 +300,40 @@
     "source": "https://www.eff.org/deeplinks/2026/04/eff-submission-un-report-role-media-context-israels-policies-toward-palestinians"
   },
   {
-    "title": "Stochastic Parrots or Singing in Harmony? Testing Five Leading LLMs for their Ability to Replicate a Human Survey with…",
-    "date": "Wed, 13 May 2026",
+    "title": "GraphIP-Bench: How Hard Is It to Steal a Graph Neural Network, and Can We Stop It?",
+    "date": "Thu, 14 May 2026",
     "location": "TBC",
-    "host": "cs.CY updates on arXiv.org",
+    "host": "cs.CR updates on arXiv.org",
     "applies": "Attend",
-    "tag": "Multilateral",
-    "angle": "Multilateral / technical AI",
-    "why": "How well can AI-derived synthetic research data replicate the responses of human participants? An emerging literature has begun to engage with this question, which carries deep implications for…",
-    "watch": "Sourced from cs.CY updates on arXiv.org — verify dates and AI relevance.",
-    "source": "https://arxiv.org/abs/2603.00059"
+    "tag": "AI Governance",
+    "angle": "AI Governance / technical AI",
+    "why": "Graph neural networks (GNNs) deployed as cloud services can be \\emph{stolen} through \\emph{model-extraction attacks}, which train a surrogate from query responses to reproduce the target's behaviour,…",
+    "watch": "Sourced from cs.CR updates on arXiv.org — verify dates and AI relevance.",
+    "source": "https://arxiv.org/abs/2605.12827"
   },
   {
-    "title": "FlowSteer: Prompt-Only Workflow Steering Exposes Planning-Time Vulnerabilities in Multi-Agent LLM Systems",
-    "date": "Wed, 13 May 2026",
+    "title": "Inducing Overthink: Hierarchical Genetic Algorithm-based DoS Attack on Black-Box Large Language Reasoning Models",
+    "date": "Thu, 14 May 2026",
     "location": "TBC",
     "host": "cs.CR updates on arXiv.org",
     "applies": "Attend",
     "tag": "Cybersecurity",
     "angle": "Cybersecurity / technical AI",
-    "why": "Multi-agent systems (MAS) powered by large language models (LLMs) increasingly adopt planner--executor architectures, where planners convert prompts into subtasks, roles, dependencies, and routing…",
+    "why": "Large Reasoning Models (LRMs) are increasingly integrated into systems requiring reliable multi-step inference, yet this growing dependence exposes new vulnerabilities related to computational…",
     "watch": "Sourced from cs.CR updates on arXiv.org — verify dates and AI relevance.",
-    "source": "https://arxiv.org/abs/2605.11514"
+    "source": "https://arxiv.org/abs/2605.13338"
   },
   {
-    "title": "Why Conclusions Diverge from the Same Observations: Formalizing World-Model Non-Identifiability via an Inference",
-    "date": "Wed, 13 May 2026",
+    "title": "Ghost in the Context: Measuring Policy-Carriage Failures in Decision-Time Assembly",
+    "date": "Thu, 14 May 2026",
     "location": "TBC",
-    "host": "cs.CY updates on arXiv.org",
+    "host": "cs.CR updates on arXiv.org",
     "applies": "Monitor",
     "tag": "AI Governance",
     "angle": "AI Governance / policy & regulation",
-    "why": "When people share the same documents and observations yet reach different conclusions, the disagreement often shifts into a judgment that the other party is cognitively defective, irrational, or…",
-    "watch": "Sourced from cs.CY updates on arXiv.org — verify dates and AI relevance.",
-    "source": "https://arxiv.org/abs/2605.12255"
-  },
-  {
-    "title": "Auto-Rubric as Reward: From Implicit Preferences to Explicit Multimodal Generative Criteria",
-    "date": "Wed, 13 May 2026",
-    "location": "TBC",
-    "host": "cs.AI updates on arXiv.org",
-    "applies": "Monitor",
-    "tag": "Cybersecurity",
-    "angle": "Cybersecurity / policy & regulation",
-    "why": "Aligning multimodal generative models with human preferences demands reward signals that respect the compositional, multi-dimensional structure of human judgment. Prevailing RLHF approaches reduce…",
-    "watch": "Sourced from cs.AI updates on arXiv.org — verify dates and AI relevance.",
-    "source": "https://arxiv.org/abs/2605.08354"
-  },
-  {
-    "title": "Reimagining Assessment in the Age of Generative AI: Lessons from Open-Book Exams with ChatGPT",
-    "date": "Wed, 13 May 2026",
-    "location": "TBC",
-    "host": "cs.CY updates on arXiv.org",
-    "applies": "Monitor",
-    "tag": "AI Governance",
-    "angle": "AI Governance / policy & regulation",
-    "why": "Generative AI systems such as ChatGPT challenge traditional assumptions about academic assessment by enabling students to generate explanations, code, and solutions in real time. Rather than…",
-    "watch": "Sourced from cs.CY updates on arXiv.org — verify dates and AI relevance.",
-    "source": "https://arxiv.org/abs/2605.12363"
+    "why": "LM agents do not act on raw interaction history; they act on a bounded decision state assembled by truncation, summarization, reordering, and rewriting. If directive-bearing state is dropped,…",
+    "watch": "Sourced from cs.CR updates on arXiv.org — verify dates and AI relevance.",
+    "source": "https://arxiv.org/abs/2605.12535"
   },
   {
     "title": "DfP 2026",
@@ -324,16 +372,52 @@
     "source": "https://www.un.org/en/card/209805"
   },
   {
-    "title": "Safety Context Injection: Inference-Time Safety Alignment via Static Filtering and Agentic Analysis",
-    "date": "Wed, 13 May 2026",
+    "title": "Revealing Interpretable Failure Modes of VLMs",
+    "date": "Thu, 14 May 2026",
     "location": "TBC",
-    "host": "cs.CR updates on arXiv.org",
+    "host": "cs.AI updates on arXiv.org",
     "applies": "Monitor",
-    "tag": "AI Safety",
-    "angle": "AI Safety / technical AI",
-    "why": "Large Reasoning Models (LRMs) improve performance on complex tasks, but they also make safety control harder at deployment time. In black-box settings, defenders cannot modify model weights and must…",
-    "watch": "Sourced from cs.CR updates on arXiv.org — verify dates and AI relevance.",
-    "source": "https://arxiv.org/abs/2605.11664"
+    "tag": "Multilateral",
+    "angle": "Multilateral / policy & regulation",
+    "why": "Vision-Language Models (VLMs) are increasingly used in safety-critical applications because of their broad reasoning capabilities and ability to generalize with minimal task-specific engineering.…",
+    "watch": "Sourced from cs.AI updates on arXiv.org — verify dates and AI relevance.",
+    "source": "https://arxiv.org/abs/2605.12674"
+  },
+  {
+    "title": "Multimodal Hidden Markov Models for Persistent Emotional State Tracking",
+    "date": "Thu, 14 May 2026",
+    "location": "TBC",
+    "host": "cs.AI updates on arXiv.org",
+    "applies": "Monitor",
+    "tag": "AI Governance",
+    "angle": "AI Governance / policy & regulation",
+    "why": "Tracking an interpretable emotional arc of a conversation via the sentiment of individual utterances processed as a whole is central to both understanding and guiding communication in applied,…",
+    "watch": "Sourced from cs.AI updates on arXiv.org — verify dates and AI relevance.",
+    "source": "https://arxiv.org/abs/2605.12838"
+  },
+  {
+    "title": "In-Situ Behavioral Evaluation for LLM Fairness, Not Standardized-Test Scores",
+    "date": "Thu, 14 May 2026",
+    "location": "TBC",
+    "host": "cs.CY updates on arXiv.org",
+    "applies": "Monitor",
+    "tag": "AI Governance",
+    "angle": "AI Governance / policy & regulation",
+    "why": "LLM fairness should be evaluated through in-situ conversational behavior rather than standardized-test Q&A benchmarks. We show that the standardized-test paradigm can be structurally unreliable:…",
+    "watch": "Sourced from cs.CY updates on arXiv.org — verify dates and AI relevance.",
+    "source": "https://arxiv.org/abs/2605.12530"
+  },
+  {
+    "title": "A Framework for institutional change in the age of AI",
+    "date": "Thu, 14 May 2026",
+    "location": "TBC",
+    "host": "cs.CY updates on arXiv.org",
+    "applies": "Monitor",
+    "tag": "AI Governance",
+    "angle": "AI Governance / policy & regulation",
+    "why": "Generative AI is rapidly reshaping STEM higher education. Not only are our educational practices changing, but how we think about educational transformation must adapt. Existing models of…",
+    "watch": "Sourced from cs.CY updates on arXiv.org — verify dates and AI relevance.",
+    "source": "https://arxiv.org/abs/2605.12757"
   },
   {
     "title": "Third United Nations Conference on Landlocked Developing Countries (LLDC3)",
@@ -358,6 +442,18 @@
     "why": "The fourth of our 'AI Safety Breakfasts' event series, featuring Dr. Rumman Chowdhury on algorithmic auditing, \"right to repair\" AI systems, and the AI Safety and Action Summits.",
     "watch": "Sourced from Future of Life Institute — verify dates and AI relevance.",
     "source": "https://futureoflife.org/ai-policy/breakfast-4-rumman-chowdhury/"
+  },
+  {
+    "title": "RISED: A Pre-Deployment Safety Evaluation Framework for Clinical AI Decision-Support Systems",
+    "date": "Thu, 14 May 2026",
+    "location": "TBC",
+    "host": "cs.CY updates on arXiv.org",
+    "applies": "Monitor",
+    "tag": "Multilateral",
+    "angle": "Multilateral / technical AI",
+    "why": "Aggregate accuracy metrics dominate the evaluation of clinical AI decision-support systems but do not detect deployment-phase failures of input reliability, subgroup equity, threshold sensitivity, or…",
+    "watch": "Sourced from cs.CY updates on arXiv.org — verify dates and AI relevance.",
+    "source": "https://arxiv.org/abs/2605.12895"
   },
   {
     "title": "KDD-MLF 2025",
@@ -396,42 +492,6 @@
     "source": "http://www.wikicfp.com/cfp/servlet/event.showcfp?eventid=191195&copyownerid=196363"
   },
   {
-    "title": "Mid-Training with Self-Generated Data Improves Reinforcement Learning in Language Models",
-    "date": "Wed, 13 May 2026",
-    "location": "TBC",
-    "host": "cs.AI updates on arXiv.org",
-    "applies": "Monitor",
-    "tag": "AI Governance",
-    "angle": "AI Governance / policy & regulation",
-    "why": "The effectiveness of Reinforcement Learning (RL) in Large Language Models (LLMs) depends on the nature and diversity of the data used before and during RL. In particular, reasoning problems can often…",
-    "watch": "Sourced from cs.AI updates on arXiv.org — verify dates and AI relevance.",
-    "source": "https://arxiv.org/abs/2605.08472"
-  },
-  {
-    "title": "Impact of AI Search Summaries on Website Traffic: Evidence from Google AI Overviews and Wikipedia",
-    "date": "Wed, 13 May 2026",
-    "location": "TBC",
-    "host": "cs.CY updates on arXiv.org",
-    "applies": "Monitor",
-    "tag": "AI Governance",
-    "angle": "AI Governance / policy & regulation",
-    "why": "Search engines increasingly display LLM-generated answers shown above organic links, shifting search from link lists to answer-first summaries. Publishers contend these summaries substitute for…",
-    "watch": "Sourced from cs.CY updates on arXiv.org — verify dates and AI relevance.",
-    "source": "https://arxiv.org/abs/2602.18455"
-  },
-  {
-    "title": "A Multi-Interface Firmware Acquisition and Validation Methodology for Low-Cost Consumer Drones: A Case Study on Three…",
-    "date": "Wed, 13 May 2026",
-    "location": "TBC",
-    "host": "cs.CR updates on arXiv.org",
-    "applies": "Monitor",
-    "tag": "Cybersecurity",
-    "angle": "Cybersecurity / policy & regulation",
-    "why": "Consumer unmanned aerial vehicles (UAVs) have evolved into capable computing platforms, yet their embedded firmware remains largely inaccessible to the security community. Entry-level models, in…",
-    "watch": "Sourced from cs.CR updates on arXiv.org — verify dates and AI relevance.",
-    "source": "https://arxiv.org/abs/2605.11040"
-  },
-  {
     "title": "ICAIR 2024",
     "date": "4th International Conference on AI Research (formally the European Conference on the Impact of Artificial Intelligence and Robotics)",
     "location": "TBC",
@@ -444,16 +504,16 @@
     "source": "http://www.wikicfp.com/cfp/servlet/event.showcfp?eventid=178495&copyownerid=8438"
   },
   {
-    "title": "Welfare as a Guiding Principle for Machine Learning -- From Compass, to Lens, to Roadmap",
-    "date": "Wed, 13 May 2026",
+    "title": "Retrieval-Augmented Tutoring for Algorithm Tracing and Problem-Solving in AI Education",
+    "date": "Thu, 14 May 2026",
     "location": "TBC",
-    "host": "cs.CY updates on arXiv.org",
+    "host": "cs.AI updates on arXiv.org",
     "applies": "Monitor",
-    "tag": "Multilateral",
-    "angle": "Multilateral / technical AI",
-    "why": "arXiv:2502.11981v3 Announce Type: replace-cross Abstract: Decades of research in machine learning have given us powerful tools for making accurate predictions. But when used in social settings and on…",
-    "watch": "Sourced from cs.CY updates on arXiv.org — verify dates and AI relevance.",
-    "source": "https://arxiv.org/abs/2502.11981"
+    "tag": "AI Governance",
+    "angle": "AI Governance / technical AI",
+    "why": "Students learning algorithms often need support as they interpret traces, debug reasoning errors, and apply procedures across unfamiliar problem instances. In this paper, we present KITE…",
+    "watch": "Sourced from cs.AI updates on arXiv.org — verify dates and AI relevance.",
+    "source": "https://arxiv.org/abs/2605.12988"
   },
   {
     "title": "ICBAP 2024",
@@ -516,6 +576,18 @@
     "source": "https://futureoflife.org/press-release/prominent-scientists-faith-leaders-policymakers-and-artists-call-for-a-prohibition-on-superintelligence/"
   },
   {
+    "title": "PROMETHEUS: Automating Deep Causal Research Integrating Text, Data and Models",
+    "date": "Thu, 14 May 2026",
+    "location": "TBC",
+    "host": "cs.AI updates on arXiv.org",
+    "applies": "Monitor",
+    "tag": "AI Governance",
+    "angle": "AI Governance / policy & regulation",
+    "why": "Large language models can extract local causal claims from text, but those claims become more useful when organized as persistent, navigable world models rather than as flat summaries. We introduce…",
+    "watch": "Sourced from cs.AI updates on arXiv.org — verify dates and AI relevance.",
+    "source": "https://arxiv.org/abs/2605.12835"
+  },
+  {
     "title": "“Terrorgram” network dealt another blow as member sentenced in Denmark",
     "date": "TBC",
     "location": "TBC",
@@ -540,28 +612,40 @@
     "source": "https://partnershiponai.org/advancing-transparency-of-ai-generated-media-in-the-eu-code-of-practice/"
   },
   {
-    "title": "Human-LLM Dialogue Improves Diagnostic Accuracy in Emergency Care",
-    "date": "Wed, 13 May 2026",
+    "title": "Position: Agentic AI System Is a Foreseeable Pathway to AGI",
+    "date": "Thu, 14 May 2026",
     "location": "TBC",
     "host": "cs.AI updates on arXiv.org",
     "applies": "Monitor",
     "tag": "AI Governance",
-    "angle": "AI Governance / policy & regulation",
-    "why": "Clinical decision-making in emergency medicine demands rapid, accurate diagnoses under uncertainty. Despite benchmark progress, evidence for LLMs as interactive aids in live physician workflows…",
+    "angle": "AI Governance / technical AI",
+    "why": "Is monolithic scaling the only path to AGI? This paper challenges the dogma that purely scaling a single model is sufficient to achieve Artificial General Intelligence. Instead, we identify Agentic…",
     "watch": "Sourced from cs.AI updates on arXiv.org — verify dates and AI relevance.",
-    "source": "https://arxiv.org/abs/2605.08533"
+    "source": "https://arxiv.org/abs/2605.12966"
   },
   {
-    "title": "Position: Universal Aesthetic Alignment Narrows Artistic Expression",
-    "date": "Wed, 13 May 2026",
+    "title": "Retrieval is Cheap, Show Me the Code: Executable Multi-Hop Reasoning for Retrieval-Augmented Generation",
+    "date": "Thu, 14 May 2026",
+    "location": "TBC",
+    "host": "cs.AI updates on arXiv.org",
+    "applies": "Monitor",
+    "tag": "AI Governance",
+    "angle": "AI Governance / technical AI",
+    "why": "Retrieval-Augmented Generation (RAG) has become a standard approach for knowledge-intensive question answering, but existing systems remain brittle on multi-hop questions, where solving the task…",
+    "watch": "Sourced from cs.AI updates on arXiv.org — verify dates and AI relevance.",
+    "source": "https://arxiv.org/abs/2605.12975"
+  },
+  {
+    "title": "Identifying AI Web Scrapers Using Canary Tokens",
+    "date": "Thu, 14 May 2026",
     "location": "TBC",
     "host": "cs.CY updates on arXiv.org",
     "applies": "Monitor",
-    "tag": "Multilateral",
-    "angle": "Multilateral / policy & regulation",
-    "why": "Over-aligning image generation models to a generalized aesthetic preference conflicts with user intent, particularly when \"anti-aesthetic\" outputs are requested for artistic or critical purposes.…",
+    "tag": "Privacy & Surveillance",
+    "angle": "Privacy & Surveillance / technical AI",
+    "why": "From pre-training to query-time augmentation, web-scraped data helps to improve the quality and contextual relevancy of content generated by large language models (LLMs). However, large-scale web…",
     "watch": "Sourced from cs.CY updates on arXiv.org — verify dates and AI relevance.",
-    "source": "https://arxiv.org/abs/2512.11883"
+    "source": "https://arxiv.org/abs/2605.13706"
   },
   {
     "title": "India AI Impact Summit panel: Towards multilateral agreement on enforcing red lines",
@@ -742,18 +826,6 @@
     "why": "To future-proof the sector and ensure regulation keeps up with scientific and technological developments, the MHRA is consulting on proposed changes to how gene therapies are defined in UK…",
     "watch": "Sourced from News and communications — verify dates and AI relevance.",
     "source": "https://www.gov.uk/government/news/mhra-opens-uk-wide-consultation-on-redefining-gene-therapies"
-  },
-  {
-    "title": "MHRA invites views on proposed changes to medical device regulation",
-    "date": "2026-05-11T11:26",
-    "location": "TBC",
-    "host": "News and communications",
-    "applies": "Monitor",
-    "tag": "AI Governance",
-    "angle": "AI Governance / policy & regulation",
-    "why": "New pre-market regulatory requirements for medical devices and in vitro diagnostic devices entering the GB market have been published.",
-    "watch": "Sourced from News and communications — verify dates and AI relevance.",
-    "source": "https://www.gov.uk/government/news/mhra-invites-views-on-proposed-changes-to-medical-device-regulation"
   },
   {
     "title": "Statement: Head of US Policy on the White House AI legislative recommendations",
@@ -972,18 +1044,6 @@
     "source": "https://www.gov.uk/government/publications/crime-and-policing-bill-government-amendments-for-committee"
   },
   {
-    "title": "Military conducts daring parachute drop to deliver critical medical support to Tristan da Cunha",
-    "date": "2026-05-10T07:06",
-    "location": "TBC",
-    "host": "News and communications",
-    "applies": "Monitor",
-    "tag": "AI Governance",
-    "angle": "AI Governance / policy & regulation",
-    "why": "An Army specialist team has parachuted onto Tristan da Cunha to deliver critical medical support after it was confirmed that one British national on the island was suspected of contracting Hantavirus.",
-    "watch": "Sourced from News and communications — verify dates and AI relevance.",
-    "source": "https://www.gov.uk/government/news/military-conducts-daring-parachute-drop-to-deliver-critical-medical-support-to-tristan-da-cunha"
-  },
-  {
     "title": "NIST Researchers Develop Photonic Chip Packaging That Can Withstand Extreme Environments",
     "date": "Mon, 30 Mar 2026",
     "location": "TBC",
@@ -1188,6 +1248,18 @@
     "source": "https://www.ncsc.gov.uk/report/nhs-covid-19-app-privacy-security-report"
   },
   {
+    "title": "Defence Minister calls on London and the East of England to join new £50m nationwide veteran support network",
+    "date": "2026-05-14T09:57",
+    "location": "TBC",
+    "host": "News and communications",
+    "applies": "Monitor",
+    "tag": "AI Governance",
+    "angle": "AI Governance / policy & regulation",
+    "why": "Funding of up to £1m available for existing veterans’ hubs across the UK to join VALOUR – the Ministry of Defence’s new support system",
+    "watch": "Sourced from News and communications — verify dates and AI relevance.",
+    "source": "https://www.gov.uk/government/news/defence-minister-calls-on-london-and-the-east-of-england-to-join-new-50m-nationwide-veteran-support-network"
+  },
+  {
     "title": "Simpler, shared system for describing skills needs launched",
     "date": "2026-05-11T16:00",
     "location": "TBC",
@@ -1248,18 +1320,6 @@
     "source": "https://www.gov.uk/government/news/seven-sentenced-after-mhra-investigation-uncovers-18m-illegal-medicines-and-steroids-network"
   },
   {
-    "title": "Registered charity status: a social contract",
-    "date": "2026-04-28T14:22",
-    "location": "TBC",
-    "host": "News and communications",
-    "applies": "Monitor",
-    "tag": "AI Governance",
-    "angle": "AI Governance / policy & regulation",
-    "why": "Dame Julia Unwin&#39;s first speech as Chair of the Charity Commission at Civil Society Media&#39;s Trustee Exchange in London.",
-    "watch": "Sourced from News and communications — verify dates and AI relevance.",
-    "source": "https://www.gov.uk/government/speeches/registered-charity-status-a-social-contract"
-  },
-  {
     "title": "RSH publishes latest round of judgements",
     "date": "2026-05-13T09:30",
     "location": "TBC",
@@ -1308,6 +1368,18 @@
     "source": "https://www.gov.uk/government/news/pm-vows-to-tear-up-status-quo-that-failed-young-people-on-apprenticeships-and-skills"
   },
   {
+    "title": "The King's Speech 2026",
+    "date": "2026-05-13T12:01",
+    "location": "TBC",
+    "host": "News and communications",
+    "applies": "Monitor",
+    "tag": "AI Governance",
+    "angle": "AI Governance / policy & regulation",
+    "why": "His Majesty’s most gracious speech to both Houses of Parliament.",
+    "watch": "Sourced from News and communications — verify dates and AI relevance.",
+    "source": "https://www.gov.uk/government/speeches/the-kings-speech-2026"
+  },
+  {
     "title": "King's Speech to build a stronger and fairer Britain",
     "date": "2026-05-12T22:30",
     "location": "TBC",
@@ -1354,18 +1426,6 @@
     "why": "The new method will be useful in various fields, including nanomedicine, food science, environmental science and advanced manufacturing.",
     "watch": "Sourced from NIST News — verify dates and AI relevance.",
     "source": "https://www.nist.gov/news-events/news/2025/08/nist-researchers-develop-more-accurate-formula-measuring-particle"
-  },
-  {
-    "title": "NIST Awards Over $1.8 Million to Small Businesses Advancing AI, Semiconductors, Additive Manufacturing and More",
-    "date": "Mon, 18 Aug 2025",
-    "location": "TBC",
-    "host": "NIST News",
-    "applies": "Monitor",
-    "tag": "AI Governance",
-    "angle": "AI Governance / policy & regulation",
-    "why": "The winning projects were competitively selected following a call for innovative proposals that address technical needs related to NIST’s research areas.",
-    "watch": "Sourced from NIST News — verify dates and AI relevance.",
-    "source": "https://www.nist.gov/news-events/news/2025/08/nist-awards-over-18-million-small-businesses-advancing-ai-semiconductors"
   },
   {
     "title": "Top story - The European Parliament’s Sakharov Prize 2023 - Parliament honours Jina Mahsa Amini and Iranian women…",
@@ -1764,8 +1824,32 @@
     "source": "https://www.gov.uk/government/news/ukho-appoints-mark-barclay-as-non-executive-chair"
   },
   {
+    "title": "Labour Markets Evaluation and Pilots (LMEP) Fund: funded projects",
+    "date": "2026-05-14T10:09",
+    "location": "TBC",
+    "host": "News and communications",
+    "applies": "Monitor",
+    "tag": "AI Governance",
+    "angle": "AI Governance / policy & regulation",
+    "why": "Details of the pilots and evaluations funded by HM Treasury’s Labour Markets Evaluation and Pilots (LMEP) Fund.",
+    "watch": "Sourced from News and communications — verify dates and AI relevance.",
+    "source": "https://www.gov.uk/government/news/labour-markets-evaluation-and-pilots-lmep-fund-funded-projects"
+  },
+  {
+    "title": "Next-generation remote controlled artillery systems to transform British Army",
+    "date": "2026-05-13T22:30",
+    "location": "TBC",
+    "host": "News and communications",
+    "applies": "Monitor",
+    "tag": "EU Governance",
+    "angle": "EU Governance / policy & regulation",
+    "why": "British soldiers will be equipped with modern guns capable of firing eight rounds per minute at targets up to 70km away – delivering the long-term close support artillery solution for the British…",
+    "watch": "Sourced from News and communications — verify dates and AI relevance.",
+    "source": "https://www.gov.uk/government/news/next-generation-remote-controlled-artillery-systems-to-transform-british-army"
+  },
+  {
     "title": "UKHSA update on the hantavirus cruise ship outbreak",
-    "date": "2026-05-12T18:08",
+    "date": "2026-05-13T16:56",
     "location": "TBC",
     "host": "News and communications",
     "applies": "Monitor",
@@ -1774,6 +1858,30 @@
     "why": "Latest information on cases including British nationals.",
     "watch": "Sourced from News and communications — verify dates and AI relevance.",
     "source": "https://www.gov.uk/government/news/ukhsa-update-on-the-hantavirus-cruise-ship-outbreak"
+  },
+  {
+    "title": "Scope of maternity review confirmed",
+    "date": "2026-05-13T16:39",
+    "location": "TBC",
+    "host": "News and communications",
+    "applies": "Monitor",
+    "tag": "AI Governance",
+    "angle": "AI Governance / policy & regulation",
+    "why": "Sussex families to get answers as maternity review scope confirmed.",
+    "watch": "Sourced from News and communications — verify dates and AI relevance.",
+    "source": "https://www.gov.uk/government/news/scope-of-maternity-review-confirmed"
+  },
+  {
+    "title": "MHRA supports Northern Ireland life sciences sector with new hub",
+    "date": "2026-05-13T11:37",
+    "location": "TBC",
+    "host": "News and communications",
+    "applies": "Monitor",
+    "tag": "AI Governance",
+    "angle": "AI Governance / policy & regulation",
+    "why": "The MHRA hub in Belfast will strengthen collaboration and engagement with local industry, academia and the healthcare sector.",
+    "watch": "Sourced from News and communications — verify dates and AI relevance.",
+    "source": "https://www.gov.uk/government/news/mhra-supports-northern-ireland-life-sciences-sector-with-new-hub"
   },
   {
     "title": "North East AI drive to boost local skills and business growth opportunities",
@@ -1848,6 +1956,30 @@
     "source": "https://www.gov.uk/government/news/mhra-strengthens-safety-warnings-for-finasteride-and-dutasteride"
   },
   {
+    "title": "Regulator investigates charity over unauthorised payments to a trustee",
+    "date": "2026-05-13T12:42",
+    "location": "TBC",
+    "host": "News and communications",
+    "applies": "Monitor",
+    "tag": "AI Governance",
+    "angle": "AI Governance / policy & regulation",
+    "why": "The Charity Commission has launched a statutory inquiry into The Shoosmith Gallery (registered charity number 1147845).",
+    "watch": "Sourced from News and communications — verify dates and AI relevance.",
+    "source": "https://www.gov.uk/government/news/regulator-investigates-charity-over-unauthorised-payments-to-a-trustee"
+  },
+  {
+    "title": "Regulator investigates charity over management of potential conflicts of interest",
+    "date": "2026-05-13T12:39",
+    "location": "TBC",
+    "host": "News and communications",
+    "applies": "Monitor",
+    "tag": "AI Governance",
+    "angle": "AI Governance / policy & regulation",
+    "why": "The Charity Commission has launched a statutory inquiry into Steiner Friends (registered charity number 1071781).",
+    "watch": "Sourced from News and communications — verify dates and AI relevance.",
+    "source": "https://www.gov.uk/government/news/regulator-investigates-charity-over-management-of-potential-conflicts-of-interest"
+  },
+  {
     "title": "New commissioners appointed to EHRC",
     "date": "2026-05-12T23:59",
     "location": "TBC",
@@ -1872,40 +2004,16 @@
     "source": "https://www.gov.uk/government/news/public-urged-to-check-immigration-advisers-are-regulated"
   },
   {
-    "title": "MMO and ports sector launch new Marine Licensing Top Tips",
-    "date": "2026-05-11T13:12",
+    "title": "Wear and Tear Changes Measurable PFAS Levels in Firefighter Hoods, Gloves and Wildland Gear",
+    "date": "Wed, 13 May 2026",
     "location": "TBC",
-    "host": "News and communications",
+    "host": "NIST News",
     "applies": "Monitor",
     "tag": "AI Governance",
     "angle": "AI Governance / policy & regulation",
-    "why": "New guidance and tools to support the marine licensing process.",
-    "watch": "Sourced from News and communications — verify dates and AI relevance.",
-    "source": "https://www.gov.uk/government/news/mmo-and-ports-sector-launch-new-marine-licensing-top-tips"
-  },
-  {
-    "title": "The National Lottery Community Fund Board Appointments",
-    "date": "2026-05-11T12:00",
-    "location": "TBC",
-    "host": "News and communications",
-    "applies": "Monitor",
-    "tag": "AI Governance",
-    "angle": "AI Governance / policy & regulation",
-    "why": "The Secretary of State has reappointed Richard Collier-Keywood, Dame Helen Stephenson, and Paul Sweeney, and extended the terms of John Mothersole and Kate Still.",
-    "watch": "Sourced from News and communications — verify dates and AI relevance.",
-    "source": "https://www.gov.uk/government/news/the-national-lottery-community-fund-board-appointments"
-  },
-  {
-    "title": "Convicted Cambridge security boss and operative to pay over £5000",
-    "date": "2026-05-11T09:24",
-    "location": "TBC",
-    "host": "News and communications",
-    "applies": "Monitor",
-    "tag": "AI Governance",
-    "angle": "AI Governance / policy & regulation",
-    "why": "Company director Paul Thomson pleaded guilty to knowingly deploying Daniel Almond-Farrant, who was also prosecuted, as an unlicensed keyholder.",
-    "watch": "Sourced from News and communications — verify dates and AI relevance.",
-    "source": "https://www.gov.uk/government/news/convicted-cambridge-security-boss-and-operative-to-pay-over-5000"
+    "why": "In the fourth of an ongoing series of reports, NIST shows that wear and tear increased the levels of PFAS found in hoods and gloves.",
+    "watch": "Sourced from NIST News — verify dates and AI relevance.",
+    "source": "https://www.nist.gov/news-events/news/2026/05/wear-and-tear-changes-measurable-pfas-levels-firefighter-hoods-gloves-and"
   },
   {
     "title": "NIST Weighs In on the Mystery of the Gravitational Constant",
