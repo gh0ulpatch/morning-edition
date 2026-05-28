@@ -84,18 +84,6 @@
     "source": "https://www.eff.org/deeplinks/2026/05/eff-stands-solidarity-rightscon-and-global-digital-rights-community"
   },
   {
-    "title": "Turning Bias into Bugs: Bandit-Guided Style Manipulation Attacks on LLM Judges",
-    "date": "Wed, 27 May 2026",
-    "location": "TBC",
-    "host": "cs.CR updates on arXiv.org",
-    "applies": "Attend",
-    "tag": "Cybersecurity",
-    "angle": "Cybersecurity / technical AI",
-    "why": "The known stylistic biases in LLM judges, such as a preference for verbosity or specific sentence structures, present an underexplored security vulnerability. In this work, we introduce BITE (BIas…",
-    "watch": "Sourced from cs.CR updates on arXiv.org — verify dates and AI relevance.",
-    "source": "https://arxiv.org/abs/2605.26156"
-  },
-  {
     "title": "We Updated Our Privacy Policy. Here's What Changed and Why.",
     "date": "Mon, 18 May 2026",
     "location": "TBC",
@@ -144,40 +132,16 @@
     "source": "https://www.eff.org/deeplinks/2026/05/eff-launches-new-offline-campaign-saudi-wikipedian-osama-khalid"
   },
   {
-    "title": "MemMorph: Tool Hijacking in LLM Agents via Memory Poisoning",
-    "date": "Wed, 27 May 2026",
+    "title": "The Ethics of LLM Sandbox and Persona Dynamics",
+    "date": "Thu, 28 May 2026",
     "location": "TBC",
-    "host": "cs.CR updates on arXiv.org",
+    "host": "cs.CY updates on arXiv.org",
     "applies": "Attend",
-    "tag": "Election Integrity",
-    "angle": "Election Integrity / technical AI",
-    "why": "LLM-driven agents are capable of selecting external tools to complete users' tasks. However, attackers could compromise such process, steering agents toward inappropriate/wrong tools and enabling…",
-    "watch": "Sourced from cs.CR updates on arXiv.org — verify dates and AI relevance.",
-    "source": "https://arxiv.org/abs/2605.26154"
-  },
-  {
-    "title": "Intelligent Detection and Mitigation of Carpet-Bombing DDoS Attacks in SDN Using Retrieval-Augmented Generation and…",
-    "date": "Wed, 27 May 2026",
-    "location": "TBC",
-    "host": "cs.CR updates on arXiv.org",
-    "applies": "Attend",
-    "tag": "Multilateral",
-    "angle": "Multilateral / technical AI",
-    "why": "Software-Defined Networking (SDN) provides flexible and programmable network management; however, its centralized control architecture remains highly vulnerable to Distributed Denial-of-Service…",
-    "watch": "Sourced from cs.CR updates on arXiv.org — verify dates and AI relevance.",
-    "source": "https://arxiv.org/abs/2605.26307"
-  },
-  {
-    "title": "Privacy-Preserving Screening for Record Linkage",
-    "date": "Wed, 27 May 2026",
-    "location": "TBC",
-    "host": "cs.CR updates on arXiv.org",
-    "applies": "Attend",
-    "tag": "Multilateral",
-    "angle": "Multilateral / policy & regulation",
-    "why": "In an era dominated by big data and machine learning, establishing valuable data collaboration has never been more critical. However, such collaborations must operate under regulatory and legal…",
-    "watch": "Sourced from cs.CR updates on arXiv.org — verify dates and AI relevance.",
-    "source": "https://arxiv.org/abs/2605.26882"
+    "tag": "AI Governance",
+    "angle": "AI Governance / policy & regulation",
+    "why": "It is well known that LLM guardrails and trained persona dynamics can produce a reality gap: the distance between the world a LLM is permitted or shaped to describe, and the world in which users must…",
+    "watch": "Sourced from cs.CY updates on arXiv.org — verify dates and AI relevance.",
+    "source": "https://arxiv.org/abs/2605.28647"
   },
   {
     "title": "Shut Down Turnkey Totalitarianism",
@@ -192,16 +156,16 @@
     "source": "https://www.eff.org/deeplinks/2026/04/claw-back"
   },
   {
-    "title": "Implementation of Big Data Analytics for Diabetes Management: Needs Assessment in the Rwanda Healthcare System",
-    "date": "Wed, 27 May 2026",
+    "title": "Intent-based Security Management Using the TM Forum TR292I Security Ontology",
+    "date": "Thu, 28 May 2026",
     "location": "TBC",
-    "host": "cs.CY updates on arXiv.org",
+    "host": "cs.CR updates on arXiv.org",
     "applies": "Attend",
-    "tag": "AI Governance",
-    "angle": "AI Governance / policy & regulation",
-    "why": "Diabetes is a chronic metabolic disease that can lead to serious health problems if not diagnosed and managed early. Big Data Analytics (BDA) and machine learning offer practical tools for analyzing…",
-    "watch": "Sourced from cs.CY updates on arXiv.org — verify dates and AI relevance.",
-    "source": "https://arxiv.org/abs/2605.26786"
+    "tag": "Cybersecurity",
+    "angle": "Cybersecurity / technical AI",
+    "why": "Modern 5G-Advanced and emerging 6G cloud-native telecom architectures encounter unprecedented hyper-complexity, multi-layered threat vectors, and fluid structural topologies. Managing infrastructure…",
+    "watch": "Sourced from cs.CR updates on arXiv.org — verify dates and AI relevance.",
+    "source": "https://arxiv.org/abs/2605.27743"
   },
   {
     "title": "EFF Submission to UN Report on the Role of Media in the Context of Israel’s Policies Toward Palestinians",
@@ -228,28 +192,28 @@
     "source": "https://www.europol.europa.eu/media-press/newsroom/news/cybercriminal-vpn-used-ransomware-actors-dismantled-in-global-crackdown"
   },
   {
-    "title": "From Static Context to Calibrated Interactive RL: Mitigating Distribution Shift in Multi-turn Dialogue with Aligned…",
-    "date": "Wed, 27 May 2026",
+    "title": "Using Zero-Shot LLM-Generated Survey Data for Geographically Explicit Population Synthesis",
+    "date": "Thu, 28 May 2026",
+    "location": "TBC",
+    "host": "cs.CY updates on arXiv.org",
+    "applies": "Attend",
+    "tag": "Multilateral",
+    "angle": "Multilateral / technical AI",
+    "why": "There is a growing interest in utilizing synthetic populations for a diverse range of applications. At the same time, we are witnessing a tremendous growth in artificial intelligence in all walks of…",
+    "watch": "Sourced from cs.CY updates on arXiv.org — verify dates and AI relevance.",
+    "source": "https://arxiv.org/abs/2605.27401"
+  },
+  {
+    "title": "A Policy-Driven Runtime Layer for Agentic LLM Serving",
+    "date": "Thu, 28 May 2026",
     "location": "TBC",
     "host": "cs.AI updates on arXiv.org",
     "applies": "Monitor",
-    "tag": "AI Safety",
-    "angle": "AI Safety / policy & regulation",
-    "why": "A long-standing goal of the research community is to develop highly interactive LLM-based dialogue agents. Recent research focuses on optimizing policies based on fixed offline logs (Static Context…",
+    "tag": "AI Governance",
+    "angle": "AI Governance / policy & regulation",
+    "why": "Multi-agent LLM systems have become the dominant production workload, but the serving stack was not built for them. The agent framework above knows agent identities, role, schemas, and dispatch…",
     "watch": "Sourced from cs.AI updates on arXiv.org — verify dates and AI relevance.",
-    "source": "https://arxiv.org/abs/2605.26403"
-  },
-  {
-    "title": "Ethical Fairness without Demographics in Human-Centered AI",
-    "date": "Wed, 27 May 2026",
-    "location": "TBC",
-    "host": "cs.CY updates on arXiv.org",
-    "applies": "Monitor",
-    "tag": "Multilateral",
-    "angle": "Multilateral / policy & regulation",
-    "why": "In ubiquitous and mobile health systems, computational models infer human states from wearable, behavioral, and physiological sensing data. In these settings, high accuracy alone is insufficient;…",
-    "watch": "Sourced from cs.CY updates on arXiv.org — verify dates and AI relevance.",
-    "source": "https://arxiv.org/abs/2603.13373"
+    "source": "https://arxiv.org/abs/2605.27744"
   },
   {
     "title": "DfP 2026",
@@ -262,18 +226,6 @@
     "why": "DfP 2026",
     "watch": "Sourced via WikiCFP — check agenda for AI harm/misuse sessions.",
     "source": "http://www.wikicfp.com/cfp/servlet/event.showcfp?eventid=194448&copyownerid=190712"
-  },
-  {
-    "title": "Atlantic ‘Cocaine Highway’ broken in coordinated maritime operation",
-    "date": "TBC",
-    "location": "TBC",
-    "host": "News",
-    "applies": "Monitor",
-    "tag": "AI Governance",
-    "angle": "AI Governance / policy & regulation",
-    "why": "Between 13 and 26 April 2026, law enforcement targeted criminal networks moving cocaine from Latin America to Europe through complex at-sea transfers designed to avoid major ports and traditional…",
-    "watch": "Sourced from News — verify dates and AI relevance.",
-    "source": "https://www.europol.europa.eu/media-press/newsroom/news/atlantic-cocaine-highway-broken-in-coordinated-maritime-operation"
   },
   {
     "title": "International Seabed Authority",
@@ -324,18 +276,6 @@
     "source": "http://www.wikicfp.com/cfp/servlet/event.showcfp?eventid=186399&copyownerid=192394"
   },
   {
-    "title": "BAIT: Boundary-Guided Disclosure Escalation via Self-Conditioned Reasoning",
-    "date": "Wed, 27 May 2026",
-    "location": "TBC",
-    "host": "cs.CR updates on arXiv.org",
-    "applies": "Monitor",
-    "tag": "Multilateral",
-    "angle": "Multilateral / technical AI",
-    "why": "In this work, we propose BAIT (Boundary-Aware Iterative Trap), a three-step jailbreak framework that approaches malicious goals through internal disclosure. BAIT first asks the model to identify the…",
-    "watch": "Sourced from cs.CR updates on arXiv.org — verify dates and AI relevance.",
-    "source": "https://arxiv.org/abs/2605.27110"
-  },
-  {
     "title": "RWS 2025",
     "date": "Event",
     "location": "Where",
@@ -348,6 +288,18 @@
     "source": "http://www.wikicfp.com/cfp/servlet/event.showcfp?eventid=183005&copyownerid=189704"
   },
   {
+    "title": "Europol launches Capture26, the 2026 law enforcement photo competition",
+    "date": "TBC",
+    "location": "TBC",
+    "host": "News",
+    "applies": "Monitor",
+    "tag": "AI Governance",
+    "angle": "AI Governance / policy & regulation",
+    "why": "Europol has opened submissions for Capture26, the 2026 edition of its annual international law enforcement photo competition. This year's theme is #OneSecurity, reflecting the principle that keeping…",
+    "watch": "Sourced from News — verify dates and AI relevance.",
+    "source": "https://www.europol.europa.eu/media-press/newsroom/news/europol-launches-capture26-2026-law-enforcement-photo-competition"
+  },
+  {
     "title": "AITC 2026",
     "date": "Event",
     "location": "Where",
@@ -358,6 +310,30 @@
     "why": "AITC 2026",
     "watch": "Sourced via WikiCFP — check agenda for AI harm/misuse sessions.",
     "source": "http://www.wikicfp.com/cfp/servlet/event.showcfp?eventid=191195&copyownerid=196363"
+  },
+  {
+    "title": "BIRDS: Characterizing and Understanding Biodiversity Impact of Large Language Model Serving",
+    "date": "Thu, 28 May 2026",
+    "location": "TBC",
+    "host": "cs.CY updates on arXiv.org",
+    "applies": "Monitor",
+    "tag": "AI Governance",
+    "angle": "AI Governance / policy & regulation",
+    "why": "Large language model (LLM) serving creates environmental impacts beyond carbon and water, including ecosystem damage through biodiversity-related pathways. We present BIRDS, a framework for…",
+    "watch": "Sourced from cs.CY updates on arXiv.org — verify dates and AI relevance.",
+    "source": "https://arxiv.org/abs/2605.27480"
+  },
+  {
+    "title": "MRMMIA: Membership Inference Attacks on Memory in Chat Agents",
+    "date": "Thu, 28 May 2026",
+    "location": "TBC",
+    "host": "cs.CR updates on arXiv.org",
+    "applies": "Monitor",
+    "tag": "Privacy & Surveillance",
+    "angle": "Privacy & Surveillance / policy & regulation",
+    "why": "Membership inference attacks (MIAs) test whether a target data record belongs to a system's private data, and have become a standard tool to measure privacy leakage in machine learning systems. Prior…",
+    "watch": "Sourced from cs.CR updates on arXiv.org — verify dates and AI relevance.",
+    "source": "https://arxiv.org/abs/2605.27825"
   },
   {
     "title": "ICAIR 2024",
@@ -384,6 +360,30 @@
     "source": "https://www.europol.europa.eu/media-press/newsroom/news/europol-supports-international-hit-against-counterfeit-medicines-and-supplements-network"
   },
   {
+    "title": "Prefix-Safe Bayesian Belief Tracking for LLM Reasoning Reliability:Separating Calibration from Ranking",
+    "date": "Thu, 28 May 2026",
+    "location": "TBC",
+    "host": "cs.AI updates on arXiv.org",
+    "applies": "Monitor",
+    "tag": "AI Governance",
+    "angle": "AI Governance / technical AI",
+    "why": "Long reasoning traces need reliability estimates before final answers are known. We study prefix-conditioned eventual-success estimation, $P(y=1 \\mid o_{1:t})$, using prefix-safe observations.…",
+    "watch": "Sourced from cs.AI updates on arXiv.org — verify dates and AI relevance.",
+    "source": "https://arxiv.org/abs/2605.27712"
+  },
+  {
+    "title": "HammerSim: A System-Level Tool to Model RowHammer",
+    "date": "Thu, 28 May 2026",
+    "location": "TBC",
+    "host": "cs.CR updates on arXiv.org",
+    "applies": "Monitor",
+    "tag": "AI Governance",
+    "angle": "AI Governance / technical AI",
+    "why": "Modern architecture research relies on simulators to evaluate system security, yet analyzing emerging hardware vulnerabilities like RowHammer requires full-system visibility. As RowHammer…",
+    "watch": "Sourced from cs.CR updates on arXiv.org — verify dates and AI relevance.",
+    "source": "https://arxiv.org/abs/2605.27803"
+  },
+  {
     "title": "ICBAP 2024",
     "date": "International Conference on Business Analytics in Practice",
     "location": "TBC",
@@ -406,18 +406,6 @@
     "why": "Europol, in collaboration with law enforcement agencies from 31 countries and leading private sector partners, has concluded its third and most successful operational week of Project A.S.S.E.T.…",
     "watch": "Sourced from News — verify dates and AI relevance.",
     "source": "https://www.europol.europa.eu/media-press/newsroom/news/europols-project-asset-identifies-millions-in-criminal-assets"
-  },
-  {
-    "title": "GradSentry: Gradient Spectral Entropy for Backdoor Sample Filtering in Large Language Model Fine-Tuning",
-    "date": "Wed, 27 May 2026",
-    "location": "TBC",
-    "host": "cs.CR updates on arXiv.org",
-    "applies": "Monitor",
-    "tag": "AI Governance",
-    "angle": "AI Governance / technical AI",
-    "why": "Fine-tuning Large Language Models with untrusted data exposes models to backdoor attacks, where poisoned samples cause targeted misbehavior. Existing sample-filtering defenses rely on clustering,…",
-    "watch": "Sourced from cs.CR updates on arXiv.org — verify dates and AI relevance.",
-    "source": "https://arxiv.org/abs/2605.26574"
   },
   {
     "title": "Swedish fugitive arrested as new OTF GRIMM targets added to EU Most Wanted",
@@ -444,18 +432,6 @@
     "source": "https://www.gov.uk/government/publications/local-audit-office-chair-the-governments-preferred-candidate"
   },
   {
-    "title": "New pension rules to boost retirement investments",
-    "date": "2026-05-21T16:58",
-    "location": "TBC",
-    "host": "News and communications",
-    "applies": "Monitor",
-    "tag": "AI Governance",
-    "angle": "AI Governance / policy & regulation",
-    "why": "<mark>Regulations</mark> laid today will overhaul the way investments are managed in the Local Government Pension Scheme, a major development for millions of council workers",
-    "watch": "Sourced from News and communications — verify dates and AI relevance.",
-    "source": "https://www.gov.uk/government/news/new-pension-rules-to-boost-retirement-investments"
-  },
-  {
     "title": "Prominent Scientists, Faith Leaders, Policymakers and Artists Call for a Prohibition on Superintelligence, as Poll…",
     "date": "Fri, 27 Mar 2026",
     "location": "TBC",
@@ -466,6 +442,18 @@
     "why": "Initial signatories include AI pioneers Yoshua Bengio and Geoffrey Hinton, leading media voices Steve Bannon and Glenn Beck, Obama's National Security Advisor Susan Rice, business trailblazers Steve…",
     "watch": "Sourced from Future of Life Institute — verify dates and AI relevance.",
     "source": "https://futureoflife.org/press-release/prominent-scientists-faith-leaders-policymakers-and-artists-call-for-a-prohibition-on-superintelligence/"
+  },
+  {
+    "title": "Do you dare to try Test-Driven Forensics? Increasing Trust in Desktop Forensics with ADARE",
+    "date": "Thu, 28 May 2026",
+    "location": "TBC",
+    "host": "cs.CR updates on arXiv.org",
+    "applies": "Monitor",
+    "tag": "AI Governance",
+    "angle": "AI Governance / policy & regulation",
+    "why": "Digital forensic relies on validated tools and established procedures, yet the underlying operating systems, applications, and analysis tools evolve rapidly. This evolution can cause artifact…",
+    "watch": "Sourced from cs.CR updates on arXiv.org — verify dates and AI relevance.",
+    "source": "https://arxiv.org/abs/2605.28476"
   },
   {
     "title": "UK and South Africa launch coalition to end violence against women and girls",
@@ -480,6 +468,18 @@
     "source": "https://www.gov.uk/government/news/uk-and-south-africa-launch-coalition-to-end-violence-against-women-and-girls"
   },
   {
+    "title": "CDT Submits Comments to Oversight Board on Governing Chatbots for 13–17 Year Olds",
+    "date": "Wed, 27 May 2026",
+    "location": "TBC",
+    "host": "Center for Democracy and Technology",
+    "applies": "Monitor",
+    "tag": "Child Safety",
+    "angle": "Child Safety / governance & institutions",
+    "why": "Yesterday, CDT submitted comments to the Meta Oversight Board&#8217;s consultation on governing AI chatbots for 13–17 year olds. The submission centers children&#8217;s rights as the starting point…",
+    "watch": "Sourced from Center for Democracy and Technology — verify dates and AI relevance.",
+    "source": "https://cdt.org/insights/cdt-submits-comments-to-oversight-board-on-governing-chatbots-for-13-17-year-olds/"
+  },
+  {
     "title": "Advancing Transparency of AI-Generated Media in the EU Code of Practice",
     "date": "Wed, 06 May 2026",
     "location": "TBC",
@@ -492,28 +492,28 @@
     "source": "https://partnershiponai.org/advancing-transparency-of-ai-generated-media-in-the-eu-code-of-practice/"
   },
   {
-    "title": "BrickAnything: Geometry-Conditioned Buildable Brick Generation with Structure-Aware Tokenization",
-    "date": "Wed, 27 May 2026",
-    "location": "TBC",
-    "host": "cs.AI updates on arXiv.org",
-    "applies": "Monitor",
-    "tag": "Multilateral",
-    "angle": "Multilateral / policy & regulation",
-    "why": "Generating physically buildable brick structures from 3D shapes requires more than geometric reconstruction: the output must also satisfy discrete part constraints and structural stability. Existing…",
-    "watch": "Sourced from cs.AI updates on arXiv.org — verify dates and AI relevance.",
-    "source": "https://arxiv.org/abs/2605.26182"
-  },
-  {
-    "title": "Is Agent Memory a Database? Rethinking Data Foundations for Long-Term AI Agent Memory",
-    "date": "Wed, 27 May 2026",
+    "title": "Reasoning and Planning with Dynamically Changing Norms",
+    "date": "Thu, 28 May 2026",
     "location": "TBC",
     "host": "cs.AI updates on arXiv.org",
     "applies": "Monitor",
     "tag": "AI Governance",
     "angle": "AI Governance / policy & regulation",
-    "why": "Long-running AI agents need persistent memory. Memory supports learning across sessions, reduces repeated context injection, and enables auditing of past decisions. Current agent memory systems and…",
+    "why": "To safely interact with humans, AI agents must both know our norms and consider them during planning. However, such norm-guided planning has been less explored, only within communities of artificial…",
     "watch": "Sourced from cs.AI updates on arXiv.org — verify dates and AI relevance.",
-    "source": "https://arxiv.org/abs/2605.26252"
+    "source": "https://arxiv.org/abs/2605.27622"
+  },
+  {
+    "title": "Silent Consent, Persistent Risk: Android Permission Groups and Custom Permissions",
+    "date": "Thu, 28 May 2026",
+    "location": "TBC",
+    "host": "cs.CR updates on arXiv.org",
+    "applies": "Monitor",
+    "tag": "Cybersecurity",
+    "angle": "Cybersecurity / policy & regulation",
+    "why": "Android's permission system is designed to balance usability with informed consent, yet two legacy mechanisms still undermine that balance in Android 16: (i) permission groups that silently…",
+    "watch": "Sourced from cs.CR updates on arXiv.org — verify dates and AI relevance.",
+    "source": "https://arxiv.org/abs/2605.27667"
   },
   {
     "title": "India AI Impact Summit panel: Towards multilateral agreement on enforcing red lines",
@@ -600,18 +600,6 @@
     "source": "https://www.europarl.europa.eu/news/en/headlines/priorities/parliament-reforms"
   },
   {
-    "title": "Mind the Tool Failures: Achieving Synergistic Tool Gains for Medical Agents",
-    "date": "Wed, 27 May 2026",
-    "location": "TBC",
-    "host": "cs.AI updates on arXiv.org",
-    "applies": "Monitor",
-    "tag": "Multilateral",
-    "angle": "Multilateral / policy & regulation",
-    "why": "Medical AI agents increasingly use external tools for diagnosis, treatment recommendation, and evidence retrieval, yet most existing approaches assume that task-appropriate tools are reliable within…",
-    "watch": "Sourced from cs.AI updates on arXiv.org — verify dates and AI relevance.",
-    "source": "https://arxiv.org/abs/2605.26691"
-  },
-  {
     "title": "In Conversation with the 2025 EMEA Summit Programme Committee",
     "date": "Wed, 09 Apr 2025",
     "location": "TBC",
@@ -636,16 +624,16 @@
     "source": "https://www.tspa.org/2025/04/02/owning-the-unpredictable-at-emea-summit-2025/"
   },
   {
-    "title": "SEC-bench Pro: Can Language Models Solve Long-Horizon Software Security Tasks?",
-    "date": "Wed, 27 May 2026",
+    "title": "Human-AI Collaboration for Estimating Scientific Replicability",
+    "date": "Thu, 28 May 2026",
     "location": "TBC",
-    "host": "cs.CR updates on arXiv.org",
+    "host": "cs.CY updates on arXiv.org",
     "applies": "Monitor",
-    "tag": "Cybersecurity",
-    "angle": "Cybersecurity / technical AI",
-    "why": "Large language models (LLMs) now support automated software security tasks, including vulnerability discovery and proof-of-concept (PoC) generation. Existing benchmarks do not faithfully evaluate…",
-    "watch": "Sourced from cs.CR updates on arXiv.org — verify dates and AI relevance.",
-    "source": "https://arxiv.org/abs/2605.26548"
+    "tag": "AI Governance",
+    "angle": "AI Governance / technical AI",
+    "why": "Determining whether published scientific findings can successfully be replicated is a long-standing challenge in the empirical sciences. Existing approaches for replicability assessment typically…",
+    "watch": "Sourced from cs.CY updates on arXiv.org — verify dates and AI relevance.",
+    "source": "https://arxiv.org/abs/2605.27394"
   },
   {
     "title": "UK and Poland set to sign major defence and security treaty as PM steps up relationship with Europe to keep nation safe",
@@ -766,18 +754,6 @@
     "why": "GAD&#39;s Georgina Bedenham co-authors an industry report warning nature loss is a serious societal risk that should not be ignored by actuaries and institutions.",
     "watch": "Sourced from News and communications — verify dates and AI relevance.",
     "source": "https://www.gov.uk/government/news/nature-loss-an-urgent-financial-risk"
-  },
-  {
-    "title": "On Fans' Side",
-    "date": "2026-05-22T00:01",
-    "location": "TBC",
-    "host": "News and communications",
-    "applies": "Monitor",
-    "tag": "AI Governance",
-    "angle": "AI Governance / policy & regulation",
-    "why": "What the Football Governance Act means for you",
-    "watch": "Sourced from News and communications — verify dates and AI relevance.",
-    "source": "https://www.gov.uk/government/news/on-fans-side"
   },
   {
     "title": "NIST Launches Centers for AI in Manufacturing and Critical Infrastructure",
@@ -910,18 +886,6 @@
     "why": "Arrest demonstrates Environment Agency&#39;s commitment to delivering its 10 Point Plan to tackle waste crime",
     "watch": "Sourced from News and communications — verify dates and AI relevance.",
     "source": "https://www.gov.uk/government/news/man-arrested-in-connection-with-illegal-waste-dumping"
-  },
-  {
-    "title": "Government sets out next steps for children’s social care reforms",
-    "date": "2026-05-21T14:18",
-    "location": "TBC",
-    "host": "News and communications",
-    "applies": "Monitor",
-    "tag": "Child Safety",
-    "angle": "Child Safety / policy & regulation",
-    "why": "New Implementation Plan sets out major reforms to child protection and social care, following ambitious Children’s Wellbeing and Schools Act 2026",
-    "watch": "Sourced from News and communications — verify dates and AI relevance.",
-    "source": "https://www.gov.uk/government/news/government-sets-out-next-steps-for-childrens-social-care-reforms"
   },
   {
     "title": "NIST Researchers Develop Photonic Chip Packaging That Can Withstand Extreme Environments",
@@ -1140,6 +1104,30 @@
     "source": "https://www.ncsc.gov.uk/report/nhs-covid-19-app-privacy-security-report"
   },
   {
+    "title": "Treaty between the Republic of Poland and the United Kingdom of Great Britain and Northern Ireland on a Security and…",
+    "date": "2026-05-27T14:00",
+    "location": "TBC",
+    "host": "News and communications",
+    "applies": "Monitor",
+    "tag": "Multilateral",
+    "angle": "Multilateral / policy & regulation",
+    "why": "Treaty between the Republic of Poland and the United Kingdom of Great Britain and Northern Ireland on a Security and Defence Partnership",
+    "watch": "Sourced from News and communications — verify dates and AI relevance.",
+    "source": "https://www.gov.uk/government/news/treaty-between-the-republic-of-poland-and-the-united-kingdom-of-great-britain-and-northern-ireland-on-a-security-and-defence-partnership"
+  },
+  {
+    "title": "Security and Defence Partnership Treaty: the projects the UK and Poland will deliver together",
+    "date": "2026-05-27T14:00",
+    "location": "TBC",
+    "host": "News and communications",
+    "applies": "Monitor",
+    "tag": "Multilateral",
+    "angle": "Multilateral / policy & regulation",
+    "why": "Projects agreed between the UK and Poland on the basis of the Treaty signed by the 2 countries on 27 May 2026.",
+    "watch": "Sourced from News and communications — verify dates and AI relevance.",
+    "source": "https://www.gov.uk/government/news/security-and-defence-partnership-treaty-the-projects-the-uk-and-poland-will-deliver-together"
+  },
+  {
     "title": "Lancashire recycling company sentenced for illegal waste exports",
     "date": "2026-05-26T15:16",
     "location": "TBC",
@@ -1200,16 +1188,16 @@
     "source": "https://www.gov.uk/government/news/knife-robberies-down-by-more-than-a-fifth"
   },
   {
-    "title": "Professor Joann Rhodes: The Rules Need to Bend – Why Flexible Policies and Real Partnership are the Keys to unlocking…",
-    "date": "2026-05-18T10:27",
+    "title": "Salmonella cases in England at a decade high",
+    "date": "2026-05-28T09:30",
     "location": "TBC",
     "host": "News and communications",
     "applies": "Monitor",
     "tag": "AI Governance",
     "angle": "AI Governance / policy & regulation",
-    "why": "Innovation doesn’t wait for the rules to catch up. The question is whether we can build a system agile and flexible enough to keep pace.",
+    "why": "UKHSA urges public to practise good food hygiene as new data shows persistently high levels of common gastrointestinal infections.",
     "watch": "Sourced from News and communications — verify dates and AI relevance.",
-    "source": "https://www.gov.uk/government/news/professor-joann-rhodes-the-rules-need-to-bend-why-flexible-policies-and-real-partnership-are-the-keys-to-unlocking-life-sciences-potential"
+    "source": "https://www.gov.uk/government/news/salmonella-cases-in-england-at-a-decade-high"
   },
   {
     "title": "New action against hidden childcare costs to help families",
@@ -1260,16 +1248,16 @@
     "source": "https://www.gov.uk/government/news/online-safety-minister-travels-to-australia-to-learn-key-findings-from-its-social-media-approach"
   },
   {
-    "title": "Age checks to stop children using sunbeds under new laws",
-    "date": "2026-05-22T00:01",
+    "title": "Two members reappointed to the Independent Advisory Panel on Deaths in Custody",
+    "date": "2026-05-28T09:00",
     "location": "TBC",
     "host": "News and communications",
     "applies": "Monitor",
-    "tag": "Child Safety",
-    "angle": "Child Safety / policy & regulation",
-    "why": "Government to introduce age verifications for sunbeds to protect young people from harm.",
+    "tag": "AI Governance",
+    "angle": "AI Governance / policy & regulation",
+    "why": "The Deputy Prime Minister has approved the reappointment of Dr Jake Hard and Professor Seena Fazel as members of the Independent Advisory Panel on Deaths in Custody.",
     "watch": "Sourced from News and communications — verify dates and AI relevance.",
-    "source": "https://www.gov.uk/government/news/age-checks-to-stop-children-using-sunbeds-under-new-laws"
+    "source": "https://www.gov.uk/government/news/two-members-reappointed-to-the-independent-advisory-panel-on-deaths-in-custody"
   },
   {
     "title": "Preferred candidate for Chair of the Judicial Appointments Commission",
@@ -1392,16 +1380,28 @@
     "source": "https://www.gov.uk/government/news/top-benefits-of-the-uk-gulf-cooperation-council-gcc-fta"
   },
   {
-    "title": "Manchester Arena: a message of remembrance from the SIA",
-    "date": "2026-05-22T01:00",
+    "title": "Foreign Secretary launches new International Coalition to End Violence against Women and Girls",
+    "date": "2026-05-27T21:19",
     "location": "TBC",
     "host": "News and communications",
     "applies": "Monitor",
     "tag": "AI Governance",
-    "angle": "AI Governance / technical AI",
-    "why": "SIA Chair Mike Cunningham CBE QPM and SIA Chief Executive Michelle Russell share a message of remembrance 9 years on from the Manchester Arena attack.",
+    "angle": "AI Governance / governance & institutions",
+    "why": "Foreign Secretary Yvette Cooper to lead UK-convened international coalition to tackle global emergency of violence against women and girls.",
     "watch": "Sourced from News and communications — verify dates and AI relevance.",
-    "source": "https://www.gov.uk/government/news/manchester-arena-a-message-of-remembrance-from-the-sia"
+    "source": "https://www.gov.uk/government/news/foreign-secretary-launches-new-international-coalition-to-end-violence-against-women-and-girls"
+  },
+  {
+    "title": "Further appointment of Tim De Meyer as the policing member of the Sentencing Council",
+    "date": "2026-05-28T09:00",
+    "location": "TBC",
+    "host": "News and communications",
+    "applies": "Monitor",
+    "tag": "AI Governance",
+    "angle": "AI Governance / governance & institutions",
+    "why": "The Lord Chancellor has approved the further appointment without competition of Tim De Meyer as policing member of the Sentencing Council from 1 July 2026 until the earlier of the date of the…",
+    "watch": "Sourced from News and communications — verify dates and AI relevance.",
+    "source": "https://www.gov.uk/government/news/further-appointment-of-tim-de-meyer-as-the-policing-member-of-the-sentencing-council"
   },
   {
     "title": "Announcing the &quot;AI Agent Standards Initiative&quot; for Interoperable and Secure Innovation",
@@ -1704,16 +1704,52 @@
     "source": "https://www.gov.uk/government/news/record-funding-to-tackle-grooming-gangs-and-child-sex-abuse"
   },
   {
-    "title": "UK Armed Forces salute 250 years of American independence with US celebrations",
-    "date": "2026-05-18T09:12",
+    "title": "UK-EU SPS Agreement - Information for Businesses",
+    "date": "2026-05-28T10:18",
     "location": "TBC",
     "host": "News and communications",
     "applies": "Monitor",
     "tag": "AI Governance",
     "angle": "AI Governance / policy & regulation",
-    "why": "Red Arrows set to tour the United States this summer to support 250th anniversary celebrations",
+    "why": "Businesses urged to take simple steps for smoother trade with the EU",
     "watch": "Sourced from News and communications — verify dates and AI relevance.",
-    "source": "https://www.gov.uk/government/news/uk-armed-forces-salute-250-years-of-american-independence-with-us-celebrations"
+    "source": "https://www.gov.uk/government/news/uk-eu-sps-agreement-information-for-businesses"
+  },
+  {
+    "title": "Police super-complaints: length of investigations into sexual offences",
+    "date": "2026-05-28T10:00",
+    "location": "TBC",
+    "host": "News and communications",
+    "applies": "Monitor",
+    "tag": "AI Governance",
+    "angle": "AI Governance / policy & regulation",
+    "why": "Super-complaint from the Centre for Women’s Justice about the length of police investigations into sexual offences.",
+    "watch": "Sourced from News and communications — verify dates and AI relevance.",
+    "source": "https://www.gov.uk/government/publications/police-super-complaints-length-of-investigations-into-sexual-offences"
+  },
+  {
+    "title": "Shop second-hand with confidence",
+    "date": "2026-05-28T08:00",
+    "location": "TBC",
+    "host": "News and communications",
+    "applies": "Monitor",
+    "tag": "AI Governance",
+    "angle": "AI Governance / policy & regulation",
+    "why": "New government guidance to help avoid fake fashion.",
+    "watch": "Sourced from News and communications — verify dates and AI relevance.",
+    "source": "https://www.gov.uk/government/news/shop-second-hand-with-confidence"
+  },
+  {
+    "title": "Certification Officer: Announcements",
+    "date": "2026-05-27T16:56",
+    "location": "TBC",
+    "host": "News and communications",
+    "applies": "Monitor",
+    "tag": "AI Governance",
+    "angle": "AI Governance / policy & regulation",
+    "why": "General announcements and latest decisions of the Certification Officer",
+    "watch": "Sourced from News and communications — verify dates and AI relevance.",
+    "source": "https://www.gov.uk/government/news/certification-officer-latest-decisions"
   },
   {
     "title": "2020 data now available on our portal",
@@ -1764,14 +1800,14 @@
     "source": "https://www.gov.uk/government/news/yjb-statement-on-sentencing-for-serious-offences"
   },
   {
-    "title": "Government and rail industry say ‘Enough’ to sexual harassment",
+    "title": "Government and rail industry say ‘enough’ to sexual harassment",
     "date": "2026-05-22T11:15",
     "location": "TBC",
     "host": "News and communications",
     "applies": "Monitor",
     "tag": "AI Governance",
     "angle": "AI Governance / policy & regulation",
-    "why": "Campaign will target sexual harassment on trains and at stations while train operators will be scored on how they tackle the issue under new scheme.",
+    "why": "Campaign will target sexual harassment on trains and at stations while train operators will be scored on how they tackle the issue under the new scheme.",
     "watch": "Sourced from News and communications — verify dates and AI relevance.",
     "source": "https://www.gov.uk/government/news/government-and-rail-industry-say-enough-to-sexual-harassment"
   },
@@ -1788,40 +1824,28 @@
     "source": "https://www.gov.uk/government/speeches/report-by-the-deputy-head-of-the-osce-mission-to-skopje-uk-statement-may-2026"
   },
   {
-    "title": "Passengers one step closer to booking taxi and bus-style self-driving vehicles",
-    "date": "2026-05-22T00:01",
+    "title": "Consultation opens on Drax Power permit draft decision",
+    "date": "2026-05-28T12:19",
     "location": "TBC",
     "host": "News and communications",
     "applies": "Monitor",
     "tag": "AI Governance",
     "angle": "AI Governance / policy & regulation",
-    "why": "Applications open for operators to join the self-driving vehicles pilot scheme.",
+    "why": "The Environment Agency has opened a consultation into its draft decision to grant a permit variation to Drax Power Limited in Yorkshire.",
     "watch": "Sourced from News and communications — verify dates and AI relevance.",
-    "source": "https://www.gov.uk/government/news/passengers-one-step-closer-to-booking-taxi-and-bus-style-self-driving-vehicles"
+    "source": "https://www.gov.uk/government/news/consultation-opens-on-drax-power-permit-draft-decision"
   },
   {
-    "title": "Neighbourhood Guarantee to improve villages, towns and cities",
-    "date": "2026-05-21T15:32",
+    "title": "MHRA welcomes Jason Bonander as he starts his role as Chief Digital and Technology Officer",
+    "date": "2026-05-27T13:21",
     "location": "TBC",
     "host": "News and communications",
     "applies": "Monitor",
     "tag": "AI Governance",
     "angle": "AI Governance / policy & regulation",
-    "why": "Communities’ ambitions will be backed by a new Neighbourhood Guarantee, meaning cleaner streets, filled potholes and other vital public services",
+    "why": "Jason is an experienced technology leader with over 25 years working in tech leadership and health informatics.",
     "watch": "Sourced from News and communications — verify dates and AI relevance.",
-    "source": "https://www.gov.uk/government/news/neighbourhood-guarantee-to-improve-villages-towns-and-cities"
-  },
-  {
-    "title": "Neighbourhood Guarantee Speech",
-    "date": "2026-05-21T14:35",
-    "location": "TBC",
-    "host": "News and communications",
-    "applies": "Monitor",
-    "tag": "AI Governance",
-    "angle": "AI Governance / policy & regulation",
-    "why": "Communities Secretary Steve Reed speech about a new Neighbourhood Guarantee.",
-    "watch": "Sourced from News and communications — verify dates and AI relevance.",
-    "source": "https://www.gov.uk/government/speeches/neighbourhood-guarantee-speech"
+    "source": "https://www.gov.uk/government/news/mhra-welcomes-jason-bonander-as-he-starts-his-role-as-chief-digital-and-technology-officer"
   },
   {
     "title": "Three housing associations get top consumer grade",
@@ -1834,42 +1858,6 @@
     "why": "Sanctuary Housing Association, Railway Housing Association and Benefit Fund and Regenda Limited all received C1 grades",
     "watch": "Sourced from News and communications — verify dates and AI relevance.",
     "source": "https://www.gov.uk/government/news/three-housing-associations-get-top-consumer-grade"
-  },
-  {
-    "title": "Environment Agency changes landfill permit to reduce odour risk",
-    "date": "2026-05-22T11:07",
-    "location": "TBC",
-    "host": "News and communications",
-    "applies": "Monitor",
-    "tag": "AI Governance",
-    "angle": "AI Governance / policy & regulation",
-    "why": "The Environment Agency has made changes to an operator’s environmental permit to reduce odour issues at Jameson Road landfill.",
-    "watch": "Sourced from News and communications — verify dates and AI relevance.",
-    "source": "https://www.gov.uk/government/news/environment-agency-changes-landfill-permit-to-reduce-odour-risk"
-  },
-  {
-    "title": "Call for Entries: Women in STEM Awards",
-    "date": "2026-05-22T04:55",
-    "location": "TBC",
-    "host": "News and communications",
-    "applies": "Monitor",
-    "tag": "AI Governance",
-    "angle": "AI Governance / policy & regulation",
-    "why": "Call for Women in STEM Awards: funding short UK visits for women researchers to advance UK- Thailand STEM collaboration.",
-    "watch": "Sourced from News and communications — verify dates and AI relevance.",
-    "source": "https://www.gov.uk/government/news/call-for-entries-women-in-stem-awards"
-  },
-  {
-    "title": "Repeat polluter pays out over slurry offences",
-    "date": "2026-05-21T17:10",
-    "location": "TBC",
-    "host": "News and communications",
-    "applies": "Monitor",
-    "tag": "AI Governance",
-    "angle": "AI Governance / policy & regulation",
-    "why": "Family farm business charged over two pollution incidents in Devon and Somerset with nearly £20,000 paid out in total .",
-    "watch": "Sourced from News and communications — verify dates and AI relevance.",
-    "source": "https://www.gov.uk/government/news/repeat-polluter-pays-out-over-slurry-offences"
   },
   {
     "title": "Shooting for the Moon: Ultrastable Lasers in Dark Craters Could Enable Lunar Navigation, Precision Timekeeping, New…",
