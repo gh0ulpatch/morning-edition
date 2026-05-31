@@ -1,5 +1,22 @@
 [
   {
+    "issue_date": "2026-05-31",
+    "issue_index": 125,
+    "region": "Other",
+    "month": "",
+    "org_type": "Government",
+    "title": "GTR services transferred to public ownership",
+    "date": "2026-05-31T02:00",
+    "location": "TBC",
+    "host": "News and communications",
+    "applies": "Monitor",
+    "tag": "AI Governance",
+    "angle": "AI Governance / policy & regulation",
+    "why": "GTR services are now managed by DfT Operator Ltd (DFTO).",
+    "watch": "Sourced from News and communications — verify dates and AI relevance.",
+    "source": "https://www.gov.uk/government/news/gtr-services-transferred-to-public-ownership"
+  },
+  {
     "issue_date": "2026-05-30",
     "issue_index": 139,
     "region": "Other",
