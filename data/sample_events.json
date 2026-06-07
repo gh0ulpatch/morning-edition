@@ -96,18 +96,6 @@
     "source": "https://www.eff.org/deeplinks/2026/05/eff-stands-solidarity-rightscon-and-global-digital-rights-community"
   },
   {
-    "title": "Insurance of Agentic AI",
-    "date": "Sat, 06 Jun 2026",
-    "location": "TBC",
-    "host": "cs.AI updates on arXiv.org",
-    "applies": "Attend",
-    "tag": "Cybersecurity",
-    "angle": "Cybersecurity / technical AI",
-    "why": "Agentic artificial intelligence (AI) systems are transforming the risk landscape by extending beyond information generation to autonomous planning, tool invocation, decision execution, and persistent…",
-    "watch": "Sourced from cs.AI updates on arXiv.org — verify dates and AI relevance.",
-    "source": "https://arxiv.org/abs/2606.05449"
-  },
-  {
     "title": "EFF Testifies to Congress on Protecting Americans’ Rights from Government AI",
     "date": "Thu, 04 Jun 2026",
     "location": "TBC",
@@ -178,30 +166,6 @@
     "why": "EFF is on the front lines of the fight against tech-enabled tyranny, but we aren't alone. Our team depends on your help to fight back against the surveillance state. JOIN EFF People around the world…",
     "watch": "Sourced from Deeplinks — verify dates and AI relevance.",
     "source": "https://www.eff.org/deeplinks/2026/06/get-flock-out-here"
-  },
-  {
-    "title": "How Far Did They Go? The Persuasive Tactics of Covert LLM Agents in a Discontinued Field Experiment",
-    "date": "Sat, 06 Jun 2026",
-    "location": "TBC",
-    "host": "cs.AI updates on arXiv.org",
-    "applies": "Attend",
-    "tag": "AI Safety",
-    "angle": "AI Safety / technical AI",
-    "why": "This study analyzes a publicly released dataset from a discontinued field experiment on Reddit's r/ChangeMyView. The intervention, conducted by unknown, external researchers and halted following…",
-    "watch": "Sourced from cs.AI updates on arXiv.org — verify dates and AI relevance.",
-    "source": "https://arxiv.org/abs/2606.05256"
-  },
-  {
-    "title": "Uncertainty Aware Functional Behavior Prediction and Material Fatigue Assessment for Circular Factory",
-    "date": "Sat, 06 Jun 2026",
-    "location": "TBC",
-    "host": "cs.AI updates on arXiv.org",
-    "applies": "Attend",
-    "tag": "Multilateral",
-    "angle": "Multilateral / policy & regulation",
-    "why": "Returned products in circular factories re-enter production with heterogeneous degradation states, usage histories, and remaining capability. Reuse cannot be decided from the current inspection…",
-    "watch": "Sourced from cs.AI updates on arXiv.org — verify dates and AI relevance.",
-    "source": "https://arxiv.org/abs/2606.05334"
   },
   {
     "title": "One Step Forward, Two Steps Back: CA's AB 1856 Exempts Open Source But Expands Age-Gating",
@@ -286,18 +250,6 @@
     "why": "Third UN Conference on&nbsp; Landlocked Developing Countries&nbsp; Awaza, Turkmenistan&nbsp; 5-8 August&nbsp;2025&nbsp; Driving Progress through partnerships&nbsp; &nbsp; &nbsp; The United Nations…",
     "watch": "Sourced from United Nations — verify dates and AI relevance.",
     "source": "https://www.un.org/en/civil-society/third-united-nations-conference-landlocked-developing-countries-lldc3"
-  },
-  {
-    "title": "Brick-Composer: Using MLLMs for Assembly with Diverse Bricks",
-    "date": "Sat, 06 Jun 2026",
-    "location": "TBC",
-    "host": "cs.AI updates on arXiv.org",
-    "applies": "Monitor",
-    "tag": "Election Integrity",
-    "angle": "Election Integrity / policy & regulation",
-    "why": "We dream of AI agents that can read arbitrary designs and construct real-world objects from reusable building blocks. As a first step toward this vision, we study whether multimodal large language…",
-    "watch": "Sourced from cs.AI updates on arXiv.org — verify dates and AI relevance.",
-    "source": "https://arxiv.org/abs/2606.05445"
   },
   {
     "title": "KDD-MLF 2025",
@@ -420,18 +372,6 @@
     "source": "https://futureoflife.org/press-release/prominent-scientists-faith-leaders-policymakers-and-artists-call-for-a-prohibition-on-superintelligence/"
   },
   {
-    "title": "A Motivational Architecture for Conversational AGI",
-    "date": "Sat, 06 Jun 2026",
-    "location": "TBC",
-    "host": "cs.AI updates on arXiv.org",
-    "applies": "Monitor",
-    "tag": "AI Governance",
-    "angle": "AI Governance / policy & regulation",
-    "why": "Motivational architectures in cognitive AI have largely been designed for physical agents regulating bodily needs. Conversational agents operate in a different regime: their sensorimotor loop is…",
-    "watch": "Sourced from cs.AI updates on arXiv.org — verify dates and AI relevance.",
-    "source": "https://arxiv.org/abs/2606.05411"
-  },
-  {
     "title": "Universities face ban on international students over visa abuse",
     "date": "2026-06-04T11:45",
     "location": "TBC",
@@ -454,30 +394,6 @@
     "why": "Maritime and Coastguard Agency plays leading role in delivering regulatory confidence for industry.",
     "watch": "Sourced from News and communications — verify dates and AI relevance.",
     "source": "https://www.gov.uk/government/news/global-cooperation-brings-breakthrough-on-first-international-maritime-autonomous-surface-ships-mass-code"
-  },
-  {
-    "title": "CDT Joins Broad Coalition In Calling for FISA Reforms",
-    "date": "Wed, 03 Jun 2026",
-    "location": "TBC",
-    "host": "Center for Democracy and Technology",
-    "applies": "Monitor",
-    "tag": "Privacy & Surveillance",
-    "angle": "Privacy & Surveillance / policy & regulation",
-    "why": "With Section 702 of the Foreign Intelligence Surveillance Act (&#8220;FISA 702&#8221;) set to expire on June 12, this week CDT joined a broad, bipartisan set of 80 civil society organizations in…",
-    "watch": "Sourced from Center for Democracy and Technology — verify dates and AI relevance.",
-    "source": "https://cdt.org/insights/cdt-joins-broad-coalition-in-calling-for-fisa-reforms/"
-  },
-  {
-    "title": "CDT Submits Comments to Oversight Board on Governing Chatbots for 13–17 Year Olds",
-    "date": "Wed, 27 May 2026",
-    "location": "TBC",
-    "host": "Center for Democracy and Technology",
-    "applies": "Monitor",
-    "tag": "Child Safety",
-    "angle": "Child Safety / governance & institutions",
-    "why": "Yesterday, CDT submitted comments to the Meta Oversight Board&#8217;s consultation on governing AI chatbots for 13–17 year olds. The submission centers children&#8217;s rights as the starting point…",
-    "watch": "Sourced from Center for Democracy and Technology — verify dates and AI relevance.",
-    "source": "https://cdt.org/insights/cdt-submits-comments-to-oversight-board-on-governing-chatbots-for-13-17-year-olds/"
   },
   {
     "title": "Advancing Transparency of AI-Generated Media in the EU Code of Practice",
@@ -610,18 +526,6 @@
     "why": "The Center for Strategic and International Studies (CSIS) will host a virtual press briefing to preview the upcoming G7 Summit.",
     "watch": "Event from CSIS — check agenda for AI harm content.",
     "source": "https://www.csis.org/events/press-briefing-previewing-g7-summit-0"
-  },
-  {
-    "title": "UK and Poland set to sign major defence and security treaty as PM steps up relationship with Europe to keep nation safe",
-    "date": "2026-05-26T22:30",
-    "location": "TBC",
-    "host": "News and communications",
-    "applies": "Monitor",
-    "tag": "Multilateral",
-    "angle": "Multilateral / cross-sector harm",
-    "why": "The UK is set to sign a new defence and security treaty with Poland to protect British borders, tackle organised crime, bolster collective defences and deepen cooperation with the European Union.",
-    "watch": "Sourced from News and communications — verify dates and AI relevance.",
-    "source": "https://www.gov.uk/government/news/uk-and-poland-set-to-sign-major-defence-and-security-treaty-as-pm-steps-up-relationship-with-europe-to-keep-nation-safe"
   },
   {
     "title": "Two dangerous fugitives arrested in Türkiye and Spain",
@@ -1296,18 +1200,6 @@
     "source": "https://www.gov.uk/government/news/ea-to-lead-environmental-regulation-of-trelavour-lithium-project"
   },
   {
-    "title": "PM meets mayors in drive to get Britain building and take on blockers",
-    "date": "2026-06-03T22:30",
-    "location": "TBC",
-    "host": "News and communications",
-    "applies": "Monitor",
-    "tag": "AI Governance",
-    "angle": "AI Governance / policy & regulation",
-    "why": "Mayors from across England will meet with the Prime Minister today (4 June) as the government accelerates its drive to kickstart growth and deliver for working people.",
-    "watch": "Sourced from News and communications — verify dates and AI relevance.",
-    "source": "https://www.gov.uk/government/news/pm-meets-mayors-in-drive-to-get-britain-building-and-take-on-blockers"
-  },
-  {
     "title": "NIST Submits Annual Report to Congress Summarizing FY 2025 Progress on National Construction Safety Team Investigations",
     "date": "Thu, 19 Mar 2026",
     "location": "TBC",
@@ -1644,6 +1536,18 @@
     "source": "https://www.ncsc.gov.uk/report/summary-of-ncsc-security-analysis-for-the-uk-telecoms-sector"
   },
   {
+    "title": "Foreign Secretary completes landmark trip to China and India to bolster UK security",
+    "date": "2026-06-06T10:58",
+    "location": "TBC",
+    "host": "News and communications",
+    "applies": "Monitor",
+    "tag": "EU Governance",
+    "angle": "EU Governance / policy & regulation",
+    "why": "The Foreign Secretary Yvette Cooper has concluded her visit to two key world powers, China and India.",
+    "watch": "Sourced from News and communications — verify dates and AI relevance.",
+    "source": "https://www.gov.uk/government/news/foreign-secretary-completes-landmark-trip-to-china-and-india-to-bolster-uk-security"
+  },
+  {
     "title": "Regional leaders to get more power over innovation funding to drive local jobs and growth",
     "date": "2026-06-01T00:01",
     "location": "TBC",
@@ -1678,6 +1582,18 @@
     "why": "A demonstration of laser technology has paved the way for a transformational leap in faster and more secure communications for the UK’s armed forces.",
     "watch": "Sourced from News and communications — verify dates and AI relevance.",
     "source": "https://www.gov.uk/government/news/dstl-achieves-uks-first-optical-downlink-from-space"
+  },
+  {
+    "title": "Entry-level jobs support, AI bootcamps and tech training as government supports young people into the jobs of the future",
+    "date": "2026-06-06T22:30",
+    "location": "TBC",
+    "host": "News and communications",
+    "applies": "Monitor",
+    "tag": "AI Governance",
+    "angle": "AI Governance / policy & regulation",
+    "why": "A new partnership between government, industry and trade unions to better support young people entering the job market.",
+    "watch": "Sourced from News and communications — verify dates and AI relevance.",
+    "source": "https://www.gov.uk/government/news/entry-level-jobs-support-ai-bootcamps-and-tech-training-as-government-supports-young-people-into-the-jobs-of-the-future"
   },
   {
     "title": "Companies agree to stronger workers’ rights in clean energy",
@@ -1774,30 +1690,6 @@
     "why": "Foreign Secretary Yvette Cooper arrives in India on her first official visit to the country.",
     "watch": "Sourced from News and communications — verify dates and AI relevance.",
     "source": "https://www.gov.uk/government/news/uk-foreign-secretary-in-india-to-drive-forward-vision-2035-partnership"
-  },
-  {
-    "title": "Resmetirom (Rezdiffra) authorised to treat metabolic dysfunction-associated steatohepatitis (MASH) in adults",
-    "date": "2026-06-03T16:26",
-    "location": "TBC",
-    "host": "News and communications",
-    "applies": "Monitor",
-    "tag": "AI Governance",
-    "angle": "AI Governance / policy & regulation",
-    "why": "Resmetirom is used in adults who have experienced inflammation and cell damage, resulting in scarring.",
-    "watch": "Sourced from News and communications — verify dates and AI relevance.",
-    "source": "https://www.gov.uk/government/news/resmetirom-rezdiffra-authorised-to-treat-metabolic-dysfunction-associated-steatohepatitis-mash-in-adults"
-  },
-  {
-    "title": "Chancellor Rachel Reeves speech at the Scientific Superpower Conference",
-    "date": "2026-06-03T15:42",
-    "location": "TBC",
-    "host": "News and communications",
-    "applies": "Monitor",
-    "tag": "AI Governance",
-    "angle": "AI Governance / policy & regulation",
-    "why": "Chancellor Rachel Reeves has today (3 June) delivered a speech at the Scientific Superpower Conference.",
-    "watch": "Sourced from News and communications — verify dates and AI relevance.",
-    "source": "https://www.gov.uk/government/speeches/chancellor-rachel-reeves-speech-at-the-scientific-superpower-conference"
   },
   {
     "title": "MHRA review of the benefits and risks of avacopan",
