@@ -228,18 +228,6 @@
     "source": "https://www.europol.europa.eu/media-press/newsroom/news/29-arrested-law-enforcement-strikes-criminal-networks-behind-illegal-streaming"
   },
   {
-    "title": "GLARE: A Natural Language Interface for Querying Global Explanations",
-    "date": "Sat, 20 Jun 2026",
-    "location": "TBC",
-    "host": "cs.AI updates on arXiv.org",
-    "applies": "Attend",
-    "tag": "AI Governance",
-    "angle": "AI Governance / technical AI",
-    "why": "While global explanations are crucial for understanding vision models across datasets, classes, and decision contexts, their complex and monolithic nature often hinders practical exploration. Because…",
-    "watch": "Sourced from cs.AI updates on arXiv.org — verify dates and AI relevance.",
-    "source": "https://arxiv.org/abs/2606.19735"
-  },
-  {
     "title": "International Seabed Authority",
     "date": "Thu, 21 Sep 2023",
     "location": "TBC",
@@ -372,18 +360,6 @@
     "source": "https://www.eff.org/deeplinks/2026/06/call-submissions-digital-pride"
   },
   {
-    "title": "DeXposure-Claw: An Agentic System for DeFi Risk Supervision",
-    "date": "Sat, 20 Jun 2026",
-    "location": "TBC",
-    "host": "cs.AI updates on arXiv.org",
-    "applies": "Monitor",
-    "tag": "AI Governance",
-    "angle": "AI Governance / technical AI",
-    "why": "Decentralized finance exposes supervisors to fast-moving, networked credit risks. General-purpose LLM agents fit this setting poorly: they over-read weak evidence and recommend high-stakes…",
-    "watch": "Sourced from cs.AI updates on arXiv.org — verify dates and AI relevance.",
-    "source": "https://arxiv.org/abs/2606.19501"
-  },
-  {
     "title": "ICBAP 2024",
     "date": "International Conference on Business Analytics in Practice",
     "location": "TBC",
@@ -466,18 +442,6 @@
     "why": "The post Advancing Transparency of AI-Generated Media in the EU Code of Practice appeared first on Partnership on AI .",
     "watch": "Sourced from Partnership on AI — verify dates and AI relevance.",
     "source": "https://partnershiponai.org/advancing-transparency-of-ai-generated-media-in-the-eu-code-of-practice/"
-  },
-  {
-    "title": "AI4SE and SE4AI Exploration: A Decade Looking Back and Forward",
-    "date": "Sat, 20 Jun 2026",
-    "location": "TBC",
-    "host": "cs.AI updates on arXiv.org",
-    "applies": "Monitor",
-    "tag": "AI Governance",
-    "angle": "AI Governance / technical AI",
-    "why": "The March 2020 INCOSE INSIGHT special issue on AI and Systems Engineering (SE) became the most downloaded issue in the publication's history and launched a research community that now draws over 250…",
-    "watch": "Sourced from cs.AI updates on arXiv.org — verify dates and AI relevance.",
-    "source": "https://arxiv.org/abs/2606.19630"
   },
   {
     "title": "India AI Impact Summit panel: Towards multilateral agreement on enforcing red lines",
@@ -1668,6 +1632,18 @@
     "source": "https://www.gov.uk/government/news/ai-to-speed-up-cancer-diagnosis-for-millions-of-nhs-patients"
   },
   {
+    "title": "Government strengthens wildfire resilience heading into summer",
+    "date": "2026-06-20T22:30",
+    "location": "TBC",
+    "host": "News and communications",
+    "applies": "Monitor",
+    "tag": "AI Governance",
+    "angle": "AI Governance / policy & regulation",
+    "why": "Specialist trained firefighters in reach of communities and an overhaul of fire and rescue assets to the value of almost £100 million have been announced.",
+    "watch": "Sourced from News and communications — verify dates and AI relevance.",
+    "source": "https://www.gov.uk/government/news/government-strengthens-wildfire-resilience-heading-into-summer"
+  },
+  {
     "title": "Court and tribunal fees: updates from July 2026",
     "date": "2026-06-19T16:43",
     "location": "TBC",
@@ -1762,18 +1738,6 @@
     "why": "Solicitor General secures increased sentences for three gang members in Camden stabbing.",
     "watch": "Sourced from News and communications — verify dates and AI relevance.",
     "source": "https://www.gov.uk/government/news/violent-gang-members-sentences-increased-after-attempted-murder"
-  },
-  {
-    "title": "Coal mining ground collapse made safe",
-    "date": "2026-06-17T12:06",
-    "location": "TBC",
-    "host": "News and communications",
-    "applies": "Monitor",
-    "tag": "AI Governance",
-    "angle": "AI Governance / policy & regulation",
-    "why": "A coal mining ground collapse in Holme Wood, Bradford has been made safe, with permanent solution design now underway",
-    "watch": "Sourced from News and communications — verify dates and AI relevance.",
-    "source": "https://www.gov.uk/government/news/coal-mining-ground-collapse-made-safe"
   },
   {
     "title": "First large-scale study finds Members’ Voluntary Liquidations are working effectively",
