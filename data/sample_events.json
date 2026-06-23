@@ -372,6 +372,18 @@
     "source": "http://www.wikicfp.com/cfp/servlet/event.showcfp?eventid=182166&copyownerid=13149"
   },
   {
+    "title": "Government steps up action to tackle illegal deforestation",
+    "date": "2026-06-23T09:30",
+    "location": "TBC",
+    "host": "News and communications",
+    "applies": "Monitor",
+    "tag": "AI Governance",
+    "angle": "AI Governance / policy & regulation",
+    "why": "New rules will ensure everyday products sold in the UK including coffee and cocoa do not contribute to illegal deforestation around the world",
+    "watch": "Sourced from News and communications — verify dates and AI relevance.",
+    "source": "https://www.gov.uk/government/news/government-steps-up-action-to-tackle-illegal-deforestation"
+  },
+  {
     "title": "CDT Letter to California Assembly Supporting Connected Consumer Product End-of-Life Disclosure Bill",
     "date": "Tue, 16 Jun 2026",
     "location": "TBC",
@@ -792,30 +804,6 @@
     "source": "https://futureoflife.org/ai-policy/context-and-agenda-2025-ai-action-summit/"
   },
   {
-    "title": "It is vital that UNSMIL remains at the centre of efforts to support political reconciliation in Libya: UK statement at…",
-    "date": "2026-06-18T17:49",
-    "location": "TBC",
-    "host": "News and communications",
-    "applies": "Monitor",
-    "tag": "Multilateral",
-    "angle": "Multilateral / governance & institutions",
-    "why": "Statement by Ambassador Archie Young, UK Deputy Permanent Representative to the UN, at the UN Security Council meeting on Libya.",
-    "watch": "Sourced from News and communications — verify dates and AI relevance.",
-    "source": "https://www.gov.uk/government/speeches/it-is-vital-that-unsmil-remains-at-the-centre-of-efforts-to-support-political-reconciliation-in-libya-uk-statement-at-the-un-security-council"
-  },
-  {
-    "title": "Warning on promoting newly licensed prescription-only medicines and unlicensed medicines for weight management",
-    "date": "2026-06-18T13:25",
-    "location": "TBC",
-    "host": "News and communications",
-    "applies": "Monitor",
-    "tag": "AI Governance",
-    "angle": "AI Governance / governance & institutions",
-    "why": "The MHRA, Advertising Standards Authority, and the General Pharmaceutical Council have issued a warning to businesses seeking to promote newly authorised medicines, as well as those that do not yet…",
-    "watch": "Sourced from News and communications — verify dates and AI relevance.",
-    "source": "https://www.gov.uk/government/news/warning-on-promoting-newly-licensed-prescription-only-medicines-and-unlicensed-medicines-for-weight-management"
-  },
-  {
     "title": "NIST Expands Its Library of ‘Chemical Fingerprints’ to Identify Unknown Substances",
     "date": "Tue, 09 Jun 2026",
     "location": "TBC",
@@ -922,6 +910,18 @@
     "why": "UK police to access European vehicle data in seconds, accelerating organised crime investigations.",
     "watch": "Sourced from News and communications — verify dates and AI relevance.",
     "source": "https://www.gov.uk/government/news/new-police-data-sharing-to-target-organised-crime"
+  },
+  {
+    "title": "Europol and INTERPOL strengthen partnership against global criminal threats",
+    "date": "TBC",
+    "location": "TBC",
+    "host": "News",
+    "applies": "Monitor",
+    "tag": "Drug Trafficking",
+    "angle": "Drug Trafficking / cross-sector harm",
+    "why": "Europol and INTERPOL have renewed their joint commitment to combatting transnational organised crime, agreeing on a new set of Joint Key Operational Priorities (JKOP) that will guide cooperation…",
+    "watch": "Sourced from News — verify dates and AI relevance.",
+    "source": "https://www.europol.europa.eu/media-press/newsroom/news/europol-and-interpol-strengthen-partnership-against-global-criminal-threats"
   },
   {
     "title": "Impact of AI on cyber threat from now to 2027",
@@ -1128,40 +1128,16 @@
     "source": "https://www.gov.uk/government/news/government-procurement-to-prioritise-national-security"
   },
   {
-    "title": "Homebuying shake-up to slash delays, cut costs and stop sales falling through",
-    "date": "2026-06-18T22:30",
+    "title": "Safer nurseries with 3,000 more surprise Ofsted visits",
+    "date": "2026-06-22T16:30",
     "location": "TBC",
     "host": "News and communications",
     "applies": "Monitor",
-    "tag": "AI Governance",
-    "angle": "AI Governance / policy & regulation",
-    "why": "New rules introduced to simplify homebuying and selling making the process easier and simpler.",
+    "tag": "Child Safety",
+    "angle": "Child Safety / policy & regulation",
+    "why": "New investment in early years safeguarding to deliver 3,000 more surprise Ofsted nursery visits, tougher checks and faster action to keep children safe.",
     "watch": "Sourced from News and communications — verify dates and AI relevance.",
-    "source": "https://www.gov.uk/government/news/homebuying-shake-up-to-slash-delays-cut-costs-and-stop-sales-falling-through"
-  },
-  {
-    "title": "IAA launches training video series to support advisers",
-    "date": "2026-06-18T12:16",
-    "location": "TBC",
-    "host": "News and communications",
-    "applies": "Monitor",
-    "tag": "AI Governance",
-    "angle": "AI Governance / policy & regulation",
-    "why": "Five training videos are now available, with a further five to be released covering additional key areas of immigration advice and practice.",
-    "watch": "Sourced from News and communications — verify dates and AI relevance.",
-    "source": "https://www.gov.uk/government/news/iaa-launches-training-video-series-to-support-advisers"
-  },
-  {
-    "title": "Consultation launched on draft Heathrow Expansion National Policy Statement",
-    "date": "2026-06-18T14:01",
-    "location": "TBC",
-    "host": "News and communications",
-    "applies": "Monitor",
-    "tag": "AI Governance",
-    "angle": "AI Governance / policy & regulation",
-    "why": "Announcing the launch of the consultation on the draft Heathrow Expansion National Policy Statement (HENPS).",
-    "watch": "Sourced from News and communications — verify dates and AI relevance.",
-    "source": "https://www.gov.uk/government/speeches/consultation-launched-on-draft-heathrow-expansion-national-policy-statement"
+    "source": "https://www.gov.uk/government/news/safer-nurseries-with-3000-more-surprise-ofsted-visits"
   },
   {
     "title": "NIST Submits Annual Report to Congress Summarizing FY 2025 Progress on National Construction Safety Team Investigations",
@@ -1222,18 +1198,6 @@
     "why": "A French-led investigation, supported by Spain and Europol, led to the dismantling of a counterfeit document production facility in Alicante, Spain. The investigation involved the French National…",
     "watch": "Sourced from News — verify dates and AI relevance.",
     "source": "https://www.europol.europa.eu/media-press/newsroom/news/fake-document-factory-dismantled-in-spain-around-800-ids-seized"
-  },
-  {
-    "title": "Operation against criminal network smuggling migrants between Algeria and Spain: nine arrests",
-    "date": "TBC",
-    "location": "TBC",
-    "host": "News",
-    "applies": "Monitor",
-    "tag": "AI Governance",
-    "angle": "AI Governance / policy & regulation",
-    "why": "A collaborative operation between the Spanish Guardia Civil and National Police (Policía Nacional), supported by Europol, has resulted in nine arrests and the dismantling of a criminal network…",
-    "watch": "Sourced from News — verify dates and AI relevance.",
-    "source": "https://www.europol.europa.eu/media-press/newsroom/news/operation-against-criminal-network-smuggling-migrants-between-algeria-and-spain-nine-arrests"
   },
   {
     "title": "Should AIs be people too?",
@@ -1306,6 +1270,18 @@
     "why": "G7 Leaders&#39; call on the fight against cancer.",
     "watch": "Sourced from News and communications — verify dates and AI relevance.",
     "source": "https://www.gov.uk/government/news/g7-leaders-call-on-the-fight-against-cancer-16-june-2026"
+  },
+  {
+    "title": "Professor Damien McElvenny has been reappointed to the Industrial Injuries Advisory Council (IIAC)",
+    "date": "2026-06-22T15:18",
+    "location": "TBC",
+    "host": "News and communications",
+    "applies": "Monitor",
+    "tag": "AI Governance",
+    "angle": "AI Governance / governance & institutions",
+    "why": "On behalf of the Secretary of State for Work and Pensions, we are pleased to announce the reappointment of Professor Damien McElvenny to the Industrial Injuries Advisory Council for a further term of…",
+    "watch": "Sourced from News and communications — verify dates and AI relevance.",
+    "source": "https://www.gov.uk/government/news/professor-damien-mcelvenny-has-been-reappointed-to-the-industrial-injuries-advisory-council-iiac"
   },
   {
     "title": "Crackdown on dangerous rented homes as new £7k fines kick in",
@@ -1596,6 +1572,78 @@
     "source": "https://www.gov.uk/government/news/ai-to-speed-up-cancer-diagnosis-for-millions-of-nhs-patients"
   },
   {
+    "title": "Plans for prominence of trusted news sources on social media alongside measures to reform Public Service Media in the UK",
+    "date": "2026-06-23T10:12",
+    "location": "TBC",
+    "host": "News and communications",
+    "applies": "Monitor",
+    "tag": "AI Governance",
+    "angle": "AI Governance / policy & regulation",
+    "why": "Media Green Paper published by Government today sets out plans to improve access to reliable news sources in online apps",
+    "watch": "Sourced from News and communications — verify dates and AI relevance.",
+    "source": "https://www.gov.uk/government/news/plans-for-prominence-of-trusted-news-sources-on-social-media-alongside-measures-to-reform-public-service-media-in-the-uk"
+  },
+  {
+    "title": "Housing Health and Safety Rating System (HHSRS): Case studies",
+    "date": "2026-06-23T09:30",
+    "location": "TBC",
+    "host": "News and communications",
+    "applies": "Monitor",
+    "tag": "AI Governance",
+    "angle": "AI Governance / policy & regulation",
+    "why": "Case studies (previously referred to as worked examples) demonstrating how the HHSRS assessment process works.",
+    "watch": "Sourced from News and communications — verify dates and AI relevance.",
+    "source": "https://www.gov.uk/government/case-studies/housing-health-and-safety-rating-system-hhsrs-case-studies"
+  },
+  {
+    "title": "Fiftieth anniversary conference marking the 1976 drought",
+    "date": "2026-06-23T09:00",
+    "location": "TBC",
+    "host": "News and communications",
+    "applies": "Monitor",
+    "tag": "AI Governance",
+    "angle": "AI Governance / policy & regulation",
+    "why": "Environment Agency Chief Executive Philip Duffy’s keynote address looking at how the devastating drought changed the way we manage and use water.",
+    "watch": "Sourced from News and communications — verify dates and AI relevance.",
+    "source": "https://www.gov.uk/government/speeches/fiftieth-anniversary-conference-marking-the-1976-drought"
+  },
+  {
+    "title": "UK backs new AI labs to make technology cheaper, more reliable and easier to use",
+    "date": "2026-06-23T09:00",
+    "location": "TBC",
+    "host": "News and communications",
+    "applies": "Monitor",
+    "tag": "AI Governance",
+    "angle": "AI Governance / policy & regulation",
+    "why": "Oxford and UCL to host new government-backed labs developing the next generation of <mark>AI</mark> that more businesses and services can readily use",
+    "watch": "Sourced from News and communications — verify dates and AI relevance.",
+    "source": "https://www.gov.uk/government/news/uk-backs-new-ai-labs-to-make-technology-cheaper-more-reliable-and-easier-to-use"
+  },
+  {
+    "title": "Bedford train collision",
+    "date": "2026-06-22T17:37",
+    "location": "TBC",
+    "host": "News and communications",
+    "applies": "Monitor",
+    "tag": "AI Governance",
+    "angle": "AI Governance / policy & regulation",
+    "why": "The Secretary of State for Transport gives a statement on the tragic rail collision in Bedford on 19 June 2026.",
+    "watch": "Sourced from News and communications — verify dates and AI relevance.",
+    "source": "https://www.gov.uk/government/speeches/bedford-train-collision"
+  },
+  {
+    "title": "Boaters benefit from £5.2 million investment in Anglian waterways",
+    "date": "2026-06-22T16:44",
+    "location": "TBC",
+    "host": "News and communications",
+    "applies": "Monitor",
+    "tag": "AI Governance",
+    "angle": "AI Governance / policy & regulation",
+    "why": "Improvement works carried out at over 14 sites, whilst more projects to come for this financial year. East Anglian waterways open for business for summer 2026.",
+    "watch": "Sourced from News and communications — verify dates and AI relevance.",
+    "source": "https://www.gov.uk/government/news/boaters-benefit-from-52-million-investment-in-anglian-waterways"
+  },
+  {
     "title": "UKHSA issues red heat-health alerts across England",
     "date": "2026-06-22T12:01",
     "location": "TBC",
@@ -1704,28 +1752,16 @@
     "source": "https://www.gov.uk/government/news/dangerous-occurrence-at-todmorden"
   },
   {
-    "title": "Update on the PATHWAYS clinical trial",
-    "date": "2026-06-19T09:30",
+    "title": "Support for the Deafblind community grows with new funding to assess specialist interpreters, back by the UK government",
+    "date": "2026-06-23T00:01",
     "location": "TBC",
     "host": "News and communications",
     "applies": "Monitor",
     "tag": "AI Governance",
     "angle": "AI Governance / policy & regulation",
-    "why": "As with all clinical trials, the MHRA’s top priority is the <mark>safety</mark> and wellbeing of the trial participants.",
+    "why": "Thousands of Deafblind people across the country will benefit from improved access to communication support.",
     "watch": "Sourced from News and communications — verify dates and AI relevance.",
-    "source": "https://www.gov.uk/government/news/update-on-the-pathways-clinical-trial"
-  },
-  {
-    "title": "Amadeus report and safety flyer published",
-    "date": "2026-06-18T10:00",
-    "location": "TBC",
-    "host": "News and communications",
-    "applies": "Monitor",
-    "tag": "AI Governance",
-    "angle": "AI Governance / policy & regulation",
-    "why": "Fall overboard from a crab potting vessel in the German Bight, North Sea, with the loss of 1 life.",
-    "watch": "Sourced from News and communications — verify dates and AI relevance.",
-    "source": "https://www.gov.uk/government/news/amadeus-report-and-safety-flyer-published"
+    "source": "https://www.gov.uk/government/news/support-for-the-deafblind-community-grows-with-new-funding-to-assess-specialist-interpreters-back-by-the-uk-government"
   },
   {
     "title": "Pet cremation firm’s permit mistake pays for salmon aid",
@@ -1776,16 +1812,16 @@
     "source": "https://www.gov.uk/government/news/the-secretary-of-state-announces-the-reappointment-of-the-veterans-commissioner-for-northern-ireland"
   },
   {
-    "title": "First large-scale study finds Members’ Voluntary Liquidations are working effectively",
-    "date": "2026-06-19T14:06",
+    "title": "NIST Releases Technical Findings on What Caused the 2021 Partial Collapse of Champlain Towers South",
+    "date": "Mon, 22 Jun 2026",
     "location": "TBC",
-    "host": "News and communications",
+    "host": "NIST News",
     "applies": "Monitor",
     "tag": "AI Governance",
     "angle": "AI Governance / policy & regulation",
-    "why": "The study is the first large scale analysis of Members’ Voluntary Liquidations (MVLs) outcomes in England and Wales.",
-    "watch": "Sourced from News and communications — verify dates and AI relevance.",
-    "source": "https://www.gov.uk/government/news/first-large-scale-study-finds-members-voluntary-liquidations-are-working-effectively"
+    "why": "In an investigation that began just days after the tragedy, the team examined two dozen possible scenarios for where and why the collapse started.",
+    "watch": "Sourced from NIST News — verify dates and AI relevance.",
+    "source": "https://www.nist.gov/news-events/news/2026/06/nist-releases-technical-findings-what-caused-2021-partial-collapse"
   },
   {
     "title": "NIST Researchers Discover a New Way to Whisk Alloys Together With Lasers",
@@ -2002,18 +2038,6 @@
     "why": "There are currently more than 514,000 cybersecurity job openings in the U.S.",
     "watch": "Sourced from NIST News — verify dates and AI relevance.",
     "source": "https://www.nist.gov/news-events/news/2025/09/nist-awards-more-3-million-support-cybersecurity-workforce-development"
-  },
-  {
-    "title": "In Quantum Sensing, What Beats Beating Noise? Meeting Noise Halfway.",
-    "date": "Wed, 10 Sep 2025",
-    "location": "TBC",
-    "host": "NIST News",
-    "applies": "Monitor",
-    "tag": "AI Governance",
-    "angle": "AI Governance / policy & regulation",
-    "why": "A team including scientists at NIST may have found a new way of dealing with noise at the microscopic scales where quantum physics reigns.",
-    "watch": "Sourced from NIST News — verify dates and AI relevance.",
-    "source": "https://www.nist.gov/news-events/news/2025/09/quantum-sensing-what-beats-beating-noise-meeting-noise-halfway"
   },
   {
     "title": "Top story - LUX Audience Award 2022 - The best of European cinema",
