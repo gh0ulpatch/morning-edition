@@ -144,6 +144,30 @@
     "source": "https://www.eff.org/deeplinks/2026/06/congress-just-rushed-through-disastrous-copyright-office-overhaul"
   },
   {
+    "title": "When the Aggregator Cheats: Data-Free Backdoors in Federated LLM-based QA Systems",
+    "date": "Mon, 29 Jun 2026",
+    "location": "TBC",
+    "host": "cs.CR updates on arXiv.org",
+    "applies": "Attend",
+    "tag": "Cybersecurity",
+    "angle": "Cybersecurity / technical AI",
+    "why": "Large Language Model (LLM)-based question-answering (QA) systems are increasingly deployed in sensitive domains such as healthcare, mental health counseling, and legal consultation. Federated…",
+    "watch": "Sourced from cs.CR updates on arXiv.org — verify dates and AI relevance.",
+    "source": "https://arxiv.org/abs/2606.27511"
+  },
+  {
+    "title": "GTI-mSEMP Framework : A Proposed Framework to Stimulate Malware Propagation with Inclusion of Attacker-Defender Strategy",
+    "date": "Mon, 29 Jun 2026",
+    "location": "TBC",
+    "host": "cs.CR updates on arXiv.org",
+    "applies": "Attend",
+    "tag": "Cybersecurity",
+    "angle": "Cybersecurity / technical AI",
+    "why": "The rapid proliferation of automated, multi-vector malware threats poses a significant risk to heterogeneous, resource constrained cyber-physical networks. Conventional epidemiological models often…",
+    "watch": "Sourced from cs.CR updates on arXiv.org — verify dates and AI relevance.",
+    "source": "https://arxiv.org/abs/2606.28079"
+  },
+  {
     "title": "Court Records Should Be Free",
     "date": "Thu, 18 Jun 2026",
     "location": "TBC",
@@ -190,6 +214,30 @@
     "why": "This Pride month, we’re calling on the dating app Grindr to prioritize LGBTQ+ user safety by making privacy the default across its platform. That means no more sharing personal data with advertisers…",
     "watch": "Sourced from Deeplinks — verify dates and AI relevance.",
     "source": "https://www.eff.org/deeplinks/2026/06/grindr-put-queer-safety-and-privacy-over-profits"
+  },
+  {
+    "title": "On the Inseparability of Instructions and Data in Shared-Embedding Sequence Models",
+    "date": "Mon, 29 Jun 2026",
+    "location": "TBC",
+    "host": "cs.CR updates on arXiv.org",
+    "applies": "Attend",
+    "tag": "Cybersecurity",
+    "angle": "Cybersecurity / technical AI",
+    "why": "Prompt injection is the top security risk for LLM-integrated applications, yet every defense proposed so far has been broken. We prove this is not a coincidence: in shared-embedding architectures…",
+    "watch": "Sourced from cs.CR updates on arXiv.org — verify dates and AI relevance.",
+    "source": "https://arxiv.org/abs/2606.27567"
+  },
+  {
+    "title": "ToolPrivacyBench: Benchmarking Purpose-Bound Privacy in Tool-Using LLM Agents",
+    "date": "Mon, 29 Jun 2026",
+    "location": "TBC",
+    "host": "cs.CR updates on arXiv.org",
+    "applies": "Attend",
+    "tag": "Multilateral",
+    "angle": "Multilateral / policy & regulation",
+    "why": "Large language models (LLMs) have increasingly moved from standalone text generation systems to agents that invoke external tools, access environments, and execute multi-step tasks. However,…",
+    "watch": "Sourced from cs.CR updates on arXiv.org — verify dates and AI relevance.",
+    "source": "https://arxiv.org/abs/2606.28061"
   },
   {
     "title": "ICCWS 2027",
@@ -300,6 +348,18 @@
     "source": "https://www.europol.europa.eu/media-press/newsroom/news/counter-terrorism-operation-disrupted-islamic-state-khorasan-province-activities"
   },
   {
+    "title": "Towards Automating Scientific Review with Google's Paper Assistant Tool",
+    "date": "Mon, 29 Jun 2026",
+    "location": "TBC",
+    "host": "cs.CY updates on arXiv.org",
+    "applies": "Monitor",
+    "tag": "AI Governance",
+    "angle": "AI Governance / policy & regulation",
+    "why": "Artificial intelligence is driving a revolution in scientific discovery, accelerating everything from hypothesis generation to mathematical theorem proving. However, this rapid acceleration is…",
+    "watch": "Sourced from cs.CY updates on arXiv.org — verify dates and AI relevance.",
+    "source": "https://arxiv.org/abs/2606.28277"
+  },
+  {
     "title": "ICAIR 2024",
     "date": "4th International Conference on AI Research (formally the European Conference on the Impact of Artificial Intelligence and Robotics)",
     "location": "TBC",
@@ -322,6 +382,18 @@
     "why": "This Pride season, join EFF and the Queer Arts Collective in building a creative space at the intersection of digital justice and artistic expression. We’re looking for fresh, untold, historically…",
     "watch": "Sourced from Deeplinks — verify dates and AI relevance.",
     "source": "https://www.eff.org/deeplinks/2026/06/call-submissions-digital-pride"
+  },
+  {
+    "title": "DysLexLens: A Low-Resource LLM Framework for Analysing Dyslexic Learners Insights from Online Forums",
+    "date": "Mon, 29 Jun 2026",
+    "location": "TBC",
+    "host": "cs.AI updates on arXiv.org",
+    "applies": "Monitor",
+    "tag": "AI Safety",
+    "angle": "AI Safety / technical AI",
+    "why": "Dyslexic learners increasingly use artificial intelligence (AI) tools to support reading, writing, organisation, and study-related tasks. However, their lived experiences with these tools remain…",
+    "watch": "Sourced from cs.AI updates on arXiv.org — verify dates and AI relevance.",
+    "source": "https://arxiv.org/abs/2606.27619"
   },
   {
     "title": "ICBAP 2024",
@@ -634,6 +706,18 @@
     "why": "The UK and Japan are expected to agree investment creating tens of thousands of new jobs and more than £18 billion in economic gains, alongside a new partnership at the forefront of next-generation…",
     "watch": "Sourced from News and communications — verify dates and AI relevance.",
     "source": "https://www.gov.uk/government/news/tens-of-thousands-of-new-jobs-and-more-than-18-billion-boost-to-british-economy-as-prime-minister-meets-japanese-leader"
+  },
+  {
+    "title": "Energy firm named after £500,000 Russia sanctions settlement",
+    "date": "2026-06-29T12:00",
+    "location": "TBC",
+    "host": "News and communications",
+    "applies": "Monitor",
+    "tag": "AI Governance",
+    "angle": "AI Governance / policy & regulation",
+    "why": "An energy services firm has paid more than £500,000 to HM Revenue and Customs (HMRC) for breaching Russia sanctions <mark>regulations</mark>.",
+    "watch": "Sourced from News and communications — verify dates and AI relevance.",
+    "source": "https://www.gov.uk/government/news/energy-firm-named-after-500000-russia-sanctions-settlement"
   },
   {
     "title": "Insolvency Service is making ‘meaningful improvements’ to the insolvency system",
@@ -1116,18 +1200,6 @@
     "source": "https://www.gov.uk/government/speeches/pm-remarks-5-june-2026"
   },
   {
-    "title": "PM call with Taoiseach Micheál Martin of Ireland: 12 June 2026",
-    "date": "2026-06-12T19:02",
-    "location": "TBC",
-    "host": "News and communications",
-    "applies": "Monitor",
-    "tag": "AI Governance",
-    "angle": "AI Governance / policy & regulation",
-    "why": "The Prime Minister spoke to Taoiseach Micheál Martin this afternoon.",
-    "watch": "Sourced from News and communications — verify dates and AI relevance.",
-    "source": "https://www.gov.uk/government/news/pm-call-with-taoiseach-micheal-martin-of-ireland-12-june-2026"
-  },
-  {
     "title": "Action to tackle antisemitism: UK voluntary report to the OSCE",
     "date": "2026-06-26T11:27",
     "location": "TBC",
@@ -1416,6 +1488,18 @@
     "source": "https://futureoflife.org/statement/attack-against-sam-altmans-home/"
   },
   {
+    "title": "From bomb‑proof pants to laser weapons: 25 years of Dstl",
+    "date": "2026-06-29T12:10",
+    "location": "TBC",
+    "host": "News and communications",
+    "applies": "Monitor",
+    "tag": "Nuclear & WMD",
+    "angle": "Nuclear & WMD / cross-sector harm",
+    "why": "Dstl this week marks 25 years at the heart of the UK’s defence and national security, delivering science and technology advantage that keeps the country safe.",
+    "watch": "Sourced from News and communications — verify dates and AI relevance.",
+    "source": "https://www.gov.uk/government/news/from-bomb-proof-pants-to-laser-weapons-25-years-of-dstl"
+  },
+  {
     "title": "The Military division of The King's Birthday Honours List 2026",
     "date": "2026-06-12T22:30",
     "location": "TBC",
@@ -1450,30 +1534,6 @@
     "why": "Meet the CNC&#39;s specialist police dogs, whose skills help deter crime, support policing operations, and protect critical national infrastructure.",
     "watch": "Sourced from News and communications — verify dates and AI relevance.",
     "source": "https://www.gov.uk/government/news/meet-the-police-dogs-protecting-the-uks-critical-infrastructure"
-  },
-  {
-    "title": "New evidence on online harms affecting children",
-    "date": "2026-06-25T09:32",
-    "location": "TBC",
-    "host": "News and communications",
-    "applies": "Monitor",
-    "tag": "Child Safety",
-    "angle": "Child Safety / cross-sector harm",
-    "why": "The Youth Justice Board (YJB) has today published a comprehensive new Evidence and Insights Pack on Online Harms Affecting Children.",
-    "watch": "Sourced from News and communications — verify dates and AI relevance.",
-    "source": "https://www.gov.uk/government/news/new-evidence-on-online-harms-affecting-children"
-  },
-  {
-    "title": "Completion of UK’s high-level waste return programme to Germany",
-    "date": "2026-06-25T10:00",
-    "location": "TBC",
-    "host": "News and communications",
-    "applies": "Monitor",
-    "tag": "Nuclear & WMD",
-    "angle": "Nuclear & WMD / cross-sector harm",
-    "why": "Nuclear Transport Solutions (NTS) has delivered the third and final return of high-level waste (HLW), in the form of vitrified residue, to Germany.",
-    "watch": "Sourced from News and communications — verify dates and AI relevance.",
-    "source": "https://www.gov.uk/government/news/completion-of-uks-high-level-waste-return-programme-to-germany"
   },
   {
     "title": "NIST Releases New Forensic Genetic Reference Material to Help Crime Laboratories Analyze Challenging Cases",
@@ -1572,6 +1632,18 @@
     "source": "https://www.ncsc.gov.uk/report/summary-of-ncsc-security-analysis-for-the-uk-telecoms-sector"
   },
   {
+    "title": "New world-leading lab to be built at secretive UK research site",
+    "date": "2026-06-29T10:43",
+    "location": "TBC",
+    "host": "News and communications",
+    "applies": "Monitor",
+    "tag": "AI Governance",
+    "angle": "AI Governance / policy & regulation",
+    "why": "Expert UK scientists working on the most innovative defence technologies will be backed by £580 million of infrastructure funding over the next four years, including to build a new world-leading new…",
+    "watch": "Sourced from News and communications — verify dates and AI relevance.",
+    "source": "https://www.gov.uk/government/news/new-world-leading-lab-to-be-built-at-secretive-uk-research-site"
+  },
+  {
     "title": "SIA inspections uncover public safety risks in night-time economy",
     "date": "2026-06-26T14:40",
     "location": "TBC",
@@ -1632,16 +1704,16 @@
     "source": "https://www.gov.uk/government/news/national-drought-group-meets-after-dry-spring-and-recent-heatwave"
   },
   {
-    "title": "Beyond the headlines: what research shows on children's online lives",
-    "date": "2026-06-12T14:31",
+    "title": "Funding for businesses who give youngsters a chance as Government ramps up youth jobs drive",
+    "date": "2026-06-29T09:24",
     "location": "TBC",
     "host": "News and communications",
     "applies": "Monitor",
-    "tag": "Child Safety",
-    "angle": "Child Safety / policy & regulation",
-    "why": "Hear from the Government Chief Scientific Adviser about why understanding the balance between benefits and harms is key to a safe digital world that safeguards children.",
+    "tag": "AI Governance",
+    "angle": "AI Governance / policy & regulation",
+    "why": "Businesses who take on jobless youngsters will be offered thousands of pounds in the latest boost to youth employment support.",
     "watch": "Sourced from News and communications — verify dates and AI relevance.",
-    "source": "https://www.gov.uk/government/news/beyond-the-headlines-what-research-shows-on-childrens-online-lives"
+    "source": "https://www.gov.uk/government/news/funding-for-businesses-who-give-youngsters-a-chance-as-government-ramps-up-youth-jobs-drive"
   },
   {
     "title": "Pioneering projects to transform obesity care, backed by £85 million from government and industry",
@@ -1728,16 +1800,28 @@
     "source": "https://www.gov.uk/government/news/alison-kilburn-appointed-joint-head-of-the-government-economic-service"
   },
   {
-    "title": "Jacoba report and safety flyer published",
-    "date": "2026-06-25T10:00",
+    "title": "Tribute to Nigel Cotgrove",
+    "date": "2026-06-29T11:06",
     "location": "TBC",
     "host": "News and communications",
     "applies": "Monitor",
     "tag": "AI Governance",
     "angle": "AI Governance / policy & regulation",
-    "why": "Serious injury to a crew member on board a scallop dredger 29 nautical miles south-south-east of Beachy Head, England.",
+    "why": "Low Pay Commission member Nigel Cotgrove has died after a short illness whilst on holiday. Simon Sapper pays tribute to Nigel on behalf of the Commission.",
     "watch": "Sourced from News and communications — verify dates and AI relevance.",
-    "source": "https://www.gov.uk/government/news/jacoba-report-and-safety-flyer-published"
+    "source": "https://www.gov.uk/government/news/tribute-to-nigel-cotgrove"
+  },
+  {
+    "title": "Nearly 400 antibiotic-resistant infections each week in 2024",
+    "date": "2026-06-29T09:41",
+    "location": "TBC",
+    "host": "News and communications",
+    "applies": "Monitor",
+    "tag": "Biosecurity",
+    "angle": "Biosecurity / policy & regulation",
+    "why": "Antibiotic use within the NHS is below 2019 pre-pandemic levels but private prescribing increases.",
+    "watch": "Sourced from News and communications — verify dates and AI relevance.",
+    "source": "https://www.gov.uk/government/news/nearly-400-antibiotic-resistant-infections-each-week-in-2024"
   },
   {
     "title": "Nick Baird re-appointed as TRA Chair for further three years",
@@ -1762,54 +1846,6 @@
     "why": "From June 2026, the Fish Health Inspectorate’s (FHI) approach to managing Koi herpesvirus (KHV) in recreational fisheries in England and Wales will change.",
     "watch": "Sourced from News and communications — verify dates and AI relevance.",
     "source": "https://www.gov.uk/government/news/changes-to-khv-disease-controls-in-recreational-fisheries"
-  },
-  {
-    "title": "RSH Q4 2025/26 Fire Safety Remediation Survey published",
-    "date": "2026-06-25T09:30",
-    "location": "TBC",
-    "host": "News and communications",
-    "applies": "Monitor",
-    "tag": "AI Governance",
-    "angle": "AI Governance / policy & regulation",
-    "why": "The survey asks landlords to report whether or not they are responsible for any residential buildings measuring 11 metres plus or that have 5 storeys or more.",
-    "watch": "Sourced from News and communications — verify dates and AI relevance.",
-    "source": "https://www.gov.uk/government/news/rsh-q4-202526-fire-safety-remediation-survey-published"
-  },
-  {
-    "title": "E5 Leaders’ Statement: 24 June 2026",
-    "date": "2026-06-24T18:00",
-    "location": "TBC",
-    "host": "News and communications",
-    "applies": "Monitor",
-    "tag": "AI Governance",
-    "angle": "AI Governance / policy & regulation",
-    "why": "E5 Leaders’ Statement.",
-    "watch": "Sourced from News and communications — verify dates and AI relevance.",
-    "source": "https://www.gov.uk/government/news/e5-leaders-statement-24-june-2026"
-  },
-  {
-    "title": "Holding steady: The Commission's role in uncertain times",
-    "date": "2026-06-24T17:30",
-    "location": "TBC",
-    "host": "News and communications",
-    "applies": "Monitor",
-    "tag": "AI Governance",
-    "angle": "AI Governance / policy & regulation",
-    "why": "Dame Julia Unwin addresses the Third Sector Conference 2026",
-    "watch": "Sourced from News and communications — verify dates and AI relevance.",
-    "source": "https://www.gov.uk/government/speeches/holding-steady-the-commissions-role-in-uncertain-times"
-  },
-  {
-    "title": "New plan to make English farming profitable, productive, sustainable and resilient",
-    "date": "2026-06-24T15:18",
-    "location": "TBC",
-    "host": "News and communications",
-    "applies": "Monitor",
-    "tag": "EU Governance",
-    "angle": "EU Governance / policy & regulation",
-    "why": "The 25-year Farming Roadmap gives English farmers certainty beyond the next harvest for the first time.",
-    "watch": "Sourced from News and communications — verify dates and AI relevance.",
-    "source": "https://www.gov.uk/government/news/new-plan-to-make-english-farming-profitable-productive-sustainable-and-resilient"
   },
   {
     "title": "NIST Releases Technical Findings on What Caused the 2021 Partial Collapse of Champlain Towers South",
