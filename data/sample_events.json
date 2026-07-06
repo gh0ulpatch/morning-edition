@@ -492,18 +492,6 @@
     "source": "http://www.wikicfp.com/cfp/servlet/event.showcfp?eventid=96777&copyownerid=143386"
   },
   {
-    "title": "Major annual retail survey leads to action on Dubai-style chocolate, goat meat and slush-ice drinks",
-    "date": "2026-07-02T10:00",
-    "location": "TBC",
-    "host": "News and communications",
-    "applies": "Monitor",
-    "tag": "Privacy & Surveillance",
-    "angle": "Privacy & Surveillance / policy & regulation",
-    "why": "The Food Standards Agency has published the results of its sixth annual retail surveillance survey.",
-    "watch": "Sourced from News and communications — verify dates and AI relevance.",
-    "source": "https://www.gov.uk/government/news/major-annual-retail-survey-leads-to-action-on-dubai-style-chocolate-goat-meat-and-slush-ice-drinks"
-  },
-  {
     "title": "Top story - Parliament reforms - Boosting Parliament's integrity and strengthening trust",
     "date": "Tue, 25 Jul 2023",
     "location": "TBC",
@@ -598,6 +586,30 @@
     "why": "Britain&#39;s Armed Forces will be strengthened and thousands of British jobs created through a drone transformation, announced by the Prime Minister and backed by more than £5 billion in the…",
     "watch": "Sourced from News and communications — verify dates and AI relevance.",
     "source": "https://www.gov.uk/government/news/uk-drone-transformation-to-strengthen-armed-forces-backed-by-more-than-5-billion"
+  },
+  {
+    "title": "Government steps up action to protect children as AI-enabled toys emerge",
+    "date": "2026-07-06T00:30",
+    "location": "TBC",
+    "host": "News and communications",
+    "applies": "Monitor",
+    "tag": "Child Safety",
+    "angle": "Child Safety / policy & regulation",
+    "why": "Government steps up action to protect children with toy <mark>safety</mark> rules",
+    "watch": "Sourced from News and communications — verify dates and AI relevance.",
+    "source": "https://www.gov.uk/government/news/government-steps-up-action-to-protect-children-as-ai-enabled-toys-emerge"
+  },
+  {
+    "title": "Supported housing residents to keep more of what they earn under new rules",
+    "date": "2026-07-06T00:01",
+    "location": "TBC",
+    "host": "News and communications",
+    "applies": "Monitor",
+    "tag": "AI Governance",
+    "angle": "AI Governance / policy & regulation",
+    "why": "More than 300,000 residents in supported housing and temporary accommodation will no longer face a drop in income when increasing their working hours, under new rules laid in Parliament today [Monday…",
+    "watch": "Sourced from News and communications — verify dates and AI relevance.",
+    "source": "https://www.gov.uk/government/news/supported-housing-residents-to-keep-more-of-what-they-earn-under-new-rules"
   },
   {
     "title": "Bright Horizons regulatory action",
@@ -802,6 +814,18 @@
     "why": "This circular is issued to inform partners of certain provisions of the Crime and Policing Act 2026 which came into force on 29 June 2026.",
     "watch": "Sourced from News and communications — verify dates and AI relevance.",
     "source": "https://www.gov.uk/government/publications/circular-0042026-crime-and-policing-act-2026"
+  },
+  {
+    "title": "Tough new rules to crackdown on foreign money in UK elections",
+    "date": "2026-07-06T00:01",
+    "location": "TBC",
+    "host": "News and communications",
+    "applies": "Monitor",
+    "tag": "Election Integrity",
+    "angle": "Election Integrity / policy & regulation",
+    "why": "New rules include a cap on donations from those who&#39;ve lived overseas and tougher checks on company donations.",
+    "watch": "Sourced from News and communications — verify dates and AI relevance.",
+    "source": "https://www.gov.uk/government/news/tough-new-rules-to-crackdown-on-foreign-money-in-uk-elections"
   },
   {
     "title": "NIST Expands Its Library of ‘Chemical Fingerprints’ to Identify Unknown Substances",
@@ -1272,6 +1296,18 @@
     "source": "https://www.ncsc.gov.uk/report/a-method-to-assess-forgivable-vs-unforgivable-vulnerabilities"
   },
   {
+    "title": "NHS sets first-ever staff standards to tackle racism and violence",
+    "date": "2026-07-06T11:13",
+    "location": "TBC",
+    "host": "News and communications",
+    "applies": "Monitor",
+    "tag": "AI Governance",
+    "angle": "AI Governance / governance & institutions",
+    "why": "New NHS staff standards will make employers accountable for tackling racism, violence and sexual harassment, with results published in league tables.",
+    "watch": "Sourced from News and communications — verify dates and AI relevance.",
+    "source": "https://www.gov.uk/government/news/nhs-sets-first-ever-staff-standards-to-tackle-racism-and-violence"
+  },
+  {
     "title": "New AI Model Shows How to Evacuate for Fires One Safe Step at a Time",
     "date": "Thu, 04 Jun 2026",
     "location": "TBC",
@@ -1512,6 +1548,18 @@
     "source": "https://www.ncsc.gov.uk/report/summary-of-ncsc-security-analysis-for-the-uk-telecoms-sector"
   },
   {
+    "title": "UKDI launches Space to Innovate: Delta Drop",
+    "date": "2026-07-06T10:41",
+    "location": "TBC",
+    "host": "News and communications",
+    "applies": "Monitor",
+    "tag": "AI Governance",
+    "angle": "AI Governance / policy & regulation",
+    "why": "Dstl and the UK Space Agency are on the hunt for more innovations to improve future space capabilities for defence and security",
+    "watch": "Sourced from News and communications — verify dates and AI relevance.",
+    "source": "https://www.gov.uk/government/news/ukdi-launches-space-to-innovate-delta-drop"
+  },
+  {
     "title": "Glasgow director banned after importing raw tobacco hidden in furniture",
     "date": "2026-07-03T09:26",
     "location": "TBC",
@@ -1534,18 +1582,6 @@
     "why": "Nearly 200 workplaces have signed up to be “Vanguards” preventing people dropping out of work due to ill-health, in a new milestone for the programme.",
     "watch": "Sourced from News and communications — verify dates and AI relevance.",
     "source": "https://www.gov.uk/government/news/keep-britain-working-continues-drive-to-stop-people-falling-out-of-the-workforce"
-  },
-  {
-    "title": "UKDI launches Space to Innovate: Delta Drop",
-    "date": "2026-07-02T16:21",
-    "location": "TBC",
-    "host": "News and communications",
-    "applies": "Monitor",
-    "tag": "AI Governance",
-    "angle": "AI Governance / policy & regulation",
-    "why": "Dstl and the UK Space Agency are on the hunt for more innovations to improve future space capabilities for defence and security",
-    "watch": "Sourced from News and communications — verify dates and AI relevance.",
-    "source": "https://www.gov.uk/government/news/ukdi-launches-space-to-innovate-delta-drop"
   },
   {
     "title": "Environment Secretary Emma Reynolds: Groundswell Festival",
@@ -1618,6 +1654,18 @@
     "why": "The SIA carried out national unannounced inspections on 21 June, identifying unlicensed operatives, a counterfeit licence and licence condition breaches.",
     "watch": "Sourced from News and communications — verify dates and AI relevance.",
     "source": "https://www.gov.uk/government/news/sia-inspections-uncover-public-safety-risks-in-night-time-economy"
+  },
+  {
+    "title": "MHRA approves Retifanlimab (ZYNYZ) for the treatment of advanced Merkel cell skin cancer",
+    "date": "2026-07-06T11:07",
+    "location": "TBC",
+    "host": "News and communications",
+    "applies": "Monitor",
+    "tag": "AI Governance",
+    "angle": "AI Governance / policy & regulation",
+    "why": "Merkel cell carcinoma (MCC) is a rare and aggressive type of skin cancer that develops from Merkel cells, specialised neuroendocrine cells found in the top layer of the skin.",
+    "watch": "Sourced from News and communications — verify dates and AI relevance.",
+    "source": "https://www.gov.uk/government/news/mhra-approvesretifanlimabzynyz-for-the-treatment-of-advanced-merkel-cell-skin-cancer"
   },
   {
     "title": "Sir Ian Bauckham's speech at the Wellington Festival of Education",
@@ -1726,18 +1774,6 @@
     "why": "The Secretary of State has appointed Rebecca Crook and Judith Donovan for four-year terms commencing 26 September 2026, and Helen Williams for a four-year term from 1 October 2026",
     "watch": "Sourced from News and communications — verify dates and AI relevance.",
     "source": "https://www.gov.uk/government/news/three-new-trustees-appointed-to-the-royal-armouries-board"
-  },
-  {
-    "title": "AAIB Report: De Havilland Aircraft of Canada Limited DHC-8, 9H-LWB",
-    "date": "2026-07-02T10:04",
-    "location": "TBC",
-    "host": "News and communications",
-    "applies": "Monitor",
-    "tag": "AI Governance",
-    "angle": "AI Governance / policy & regulation",
-    "why": "De Havilland Aircraft of Canada Limited DHC-8 (9H-LWB), runway excursion, Runway 27, Guernsey Airport, 23 April 2024",
-    "watch": "Sourced from News and communications — verify dates and AI relevance.",
-    "source": "https://www.gov.uk/government/news/aaib-report-de-havilland-aircraft-of-canada-limited-dhc-8-9h-lwb"
   },
   {
     "title": "Environment Agency operation convicts four Devon waste criminals",
