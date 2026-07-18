@@ -1,27 +1,15 @@
 [
   {
-    "title": "Are Your Local Police Using Flock Safety ALPRs to Scan for Immigrants?",
-    "date": "Thu, 25 Jun 2026",
+    "title": "How the Watch Dogs Video Game Series Mirrored and Predicted Real-World Digital Rights Issues",
+    "date": "Fri, 17 Jul 2026",
     "location": "TBC",
     "host": "Deeplinks",
     "applies": "Attend",
-    "tag": "Privacy & Surveillance",
-    "angle": "Privacy & Surveillance / policy & regulation",
-    "why": "When a car passes an automated license plate reader (ALPR), its plate is captured and instantly compared against a list of vehicles that police are actively looking for or that police have identified…",
+    "tag": "Multilateral",
+    "angle": "Multilateral / policy & regulation",
+    "why": "When Ubisoft's Watch Dogs 2 was released in 2016, it was a headtrip for those of us working on digital-rights issues in the Bay Area. During the day, I'd fight tech-authoritarianism from EFF's San…",
     "watch": "Sourced from Deeplinks — verify dates and AI relevance.",
-    "source": "https://www.eff.org/deeplinks/2026/06/are-your-local-police-using-flock-safety-alprs-scan-immigrants"
-  },
-  {
-    "title": "The KIDS Act Would Require Age Checks To Get Online",
-    "date": "Thu, 25 Jun 2026",
-    "location": "TBC",
-    "host": "Deeplinks",
-    "applies": "Attend",
-    "tag": "Child Safety",
-    "angle": "Child Safety / policy & regulation",
-    "why": "Within the next week, Congress is preparing to vote on the KIDS Act , a sprawling package of legislation that seeks to control Americans’ web browsing and private messaging. The package includes a…",
-    "watch": "Sourced from Deeplinks — verify dates and AI relevance.",
-    "source": "https://www.eff.org/deeplinks/2026/06/kids-act-would-require-age-checks-get-online"
+    "source": "https://www.eff.org/deeplinks/2026/07/how-watch-dogs-video-game-series-mirrored-and-predicted-real-world-digital-rights"
   },
   {
     "title": "EFF and Allies: X’s FTC Petition to Waive Privacy Violation Order Should be Rejected",
@@ -60,18 +48,6 @@
     "source": "https://www.eff.org/deeplinks/2026/06/we-can-still-stop-californias-3d-printer-surveillance-scheme"
   },
   {
-    "title": "Do Generative AI Assistants Respect robots.txt? Tracing Web Access Beyond Visible Answers",
-    "date": "Fri, 17 Jul 2026",
-    "location": "TBC",
-    "host": "cs.CY updates on arXiv.org",
-    "applies": "Attend",
-    "tag": "AI Governance",
-    "angle": "AI Governance / policy & regulation",
-    "why": "AI assistants increasingly retrieve web content at inference time to provide fresh and grounded answers, yet it remains unclear whether these search-augmented capabilities respect website-owner…",
-    "watch": "Sourced from cs.CY updates on arXiv.org — verify dates and AI relevance.",
-    "source": "https://arxiv.org/abs/2607.14447"
-  },
-  {
     "title": "RETRAI -  2026",
     "date": "Event",
     "location": "Where",
@@ -85,7 +61,7 @@
   },
   {
     "title": "How Artificial Intelligence LLM Engines Shape the Global Conflict Information Environment",
-    "date": "Fri, 17 Jul 2026",
+    "date": "Sat, 18 Jul 2026",
     "location": "TBC",
     "host": "cs.AI updates on arXiv.org",
     "applies": "Attend",
@@ -133,7 +109,7 @@
   },
   {
     "title": "Intelligent Three Level Learning Architecture for Autonomous UAV Swarms in Search and Rescue",
-    "date": "Fri, 17 Jul 2026",
+    "date": "Sat, 18 Jul 2026",
     "location": "TBC",
     "host": "cs.AI updates on arXiv.org",
     "applies": "Attend",
@@ -168,18 +144,6 @@
     "source": "https://www.eff.org/deeplinks/2026/06/lgbt-qa-what-data-are-companies-uk-collecting-when-verifying-my-age"
   },
   {
-    "title": "Stop Means Stop: Measuring and Repairing the Enforcement Gap in Agent-Framework Control Primitives",
-    "date": "Fri, 17 Jul 2026",
-    "location": "TBC",
-    "host": "cs.CR updates on arXiv.org",
-    "applies": "Monitor",
-    "tag": "AI Safety",
-    "angle": "AI Safety / policy & regulation",
-    "why": "Production LLM-agent frameworks expose control primitives -- human-in-the-loop approval gates, run cancellation, and execution timeouts -- whose names and documentation imply barrier semantics: while…",
-    "watch": "Sourced from cs.CR updates on arXiv.org — verify dates and AI relevance.",
-    "source": "https://arxiv.org/abs/2607.14166"
-  },
-  {
     "title": "International Seabed Authority",
     "date": "Thu, 21 Sep 2023",
     "location": "TBC",
@@ -193,7 +157,7 @@
   },
   {
     "title": "DialogueVPR: Towards Conversational Visual Place Recognition",
-    "date": "Fri, 17 Jul 2026",
+    "date": "Sat, 18 Jul 2026",
     "location": "TBC",
     "host": "cs.AI updates on arXiv.org",
     "applies": "Monitor",
@@ -214,18 +178,6 @@
     "why": "Third UN Conference on&nbsp; Landlocked Developing Countries&nbsp; Awaza, Turkmenistan&nbsp; 5-8 August&nbsp;2025&nbsp; Driving Progress through partnerships&nbsp; &nbsp; &nbsp; The United Nations…",
     "watch": "Sourced from United Nations — verify dates and AI relevance.",
     "source": "https://www.un.org/en/civil-society/third-united-nations-conference-landlocked-developing-countries-lldc3"
-  },
-  {
-    "title": "Penny: Transition Network Analysis of Learner-Chatbot Interactions in Scaffolded EFL Writing",
-    "date": "Fri, 17 Jul 2026",
-    "location": "TBC",
-    "host": "cs.CY updates on arXiv.org",
-    "applies": "Monitor",
-    "tag": "AI Governance",
-    "angle": "AI Governance / technical AI",
-    "why": "Generative AI chatbots promise to transform English as a Foreign Language (EFL) writing by providing immediate, personalised feedback. However, their pedagogical value depends on how learners engage…",
-    "watch": "Sourced from cs.CY updates on arXiv.org — verify dates and AI relevance.",
-    "source": "https://arxiv.org/abs/2607.14575"
   },
   {
     "title": "KDD-MLF 2025",
@@ -312,20 +264,8 @@
     "source": "http://www.wikicfp.com/cfp/servlet/event.showcfp?eventid=178495&copyownerid=8438"
   },
   {
-    "title": "Is External Database Protection Static in Retrieval-Augmented Generation? Rethinking Privacy Preservation under Dynamic…",
-    "date": "Fri, 17 Jul 2026",
-    "location": "TBC",
-    "host": "cs.CR updates on arXiv.org",
-    "applies": "Monitor",
-    "tag": "Election Integrity",
-    "angle": "Election Integrity / policy & regulation",
-    "why": "Retrieval-augmented generation (RAG) enhances large language models via external document retrieval, but retrieved contexts may leak sensitive information. Current privacy protection methods…",
-    "watch": "Sourced from cs.CR updates on arXiv.org — verify dates and AI relevance.",
-    "source": "https://arxiv.org/abs/2607.14811"
-  },
-  {
     "title": "Align AI to Dynamic Human-AI Workflows",
-    "date": "Fri, 17 Jul 2026",
+    "date": "Sat, 18 Jul 2026",
     "location": "TBC",
     "host": "cs.AI updates on arXiv.org",
     "applies": "Monitor",
@@ -457,7 +397,7 @@
   },
   {
     "title": "Orchestrating Power Grid Studies with Multi-Agent AI and MCP Servers",
-    "date": "Fri, 17 Jul 2026",
+    "date": "Sat, 18 Jul 2026",
     "location": "TBC",
     "host": "cs.AI updates on arXiv.org",
     "applies": "Monitor",
@@ -1176,16 +1116,16 @@
     "source": "https://www.gov.uk/government/news/government-commitment-to-deliver-for-rural-communities"
   },
   {
-    "title": "UK-donor plasma given go-ahead for new medicines",
-    "date": "2026-07-15T14:38",
+    "title": "Southern Water fined £7.1 million for sewage pollution",
+    "date": "2026-07-17T14:54",
     "location": "TBC",
     "host": "News and communications",
     "applies": "Monitor",
     "tag": "AI Governance",
     "angle": "AI Governance / policy & regulation",
-    "why": "Medicines and Healthcare products Regulatory Agency (MHRA) has approved the use of UK‑donor plasma for five high‑priority plasma-derived medicinal products.",
+    "why": "Beaches forced to close, local trade hit, equipment failure and lack of oversight by company.",
     "watch": "Sourced from News and communications — verify dates and AI relevance.",
-    "source": "https://www.gov.uk/government/news/mhra-safety-review-gives-uk-plasma-donations-go-ahead"
+    "source": "https://www.gov.uk/government/news/southern-water-find-71m-for-sewage-pollution"
   },
   {
     "title": "NIST Receives New Patent for Microbe-Killing Water Heater",
@@ -1342,6 +1282,18 @@
     "why": "Interference in democratic process and cyber attacks have been added to the National Risk Register",
     "watch": "Sourced from News and communications — verify dates and AI relevance.",
     "source": "https://www.gov.uk/government/news/risk-of-democratic-interference-added-to-national-risk-register"
+  },
+  {
+    "title": "New data on UK cosmetic product safety notifications",
+    "date": "2026-07-17T15:38",
+    "location": "TBC",
+    "host": "News and communications",
+    "applies": "Monitor",
+    "tag": "AI Governance",
+    "angle": "AI Governance / governance & institutions",
+    "why": "Office for Product <mark>Safety</mark> and Standards (OPSS) has published new data demonstrating protections for consumers from unsafe cosmetics.",
+    "watch": "Sourced from News and communications — verify dates and AI relevance.",
+    "source": "https://www.gov.uk/government/news/new-data-on-uk-cosmetic-product-safety-notifications"
   },
   {
     "title": "Future work of the Coastguard Rescue Service",
@@ -1680,6 +1632,54 @@
     "source": "https://www.gov.uk/government/news/ukdi-launches-space-to-innovate-delta-drop"
   },
   {
+    "title": "Political party spending limits: independent assessment",
+    "date": "2026-07-17T15:00",
+    "location": "TBC",
+    "host": "News and communications",
+    "applies": "Monitor",
+    "tag": "Election Integrity",
+    "angle": "Election Integrity / policy & regulation",
+    "why": "Correspondence between the Minster for Building <mark>Safety</mark>, Fire and Democracy and the Electoral Commission regarding an independent assessment of political party spending limits.",
+    "watch": "Sourced from News and communications — verify dates and AI relevance.",
+    "source": "https://www.gov.uk/government/publications/political-party-spending-limits-independent-assessment"
+  },
+  {
+    "title": "Improving access to and use of digital services: open letter to business leaders",
+    "date": "2026-07-17T14:42",
+    "location": "TBC",
+    "host": "News and communications",
+    "applies": "Monitor",
+    "tag": "AI Governance",
+    "angle": "AI Governance / policy & regulation",
+    "why": "Open letters to industry leaders about improving essential private sector digital services.",
+    "watch": "Sourced from News and communications — verify dates and AI relevance.",
+    "source": "https://www.gov.uk/government/publications/improving-access-to-and-use-of-digital-services-open-letter-to-business-leaders"
+  },
+  {
+    "title": "Hot cars, hot luggage: why where you store your medicines matters this summer",
+    "date": "2026-07-17T13:32",
+    "location": "TBC",
+    "host": "News and communications",
+    "applies": "Monitor",
+    "tag": "AI Governance",
+    "angle": "AI Governance / policy & regulation",
+    "why": "As part of the ‘Summer-proof your health’ campaign, the MHRA is reminding people that heat and poor storage, at home or while travelling, can affect how well some medicines work.",
+    "watch": "Sourced from News and communications — verify dates and AI relevance.",
+    "source": "https://www.gov.uk/government/news/hot-cars-hot-luggage-why-where-you-store-your-medicines-matters-this-summer"
+  },
+  {
+    "title": "First groups designated as threat to national security",
+    "date": "2026-07-17T11:34",
+    "location": "TBC",
+    "host": "News and communications",
+    "applies": "Monitor",
+    "tag": "AI Governance",
+    "angle": "AI Governance / policy & regulation",
+    "why": "The IRGC, IMCR, and the GRU Volunteer Corps have now been formally designated as threats to national security under new state threats powers.",
+    "watch": "Sourced from News and communications — verify dates and AI relevance.",
+    "source": "https://www.gov.uk/government/news/first-groups-designated-as-threat-to-national-security"
+  },
+  {
     "title": "Children’s health further protected with energy drinks ban",
     "date": "2026-07-16T17:39",
     "location": "TBC",
@@ -1687,7 +1687,7 @@
     "applies": "Monitor",
     "tag": "Child Safety",
     "angle": "Child Safety / policy & regulation",
-    "why": "The government will ban the sale of high-caffeine energy drinks to under-16s in England from April 2027",
+    "why": "The government will ban the sale of high-caffeine energy drinks to under 16s in England from April 2027.",
     "watch": "Sourced from News and communications — verify dates and AI relevance.",
     "source": "https://www.gov.uk/government/news/childrens-health-further-protected-with-energy-drinks-ban"
   },
@@ -1752,40 +1752,16 @@
     "source": "https://www.gov.uk/government/news/government-brings-british-steel-into-public-ownership-to-protect-uk-steelmaking"
   },
   {
-    "title": "Stronger leasehold protections in crackdown on hidden fees",
-    "date": "2026-07-15T16:14",
+    "title": "New resubmission deadline for 2025 packaging data",
+    "date": "2026-07-17T16:05",
     "location": "TBC",
     "host": "News and communications",
     "applies": "Monitor",
     "tag": "AI Governance",
     "angle": "AI Governance / policy & regulation",
-    "why": "Leaseholders will receive clearer information about the service charges they pay and stronger protections against unfair costs, the government has confirmed.",
+    "why": "PackUK introduces a resubmission deadline of 1 September 2026 for 2025 packaging data to affect Notices of Liability.",
     "watch": "Sourced from News and communications — verify dates and AI relevance.",
-    "source": "https://www.gov.uk/government/news/stronger-leasehold-protections-in-crackdown-on-hidden-fees"
-  },
-  {
-    "title": "Updated warnings for botulinum toxin products following rare cases of botulism",
-    "date": "2026-07-15T14:52",
-    "location": "TBC",
-    "host": "News and communications",
-    "applies": "Monitor",
-    "tag": "AI Governance",
-    "angle": "AI Governance / policy & regulation",
-    "why": "The MHRA is strengthening <mark>safety</mark> warnings for all botulinum toxin type A products, following reports of rare cases of botulism linked to their use.",
-    "watch": "Sourced from News and communications — verify dates and AI relevance.",
-    "source": "https://www.gov.uk/government/news/updated-warnings-for-botulinum-toxin-products-following-rare-cases-of-botulism"
-  },
-  {
-    "title": "Solicitor General celebrates outstanding prosecutors across Whitehall",
-    "date": "2026-07-15T14:12",
-    "location": "TBC",
-    "host": "News and communications",
-    "applies": "Monitor",
-    "tag": "AI Governance",
-    "angle": "AI Governance / policy & regulation",
-    "why": "The Insolvency Service and Crown Prosecution Service (CPS) have been recognised for their prosecuting excellence by the Solicitor General.",
-    "watch": "Sourced from News and communications — verify dates and AI relevance.",
-    "source": "https://www.gov.uk/government/news/solicitor-general-celebrates-outstanding-prosecutors-across-whitehall"
+    "source": "https://www.gov.uk/government/news/new-resubmission-deadline-for-2025-packaging-data"
   },
   {
     "title": "Devon, Cornwall and Isles of Scilly in prolonged dry weather",
@@ -1834,18 +1810,6 @@
     "why": "The Lord Chancellor has approved the appointment, by the Chair of the Judicial Pension Board, of Carrie Young as an independent member.",
     "watch": "Sourced from News and communications — verify dates and AI relevance.",
     "source": "https://www.gov.uk/government/news/independent-member-appointed-to-the-judicial-pension-board"
-  },
-  {
-    "title": "Southern Water pleads guilty to River Test pollution",
-    "date": "2026-07-15T18:32",
-    "location": "TBC",
-    "host": "News and communications",
-    "applies": "Monitor",
-    "tag": "AI Governance",
-    "angle": "AI Governance / policy & regulation",
-    "why": "Southern Water has pleaded guilty after the Environment Agency found a dark plume of pollution from one of its sites in a Hampshire chalk stream.",
-    "watch": "Sourced from News and communications — verify dates and AI relevance.",
-    "source": "https://www.gov.uk/government/news/southern-water-pleads-guilty-to-river-test-pollution"
   },
   {
     "title": "New Fabric Test Material Could Help Strengthen Domestic Supply Chain for Textiles and Clothing",
