@@ -48,6 +48,18 @@
     "source": "https://www.eff.org/deeplinks/2026/06/we-can-still-stop-californias-3d-printer-surveillance-scheme"
   },
   {
+    "title": "From Neural Intent to Cryptographic Authorization: Governing Agentic Workflows",
+    "date": "Mon, 20 Jul 2026",
+    "location": "TBC",
+    "host": "cs.CR updates on arXiv.org",
+    "applies": "Attend",
+    "tag": "Multilateral",
+    "angle": "Multilateral / technical AI",
+    "why": "The rapid adoption of artificial intelligence (AI)-driven and agentic workflows is transforming traditional government and enterprise systems into language-based, tool-using and increasingly…",
+    "watch": "Sourced from cs.CR updates on arXiv.org — verify dates and AI relevance.",
+    "source": "https://arxiv.org/abs/2607.15596"
+  },
+  {
     "title": "RETRAI -  2026",
     "date": "Event",
     "location": "Where",
@@ -58,6 +70,18 @@
     "why": "RETRAI - 2026",
     "watch": "Sourced via WikiCFP — check agenda for AI harm/misuse sessions.",
     "source": "http://www.wikicfp.com/cfp/servlet/event.showcfp?eventid=192629&copyownerid=197417"
+  },
+  {
+    "title": "EduGuard: A Safe RAG-Based LLM Tutor for Programming Education",
+    "date": "Mon, 20 Jul 2026",
+    "location": "TBC",
+    "host": "cs.CY updates on arXiv.org",
+    "applies": "Attend",
+    "tag": "Election Integrity",
+    "angle": "Election Integrity / technical AI",
+    "why": "Generative AI (GenAI) is increasingly used by students for programming explanation, debugging, and assignment support. Yet unrestricted large language model (LLM) tutors can hallucinate, contradict…",
+    "watch": "Sourced from cs.CY updates on arXiv.org — verify dates and AI relevance.",
+    "source": "https://arxiv.org/abs/2607.15738"
   },
   {
     "title": "Fact Check: Clarifying claims about Europol's operational processing environments",
@@ -84,6 +108,18 @@
     "source": "https://www.eff.org/deeplinks/2026/07/dont-let-congress-age-gate-internet-effector-3813"
   },
   {
+    "title": "Empathy as Predictive Misalignment Tolerance: A Co-Regulation Framework and the Regime Structure of Dialogue Repair",
+    "date": "Mon, 20 Jul 2026",
+    "location": "TBC",
+    "host": "cs.AI updates on arXiv.org",
+    "applies": "Attend",
+    "tag": "AI Safety",
+    "angle": "AI Safety / policy & regulation",
+    "why": "Empathy is most often theorized as resonance: a mirroring of another's present emotional or cognitive state. This synchronic framing has shaped artificial systems, where empathic behavior is defined…",
+    "watch": "Sourced from cs.AI updates on arXiv.org — verify dates and AI relevance.",
+    "source": "https://arxiv.org/abs/2607.15282"
+  },
+  {
     "title": "EFF to Grindr: This Pride Month, Put Safety and Privacy Over Profits",
     "date": "Fri, 26 Jun 2026",
     "location": "TBC",
@@ -94,6 +130,54 @@
     "why": "This Pride month, we’re calling on the dating app Grindr to prioritize LGBTQ+ user safety by making privacy the default across its platform. That means no more sharing personal data with advertisers…",
     "watch": "Sourced from Deeplinks — verify dates and AI relevance.",
     "source": "https://www.eff.org/deeplinks/2026/06/grindr-put-queer-safety-and-privacy-over-profits"
+  },
+  {
+    "title": "When Not to Automate: A Formal Protocol for Human Preservation in AI-Optimized Organizations",
+    "date": "Mon, 20 Jul 2026",
+    "location": "TBC",
+    "host": "cs.CY updates on arXiv.org",
+    "applies": "Attend",
+    "tag": "AI Governance",
+    "angle": "AI Governance / governance & institutions",
+    "why": "Standard automation ROI misses four categories of systemic risk -- tacit knowledge erosion, resilience reduction, regulatory exposure, and socio-institutional capital degradation -- that affect…",
+    "watch": "Sourced from cs.CY updates on arXiv.org — verify dates and AI relevance.",
+    "source": "https://arxiv.org/abs/2607.15944"
+  },
+  {
+    "title": "Do Agents Dream of False Memories? Black-box Visual Attacks on Long-term Memory in Multimodal AI Agents",
+    "date": "Mon, 20 Jul 2026",
+    "location": "TBC",
+    "host": "cs.CR updates on arXiv.org",
+    "applies": "Attend",
+    "tag": "Cybersecurity",
+    "angle": "Cybersecurity / technical AI",
+    "why": "Multimodal AI agents increasingly rely on persistent long-term memory to ground generation in past visual and textual episodes. We show that unconditional trust in visual data creates a critical…",
+    "watch": "Sourced from cs.CR updates on arXiv.org — verify dates and AI relevance.",
+    "source": "https://arxiv.org/abs/2607.15657"
+  },
+  {
+    "title": "Code-Poisoning Property Inference Attacks",
+    "date": "Mon, 20 Jul 2026",
+    "location": "TBC",
+    "host": "cs.CR updates on arXiv.org",
+    "applies": "Attend",
+    "tag": "Privacy & Surveillance",
+    "angle": "Privacy & Surveillance / technical AI",
+    "why": "The flourishing code hosting platforms and coding agents enable even beginners with private data to build tailored Machine Learning (ML) models using available code quickly. The training data for ML…",
+    "watch": "Sourced from cs.CR updates on arXiv.org — verify dates and AI relevance.",
+    "source": "https://arxiv.org/abs/2607.15970"
+  },
+  {
+    "title": "Evaluating Open-Weight LLMs for Generating Structured Threat Information for Autonomous Vehicle Vulnerabilities",
+    "date": "Mon, 20 Jul 2026",
+    "location": "TBC",
+    "host": "cs.CR updates on arXiv.org",
+    "applies": "Attend",
+    "tag": "Cybersecurity",
+    "angle": "Cybersecurity / technical AI",
+    "why": "Connected and Autonomous Vehicles (CAVs) rely on interconnected software and hardware components, including sensors, Electronic Control Units, in-vehicle infotainment systems, and telematics units,…",
+    "watch": "Sourced from cs.CR updates on arXiv.org — verify dates and AI relevance.",
+    "source": "https://arxiv.org/abs/2607.16175"
   },
   {
     "title": "ICCWS 2027",
@@ -144,6 +228,30 @@
     "source": "https://www.un.org/en/civil-society/third-united-nations-conference-landlocked-developing-countries-lldc3"
   },
   {
+    "title": "The CRAFT principles for the responsible use of large language models in policymaking",
+    "date": "Mon, 20 Jul 2026",
+    "location": "TBC",
+    "host": "cs.CY updates on arXiv.org",
+    "applies": "Monitor",
+    "tag": "AI Governance",
+    "angle": "AI Governance / technical AI",
+    "why": "Policymakers around the world face the question of how to use artificial intelligence in general, and large language models in particular, to improve the policymaking process. Used well, large…",
+    "watch": "Sourced from cs.CY updates on arXiv.org — verify dates and AI relevance.",
+    "source": "https://arxiv.org/abs/2607.15704"
+  },
+  {
+    "title": "On the Impact of Entropy-based Features",
+    "date": "Mon, 20 Jul 2026",
+    "location": "TBC",
+    "host": "cs.CR updates on arXiv.org",
+    "applies": "Monitor",
+    "tag": "Multilateral",
+    "angle": "Multilateral / technical AI",
+    "why": "Network anomaly detection is increasingly challenging due to the growing diversity and variability of traffic patterns, which are not always well captured by traditional statistical features. In this…",
+    "watch": "Sourced from cs.CR updates on arXiv.org — verify dates and AI relevance.",
+    "source": "https://arxiv.org/abs/2607.15379"
+  },
+  {
     "title": "KDD-MLF 2025",
     "date": "Event",
     "location": "Where",
@@ -178,6 +286,18 @@
     "why": "This year’s edition of the annual effort took place from 8 to 12 June 2026 with coordination and support from Europol, Frontex, and INTERPOL. It aimed to detect and disrupt criminal activities…",
     "watch": "Sourced from News — verify dates and AI relevance.",
     "source": "https://www.europol.europa.eu/media-press/newsroom/news/1024-arrests-in-global-operation-against-human-trafficking"
+  },
+  {
+    "title": "From Black Box to Executable Logic: Explainable Reinforcement Learning through Prolog Expert Systems",
+    "date": "Mon, 20 Jul 2026",
+    "location": "TBC",
+    "host": "cs.AI updates on arXiv.org",
+    "applies": "Monitor",
+    "tag": "AI Governance",
+    "angle": "AI Governance / policy & regulation",
+    "why": "A trained deep reinforcement learning policy is a black box, and we ask whether it can be made explainable by rewriting it as an executable logic program that reproduces its behaviour and that a…",
+    "watch": "Sourced from cs.AI updates on arXiv.org — verify dates and AI relevance.",
+    "source": "https://arxiv.org/abs/2607.15459"
   },
   {
     "title": "AIDA 2026",
@@ -216,6 +336,18 @@
     "source": "https://www.eff.org/deeplinks/2026/07/help-eff-cut-ai-hype"
   },
   {
+    "title": "DICOMHawk: A Cyber Deception Framework for Medical Imaging Infrastructure",
+    "date": "Mon, 20 Jul 2026",
+    "location": "TBC",
+    "host": "cs.CR updates on arXiv.org",
+    "applies": "Monitor",
+    "tag": "Cybersecurity",
+    "angle": "Cybersecurity / policy & regulation",
+    "why": "Cyber-attacks against exposed healthcare infrastructure threaten sensitive patient data and clinical operations, yet existing defensive tools for DICOM-based medical imaging systems provide limited…",
+    "watch": "Sourced from cs.CR updates on arXiv.org — verify dates and AI relevance.",
+    "source": "https://arxiv.org/abs/2607.15754"
+  },
+  {
     "title": "ICAIR 2024",
     "date": "4th International Conference on AI Research (formally the European Conference on the Impact of Artificial Intelligence and Robotics)",
     "location": "TBC",
@@ -250,6 +382,18 @@
     "why": "This Pride, we’re answering all your digital rights questions in season two of our initiative, LGBT Q&amp;A . You Asked: Is there a way for me to wipe data about me online that could point to my…",
     "watch": "Sourced from Deeplinks — verify dates and AI relevance.",
     "source": "https://www.eff.org/deeplinks/2026/07/lgbt-qa-how-can-i-wipe-online-data-points-my-queer-identity"
+  },
+  {
+    "title": "Behavioral Controllability of Agentic Models for Information Extraction: From Fixed Workflows to Reflective Agents",
+    "date": "Mon, 20 Jul 2026",
+    "location": "TBC",
+    "host": "cs.AI updates on arXiv.org",
+    "applies": "Monitor",
+    "tag": "Election Integrity",
+    "angle": "Election Integrity / technical AI",
+    "why": "Large language model (LLM) agents are increasingly used for complex information-extraction tasks, yet it remains unclear whether agentic components such as reflection and memory lead to observable…",
+    "watch": "Sourced from cs.AI updates on arXiv.org — verify dates and AI relevance.",
+    "source": "https://arxiv.org/abs/2607.15715"
   },
   {
     "title": "California Steps Back From Dangerous Expansion of its Age-Gating Law",
@@ -322,6 +466,30 @@
     "why": "Initial signatories include AI pioneers Yoshua Bengio and Geoffrey Hinton, leading media voices Steve Bannon and Glenn Beck, Obama's National Security Advisor Susan Rice, business trailblazers Steve…",
     "watch": "Sourced from Future of Life Institute — verify dates and AI relevance.",
     "source": "https://futureoflife.org/press-release/prominent-scientists-faith-leaders-policymakers-and-artists-call-for-a-prohibition-on-superintelligence/"
+  },
+  {
+    "title": "AnovaX: A Local, Multi-Agent Voice Assistant with LLM Planning, Typed Executors, and Adaptive Recovery",
+    "date": "Mon, 20 Jul 2026",
+    "location": "TBC",
+    "host": "cs.AI updates on arXiv.org",
+    "applies": "Monitor",
+    "tag": "Child Safety",
+    "angle": "Child Safety / policy & regulation",
+    "why": "Desktop voice assistants are still dominated by cloud pipelines that ship raw audio off the machine and expose a fixed set of skills. We describe AnovaX, a small local-first assistant that runs…",
+    "watch": "Sourced from cs.AI updates on arXiv.org — verify dates and AI relevance.",
+    "source": "https://arxiv.org/abs/2607.15367"
+  },
+  {
+    "title": "Converging Safety and Security: IO-Link Wireless and OPC UA over 5G under prEN 50742",
+    "date": "Mon, 20 Jul 2026",
+    "location": "TBC",
+    "host": "cs.CR updates on arXiv.org",
+    "applies": "Monitor",
+    "tag": "Cybersecurity",
+    "angle": "Cybersecurity / policy & regulation",
+    "why": "The integration of wireless communication technologies in industrial automation offers greater flexibility, but also exposes safety systems to a broader threat vector. Emerging regulations, such as…",
+    "watch": "Sourced from cs.CR updates on arXiv.org — verify dates and AI relevance.",
+    "source": "https://arxiv.org/abs/2607.15840"
   },
   {
     "title": "French-Spanish operation targets hazardous waste trafficking network: four arrested",
@@ -1690,6 +1858,18 @@
     "why": "The Government has today (16 July) taken British Steel into public ownership to protect the future of steel production in the UK.",
     "watch": "Sourced from News and communications — verify dates and AI relevance.",
     "source": "https://www.gov.uk/government/news/government-brings-british-steel-into-public-ownership-to-protect-uk-steelmaking"
+  },
+  {
+    "title": "UK Maritime Innovation Hub establishes role as focal point for maritime innovation",
+    "date": "2026-07-20T11:26",
+    "location": "TBC",
+    "host": "News and communications",
+    "applies": "Monitor",
+    "tag": "AI Governance",
+    "angle": "AI Governance / policy & regulation",
+    "why": "Central role of UK Maritime Innovation Hub set out during first three months of operation.",
+    "watch": "Sourced from News and communications — verify dates and AI relevance.",
+    "source": "https://www.gov.uk/government/news/uk-maritime-innovation-hub-establishes-role-as-focal-point-for-maritime-innovation"
   },
   {
     "title": "New resubmission deadline for 2025 packaging data",
