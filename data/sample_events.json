@@ -984,6 +984,18 @@
     "source": "https://www.ncsc.gov.uk/report/nhs-covid-19-app-privacy-security-report"
   },
   {
+    "title": "UK armed forces step up monitoring of increased Russian activity in UK waters",
+    "date": "2026-08-08T16:17",
+    "location": "TBC",
+    "host": "News and communications",
+    "applies": "Monitor",
+    "tag": "AI Governance",
+    "angle": "AI Governance / policy & regulation",
+    "why": "Royal Navy warships and helicopters spent 21 days on operations monitoring Russian activity in UK waters and the North Atlantic throughout July.",
+    "watch": "Sourced from News and communications — verify dates and AI relevance.",
+    "source": "https://www.gov.uk/government/news/uk-armed-forces-step-up-monitoring-of-increased-russian-activity-in-uk-waters"
+  },
+  {
     "title": "DfE Update 5 August 2026",
     "date": "2026-08-05T12:03",
     "location": "TBC",
@@ -1486,18 +1498,6 @@
     "why": "A Somerset haulage operator has had its licence revoked, subject to a period of grace, after the Traffic Commissioner found that its director and transport manager repeatedly falsified drivers’ hours…",
     "watch": "Sourced from News and communications — verify dates and AI relevance.",
     "source": "https://www.gov.uk/government/news/haulier-faces-licence-revocation-after-director-admitted-tachograph-fraud"
-  },
-  {
-    "title": "EA commences criminal proceedings against Southern Water",
-    "date": "2026-07-22T13:03",
-    "location": "TBC",
-    "host": "News and communications",
-    "applies": "Monitor",
-    "tag": "Financial Crime",
-    "angle": "Financial Crime / cross-sector harm",
-    "why": "Four former employees from Southern Water, including the former Chief Executive Officer Matthew Wright, face a charge of conspiracy to defraud.",
-    "watch": "Sourced from News and communications — verify dates and AI relevance.",
-    "source": "https://www.gov.uk/government/news/ea-commences-criminal-proceedings-against-southern-water"
   },
   {
     "title": "NIST Releases New Forensic Genetic Reference Material to Help Crime Laboratories Analyze Challenging Cases",
