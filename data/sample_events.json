@@ -168,6 +168,18 @@
     "source": "https://www.eff.org/deeplinks/2026/07/san-francisco-dont-fall-industry-defense-surveillance-pricing"
   },
   {
+    "title": "IB-RL: Isolated Bilateral Reinforcement Learning for Strategic Dialogue Agents",
+    "date": "Mon, 10 Aug 2026",
+    "location": "TBC",
+    "host": "cs.AI updates on arXiv.org",
+    "applies": "Attend",
+    "tag": "Cybersecurity",
+    "angle": "Cybersecurity / policy & regulation",
+    "why": "Reinforcement learning (RL) has achieved strong results in improving large language models (LLMs) on tasks with stationary, verifiable rewards, such as mathematical reasoning and code execution. In…",
+    "watch": "Sourced from cs.AI updates on arXiv.org — verify dates and AI relevance.",
+    "source": "https://arxiv.org/abs/2608.06735"
+  },
+  {
     "title": "Tomorrow’s U.S. Senate Vote: Four Internet Bills, One Wrong Direction",
     "date": "Wed, 05 Aug 2026",
     "location": "TBC",
@@ -226,6 +238,18 @@
     "why": "The Europol Podcast is the official podcast of the EU’s agency for law enforcement cooperation. This season, we spoke to our Europol experts on the emerging threats and key developments in the field…",
     "watch": "Sourced from News — verify dates and AI relevance.",
     "source": "https://www.europol.europa.eu/media-press/newsroom/news/season-4-of-europol-podcast-available-now"
+  },
+  {
+    "title": "On Seeding Watermarks to Detect Verbatim LLM Copy-Paste Responses",
+    "date": "Mon, 10 Aug 2026",
+    "location": "TBC",
+    "host": "cs.CY updates on arXiv.org",
+    "applies": "Attend",
+    "tag": "AI Safety",
+    "angle": "AI Safety / policy & regulation",
+    "why": "arXiv:2605.16336v2 Announce Type: replace-cross Abstract: Large language models (LLMs) have made fluent essay writing, code drafting, and quiz answering instantly available to students at every…",
+    "watch": "Sourced from cs.CY updates on arXiv.org — verify dates and AI relevance.",
+    "source": "https://arxiv.org/abs/2605.16336"
   },
   {
     "title": "The United Kingdom remains resolute in our commitment to working with partners to combat terrorism in all its forms: UK…",
@@ -300,6 +324,18 @@
     "source": "https://www.un.org/en/civil-society/third-united-nations-conference-landlocked-developing-countries-lldc3"
   },
   {
+    "title": "Better Together: Quantifying the Benefits of AI-Assisted Recruitment",
+    "date": "Mon, 10 Aug 2026",
+    "location": "TBC",
+    "host": "cs.CY updates on arXiv.org",
+    "applies": "Monitor",
+    "tag": "Multilateral",
+    "angle": "Multilateral / technical AI",
+    "why": "arXiv:2507.08029v2 Announce Type: replace-cross Abstract: Hiring algorithms have mostly scored the materials recruiters already see. Large language models (LLMs) can instead generate new information…",
+    "watch": "Sourced from cs.CY updates on arXiv.org — verify dates and AI relevance.",
+    "source": "https://arxiv.org/abs/2507.08029"
+  },
+  {
     "title": "KDD-MLF 2025",
     "date": "Event",
     "location": "Where",
@@ -336,6 +372,30 @@
     "source": "http://www.wikicfp.com/cfp/servlet/event.showcfp?eventid=200223&copyownerid=162815"
   },
   {
+    "title": "Can MLLMs Decode the Creative Leap? Introducing C4 for Cross-Concept Understanding",
+    "date": "Mon, 10 Aug 2026",
+    "location": "TBC",
+    "host": "cs.AI updates on arXiv.org",
+    "applies": "Monitor",
+    "tag": "AI Governance",
+    "angle": "AI Governance / policy & regulation",
+    "why": "Creative capabilities of MLLMs matter in design, communication, education, and human--AI collaboration, yet remain difficult to evaluate because explicit targets and reward signals are scarce…",
+    "watch": "Sourced from cs.AI updates on arXiv.org — verify dates and AI relevance.",
+    "source": "https://arxiv.org/abs/2608.06501"
+  },
+  {
+    "title": "TRACE: A Multi-Layer Benchmark for Human AI Controller Coordination Under Drift and Failure",
+    "date": "Mon, 10 Aug 2026",
+    "location": "TBC",
+    "host": "cs.AI updates on arXiv.org",
+    "applies": "Monitor",
+    "tag": "Multilateral",
+    "angle": "Multilateral / policy & regulation",
+    "why": "Modern cyber-physical and AI-assisted systems couple human operators, AI decision modules, and automated controllers in a single control loop, so trustworthiness depends on the whole loop, not any…",
+    "watch": "Sourced from cs.AI updates on arXiv.org — verify dates and AI relevance.",
+    "source": "https://arxiv.org/abs/2608.06657"
+  },
+  {
     "title": "Helen Toner: the Hugging Face hack was just a matter of time and exposes a huge blind spot in AI policy",
     "date": "Tue, 28 Jul 2026",
     "location": "TBC",
@@ -358,6 +418,18 @@
     "why": "ICAIR 2024",
     "watch": "Sourced via WikiCFP — check agenda for AI harm/misuse sessions.",
     "source": "http://www.wikicfp.com/cfp/servlet/event.showcfp?eventid=178495&copyownerid=8438"
+  },
+  {
+    "title": "SenWorld: A Digital-Twin Simulation for Generating Context-Rich Evaluation Data",
+    "date": "Mon, 10 Aug 2026",
+    "location": "TBC",
+    "host": "cs.CY updates on arXiv.org",
+    "applies": "Monitor",
+    "tag": "Privacy & Surveillance",
+    "angle": "Privacy & Surveillance / technical AI",
+    "why": "arXiv:2607.19949v4 Announce Type: replace-cross Abstract: Smartphone personal assistants reason over longitudinal personal data, yet evaluating them requires context-rich evaluation data whose…",
+    "watch": "Sourced from cs.CY updates on arXiv.org — verify dates and AI relevance.",
+    "source": "https://arxiv.org/abs/2607.19949"
   },
   {
     "title": "ICBAP 2024",
@@ -984,6 +1056,18 @@
     "source": "https://www.ncsc.gov.uk/report/nhs-covid-19-app-privacy-security-report"
   },
   {
+    "title": "PM starts roll out of ‘everyday fixes’ on the cost of living – ending rip-off discounts and subscription traps",
+    "date": "2026-08-09T22:30",
+    "location": "TBC",
+    "host": "News and communications",
+    "applies": "Monitor",
+    "tag": "AI Governance",
+    "angle": "AI Governance / policy & regulation",
+    "why": "The Prime Minister has announced that he will be rolling out a series of ‘everyday fixes’ to help people with the cost of living, kicking off with two measures today.",
+    "watch": "Sourced from News and communications — verify dates and AI relevance.",
+    "source": "https://www.gov.uk/government/news/pm-starts-roll-out-of-everyday-fixes-on-the-cost-of-living-ending-rip-off-discounts-and-subscription-traps"
+  },
+  {
     "title": "UK armed forces step up monitoring of increased Russian activity in UK waters",
     "date": "2026-08-08T16:17",
     "location": "TBC",
@@ -1354,18 +1438,6 @@
     "why": "Indian students can apply for the UK government’s flagship international scholarships programme from 4 August to 6 October 2026.",
     "watch": "Sourced from News and communications — verify dates and AI relevance.",
     "source": "https://www.gov.uk/government/news/applications-open-for-2026-to-2027-chevening-scholarships-to-study-in-the-uk"
-  },
-  {
-    "title": "Generative AI in animals in science: response from Lord Hanson",
-    "date": "2026-07-22T14:43",
-    "location": "TBC",
-    "host": "News and communications",
-    "applies": "Monitor",
-    "tag": "AI Governance",
-    "angle": "AI Governance / technical AI",
-    "why": "Lord Hanson has responded to the Animals in Science Committee’s letter on the use of <mark>artificial</mark> <mark>intelligence</mark> in animals in science.",
-    "watch": "Sourced from News and communications — verify dates and AI relevance.",
-    "source": "https://www.gov.uk/government/publications/generative-ai-in-animals-in-science-response-from-lord-hanson"
   },
   {
     "title": "G7 Cyber Expert Group 2026 Cross Border Coordination Exercise (CBCE)",
