@@ -144,18 +144,6 @@
     "source": "https://www.europol.europa.eu/media-press/newsroom/news/europol-led-action-against-nihilistic-violent-extremist-network-com"
   },
   {
-    "title": "TeleGapper: On the (un)reliability of Privacy Policies in Telegram Mini apps",
-    "date": "Fri, 14 Aug 2026",
-    "location": "TBC",
-    "host": "cs.CR updates on arXiv.org",
-    "applies": "Attend",
-    "tag": "Privacy & Surveillance",
-    "angle": "Privacy & Surveillance / policy & regulation",
-    "why": "Telegram Mini Apps are Web applications embedded within the Telegram client, forming an ecosystem of third-party services within one of the world's most widely used messaging platforms. Despite their…",
-    "watch": "Sourced from cs.CR updates on arXiv.org — verify dates and AI relevance.",
-    "source": "https://arxiv.org/abs/2608.13390"
-  },
-  {
     "title": "San Francisco: Don’t Fall for Industry Defense of Surveillance Pricing",
     "date": "Tue, 28 Jul 2026",
     "location": "TBC",
@@ -166,18 +154,6 @@
     "why": "The concept of “surveillance pricing” is just one part of a much larger problem and business model: corporations maximizing their profits by invading our privacy. The all-too-common business model is…",
     "watch": "Sourced from Deeplinks — verify dates and AI relevance.",
     "source": "https://www.eff.org/deeplinks/2026/07/san-francisco-dont-fall-industry-defense-surveillance-pricing"
-  },
-  {
-    "title": "Non-Degenerate Risk Certification for Automated Security Decisions: A Decision-Contract Theory with ATT\\&CK-Aligned…",
-    "date": "Fri, 14 Aug 2026",
-    "location": "TBC",
-    "host": "cs.CR updates on arXiv.org",
-    "applies": "Attend",
-    "tag": "Cybersecurity",
-    "angle": "Cybersecurity / technical AI",
-    "why": "An unconditional risk bound on automated decisions can be satisfied without automating anything, since a selector that never acts drives the bound to zero. We show this is structural: any risk…",
-    "watch": "Sourced from cs.CR updates on arXiv.org — verify dates and AI relevance.",
-    "source": "https://arxiv.org/abs/2608.12444"
   },
   {
     "title": "Tomorrow’s U.S. Senate Vote: Four Internet Bills, One Wrong Direction",
@@ -337,7 +313,7 @@
   },
   {
     "title": "Multi-Agent Scheduling with LLM-Assisted Contract Net Negotiation for Stream Processing in Mobile Edge Computing",
-    "date": "Fri, 14 Aug 2026",
+    "date": "Sat, 15 Aug 2026",
     "location": "TBC",
     "host": "cs.AI updates on arXiv.org",
     "applies": "Monitor",
@@ -373,7 +349,7 @@
   },
   {
     "title": "Auditable agentic AI for evidence-grounded thyroid ultrasound diagnosis and reporting",
-    "date": "Fri, 14 Aug 2026",
+    "date": "Sat, 15 Aug 2026",
     "location": "TBC",
     "host": "cs.AI updates on arXiv.org",
     "applies": "Monitor",
@@ -385,7 +361,7 @@
   },
   {
     "title": "Dead text or binding clause? Measuring and restoring constraint influence in black-box LLM dialogues",
-    "date": "Fri, 14 Aug 2026",
+    "date": "Sat, 15 Aug 2026",
     "location": "TBC",
     "host": "cs.AI updates on arXiv.org",
     "applies": "Monitor",
@@ -394,18 +370,6 @@
     "why": "Multi-turn dialogues let users revoke constraints as easily as impose them, but revocation does not reliably take effect: models keep enacting withdrawn requirements (occasionally beneath comments…",
     "watch": "Sourced from cs.AI updates on arXiv.org — verify dates and AI relevance.",
     "source": "https://arxiv.org/abs/2608.12599"
-  },
-  {
-    "title": "Understanding Backdoor Vulnerabilities in Vertical Federated Learning: The Gap Between Research and Practice",
-    "date": "Fri, 14 Aug 2026",
-    "location": "TBC",
-    "host": "cs.CR updates on arXiv.org",
-    "applies": "Monitor",
-    "tag": "Privacy & Surveillance",
-    "angle": "Privacy & Surveillance / technical AI",
-    "why": "Vertical Federated Learning (VFL) enables organizations holding complementary features of shared entities to collaborate and train models. In this setting, the initiator can withhold information…",
-    "watch": "Sourced from cs.CR updates on arXiv.org — verify dates and AI relevance.",
-    "source": "https://arxiv.org/abs/2608.12962"
   },
   {
     "title": "Governing GP AI Systems 2026",
@@ -505,7 +469,7 @@
   },
   {
     "title": "Dual-Flow Transformers: Decoupling the Primary Prefill Path from Additional Decode Computation",
-    "date": "Fri, 14 Aug 2026",
+    "date": "Sat, 15 Aug 2026",
     "location": "TBC",
     "host": "cs.AI updates on arXiv.org",
     "applies": "Monitor",
@@ -514,30 +478,6 @@
     "why": "As large language models serve more requests, cumulative inference cost is becoming increasingly important relative to one-time training cost. The two inference phases stress hardware differently:…",
     "watch": "Sourced from cs.AI updates on arXiv.org — verify dates and AI relevance.",
     "source": "https://arxiv.org/abs/2608.12385"
-  },
-  {
-    "title": "Fundamental Mathematics in the Age of AI -- The Residue, the Journey, and the Ecology",
-    "date": "Fri, 14 Aug 2026",
-    "location": "TBC",
-    "host": "cs.CY updates on arXiv.org",
-    "applies": "Monitor",
-    "tag": "AI Governance",
-    "angle": "AI Governance / policy & regulation",
-    "why": "Large language models have begun refuting long-standing conjectures and, for a few thousand dollars of tokens, solving long-open problems (OpenAI, August 2026). The introspection this has prompted…",
-    "watch": "Sourced from cs.CY updates on arXiv.org — verify dates and AI relevance.",
-    "source": "https://arxiv.org/abs/2608.12816"
-  },
-  {
-    "title": "Beyond Source: An Empirical Study of Python Bytecode Security Risks",
-    "date": "Fri, 14 Aug 2026",
-    "location": "TBC",
-    "host": "cs.CR updates on arXiv.org",
-    "applies": "Monitor",
-    "tag": "AI Governance",
-    "angle": "AI Governance / technical AI",
-    "why": "Python package security is largely source-centric, yet Python runtimes can execute bytecode directly through .pyc files, compiled-only modules, and marshalled code objects, creating an…",
-    "watch": "Sourced from cs.CR updates on arXiv.org — verify dates and AI relevance.",
-    "source": "https://arxiv.org/abs/2608.12853"
   },
   {
     "title": "India AI Impact Summit panel: Towards multilateral agreement on enforcing red lines",
@@ -811,7 +751,7 @@
     "applies": "Monitor",
     "tag": "EU Governance",
     "angle": "EU Governance / policy & regulation",
-    "why": "The MHRA has become aware of a number of medical devices being supplied on the UK market that do not comply with the requirements of the UK Medical Device Regulations 2002 (UK MDR 2002) or with the…",
+    "why": "The MHRA has become aware of a number of medical devices being supplied on the UK market that do not comply with the requirements of the UK Medical Device Regulations or with the EU Medical Devices…",
     "watch": "Sourced from News and communications — verify dates and AI relevance.",
     "source": "https://www.gov.uk/government/news/mhra-advises-quarantine-of-medical-devices-supplied-without-appropriate-conformity-markings"
   },
@@ -862,6 +802,18 @@
     "why": "The AI Action Summit will take place in Paris from 10-11 February 2025. Here we list the agenda and key deliverables.",
     "watch": "Sourced from Future of Life Institute — verify dates and AI relevance.",
     "source": "https://futureoflife.org/ai-policy/context-and-agenda-2025-ai-action-summit/"
+  },
+  {
+    "title": "Emergency Alert to be sent to England and Wales as Government steps up wildfire response with funding, military support…",
+    "date": "2026-08-14T19:17",
+    "location": "TBC",
+    "host": "News and communications",
+    "applies": "Monitor",
+    "tag": "AI Governance",
+    "angle": "AI Governance / policy & regulation",
+    "why": "People across England and Wales will receive an Emergency Alert on their phones today as the Government steps up action to protect communities from the growing threat posed by wildfires.",
+    "watch": "Sourced from News and communications — verify dates and AI relevance.",
+    "source": "https://www.gov.uk/government/news/emergency-alert-to-be-sent-to-england-and-wales-as-government-steps-up-wildfire-response-with-funding-military-support-and-bbq-ban"
   },
   {
     "title": "Over 33 tonnes of suspected illegal food seized following NFCU arrest and partner operation",
@@ -1152,6 +1104,18 @@
     "source": "https://www.gov.uk/government/news/waterway-vandalism-puts-lives-at-risk-and-worsens-drought-impacts"
   },
   {
+    "title": "Gloucester illegal waste site shut down",
+    "date": "2026-08-14T16:41",
+    "location": "TBC",
+    "host": "News and communications",
+    "applies": "Monitor",
+    "tag": "AI Governance",
+    "angle": "AI Governance / policy & regulation",
+    "why": "A court order is now in place prohibiting anyone from entering or importing waste onto a site at Severnside Farm, Gloucester.",
+    "watch": "Sourced from News and communications — verify dates and AI relevance.",
+    "source": "https://www.gov.uk/government/news/gloucester-illegal-waste-site-shut-down"
+  },
+  {
     "title": "CMA proposes removing 27 market remedies in part or full following review",
     "date": "2026-08-12T10:07",
     "location": "TBC",
@@ -1318,6 +1282,18 @@
     "why": "Indian students can apply for the UK government’s flagship international scholarships programme from 4 August to 6 October 2026.",
     "watch": "Sourced from News and communications — verify dates and AI relevance.",
     "source": "https://www.gov.uk/government/news/applications-open-for-2027-to-2028-chevening-scholarships-to-study-in-the-uk"
+  },
+  {
+    "title": "Two new non-executive directors appointed to the DVSA board",
+    "date": "2026-08-14T14:22",
+    "location": "TBC",
+    "host": "News and communications",
+    "applies": "Monitor",
+    "tag": "AI Governance",
+    "angle": "AI Governance / governance & institutions",
+    "why": "Heidi Alexander, Secretary of State for Transport, has appointed 2 new non-executive directors to the Driver and Vehicle Standards Agency (DVSA) board.",
+    "watch": "Sourced from News and communications — verify dates and AI relevance.",
+    "source": "https://www.gov.uk/government/news/two-new-non-executive-directors-appointed-to-the-dvsa-board"
   },
   {
     "title": "New AI Model Shows How to Evacuate for Fires One Safe Step at a Time",
@@ -1620,6 +1596,42 @@
     "source": "https://www.gov.uk/government/news/ai-to-power-change-at-the-heart-of-government-as-lord-vallance-appointed-chair-of-new-pm-ai-taskforce"
   },
   {
+    "title": "Vimseltinib (romvimza) approved for use in adults to treat tenosynovial giant cell tumours",
+    "date": "2026-08-14T12:34",
+    "location": "TBC",
+    "host": "News and communications",
+    "applies": "Monitor",
+    "tag": "AI Governance",
+    "angle": "AI Governance / policy & regulation",
+    "why": "As with any medicine, the MHRA will keep the <mark>safety</mark> and effectiveness of vimseltinib (romvizma) under close review.",
+    "watch": "Sourced from News and communications — verify dates and AI relevance.",
+    "source": "https://www.gov.uk/government/news/vimseltinib-romvimza-approved-for-use-in-adults-to-treat-tenosynovial-giant-cell-tumours"
+  },
+  {
+    "title": "UKHSA updates heat health alerts across England",
+    "date": "2026-08-14T12:22",
+    "location": "TBC",
+    "host": "News and communications",
+    "applies": "Monitor",
+    "tag": "AI Governance",
+    "angle": "AI Governance / policy & regulation",
+    "why": "An amber heat-health alert is now in place across all regions in England.",
+    "watch": "Sourced from News and communications — verify dates and AI relevance.",
+    "source": "https://www.gov.uk/government/news/ukhsa-updates-heat-health-alerts-across-england"
+  },
+  {
+    "title": "Livestock keepers urged to be on high alert and consider vaccination as Bluetongue cases rise",
+    "date": "2026-08-14T12:01",
+    "location": "TBC",
+    "host": "News and communications",
+    "applies": "Monitor",
+    "tag": "AI Governance",
+    "angle": "AI Governance / policy & regulation",
+    "why": "Bluetongue virus infections continue to rise due to favourable weather conditions",
+    "watch": "Sourced from News and communications — verify dates and AI relevance.",
+    "source": "https://www.gov.uk/government/news/livestock-keepers-urged-to-be-on-high-alert-and-consider-vaccination--as-bluetongue-cases-rise"
+  },
+  {
     "title": "Millions to receive essential benefit payments early",
     "date": "2026-08-14T00:01",
     "location": "TBC",
@@ -1716,18 +1728,6 @@
     "source": "https://www.gov.uk/government/news/suspended-prison-term-for-skip-hire-boss"
   },
   {
-    "title": "UKHSA updates heat health alerts across England",
-    "date": "2026-08-11T12:11",
-    "location": "TBC",
-    "host": "News and communications",
-    "applies": "Monitor",
-    "tag": "AI Governance",
-    "angle": "AI Governance / policy & regulation",
-    "why": "An amber heat-health alert is now in place across all regions in England.",
-    "watch": "Sourced from News and communications — verify dates and AI relevance.",
-    "source": "https://www.gov.uk/government/news/ukhsa-updates-heat-health-alerts-across-england"
-  },
-  {
     "title": "UK first in Europe to authorise orforglipron for weight management and type 2 diabetes",
     "date": "2026-08-10T12:27",
     "location": "TBC",
@@ -1752,40 +1752,28 @@
     "source": "https://www.gov.uk/government/news/130-million-for-cutting-edge-next-generation-vehicles-securing-over-1800-jobs"
   },
   {
-    "title": "UK appoints Alex Milward as new HMTC for North America and HM Consul General New York",
-    "date": "2026-08-10T11:39",
+    "title": "Two members appointed to the S4C Board",
+    "date": "2026-08-14T15:48",
     "location": "TBC",
     "host": "News and communications",
     "applies": "Monitor",
     "tag": "AI Governance",
     "angle": "AI Governance / policy & regulation",
-    "why": "Alex takes up the role at an important moment for the UK’s relationship with North America.",
+    "why": "The Secretary of State has appointed Rhodri Lewis and Stephen Dimmick for four-year terms commencing 1 September 2026.",
     "watch": "Sourced from News and communications — verify dates and AI relevance.",
-    "source": "https://www.gov.uk/government/news/uk-appoints-alex-milward-as-new-hmtc-for-north-america-and-hm-consul-general-new-york"
+    "source": "https://www.gov.uk/government/news/two-members-appointed-to-the-s4c-board--2"
   },
   {
-    "title": "Taking medication this summer? What you need to know about sun and heat exposure",
-    "date": "2026-08-07T17:12",
+    "title": "Environmental permit variation granted to Drax Power Limited",
+    "date": "2026-08-14T14:55",
     "location": "TBC",
     "host": "News and communications",
     "applies": "Monitor",
     "tag": "AI Governance",
     "angle": "AI Governance / policy & regulation",
-    "why": "Some medicines can make you more sensitive to the sun or increase the risk of dehydration without you realising it. The MHRA is encouraging people to know the risks and stay protected this summer.",
+    "why": "The Environment Agency has granted an environmental permit variation to Drax Power Limited in Yorkshire.",
     "watch": "Sourced from News and communications — verify dates and AI relevance.",
-    "source": "https://www.gov.uk/government/news/taking-medication-this-summer-what-you-need-to-know-about-sun-and-heat-exposure"
-  },
-  {
-    "title": "Certification Officer: Announcements",
-    "date": "2026-08-07T16:17",
-    "location": "TBC",
-    "host": "News and communications",
-    "applies": "Monitor",
-    "tag": "AI Governance",
-    "angle": "AI Governance / policy & regulation",
-    "why": "General announcements and latest decisions of the Certification Officer.",
-    "watch": "Sourced from News and communications — verify dates and AI relevance.",
-    "source": "https://www.gov.uk/government/news/certification-officer-latest-decisions"
+    "source": "https://www.gov.uk/government/news/environmental-permit-variation-granted-to-drax-power-limited"
   },
   {
     "title": "Charity regulator appoints Interim Managers to the London Spiritual Mission",
@@ -1810,18 +1798,6 @@
     "why": "The Ministry of Justice is inviting nominations for the award of King’s Counsel Honoris Causa. Please submit nominations via the digital form below, before the deadline of 18 September 2026.",
     "watch": "Sourced from News and communications — verify dates and AI relevance.",
     "source": "https://www.gov.uk/government/news/honorary-kings-counsel-nominations-deadline-18-september-2026"
-  },
-  {
-    "title": "Two Trustees reappointed to the Theatres Trust board",
-    "date": "2026-08-10T12:00",
-    "location": "TBC",
-    "host": "News and communications",
-    "applies": "Monitor",
-    "tag": "AI Governance",
-    "angle": "AI Governance / policy & regulation",
-    "why": "The Secretary of State for Digital, Culture, Media and Sport has reappointed Annie Hampson and Katie Town as Trustees of the Theatres Trust Board for six months from 13 September 2026.",
-    "watch": "Sourced from News and communications — verify dates and AI relevance.",
-    "source": "https://www.gov.uk/government/news/two-trustees-reappointed-to-the-theatres-trust-board"
   },
   {
     "title": "NIST National Construction Safety Team Advisory Committee Meeting Scheduled for Sept. 23 and 24, 2026",
