@@ -132,6 +132,18 @@
     "source": "https://www.eff.org/deeplinks/2026/07/stealth-crawlers-are-not-threat-open-web-bills-targeting-them-would-be"
   },
   {
+    "title": "STINER: Automated Extraction of Strategic Cyber Threat Intelligence from X",
+    "date": "Mon, 17 Aug 2026",
+    "location": "TBC",
+    "host": "cs.CR updates on arXiv.org",
+    "applies": "Attend",
+    "tag": "Cybersecurity",
+    "angle": "Cybersecurity / technical AI",
+    "why": "Strategic Cyber Threat Intelligence (CTI) focuses on high-level insights, such as identifying targeted industries, attributing attacks to specific ransomware groups, and assessing the scale of data…",
+    "watch": "Sourced from cs.CR updates on arXiv.org — verify dates and AI relevance.",
+    "source": "https://arxiv.org/abs/2608.14418"
+  },
+  {
     "title": "Europol-led action against nihilistic violent extremist network \"The Com\"",
     "date": "TBC",
     "location": "TBC",
@@ -154,6 +166,18 @@
     "why": "The concept of “surveillance pricing” is just one part of a much larger problem and business model: corporations maximizing their profits by invading our privacy. The all-too-common business model is…",
     "watch": "Sourced from Deeplinks — verify dates and AI relevance.",
     "source": "https://www.eff.org/deeplinks/2026/07/san-francisco-dont-fall-industry-defense-surveillance-pricing"
+  },
+  {
+    "title": "ASSERT: A Measurement Pipeline for GenAI Audits",
+    "date": "Mon, 17 Aug 2026",
+    "location": "TBC",
+    "host": "cs.CY updates on arXiv.org",
+    "applies": "Attend",
+    "tag": "AI Governance",
+    "angle": "AI Governance / governance & institutions",
+    "why": "Audits of generative AI (GenAI) systems often summarize behavior as a reported rate: how often the audited system complies with policy. Researchers and stakeholders use that rate to compare systems,…",
+    "watch": "Sourced from cs.CY updates on arXiv.org — verify dates and AI relevance.",
+    "source": "https://arxiv.org/abs/2608.13840"
   },
   {
     "title": "Tomorrow’s U.S. Senate Vote: Four Internet Bills, One Wrong Direction",
@@ -216,6 +240,18 @@
     "source": "https://www.europol.europa.eu/media-press/newsroom/news/season-4-of-europol-podcast-available-now"
   },
   {
+    "title": "Characterizing the Variance Envelope: A Multi-Dimensional Analysis of Spectre Telemetry Across Architectures and…",
+    "date": "Mon, 17 Aug 2026",
+    "location": "TBC",
+    "host": "cs.CR updates on arXiv.org",
+    "applies": "Attend",
+    "tag": "Cybersecurity",
+    "angle": "Cybersecurity / technical AI",
+    "why": "Hardware attacks like Spectre exploit built-in processor vulnerabilities, leaving anomalous footprints in Hardware Performance Counter (HPC) metrics. While machine learning can detect these…",
+    "watch": "Sourced from cs.CR updates on arXiv.org — verify dates and AI relevance.",
+    "source": "https://arxiv.org/abs/2608.13920"
+  },
+  {
     "title": "The United Kingdom remains resolute in our commitment to working with partners to combat terrorism in all its forms: UK…",
     "date": "2026-08-05T15:59",
     "location": "TBC",
@@ -252,6 +288,18 @@
     "source": "https://www.eff.org/deeplinks/2026/08/appeals-court-agrees-eff-building-web-browser-doesnt-violate-cfaa"
   },
   {
+    "title": "Simulation-Aware In-Context Policy Improvement for LLM-Aided Analog Layout Refinement",
+    "date": "Mon, 17 Aug 2026",
+    "location": "TBC",
+    "host": "cs.AI updates on arXiv.org",
+    "applies": "Monitor",
+    "tag": "AI Governance",
+    "angle": "AI Governance / policy & regulation",
+    "why": "Analog IC layout design remains a labor-intensive iterative process dominated by simulation-driven refinement. Although end-to-end layout generators accelerate initial placement and routing, they…",
+    "watch": "Sourced from cs.AI updates on arXiv.org — verify dates and AI relevance.",
+    "source": "https://arxiv.org/abs/2608.13767"
+  },
+  {
     "title": "International Seabed Authority",
     "date": "Thu, 21 Sep 2023",
     "location": "TBC",
@@ -264,6 +312,30 @@
     "source": "https://www.un.org/en/card/209805"
   },
   {
+    "title": "Evaluating Agentic Learning Harness Capabilities Without Labels via the Scaling Hypothesis",
+    "date": "Mon, 17 Aug 2026",
+    "location": "TBC",
+    "host": "cs.AI updates on arXiv.org",
+    "applies": "Monitor",
+    "tag": "Multilateral",
+    "angle": "Multilateral / policy & regulation",
+    "why": "Agentic \"Continual Learning Harnesses\", systems that pair an LLM with retrieval or memory to improve from feedback without retraining, have shown growing value in cybersecurity. But their value is…",
+    "watch": "Sourced from cs.AI updates on arXiv.org — verify dates and AI relevance.",
+    "source": "https://arxiv.org/abs/2608.13608"
+  },
+  {
+    "title": "INSIDE the Student's Mind: Jointly Modeling Latent Reasoning and Action in LLM Student Simulators",
+    "date": "Mon, 17 Aug 2026",
+    "location": "TBC",
+    "host": "cs.CY updates on arXiv.org",
+    "applies": "Monitor",
+    "tag": "AI Safety",
+    "angle": "AI Safety / policy & regulation",
+    "why": "arXiv:2608.10492v2 Announce Type: replace-cross Abstract: Large Language Model (LLM)-based simulators often reproduce observable actions but fail to capture the underlying reasoning behind them. In…",
+    "watch": "Sourced from cs.CY updates on arXiv.org — verify dates and AI relevance.",
+    "source": "https://arxiv.org/abs/2608.10492"
+  },
+  {
     "title": "Third United Nations Conference on Landlocked Developing Countries (LLDC3)",
     "date": "Tue, 24 Oct 2023",
     "location": "TBC",
@@ -274,6 +346,18 @@
     "why": "Third UN Conference on&nbsp; Landlocked Developing Countries&nbsp; Awaza, Turkmenistan&nbsp; 5-8 August&nbsp;2025&nbsp; Driving Progress through partnerships&nbsp; &nbsp; &nbsp; The United Nations…",
     "watch": "Sourced from United Nations — verify dates and AI relevance.",
     "source": "https://www.un.org/en/civil-society/third-united-nations-conference-landlocked-developing-countries-lldc3"
+  },
+  {
+    "title": "Cross-Disciplinary Taxonomy and Modeling of Misunderstanding Generation, Amplification, and Detection, from Pragmatics…",
+    "date": "Mon, 17 Aug 2026",
+    "location": "TBC",
+    "host": "cs.AI updates on arXiv.org",
+    "applies": "Monitor",
+    "tag": "AI Governance",
+    "angle": "AI Governance / technical AI",
+    "why": "Detection of misunderstanding is an urgent problem to solve because communication has moved away from real-time, in-person interaction and is increasingly handled by AI-mediated channels. This shift…",
+    "watch": "Sourced from cs.AI updates on arXiv.org — verify dates and AI relevance.",
+    "source": "https://arxiv.org/abs/2608.13604"
   },
   {
     "title": "KDD-MLF 2025",
@@ -360,6 +444,18 @@
     "source": "http://www.wikicfp.com/cfp/servlet/event.showcfp?eventid=182166&copyownerid=13149"
   },
   {
+    "title": "Extracting and Verifying Illicit Bitcoin Addresses from Underground Forum Discussions",
+    "date": "Mon, 17 Aug 2026",
+    "location": "TBC",
+    "host": "cs.CR updates on arXiv.org",
+    "applies": "Monitor",
+    "tag": "Cybersecurity",
+    "angle": "Cybersecurity / cross-sector harm",
+    "why": "Existing labeled Bitcoin datasets are largely derived from community-reported abuse, blockchain heuristics, incident-specific collections, or proprietary labeling processes. Their construction…",
+    "watch": "Sourced from cs.CR updates on arXiv.org — verify dates and AI relevance.",
+    "source": "https://arxiv.org/abs/2608.13930"
+  },
+  {
     "title": "DfP 2026",
     "date": "Data for Policy 2026 (DfP’26) -  Call for Abstracts, Full Papers, and Panels",
     "location": "TBC",
@@ -408,6 +504,18 @@
     "source": "https://futureoflife.org/press-release/prominent-scientists-faith-leaders-policymakers-and-artists-call-for-a-prohibition-on-superintelligence/"
   },
   {
+    "title": "Secret-Stego Dissimilarity as a Design Axis: Invertible Coverless Image Steganography with Diffusion Models",
+    "date": "Mon, 17 Aug 2026",
+    "location": "TBC",
+    "host": "cs.CR updates on arXiv.org",
+    "applies": "Monitor",
+    "tag": "AI Governance",
+    "angle": "AI Governance / policy & regulation",
+    "why": "Coverless image steganography (CIS) synthesizes a stego image rather than modifying an existing cover image, enabling authorized recipients to reconstruct the original secret image from the stego.…",
+    "watch": "Sourced from cs.CR updates on arXiv.org — verify dates and AI relevance.",
+    "source": "https://arxiv.org/abs/2608.13597"
+  },
+  {
     "title": "French-Spanish operation targets hazardous waste trafficking network: four arrested",
     "date": "TBC",
     "location": "TBC",
@@ -430,6 +538,66 @@
     "why": "Developers Must Beware of Ad Libraries that Betray Users’ Privacy SAN FRANCISCO – Some software development kits (SDKs) provided by advertising companies to help developers monetize their apps are…",
     "watch": "Sourced from Deeplinks — verify dates and AI relevance.",
     "source": "https://www.eff.org/press/releases/mobile-ad-software-encourages-location-data-sharing-eff-report-finds"
+  },
+  {
+    "title": "Algorithm Design and Physician Liability",
+    "date": "Mon, 17 Aug 2026",
+    "location": "TBC",
+    "host": "cs.AI updates on arXiv.org",
+    "applies": "Monitor",
+    "tag": "AI Governance",
+    "angle": "AI Governance / technical AI",
+    "why": "A single clinical algorithm can deliver unequal accuracy across patient groups, and concern about such disparity has grown as artificial intelligence (AI) spreads through clinical decision-making. In…",
+    "watch": "Sourced from cs.AI updates on arXiv.org — verify dates and AI relevance.",
+    "source": "https://arxiv.org/abs/2608.13618"
+  },
+  {
+    "title": "Learning to Assemble Novel Structures with Unfamiliar Parts under Semantic Constraints",
+    "date": "Mon, 17 Aug 2026",
+    "location": "TBC",
+    "host": "cs.AI updates on arXiv.org",
+    "applies": "Monitor",
+    "tag": "Cybersecurity",
+    "angle": "Cybersecurity / technical AI",
+    "why": "This paper describes a neurosymbolic architecture for learning to assemble novel structures using evidence from embodied conversations and task demonstrations. We focus on scenarios where an agent…",
+    "watch": "Sourced from cs.AI updates on arXiv.org — verify dates and AI relevance.",
+    "source": "https://arxiv.org/abs/2608.13684"
+  },
+  {
+    "title": "Asymmetric Discourse Homogenization and Shared Language Technology: Evidence from Reddit",
+    "date": "Mon, 17 Aug 2026",
+    "location": "TBC",
+    "host": "cs.CY updates on arXiv.org",
+    "applies": "Monitor",
+    "tag": "AI Governance",
+    "angle": "AI Governance / technical AI",
+    "why": "I document an ideologically asymmetric break in the pre-existing diversification trend of political discourse, emerging around late 2022, using 6 million Reddit comments from two cross-partisan…",
+    "watch": "Sourced from cs.CY updates on arXiv.org — verify dates and AI relevance.",
+    "source": "https://arxiv.org/abs/2608.13674"
+  },
+  {
+    "title": "Epistemic Tensions: Reframing A Visualization Co-Design through Entanglement Theory",
+    "date": "Mon, 17 Aug 2026",
+    "location": "TBC",
+    "host": "cs.CY updates on arXiv.org",
+    "applies": "Monitor",
+    "tag": "Multilateral",
+    "angle": "Multilateral / policy & regulation",
+    "why": "In this work, we present how employing the lens of entanglement helped us examine and reframe epistemic tensions arising in a visualization co-design project. Entanglement theory challenges…",
+    "watch": "Sourced from cs.CY updates on arXiv.org — verify dates and AI relevance.",
+    "source": "https://arxiv.org/abs/2608.14364"
+  },
+  {
+    "title": "Vaulted Passkeys: A Device-Bound Proposal for Authenticated Credential Export and Import",
+    "date": "Mon, 17 Aug 2026",
+    "location": "TBC",
+    "host": "cs.CR updates on arXiv.org",
+    "applies": "Monitor",
+    "tag": "AI Governance",
+    "angle": "AI Governance / technical AI",
+    "why": "Hardware authenticators deliberately resist private-key extraction, yet replacement, disaster recovery, and controlled migration create a legitimate need for portability. Existing guidance for…",
+    "watch": "Sourced from cs.CR updates on arXiv.org — verify dates and AI relevance.",
+    "source": "https://arxiv.org/abs/2608.13806"
   },
   {
     "title": "India AI Impact Summit panel: Towards multilateral agreement on enforcing red lines",
@@ -1548,6 +1716,18 @@
     "source": "https://www.gov.uk/government/news/ai-to-power-change-at-the-heart-of-government-as-lord-vallance-appointed-chair-of-new-pm-ai-taskforce"
   },
   {
+    "title": "Full steam ahead to fast-track more homes near stations",
+    "date": "2026-08-17T00:01",
+    "location": "TBC",
+    "host": "News and communications",
+    "applies": "Monitor",
+    "tag": "AI Governance",
+    "angle": "AI Governance / policy & regulation",
+    "why": "Thousands of quality homes to be built closer to stations, cutting commute times and helping families live closer to work, school and transport",
+    "watch": "Sourced from News and communications — verify dates and AI relevance.",
+    "source": "https://www.gov.uk/government/news/full-steam-ahead-to-fast-track-more-homes-near-stations"
+  },
+  {
     "title": "Vimseltinib (romvimza) approved for use in adults to treat tenosynovial giant cell tumours",
     "date": "2026-08-14T12:34",
     "location": "TBC",
@@ -1690,18 +1870,6 @@
     "why": "As with all GLP-1 receptor agonists, the MHRA will keep the <mark>safety</mark> and effectiveness of orforglipron under close review.",
     "watch": "Sourced from News and communications — verify dates and AI relevance.",
     "source": "https://www.gov.uk/government/news/uk-first-in-europe-to-authorise-orforglipron-for-weight-management-and-type-2-diabetes"
-  },
-  {
-    "title": "£130 million for cutting-edge next generation vehicles securing over 1,800 jobs",
-    "date": "2026-08-10T12:09",
-    "location": "TBC",
-    "host": "News and communications",
-    "applies": "Monitor",
-    "tag": "AI Governance",
-    "angle": "AI Governance / policy & regulation",
-    "why": "Britain&#39;s automotive sector will benefit from almost £130 million of investment to ramp up new zero emission technologies, government has announced today.",
-    "watch": "Sourced from News and communications — verify dates and AI relevance.",
-    "source": "https://www.gov.uk/government/news/130-million-for-cutting-edge-next-generation-vehicles-securing-over-1800-jobs"
   },
   {
     "title": "Two members appointed to the S4C Board",
