@@ -144,18 +144,6 @@
     "source": "https://www.europol.europa.eu/media-press/newsroom/news/europol-led-action-against-nihilistic-violent-extremist-network-com"
   },
   {
-    "title": "Large Models for Battery Prognostics and Health Management: A Review and Future Roadmap",
-    "date": "Sat, 29 Aug 2026",
-    "location": "TBC",
-    "host": "cs.AI updates on arXiv.org",
-    "applies": "Attend",
-    "tag": "Multilateral",
-    "angle": "Multilateral / technical AI",
-    "why": "Battery Prognostics and Health Management (BPHM) is critical for ensuring the safe, reliable, and cost-effective operation of batteries across electric vehicles, grid storage, and consumer…",
-    "watch": "Sourced from cs.AI updates on arXiv.org — verify dates and AI relevance.",
-    "source": "https://arxiv.org/abs/2608.26111"
-  },
-  {
     "title": "Ninth Circuit Ruling Will Force Online Platforms That Host User Speech to Fight Lengthy and Costly Lawsuits Before They…",
     "date": "Tue, 18 Aug 2026",
     "location": "TBC",
@@ -214,18 +202,6 @@
     "why": "In the scorching heat of every Las Vegas summer, EFF joins thousands of hackers, makers, policy analysts, and activists for the world's largest computer security gathering. If you're there during…",
     "watch": "Sourced from Deeplinks — verify dates and AI relevance.",
     "source": "https://www.eff.org/deeplinks/2026/07/vv26"
-  },
-  {
-    "title": "Explainable Artificial Intelligence for Customer Churn Prediction in Telecommunications: A Framework for CRM Integration",
-    "date": "Sat, 29 Aug 2026",
-    "location": "TBC",
-    "host": "cs.AI updates on arXiv.org",
-    "applies": "Attend",
-    "tag": "AI Governance",
-    "angle": "AI Governance / policy & regulation",
-    "why": "Subscriber attrition is a costly, persistent challenge for telecommunications providers, with monthly churn of roughly 1.9% in mature markets eroding billions in revenue annually. Predictive models…",
-    "watch": "Sourced from cs.AI updates on arXiv.org — verify dates and AI relevance.",
-    "source": "https://arxiv.org/abs/2608.26151"
   },
   {
     "title": "Season 4 of The Europol Podcast available now",
@@ -288,18 +264,6 @@
     "source": "https://www.un.org/en/card/209805"
   },
   {
-    "title": "Why did My Robot Just Change Personality? Prompting Guidelines for a Grounded Robot Persona in LLM-Based HRI",
-    "date": "Sat, 29 Aug 2026",
-    "location": "TBC",
-    "host": "cs.AI updates on arXiv.org",
-    "applies": "Monitor",
-    "tag": "Child Safety",
-    "angle": "Child Safety / policy & regulation",
-    "why": "Large language models (LLMs) are increasingly used for verbal interaction in social robots, yet prompt design in human-robot interaction (HRI) remains underspecified. As a result, robots may present…",
-    "watch": "Sourced from cs.AI updates on arXiv.org — verify dates and AI relevance.",
-    "source": "https://arxiv.org/abs/2608.26182"
-  },
-  {
     "title": "Third United Nations Conference on Landlocked Developing Countries (LLDC3)",
     "date": "Tue, 24 Oct 2023",
     "location": "TBC",
@@ -310,18 +274,6 @@
     "why": "Third UN Conference on&nbsp; Landlocked Developing Countries&nbsp; Awaza, Turkmenistan&nbsp; 5-8 August&nbsp;2025&nbsp; Driving Progress through partnerships&nbsp; &nbsp; &nbsp; The United Nations…",
     "watch": "Sourced from United Nations — verify dates and AI relevance.",
     "source": "https://www.un.org/en/civil-society/third-united-nations-conference-landlocked-developing-countries-lldc3"
-  },
-  {
-    "title": "Benchmarking AI Agents for Hardware Design Automation via MCP Tool Calling",
-    "date": "Sat, 29 Aug 2026",
-    "location": "TBC",
-    "host": "cs.AI updates on arXiv.org",
-    "applies": "Monitor",
-    "tag": "Multilateral",
-    "angle": "Multilateral / technical AI",
-    "why": "We ask whether AI agents powered by locally deployed large language models can reliably automate expert-defined hardware design workflows in an industry-realistic tool-calling setting. In these…",
-    "watch": "Sourced from cs.AI updates on arXiv.org — verify dates and AI relevance.",
-    "source": "https://arxiv.org/abs/2608.26199"
   },
   {
     "title": "KDD-MLF 2025",
@@ -358,18 +310,6 @@
     "why": "AIDA 2026",
     "watch": "Sourced via WikiCFP — check agenda for AI harm/misuse sessions.",
     "source": "http://www.wikicfp.com/cfp/servlet/event.showcfp?eventid=200223&copyownerid=162815"
-  },
-  {
-    "title": "A Safety-Gated Multimodal AI Backend for Mental-Health Support: Hierarchical State Representation, Conservative Risk…",
-    "date": "Sat, 29 Aug 2026",
-    "location": "TBC",
-    "host": "cs.AI updates on arXiv.org",
-    "applies": "Monitor",
-    "tag": "EU Governance",
-    "angle": "EU Governance / policy & regulation",
-    "why": "Safety-critical mental-health support systems must distinguish when supportive conversation is appropriate from when free-form generation should be blocked. This paper presents Anian, a safety-gated…",
-    "watch": "Sourced from cs.AI updates on arXiv.org — verify dates and AI relevance.",
-    "source": "https://arxiv.org/abs/2608.26162"
   },
   {
     "title": "ICAIR 2024",
@@ -610,6 +550,18 @@
     "why": "The Prime Minister sets out new plan to shut down the criminal gangs running illegal waste sites, as part of his pledge to bring hope back to Britain&#39;s communities.",
     "watch": "Sourced from News and communications — verify dates and AI relevance.",
     "source": "https://www.gov.uk/government/news/prime-minister-orders-crackdown-on-the-criminal-gangs-profiting-from-illegal-waste-and-blighting-communities"
+  },
+  {
+    "title": "Prime Minister blocks hundreds more criminals from sentencing changes",
+    "date": "2026-08-30T06:53",
+    "location": "TBC",
+    "host": "News and communications",
+    "applies": "Monitor",
+    "tag": "Child Safety",
+    "angle": "Child Safety / policy & regulation",
+    "why": "Unlawful killing and historic child sex offences will be blocked from upcoming changes to prison sentences after the Prime Minister ordered more serious offenders to be kept behind bars for longer.",
+    "watch": "Sourced from News and communications — verify dates and AI relevance.",
+    "source": "https://www.gov.uk/government/news/prime-minister-blocks-hundreds-more-criminals-from-sentencing-changes"
   },
   {
     "title": "Households can save as plug-in solar panels come to market",
