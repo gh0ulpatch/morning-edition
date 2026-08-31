@@ -216,6 +216,18 @@
     "source": "https://www.europol.europa.eu/media-press/newsroom/news/season-4-of-europol-podcast-available-now"
   },
   {
+    "title": "CamoDocs: A Poisoning Attack Against Retrieval-Augmented Language Models Using Camouflaged Documents",
+    "date": "Mon, 31 Aug 2026",
+    "location": "TBC",
+    "host": "cs.CR updates on arXiv.org",
+    "applies": "Attend",
+    "tag": "Cybersecurity",
+    "angle": "Cybersecurity / technical AI",
+    "why": "Retrieval-augmented generation (RAG) augments LLMs with external documents, but public or user-editable sources expose RAG systems to data poisoning: attackers can inject malicious documents to steer…",
+    "watch": "Sourced from cs.CR updates on arXiv.org — verify dates and AI relevance.",
+    "source": "https://arxiv.org/abs/2608.28389"
+  },
+  {
     "title": "📍 The Sneaky Code Tracking App Users | EFFector 38.15",
     "date": "Wed, 19 Aug 2026",
     "location": "TBC",
@@ -264,6 +276,18 @@
     "source": "https://www.un.org/en/card/209805"
   },
   {
+    "title": "CultureConverse: A Multilingual Multi-turn Simulation Harness for Culturally Grounded Assistance in East and Southeast…",
+    "date": "Mon, 31 Aug 2026",
+    "location": "TBC",
+    "host": "cs.CY updates on arXiv.org",
+    "applies": "Monitor",
+    "tag": "AI Governance",
+    "angle": "AI Governance / policy & regulation",
+    "why": "Current cultural evaluations for large language models (LLMs) often reduce culture to single-turn factual recall via MCQs, failing to capture a common use case: users seeking practical help over…",
+    "watch": "Sourced from cs.CY updates on arXiv.org — verify dates and AI relevance.",
+    "source": "https://arxiv.org/abs/2608.28405"
+  },
+  {
     "title": "Third United Nations Conference on Landlocked Developing Countries (LLDC3)",
     "date": "Tue, 24 Oct 2023",
     "location": "TBC",
@@ -286,6 +310,18 @@
     "why": "KDD-MLF 2025",
     "watch": "Sourced via WikiCFP — check agenda for AI harm/misuse sessions.",
     "source": "http://www.wikicfp.com/cfp/servlet/event.showcfp?eventid=186399&copyownerid=192394"
+  },
+  {
+    "title": "FISGuard: Defending Against Membership Inference via Fixed Input Subspaces",
+    "date": "Mon, 31 Aug 2026",
+    "location": "TBC",
+    "host": "cs.CR updates on arXiv.org",
+    "applies": "Monitor",
+    "tag": "Cybersecurity",
+    "angle": "Cybersecurity / technical AI",
+    "why": "As large language models are increasingly adopted in federated learning, protecting user privacy while performing parameter-efficient fine-tuning on distributed private data has become an important…",
+    "watch": "Sourced from cs.CR updates on arXiv.org — verify dates and AI relevance.",
+    "source": "https://arxiv.org/abs/2608.27836"
   },
   {
     "title": "RWS 2025",
@@ -322,6 +358,42 @@
     "why": "ICAIR 2024",
     "watch": "Sourced via WikiCFP — check agenda for AI harm/misuse sessions.",
     "source": "http://www.wikicfp.com/cfp/servlet/event.showcfp?eventid=178495&copyownerid=8438"
+  },
+  {
+    "title": "Quantum-Based Solutions for Security Enhancement in Open Radio Access Networks",
+    "date": "Mon, 31 Aug 2026",
+    "location": "TBC",
+    "host": "cs.CR updates on arXiv.org",
+    "applies": "Monitor",
+    "tag": "Multilateral",
+    "angle": "Multilateral / technical AI",
+    "why": "Open Radio Access Networks (O-RAN) introduce unprecedented flexibility, interoperability, and intelligence into next-generation wireless systems, but their disaggregated and software-defined…",
+    "watch": "Sourced from cs.CR updates on arXiv.org — verify dates and AI relevance.",
+    "source": "https://arxiv.org/abs/2608.28480"
+  },
+  {
+    "title": "The Effect of Emotional Context on Large Language Models' Endorsement of Premature Decisions: Comparing Emotional…",
+    "date": "Mon, 31 Aug 2026",
+    "location": "TBC",
+    "host": "cs.CY updates on arXiv.org",
+    "applies": "Monitor",
+    "tag": "Cybersecurity",
+    "angle": "Cybersecurity / technical AI",
+    "why": "As large language models (LLMs) are increasingly used for everyday decision-making advice, whether a model shifts the direction of its advice according to the user's emotional state has become an…",
+    "watch": "Sourced from cs.CY updates on arXiv.org — verify dates and AI relevance.",
+    "source": "https://arxiv.org/abs/2608.27465"
+  },
+  {
+    "title": "DisCTI: Who Needs to Know Timely? Automated Sector-Aware Cyber Threat Intelligence Dissemination",
+    "date": "Mon, 31 Aug 2026",
+    "location": "TBC",
+    "host": "cs.CR updates on arXiv.org",
+    "applies": "Monitor",
+    "tag": "Cybersecurity",
+    "angle": "Cybersecurity / technical AI",
+    "why": "The timely dissemination of cyber threat intelligence (CTI) is critical for organizations to mount swift and effective incident response. When valid CTI is delivered to the right sector at the right…",
+    "watch": "Sourced from cs.CR updates on arXiv.org — verify dates and AI relevance.",
+    "source": "https://arxiv.org/abs/2608.27967"
   },
   {
     "title": "Governing GP AI Systems 2026",
@@ -430,6 +502,18 @@
     "why": "Developers Must Beware of Ad Libraries that Betray Users’ Privacy SAN FRANCISCO – Some software development kits (SDKs) provided by advertising companies to help developers monetize their apps are…",
     "watch": "Sourced from Deeplinks — verify dates and AI relevance.",
     "source": "https://www.eff.org/press/releases/mobile-ad-software-encourages-location-data-sharing-eff-report-finds"
+  },
+  {
+    "title": "FlyBlind: Cross-Slice Timeliness Attacks on UAV Situational Awareness over 5G",
+    "date": "Mon, 31 Aug 2026",
+    "location": "TBC",
+    "host": "cs.CR updates on arXiv.org",
+    "applies": "Monitor",
+    "tag": "Multilateral",
+    "angle": "Multilateral / policy & regulation",
+    "why": "Beyond Visual Line of Sight (BVLOS) Uncrewed Aerial Systems (UAS) operating over 5G Standalone (SA) networks use a shared User Plane for both command-and-control (C2) data and video feedback.…",
+    "watch": "Sourced from cs.CR updates on arXiv.org — verify dates and AI relevance.",
+    "source": "https://arxiv.org/abs/2608.27604"
   },
   {
     "title": "India AI Impact Summit panel: Towards multilateral agreement on enforcing red lines",
@@ -1080,18 +1164,6 @@
     "source": "https://www.gov.uk/government/publications/achieving-stability-and-growth-in-the-uk-chemical-sector"
   },
   {
-    "title": "Waste site cleared after illegal dumping investigation",
-    "date": "2026-08-24T16:39",
-    "location": "TBC",
-    "host": "News and communications",
-    "applies": "Monitor",
-    "tag": "AI Governance",
-    "angle": "AI Governance / policy & regulation",
-    "why": "An illegal waste site in Sheffield, South Yorkshire, has been cleared following a successful court case brought by the Environment Agency.",
-    "watch": "Sourced from News and communications — verify dates and AI relevance.",
-    "source": "https://www.gov.uk/government/news/waste-site-cleared-after-illegal-dumping-investigation"
-  },
-  {
     "title": "NIST Researchers Correct Common Error Confounding Nanotech Measurements",
     "date": "Thu, 06 Aug 2026",
     "location": "TBC",
@@ -1512,6 +1584,18 @@
     "source": "https://www.ncsc.gov.uk/report/summary-of-ncsc-security-analysis-for-the-uk-telecoms-sector"
   },
   {
+    "title": "£100 million competition to back British AI companies to fix public services",
+    "date": "2026-08-31T10:25",
+    "location": "TBC",
+    "host": "News and communications",
+    "applies": "Monitor",
+    "tag": "AI Governance",
+    "angle": "AI Governance / policy & regulation",
+    "why": "£100 million fund competition will help promising British AI start-ups start in the UK and tackle some of society&#39;s biggest challenges.",
+    "watch": "Sourced from News and communications — verify dates and AI relevance.",
+    "source": "https://www.gov.uk/government/news/100-million-competition-to-back-british-ai-companies-to-fix-public-services"
+  },
+  {
     "title": "PM accelerates roll out of police rape and sexual offence teams",
     "date": "2026-08-28T12:17",
     "location": "TBC",
@@ -1596,18 +1680,6 @@
     "source": "https://www.gov.uk/government/news/more-areas-in-england-declared-in-drought-after-record-dry-july"
   },
   {
-    "title": "Applications now open for UK government's 2027-28 Chevening Scholarships",
-    "date": "2026-08-10T11:47",
-    "location": "TBC",
-    "host": "News and communications",
-    "applies": "Monitor",
-    "tag": "AI Governance",
-    "angle": "AI Governance / policy & regulation",
-    "why": "The British Embassy in Beirut is pleased to announce that applications are now open for the UK government&#39;s flagship Chevening Scholarships programme.",
-    "watch": "Sourced from News and communications — verify dates and AI relevance.",
-    "source": "https://www.gov.uk/government/news/applications-now-open-for-uk-governments-2027-28-chevening-scholarships"
-  },
-  {
     "title": "UK deploys rapid response team to Nepal to support British nationals affected by floods",
     "date": "2026-08-28T19:20",
     "location": "TBC",
@@ -1690,6 +1762,18 @@
     "why": "Serious sexual and violent offenders could be confined to areas just a few miles wide after leaving prison under a world-first crackdown, launching in October to give victims greater freedom.",
     "watch": "Sourced from News and communications — verify dates and AI relevance.",
     "source": "https://www.gov.uk/government/news/world-first-crackdown-to-restrict-offenders-freedom-and-give-it-back-to-victims"
+  },
+  {
+    "title": "Nepal-China floods: what you can do to help",
+    "date": "2026-08-31T12:41",
+    "location": "TBC",
+    "host": "News and communications",
+    "applies": "Monitor",
+    "tag": "AI Governance",
+    "angle": "AI Governance / policy & regulation",
+    "why": "Information on how you can support people affected by the floods and mudslide on the Nepal-China border.",
+    "watch": "Sourced from News and communications — verify dates and AI relevance.",
+    "source": "https://www.gov.uk/government/news/nepal-china-floods-what-you-can-do-to-help"
   },
   {
     "title": "Government steps in to protect families from cowboy builders and aggressive bailiffs",
