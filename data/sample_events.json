@@ -120,18 +120,6 @@
     "source": "https://www.eff.org/deeplinks/2026/09/cold-take-amazons-new-encryption-method-still-doesnt-deliver-real-privacy"
   },
   {
-    "title": "Demystifying the Privacy-Utility Trade-off in LLM Interactions",
-    "date": "Sat, 12 Sep 2026",
-    "location": "TBC",
-    "host": "cs.AI updates on arXiv.org",
-    "applies": "Attend",
-    "tag": "Multilateral",
-    "angle": "Multilateral / policy & regulation",
-    "why": "The integration of Large Language Models into daily tasks relies on context-rich instructions, inevitably exposing sensitive user information. Current privacy-preserving methods typically employ…",
-    "watch": "Sourced from cs.AI updates on arXiv.org — verify dates and AI relevance.",
-    "source": "https://arxiv.org/abs/2609.10992"
-  },
-  {
     "title": "The United Kingdom will work through this Council to combat terrorism in all its forms: UK statement at the UN Security…",
     "date": "2026-09-11T22:02",
     "location": "TBC",
@@ -166,18 +154,6 @@
     "why": "A federal appeals court just made it harder for online services, big and small, to get lawsuits over user speech dismissed early. In California v. Meta , a Ninth Circuit three-judge panel held that…",
     "watch": "Sourced from Deeplinks — verify dates and AI relevance.",
     "source": "https://www.eff.org/deeplinks/2026/08/ninth-circuit-ruling-will-force-online-platforms-host-user-speech-fight-lengthy"
-  },
-  {
-    "title": "DRG-MAPPO: Hierarchical Dynamic Role-Graph Multi-Agent Reinforcement Learning for Cooperative Air Combat",
-    "date": "Sat, 12 Sep 2026",
-    "location": "TBC",
-    "host": "cs.AI updates on arXiv.org",
-    "applies": "Attend",
-    "tag": "Multilateral",
-    "angle": "Multilateral / policy & regulation",
-    "why": "Multi-Agent Reinforcement Learning (MARL) has emerged as a pivotal paradigm for complex decision-making in autonomous systems and air combat. While MARL has demonstrated significant potential in air…",
-    "watch": "Sourced from cs.AI updates on arXiv.org — verify dates and AI relevance.",
-    "source": "https://arxiv.org/abs/2609.11155"
   },
   {
     "title": "EFF to Courts: Don’t Rewrite Copyright Over AI Hype",
@@ -324,18 +300,6 @@
     "source": "https://www.gov.uk/government/news/rogue-waste-gangs-exposed-as-heat-maps-reveal-englands-illegal-dumping-hotspots"
   },
   {
-    "title": "Quantifying the Memorization-to-Generalization Transition: Scaling Laws and Phase Structure in Grokking",
-    "date": "Sat, 12 Sep 2026",
-    "location": "TBC",
-    "host": "cs.AI updates on arXiv.org",
-    "applies": "Monitor",
-    "tag": "AI Governance",
-    "angle": "AI Governance / policy & regulation",
-    "why": "Neural networks trained past memorization frequently undergo a delayed transition to generalization, a phenomenon known as grokking. Despite theoretical progress on \\emph{why} this transition occurs,…",
-    "watch": "Sourced from cs.AI updates on arXiv.org — verify dates and AI relevance.",
-    "source": "https://arxiv.org/abs/2609.10657"
-  },
-  {
     "title": "ICAIR 2024",
     "date": "4th International Conference on AI Research (formally the European Conference on the Impact of Artificial Intelligence and Robotics)",
     "location": "TBC",
@@ -358,18 +322,6 @@
     "why": "The government will introduce legislation requiring tech companies to strengthen protections on devices and platforms to prevent children from taking, sharing or viewing nude images, helping tackle…",
     "watch": "Sourced from News and communications — verify dates and AI relevance.",
     "source": "https://www.gov.uk/government/news/uk-to-have-worlds-strongest-online-child-safety-laws-as-government-prepares-legislation-on-nude-images"
-  },
-  {
-    "title": "An AI-Powered Culturally Aware Chatbot for Stress Detection and Wellness Support among Pakistani University Students…",
-    "date": "Sat, 12 Sep 2026",
-    "location": "TBC",
-    "host": "cs.AI updates on arXiv.org",
-    "applies": "Monitor",
-    "tag": "AI Governance",
-    "angle": "AI Governance / technical AI",
-    "why": "With the existing digital mental health tools specifically developed for Western settings, Pakistani students are exposed to a uniquely compounded stress situation in their university that includes…",
-    "watch": "Sourced from cs.AI updates on arXiv.org — verify dates and AI relevance.",
-    "source": "https://arxiv.org/abs/2609.11199"
   },
   {
     "title": "Governing GP AI Systems 2026",
@@ -406,6 +358,18 @@
     "why": "The Minister for the Middle East, Stephen Doughty MP, has provided a written update to parliament on Iran Sanctions measures.",
     "watch": "Sourced from News and communications — verify dates and AI relevance.",
     "source": "https://www.gov.uk/government/speeches/written-ministerial-statement-iran-sanctions-8-september-2026"
+  },
+  {
+    "title": "CDT Joins Letter and Calls on Senate Judiciary and Homeland Security Committee to Close the Data Broker Loophole",
+    "date": "Fri, 21 Aug 2026",
+    "location": "TBC",
+    "host": "Center for Democracy and Technology",
+    "applies": "Monitor",
+    "tag": "AI Governance",
+    "angle": "AI Governance / policy & regulation",
+    "why": "CDT joined a set of 30 civil society organizations in calling on leaders&#160;of the Senate Judiciary and Homeland Security Committees to highlight a new&#160;multi-year agreement between the…",
+    "watch": "Sourced from Center for Democracy and Technology — verify dates and AI relevance.",
+    "source": "https://cdt.org/insights/cdt-joins-letter-and-calls-on-senate-judiciary-and-homeland-security-committee-to-close-the-data-broker-loophole/"
   },
   {
     "title": "DfP 2026",
@@ -492,18 +456,6 @@
     "source": "https://partnershiponai.org/pai-and-costa-rica-submit-recommendations-to-un-global-dialogue-co-chairs/"
   },
   {
-    "title": "Same Day, Same Story; One Day Ahead, a Different Signal: The Dual Validity of Financial Sentiment",
-    "date": "Sat, 12 Sep 2026",
-    "location": "TBC",
-    "host": "cs.AI updates on arXiv.org",
-    "applies": "Monitor",
-    "tag": "Multilateral",
-    "angle": "Multilateral / policy & regulation",
-    "why": "Financial NLP has a standard workflow: validate a sentiment tool against human labels, then trust it to extract market signal. This assumes the two evaluations measure the same thing. We test that…",
-    "watch": "Sourced from cs.AI updates on arXiv.org — verify dates and AI relevance.",
-    "source": "https://arxiv.org/abs/2609.11144"
-  },
-  {
     "title": "India AI Impact Summit panel: Towards multilateral agreement on enforcing red lines",
     "date": "TBC",
     "location": "TBC",
@@ -552,16 +504,16 @@
     "source": "http://www.wikicfp.com/cfp/servlet/event.showcfp?eventid=191556&copyownerid=196658"
   },
   {
-    "title": "AID 2026",
+    "title": "ACM TRUST  2027",
     "date": "Event",
     "location": "Where",
     "host": "TBC",
     "applies": "Monitor",
     "tag": "EU Governance",
     "angle": "EU Governance / technical AI",
-    "why": "AID 2026",
+    "why": "ACM TRUST 2027",
     "watch": "Sourced via WikiCFP — check agenda for AI harm/misuse sessions.",
-    "source": "http://www.wikicfp.com/cfp/servlet/event.showcfp?eventid=202822&copyownerid=200093"
+    "source": "http://www.wikicfp.com/cfp/servlet/event.showcfp?eventid=203053&copyownerid=193627"
   },
   {
     "title": "FATES 2021",
