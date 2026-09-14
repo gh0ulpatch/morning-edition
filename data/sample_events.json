@@ -156,6 +156,30 @@
     "source": "https://www.eff.org/deeplinks/2026/08/ninth-circuit-ruling-will-force-online-platforms-host-user-speech-fight-lengthy"
   },
   {
+    "title": "One Click to Leak: Characterizing the Real-World Usage and Threat Impact of MNO-based Single Sign-On Websites",
+    "date": "Mon, 14 Sep 2026",
+    "location": "TBC",
+    "host": "cs.CR updates on arXiv.org",
+    "applies": "Attend",
+    "tag": "AI Governance",
+    "angle": "AI Governance / policy & regulation",
+    "why": "Mobile Network Operator (MNO)-based Single Sign-On (MSSO) is a password-free authentication framework relying on mobile data sessions. Unlike traditional SSO, it shifts the Identity Provider (IdP) to…",
+    "watch": "Sourced from cs.CR updates on arXiv.org — verify dates and AI relevance.",
+    "source": "https://arxiv.org/abs/2609.12037"
+  },
+  {
+    "title": "NovaFabric: Tamper-Evident, Replayable Evidence for Autonomous AI Agent Runs",
+    "date": "Mon, 14 Sep 2026",
+    "location": "TBC",
+    "host": "cs.CR updates on arXiv.org",
+    "applies": "Attend",
+    "tag": "EU Governance",
+    "angle": "EU Governance / policy & regulation",
+    "why": "When an autonomous AI agent does something consequential, what can be proven about what it did? Agent-observability platforms capture traces, but a trace is mutable: alterable undetected, with no…",
+    "watch": "Sourced from cs.CR updates on arXiv.org — verify dates and AI relevance.",
+    "source": "https://arxiv.org/abs/2609.12582"
+  },
+  {
     "title": "EFF to Courts: Don’t Rewrite Copyright Over AI Hype",
     "date": "Mon, 31 Aug 2026",
     "location": "TBC",
@@ -240,6 +264,18 @@
     "source": "https://www.eff.org/press/releases/we-all-deserve-better-internet-not-smaller-one"
   },
   {
+    "title": "A First-Principles Evaluation of Graph-Based Network Intrusion Detection Systems",
+    "date": "Mon, 14 Sep 2026",
+    "location": "TBC",
+    "host": "cs.CR updates on arXiv.org",
+    "applies": "Monitor",
+    "tag": "Multilateral",
+    "angle": "Multilateral / policy & regulation",
+    "why": "Graph-based network intrusion detection systems (GIDS) report strong benchmark detection metrics, but those metrics establish little about deployability. We approach the problem from first…",
+    "watch": "Sourced from cs.CR updates on arXiv.org — verify dates and AI relevance.",
+    "source": "https://arxiv.org/abs/2609.12263"
+  },
+  {
     "title": "Third United Nations Conference on Landlocked Developing Countries (LLDC3)",
     "date": "Tue, 24 Oct 2023",
     "location": "TBC",
@@ -312,18 +348,6 @@
     "source": "http://www.wikicfp.com/cfp/servlet/event.showcfp?eventid=178495&copyownerid=8438"
   },
   {
-    "title": "UK to have world's strongest online child safety laws as government prepares legislation on nude images",
-    "date": "2026-09-09T13:42",
-    "location": "TBC",
-    "host": "News and communications",
-    "applies": "Monitor",
-    "tag": "Child Safety",
-    "angle": "Child Safety / policy & regulation",
-    "why": "The government will introduce legislation requiring tech companies to strengthen protections on devices and platforms to prevent children from taking, sharing or viewing nude images, helping tackle…",
-    "watch": "Sourced from News and communications — verify dates and AI relevance.",
-    "source": "https://www.gov.uk/government/news/uk-to-have-worlds-strongest-online-child-safety-laws-as-government-prepares-legislation-on-nude-images"
-  },
-  {
     "title": "Governing GP AI Systems 2026",
     "date": "Event",
     "location": "Where",
@@ -348,28 +372,16 @@
     "source": "http://www.wikicfp.com/cfp/servlet/event.showcfp?eventid=182166&copyownerid=13149"
   },
   {
-    "title": "Written Ministerial Statement: Iran Sanctions, 8 September 2026",
-    "date": "2026-09-08T19:23",
+    "title": "IntentFuzz: A Protocol-Aware Fuzzer for Automated Invariant Violation Detection in Intent-Based Cross-Chain Bridges",
+    "date": "Mon, 14 Sep 2026",
     "location": "TBC",
-    "host": "News and communications",
+    "host": "cs.CR updates on arXiv.org",
     "applies": "Monitor",
-    "tag": "AI Governance",
-    "angle": "AI Governance / policy & regulation",
-    "why": "The Minister for the Middle East, Stephen Doughty MP, has provided a written update to parliament on Iran Sanctions measures.",
-    "watch": "Sourced from News and communications — verify dates and AI relevance.",
-    "source": "https://www.gov.uk/government/speeches/written-ministerial-statement-iran-sanctions-8-september-2026"
-  },
-  {
-    "title": "CDT Joins Letter and Calls on Senate Judiciary and Homeland Security Committee to Close the Data Broker Loophole",
-    "date": "Fri, 21 Aug 2026",
-    "location": "TBC",
-    "host": "Center for Democracy and Technology",
-    "applies": "Monitor",
-    "tag": "AI Governance",
-    "angle": "AI Governance / policy & regulation",
-    "why": "CDT joined a set of 30 civil society organizations in calling on leaders&#160;of the Senate Judiciary and Homeland Security Committees to highlight a new&#160;multi-year agreement between the…",
-    "watch": "Sourced from Center for Democracy and Technology — verify dates and AI relevance.",
-    "source": "https://cdt.org/insights/cdt-joins-letter-and-calls-on-senate-judiciary-and-homeland-security-committee-to-close-the-data-broker-loophole/"
+    "tag": "Election Integrity",
+    "angle": "Election Integrity / technical AI",
+    "why": "Cross-chain bridges move value between blockchains. Intent-based bridges are a variant where a solver fulfills a user's declared outcome and an off-chain settlement layer later reconciles the fill…",
+    "watch": "Sourced from cs.CR updates on arXiv.org — verify dates and AI relevance.",
+    "source": "https://arxiv.org/abs/2609.13004"
   },
   {
     "title": "DfP 2026",
@@ -456,6 +468,18 @@
     "source": "https://partnershiponai.org/pai-and-costa-rica-submit-recommendations-to-un-global-dialogue-co-chairs/"
   },
   {
+    "title": "Evaluating Practical Enumeration and Blocking Attacks on the Snowflake Circumvention System",
+    "date": "Mon, 14 Sep 2026",
+    "location": "TBC",
+    "host": "cs.CR updates on arXiv.org",
+    "applies": "Monitor",
+    "tag": "AI Governance",
+    "angle": "AI Governance / technical AI",
+    "why": "Proxy-based Internet censorship circumvention tools like Snowflake rely on large, dynamic pools of third-party proxies to resist IP-based blocking. We focus on two assumptions underpinning the…",
+    "watch": "Sourced from cs.CR updates on arXiv.org — verify dates and AI relevance.",
+    "source": "https://arxiv.org/abs/2609.12242"
+  },
+  {
     "title": "India AI Impact Summit panel: Towards multilateral agreement on enforcing red lines",
     "date": "TBC",
     "location": "TBC",
@@ -540,18 +564,6 @@
     "source": "http://www.wikicfp.com/cfp/servlet/event.showcfp?eventid=96777&copyownerid=143386"
   },
   {
-    "title": "Five Eyes back UK-led action to disrupt global fraud networks",
-    "date": "2026-08-27T15:17",
-    "location": "TBC",
-    "host": "News and communications",
-    "applies": "Monitor",
-    "tag": "Financial Crime",
-    "angle": "Financial Crime / policy & regulation",
-    "why": "US, Canada, Australia, and New Zealand back a package of UK-led measures to strengthen international action against fraud and online scams",
-    "watch": "Sourced from News and communications — verify dates and AI relevance.",
-    "source": "https://www.gov.uk/government/news/five-eyes-back-uk-led-action-to-disrupt-global-fraud-networks"
-  },
-  {
     "title": "Crackdown on illegal number plates with new government funded roads policing team",
     "date": "2026-09-05T09:00",
     "location": "TBC",
@@ -562,18 +574,6 @@
     "why": "New roads policing centre helping to track down offenders faster and disrupt organised crime groups that rely on England&#39;s road network.",
     "watch": "Sourced from News and communications — verify dates and AI relevance.",
     "source": "https://www.gov.uk/government/news/crackdown-on-illegal-number-plates-with-new-government-funded-roads-policing-team"
-  },
-  {
-    "title": "Two more men arrested for illegal waste dumping at Kidlington site",
-    "date": "2026-09-08T17:28",
-    "location": "TBC",
-    "host": "News and communications",
-    "applies": "Monitor",
-    "tag": "Drug Trafficking",
-    "angle": "Drug Trafficking / cross-sector harm",
-    "why": "Further arrests made as part of Environment Agency investigation, supported by Surrey Police and the South East Regional Organised Crime Unit",
-    "watch": "Sourced from News and communications — verify dates and AI relevance.",
-    "source": "https://www.gov.uk/government/news/two-more-men-arrested-for-illegal-waste-dumping-at-kidlington-site"
   },
   {
     "title": "Cyber Threat Report: UK Legal Sector",
@@ -672,16 +672,16 @@
     "source": "https://www.gov.uk/government/news/uk-and-belgium-strike-deal-to-target-small-boat-gangs"
   },
   {
-    "title": "Housing and Planning Minister speech at Housing Community Summit",
-    "date": "2026-09-09T17:41",
+    "title": "Healthier school dinners as government delivers major reforms",
+    "date": "2026-09-14T11:21",
     "location": "TBC",
     "host": "News and communications",
     "applies": "Monitor",
     "tag": "AI Governance",
     "angle": "AI Governance / policy & regulation",
-    "why": "The Housing and Planning Minister&#39;s speech at the Housing Community Summit 2026.",
+    "why": "Government updates school food standards for first time in over a decade, backed by Chef Jamie Oliver, actor and campaigner Dame Emma Thompson and parents.",
     "watch": "Sourced from News and communications — verify dates and AI relevance.",
-    "source": "https://www.gov.uk/government/speeches/housing-and-planning-minister-speech-at-housing-community-summit"
+    "source": "https://www.gov.uk/government/news/healthier-school-dinners-as-government-delivers-major-reforms"
   },
   {
     "title": "NIST Launches Center to Drive the Manufacture of Quantum Technologies",
@@ -984,18 +984,6 @@
     "source": "https://www.gov.uk/government/news/working-alongsideeurope-is-the-key-todriving-a-stronger-britain-burnham"
   },
   {
-    "title": "Notorious Kidlington dump fully cleared after major crackdown",
-    "date": "2026-08-27T22:30",
-    "location": "TBC",
-    "host": "News and communications",
-    "applies": "Monitor",
-    "tag": "AI Governance",
-    "angle": "AI Governance / policy & regulation",
-    "why": "More than 22,000 tonnes of illegally dumped waste have now been removed from Oxfordshire site",
-    "watch": "Sourced from News and communications — verify dates and AI relevance.",
-    "source": "https://www.gov.uk/government/news/notorious-kidlington-dump-fully-cleared-after-major-crackdown"
-  },
-  {
     "title": "Martyn's Law: scope, support and what's next",
     "date": "2026-09-11T09:53",
     "location": "TBC",
@@ -1164,6 +1152,18 @@
     "source": "https://www.ncsc.gov.uk/report/a-method-to-assess-forgivable-vs-unforgivable-vulnerabilities"
   },
   {
+    "title": "UK and US fusion strike partnership to accelerate clean energy",
+    "date": "2026-09-14T00:01",
+    "location": "TBC",
+    "host": "News and communications",
+    "applies": "Monitor",
+    "tag": "AI Governance",
+    "angle": "AI Governance / governance & institutions",
+    "why": "UK and US set to sign agreements at the Global Fusion Summit to combine expertise in AI, computing and fusion and to cooperate on regulating fusion energy.",
+    "watch": "Sourced from News and communications — verify dates and AI relevance.",
+    "source": "https://www.gov.uk/government/news/uk-and-us-fusion-strike-partnership-to-accelerate-clean-energy"
+  },
+  {
     "title": "Responsible technology and resilience against hybrid threats: UK statement to the 32nd OSCE Economic and Environmental…",
     "date": "2026-09-11T12:07",
     "location": "TBC",
@@ -1200,18 +1200,6 @@
     "source": "https://www.gov.uk/government/news/statement-on-the-10th-uk-us-sme-dialogue-cardiff"
   },
   {
-    "title": "Salmonella outbreak update",
-    "date": "2026-09-10T09:30",
-    "location": "TBC",
-    "host": "News and communications",
-    "applies": "Monitor",
-    "tag": "AI Governance",
-    "angle": "AI Governance / governance & institutions",
-    "why": "UKHSA, alongside the Food Standards Agency and other public health partners, continues to investigate an outbreak of Salmonella in the UK.",
-    "watch": "Sourced from News and communications — verify dates and AI relevance.",
-    "source": "https://www.gov.uk/government/news/salmonella-outbreak-update"
-  },
-  {
     "title": "Accountability is crucial in delivering more and better homes, says RSH chief executive",
     "date": "2026-09-09T15:13",
     "location": "TBC",
@@ -1219,7 +1207,7 @@
     "applies": "Monitor",
     "tag": "AI Governance",
     "angle": "AI Governance / governance & institutions",
-    "why": "Jonathan Walters, the Regulator of Social Housing’s chief executive, has reinforced the importance of strategic decision making and accountability in achieving more and better social homes.",
+    "why": "Jonathan Walters, the <mark>Regulator</mark> of Social Housing’s chief executive, has reinforced the importance of strategic decision making and accountability in achieving more and better social…",
     "watch": "Sourced from News and communications — verify dates and AI relevance.",
     "source": "https://www.gov.uk/government/news/accountability-is-crucial-in-delivering-more-and-better-homes-says-rsh-chief-executive"
   },
@@ -1306,6 +1294,18 @@
     "why": "The post Building AI Systems That Work For Everyone appeared first on Partnership on AI .",
     "watch": "Sourced from Partnership on AI — verify dates and AI relevance.",
     "source": "https://partnershiponai.org/building-ai-systems-that-work-for-everyone/"
+  },
+  {
+    "title": "Young Brits recruited as drug mules as overseas drug smuggling arrests quadruple in three years",
+    "date": "2026-09-14T10:39",
+    "location": "TBC",
+    "host": "News and communications",
+    "applies": "Monitor",
+    "tag": "AI Governance",
+    "angle": "AI Governance / cross-sector harm",
+    "why": "More than 200 Brits are currently detained overseas in cannabis smuggling cases linked to Thailand alone, after being recruited with promises of free holidays, easy money and ‘low risk’ opportunities",
+    "watch": "Sourced from News and communications — verify dates and AI relevance.",
+    "source": "https://www.gov.uk/government/news/young-brits-recruited-as-drug-mules-as-overseas-drug-smuggling-arrests-quadruple-in-three-years"
   },
   {
     "title": "Sellafield celebrates 10 years of nuclear clean up innovation",
@@ -1428,6 +1428,30 @@
     "source": "https://www.ncsc.gov.uk/report/summary-of-ncsc-security-analysis-for-the-uk-telecoms-sector"
   },
   {
+    "title": "UK and US fusion supercomputers to be linked across Atlantic",
+    "date": "2026-09-14T15:00",
+    "location": "TBC",
+    "host": "News and communications",
+    "applies": "Monitor",
+    "tag": "AI Governance",
+    "angle": "AI Governance / policy & regulation",
+    "why": "UKAEA and PPPL have joined forces to accelerate fusion energy’s development, linking UKAEA’s SUNRISE supercomputer with PPPL’s STELLAR-AI platform.",
+    "watch": "Sourced from News and communications — verify dates and AI relevance.",
+    "source": "https://www.gov.uk/government/news/uk-and-us-fusion-supercomputers-to-be-linked-across-atlantic"
+  },
+  {
+    "title": "Defence and industry unite as new collaboration hub opens at RAF Wyton",
+    "date": "2026-09-14T13:40",
+    "location": "TBC",
+    "host": "News and communications",
+    "applies": "Monitor",
+    "tag": "AI Governance",
+    "angle": "AI Governance / policy & regulation",
+    "why": "…RAF Wyton opens new FAIRFAX Collaboration Hub with industry partners, marking a key step in its growth as the UK&#x27;s <mark>intelligence</mark> hub.…",
+    "watch": "Sourced from News and communications — verify dates and AI relevance.",
+    "source": "https://www.gov.uk/government/news/defence-and-industry-unite-as-new-collaboration-hub-opens-at-raf-wyton"
+  },
+  {
     "title": "Circular 012/2026: CPI and the Police Pension Scheme 2015",
     "date": "2026-09-11T11:38",
     "location": "TBC",
@@ -1500,16 +1524,28 @@
     "source": "https://www.gov.uk/government/news/100-million-competition-to-back-british-ai-companies-to-fix-public-services"
   },
   {
-    "title": "Ketamine seizures reach 15 year high",
-    "date": "2026-08-28T08:49",
+    "title": "UK steps up support for global efforts to prepare for El Niño following devastating extreme weather",
+    "date": "2026-09-14T12:41",
     "location": "TBC",
     "host": "News and communications",
     "applies": "Monitor",
     "tag": "AI Governance",
     "angle": "AI Governance / policy & regulation",
-    "why": "Border Force seized a record 1,298kg of ketamine in the first three months of 2026, the highest quarterly total for 15 years.",
+    "why": "Hundreds of thousands of people around the world will be helped to prepare for extreme weather conditions next year.",
     "watch": "Sourced from News and communications — verify dates and AI relevance.",
-    "source": "https://www.gov.uk/government/news/ketamine-seizures-reach-15-year-high"
+    "source": "https://www.gov.uk/government/news/uk-steps-up-support-for-global-efforts-to-prepare-for-el-nino-following-devastating-extreme-weather"
+  },
+  {
+    "title": "Lancashire prison to gain 240 extra places",
+    "date": "2026-09-14T10:17",
+    "location": "TBC",
+    "host": "News and communications",
+    "applies": "Monitor",
+    "tag": "AI Governance",
+    "angle": "AI Governance / policy & regulation",
+    "why": "HMP Lancaster Farms capacity boosted by more than 40 per cent as part of largest prison expansion programme since the Victorian era",
+    "watch": "Sourced from News and communications — verify dates and AI relevance.",
+    "source": "https://www.gov.uk/government/news/lancashire-prison-to-gain-240-extra-places"
   },
   {
     "title": "Near miss at Hopperton Old Station user worked crossing",
@@ -1644,18 +1680,6 @@
     "source": "https://www.gov.uk/government/news/box-ticking-consultations-scrapped-to-speed-up-delivery"
   },
   {
-    "title": "Independent Commission led by NHS doctors sets out blueprint to accelerate safe AI adoption in healthcare",
-    "date": "2026-09-10T07:29",
-    "location": "TBC",
-    "host": "News and communications",
-    "applies": "Monitor",
-    "tag": "AI Governance",
-    "angle": "AI Governance / policy & regulation",
-    "why": "New recommendations based on extensive public engagement set out how the NHS could give patients faster access to <mark>AI</mark> advances with proportionate safeguards to protect patient…",
-    "watch": "Sourced from News and communications — verify dates and AI relevance.",
-    "source": "https://www.gov.uk/government/news/independent-commission-led-by-nhs-doctors-sets-out-blueprint-to-accelerate-safe-ai-adoption-in-healthcare"
-  },
-  {
     "title": "Recruitment for the posts of Standing Junior Counsel to the Advocate General for Scotland",
     "date": "2026-09-11T09:04",
     "location": "TBC",
@@ -1668,6 +1692,18 @@
     "source": "https://www.gov.uk/government/publications/recruitment-for-the-posts-of-standing-junior-counsel-to-the-advocate-general-for-scotland"
   },
   {
+    "title": "Independent Commission led by NHS doctors sets out blueprint to accelerate safe AI adoption in healthcare",
+    "date": "2026-09-10T07:29",
+    "location": "TBC",
+    "host": "News and communications",
+    "applies": "Monitor",
+    "tag": "AI Governance",
+    "angle": "AI Governance / policy & regulation",
+    "why": "New recommendations based on extensive public engagement set out how the NHS could give patients faster access to <mark>AI</mark> advances with proportionate safeguards to protect patient safety and…",
+    "watch": "Sourced from News and communications — verify dates and AI relevance.",
+    "source": "https://www.gov.uk/government/news/independent-commission-led-by-nhs-doctors-sets-out-blueprint-to-accelerate-safe-ai-adoption-in-healthcare"
+  },
+  {
     "title": "DBS reduces fees for checks and Update Service from 5 October 2026",
     "date": "2026-09-09T12:16",
     "location": "TBC",
@@ -1678,30 +1714,6 @@
     "why": "The Disclosure and Barring Service will be reducing the fees for its products and services from 5 October 2026.",
     "watch": "Sourced from News and communications — verify dates and AI relevance.",
     "source": "https://www.gov.uk/government/news/dbs-reduces-fees-for-checks-and-update-service-from-5-october-2026"
-  },
-  {
-    "title": "Regulator concludes investigation into 4 charities as class inquiry continues",
-    "date": "2026-09-09T00:01",
-    "location": "TBC",
-    "host": "News and communications",
-    "applies": "Monitor",
-    "tag": "AI Governance",
-    "angle": "AI Governance / policy & regulation",
-    "why": "The Charity Commission has removed four charities from an ongoing statutory class inquiry into 105 charities.",
-    "watch": "Sourced from News and communications — verify dates and AI relevance.",
-    "source": "https://www.gov.uk/government/news/regulator-concludes-investigation-into-4-charities-as-class-inquiry-continues"
-  },
-  {
-    "title": "Water company fined record £900k after coastline sewage spill",
-    "date": "2026-09-08T18:24",
-    "location": "TBC",
-    "host": "News and communications",
-    "applies": "Monitor",
-    "tag": "AI Governance",
-    "angle": "AI Governance / policy & regulation",
-    "why": "United Utilities Limited fined £900,000 for five environmental permit offences following successful Environment Agency investigation into sewage spill.",
-    "watch": "Sourced from News and communications — verify dates and AI relevance.",
-    "source": "https://www.gov.uk/government/news/water-company-fined-record-900k-after-coastline-sewage-spill"
   },
   {
     "title": "NIST Researchers Supersize Quantum Technology to Help Detect Faint Photons",
