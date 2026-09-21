@@ -1,17 +1,5 @@
 [
   {
-    "title": "EFF and Allies on Brazil's Elections: Privacy Protections are Crucial to Electoral Integrity",
-    "date": "Fri, 28 Aug 2026",
-    "location": "TBC",
-    "host": "Deeplinks",
-    "applies": "Attend",
-    "tag": "Election Integrity",
-    "angle": "Election Integrity / policy & regulation",
-    "why": "EFF, Access Now, and Data Privacy Brasil are putting forward recommendations to strengthen robust privacy and data protection safeguards in the context of Brazil's elections. The recommendations…",
-    "watch": "Sourced from Deeplinks — verify dates and AI relevance.",
-    "source": "https://www.eff.org/deeplinks/2026/08/eff-and-allies-brazils-elections-privacy-protections-are-crucial-electoral"
-  },
-  {
     "title": "Meta's $17 Billion Settlement is a Bad Deal for Teens and All Social Media Users",
     "date": "Tue, 01 Sep 2026",
     "location": "TBC",
@@ -58,6 +46,18 @@
     "why": "A federal judge has sided with Anthropic on its claims that the Department of Defense illegally retaliated against Anthropic’s protected speech by labeling the AI company a “supply chain risk.” The…",
     "watch": "Sourced from Deeplinks — verify dates and AI relevance.",
     "source": "https://www.eff.org/deeplinks/2026/09/judge-rules-dod-unlawfully-retaliated-against-anthropic"
+  },
+  {
+    "title": "EU Kids Act Won't Keep the Internet Accountable and Trustworthy",
+    "date": "Mon, 21 Sep 2026",
+    "location": "TBC",
+    "host": "Deeplinks",
+    "applies": "Attend",
+    "tag": "EU Governance",
+    "angle": "EU Governance / policy & regulation",
+    "why": "The EU Commission draft law to restrict young people’s access to the internet that it presented last week will come at a high cost: it will put online services behind age gates, expand the use of…",
+    "watch": "Sourced from Deeplinks — verify dates and AI relevance.",
+    "source": "https://www.eff.org/deeplinks/2026/09/eu-kids-act-wont-keep-internet-accountable-and-trustworthy"
   },
   {
     "title": "ABH 2027",
@@ -132,18 +132,6 @@
     "source": "https://www.eff.org/deeplinks/2026/09/meta-settlement-yet-another-example-online-youth-organizing-under-threat"
   },
   {
-    "title": "The United Kingdom will work through this Council to combat terrorism in all its forms: UK statement at the UN Security…",
-    "date": "2026-09-11T22:02",
-    "location": "TBC",
-    "host": "News and communications",
-    "applies": "Attend",
-    "tag": "Multilateral",
-    "angle": "Multilateral / governance & institutions",
-    "why": "Statement by Chris Elmore MP, Minister for the Americas, Multilateral, and Human Rights, at the UN Security Council meeting on threats to international peace and security caused by terrorist acts.",
-    "watch": "Sourced from News and communications — verify dates and AI relevance.",
-    "source": "https://www.gov.uk/government/speeches/the-united-kingdom-will-work-through-this-council-to-combat-terrorism-in-all-its-forms-uk-statement-at-the-un-security-council"
-  },
-  {
     "title": "EFF to Governor Newsom: Veto California’s AB 1709",
     "date": "Mon, 31 Aug 2026",
     "location": "TBC",
@@ -180,6 +168,18 @@
     "source": "https://www.eff.org/deeplinks/2026/09/texas-and-florida-step-back-alprs"
   },
   {
+    "title": "CIPL: A Channel-Aware Framework for Recoverable Privacy Leakage in LLM Agents",
+    "date": "Mon, 21 Sep 2026",
+    "location": "TBC",
+    "host": "cs.CR updates on arXiv.org",
+    "applies": "Attend",
+    "tag": "Election Integrity",
+    "angle": "Election Integrity / policy & regulation",
+    "why": "Privacy leakage in LLM agents is commonly evaluated within individual components such as memory, retrieval, or tool-use pipelines, which makes it difficult to distinguish internal exposure from…",
+    "watch": "Sourced from cs.CR updates on arXiv.org — verify dates and AI relevance.",
+    "source": "https://arxiv.org/abs/2609.21686"
+  },
+  {
     "title": "EFF Welcomes Alexander Macgillivray to its Board of Directors",
     "date": "Wed, 16 Sep 2026",
     "location": "TBC",
@@ -202,6 +202,30 @@
     "why": "ICCWS 2027",
     "watch": "Sourced via WikiCFP — check agenda for AI harm/misuse sessions.",
     "source": "http://www.wikicfp.com/cfp/servlet/event.showcfp?eventid=200193&copyownerid=8438"
+  },
+  {
+    "title": "A Fully Differentiable Neuro-Soft-Symbolic Framework for Perceptual Task Planning",
+    "date": "Mon, 21 Sep 2026",
+    "location": "TBC",
+    "host": "cs.AI updates on arXiv.org",
+    "applies": "Monitor",
+    "tag": "Multilateral",
+    "angle": "Multilateral / policy & regulation",
+    "why": "Perceptual planning tasks require two key capabilities: accurately perceiving uncertain scenes and planning valid action sequences following logical rules. Conventional methods convert perception…",
+    "watch": "Sourced from cs.AI updates on arXiv.org — verify dates and AI relevance.",
+    "source": "https://arxiv.org/abs/2609.21221"
+  },
+  {
+    "title": "GameASG-Bench: Benchmarking Autonomous Software Generation for Game Development",
+    "date": "Mon, 21 Sep 2026",
+    "location": "TBC",
+    "host": "cs.AI updates on arXiv.org",
+    "applies": "Monitor",
+    "tag": "AI Governance",
+    "angle": "AI Governance / policy & regulation",
+    "why": "Autonomous software generation (ASG) aims to turn human requirements into executable applications, but delivering these applications does not necessarily establish that their interacting components…",
+    "watch": "Sourced from cs.AI updates on arXiv.org — verify dates and AI relevance.",
+    "source": "https://arxiv.org/abs/2609.21293"
   },
   {
     "title": "Europol and European Labour Authority strengthen cooperation against labour exploitation",
@@ -240,6 +264,18 @@
     "source": "https://www.eff.org/press/releases/we-all-deserve-better-internet-not-smaller-one"
   },
   {
+    "title": "Ability-Residual Decoupled Modeling for Affective Cognitive Diagnosis",
+    "date": "Mon, 21 Sep 2026",
+    "location": "TBC",
+    "host": "cs.AI updates on arXiv.org",
+    "applies": "Monitor",
+    "tag": "Multilateral",
+    "angle": "Multilateral / policy & regulation",
+    "why": "Cognitive diagnosis infers students' concept mastery from response logs. However, students' responses are not determined by mastery alone: non-cognitive factors such as emotion, engagement, and…",
+    "watch": "Sourced from cs.AI updates on arXiv.org — verify dates and AI relevance.",
+    "source": "https://arxiv.org/abs/2609.21214"
+  },
+  {
     "title": "Third United Nations Conference on Landlocked Developing Countries (LLDC3)",
     "date": "Tue, 24 Oct 2023",
     "location": "TBC",
@@ -250,6 +286,30 @@
     "why": "Third UN Conference on&nbsp; Landlocked Developing Countries&nbsp; Awaza, Turkmenistan&nbsp; 5-8 August&nbsp;2025&nbsp; Driving Progress through partnerships&nbsp; &nbsp; &nbsp; The United Nations…",
     "watch": "Sourced from United Nations — verify dates and AI relevance.",
     "source": "https://www.un.org/en/civil-society/third-united-nations-conference-landlocked-developing-countries-lldc3"
+  },
+  {
+    "title": "When AI Enters the Workplace, Who Faces Greater Risks? A Gendered Analysis",
+    "date": "Mon, 21 Sep 2026",
+    "location": "TBC",
+    "host": "cs.CY updates on arXiv.org",
+    "applies": "Monitor",
+    "tag": "AI Governance",
+    "angle": "AI Governance / technical AI",
+    "why": "Gender inequality remains a persistent structural feature of the labour market, shaping women's lifetime earnings and economic security. As artificial intelligence (AI) transforms organisational…",
+    "watch": "Sourced from cs.CY updates on arXiv.org — verify dates and AI relevance.",
+    "source": "https://arxiv.org/abs/2609.21756"
+  },
+  {
+    "title": "End-to-End Hard-Label Cryptanalytic Model Extraction Using Efficient Sign Recovery",
+    "date": "Mon, 21 Sep 2026",
+    "location": "TBC",
+    "host": "cs.CR updates on arXiv.org",
+    "applies": "Monitor",
+    "tag": "AI Governance",
+    "angle": "AI Governance / technical AI",
+    "why": "The importance of deep neural networks (DNNs) is widely recognized, and the parameters obtained through training are regarded as valuable assets. Recently, attacks that extract these parameters using…",
+    "watch": "Sourced from cs.CR updates on arXiv.org — verify dates and AI relevance.",
+    "source": "https://arxiv.org/abs/2609.21941"
   },
   {
     "title": "KDD-MLF 2025",
@@ -300,6 +360,18 @@
     "source": "https://www.europol.europa.eu/media-press/newsroom/news/drug-trafficking-investigation-leads-to-some-of-world-biggest-underground-bankers"
   },
   {
+    "title": "PolyBridgeBench: Benchmarking Multimodal LLMs for Physics-Grounded Bridge Design",
+    "date": "Mon, 21 Sep 2026",
+    "location": "TBC",
+    "host": "cs.AI updates on arXiv.org",
+    "applies": "Monitor",
+    "tag": "AI Governance",
+    "angle": "AI Governance / policy & regulation",
+    "why": "Multimodal large language models, or MLLMs, perform well at visual understanding and structured generation, yet these capabilities do not establish whether an engineering design will work when…",
+    "watch": "Sourced from cs.AI updates on arXiv.org — verify dates and AI relevance.",
+    "source": "https://arxiv.org/abs/2609.21493"
+  },
+  {
     "title": "ICAIR 2024",
     "date": "4th International Conference on AI Research (formally the European Conference on the Impact of Artificial Intelligence and Robotics)",
     "location": "TBC",
@@ -310,6 +382,18 @@
     "why": "ICAIR 2024",
     "watch": "Sourced via WikiCFP — check agenda for AI harm/misuse sessions.",
     "source": "http://www.wikicfp.com/cfp/servlet/event.showcfp?eventid=178495&copyownerid=8438"
+  },
+  {
+    "title": "Origin Is All You Need: Provenance-Aware Transformers for Structural Trust-Boundary Separation",
+    "date": "Mon, 21 Sep 2026",
+    "location": "TBC",
+    "host": "cs.CR updates on arXiv.org",
+    "applies": "Monitor",
+    "tag": "AI Safety",
+    "angle": "AI Safety / technical AI",
+    "why": "Indirect prompt injection (IPI) remains a central safety and security challenge for large language model (LLM) systems because standard transformers lack architectural notion of source authority.…",
+    "watch": "Sourced from cs.CR updates on arXiv.org — verify dates and AI relevance.",
+    "source": "https://arxiv.org/abs/2609.21088"
   },
   {
     "title": "Governing GP AI Systems 2026",
@@ -384,6 +468,18 @@
     "source": "https://futureoflife.org/press-release/prominent-scientists-faith-leaders-policymakers-and-artists-call-for-a-prohibition-on-superintelligence/"
   },
   {
+    "title": "TrustBOM: A Scalable Architecture for Confidentiality-Preserving SBOMs Across Organizations",
+    "date": "Mon, 21 Sep 2026",
+    "location": "TBC",
+    "host": "cs.CR updates on arXiv.org",
+    "applies": "Monitor",
+    "tag": "AI Governance",
+    "angle": "AI Governance / policy & regulation",
+    "why": "Software Bills of Materials (SBOMs) have emerged as a key mechanism for software supply chain governance in enterprise architectures. However, their adoption across organizations remains limited due…",
+    "watch": "Sourced from cs.CR updates on arXiv.org — verify dates and AI relevance.",
+    "source": "https://arxiv.org/abs/2609.21419"
+  },
+  {
     "title": "UN Human Rights Council 63: UK Statement for the Interactive Dialogue on Mercenaries",
     "date": "2026-09-15T14:34",
     "location": "TBC",
@@ -442,6 +538,18 @@
     "why": "The post UN Global Dialogue Co-Leads Issue Call to Action on Safe, Secure, and Trustworthy AI appeared first on Partnership on AI .",
     "watch": "Sourced from Partnership on AI — verify dates and AI relevance.",
     "source": "https://partnershiponai.org/pai-and-costa-rica-submit-recommendations-to-un-global-dialogue-co-chairs/"
+  },
+  {
+    "title": "Your Programming Students' Cognition with ChatGPT: Higher Performance, Lower Retention, and Reduced Ownership",
+    "date": "Mon, 21 Sep 2026",
+    "location": "TBC",
+    "host": "cs.CY updates on arXiv.org",
+    "applies": "Monitor",
+    "tag": "Multilateral",
+    "angle": "Multilateral / policy & regulation",
+    "why": "Generative AI can improve students' programming performance, but successful task completion may not reflect what they retain. We examined performance, retention, cognitive load, and ownership in a…",
+    "watch": "Sourced from cs.CY updates on arXiv.org — verify dates and AI relevance.",
+    "source": "https://arxiv.org/abs/2609.21194"
   },
   {
     "title": "India AI Impact Summit panel: Towards multilateral agreement on enforcing red lines",
@@ -540,6 +648,18 @@
     "source": "https://www.csis.org/events/ensuring-australian-resilience-effective-weapon-system-sustainment-era-contested-logistics"
   },
   {
+    "title": "Micro-Collaborative Poisoning: A Distributed Attack on RAG Systems",
+    "date": "Mon, 21 Sep 2026",
+    "location": "TBC",
+    "host": "cs.CR updates on arXiv.org",
+    "applies": "Monitor",
+    "tag": "AI Governance",
+    "angle": "AI Governance / technical AI",
+    "why": "Retrieval-Augmented Generation (RAG) improves large language models by grounding outputs in external knowledge sources, but this dependency also creates a surface for poisoning attacks. This paper…",
+    "watch": "Sourced from cs.CR updates on arXiv.org — verify dates and AI relevance.",
+    "source": "https://arxiv.org/abs/2609.21573"
+  },
+  {
     "title": "Cyber Threat Report: UK Legal Sector",
     "date": "Thu, 22 Jun 2023",
     "location": "TBC",
@@ -559,7 +679,7 @@
     "applies": "Monitor",
     "tag": "AI Governance",
     "angle": "AI Governance / policy & regulation",
-    "why": "Minister Alison McGovern delivered the keynote speech at the Alzheimer&#39;s Society Conference 2026 in London, highlighting the government&#39;s action on dementia",
+    "why": "Minister Alison McGovern delivered the keynote speech at the Alzheimer&#39;s Society Conference 2026 in London, highlighting the government&#39;s action on dementia.",
     "watch": "Sourced from News and communications — verify dates and AI relevance.",
     "source": "https://www.gov.uk/government/speeches/minister-of-state-for-social-care-and-mental-health-speech-on-dementia"
   },
@@ -1032,16 +1152,16 @@
     "source": "https://www.gov.uk/government/news/mhra-sets-out-steps-to-prevent-avoidable-harm-from-patient-hoists"
   },
   {
-    "title": "Government response to the Thirlwall Inquiry",
-    "date": "2026-09-15T17:29",
+    "title": "Wallace Collection Board Appointments",
+    "date": "2026-09-21T12:00",
     "location": "TBC",
     "host": "News and communications",
     "applies": "Monitor",
     "tag": "AI Governance",
     "angle": "AI Governance / policy & regulation",
-    "why": "The Secretary of State has apologised to families and set out urgent action following the Thirlwall Inquiry’s findings, published on 15 September.",
+    "why": "Kate Cheetham, Elizabeth Kennedy, Amelia Pan and Lord Chris Smith have been appointed to the Wallace Collection Board by the previous Prime Minister.",
     "watch": "Sourced from News and communications — verify dates and AI relevance.",
-    "source": "https://www.gov.uk/government/speeches/government-response-to-the-thirlwall-inquiry"
+    "source": "https://www.gov.uk/government/news/wallace-collection-board-appointments"
   },
   {
     "title": "Birmingham waste company to clear site and pay nearly £24,000",
@@ -1078,18 +1198,6 @@
     "why": "Total to pay is more than £36,000 including costs with five-year criminal behaviour order and suspended custodial sentence.",
     "watch": "Sourced from News and communications — verify dates and AI relevance.",
     "source": "https://www.gov.uk/government/news/20000-fine-for-norfolk-illegal-waste-operator"
-  },
-  {
-    "title": "All charities urged to check new rules for accounting for 2026",
-    "date": "2026-09-16T08:00",
-    "location": "TBC",
-    "host": "News and communications",
-    "applies": "Monitor",
-    "tag": "AI Governance",
-    "angle": "AI Governance / policy & regulation",
-    "why": "The Charity Commission for England and Wales is urging all charity trustees and professional advisers to read its updated guidance due to changes that apply from this year.",
-    "watch": "Sourced from News and communications — verify dates and AI relevance.",
-    "source": "https://www.gov.uk/government/news/all-charities-urged-to-check-new-rules-for-accounting-for-2026"
   },
   {
     "title": "NIST Awards More Than $1.7 Million to Support Cybersecurity Workforce Development Across 8 States",
@@ -1282,18 +1390,6 @@
     "why": "UKHSA, alongside the Food Standards Agency and other public health partners, continues to investigate an outbreak of Salmonella in the UK.",
     "watch": "Sourced from News and communications — verify dates and AI relevance.",
     "source": "https://www.gov.uk/government/news/salmonella-outbreak-update"
-  },
-  {
-    "title": "Food Standards Agency Board meeting takes place today",
-    "date": "2026-09-16T07:00",
-    "location": "TBC",
-    "host": "News and communications",
-    "applies": "Monitor",
-    "tag": "AI Governance",
-    "angle": "AI Governance / governance & institutions",
-    "why": "The September 2026 FSA Board meeting takes place in Swansea at 9.00am today (Wednesday 16 September).",
-    "watch": "Sourced from News and communications — verify dates and AI relevance.",
-    "source": "https://www.gov.uk/government/news/food-standards-agency-board-meeting-takes-place-today"
   },
   {
     "title": "NIST Finalizes Guidelines on Protecting Online Identity and Access Tokens From Misuse",
@@ -1548,6 +1644,18 @@
     "source": "https://www.ncsc.gov.uk/report/summary-of-ncsc-security-analysis-for-the-uk-telecoms-sector"
   },
   {
+    "title": "Evaluation Accelerator Fund (Phase 5): Project summaries",
+    "date": "2026-09-21T11:00",
+    "location": "TBC",
+    "host": "News and communications",
+    "applies": "Monitor",
+    "tag": "AI Governance",
+    "angle": "AI Governance / policy & regulation",
+    "why": "This page details the projects that were awarded funding as part of Phase 5 of the Evaluation Accelerator Fund (EAF).",
+    "watch": "Sourced from News and communications — verify dates and AI relevance.",
+    "source": "https://www.gov.uk/government/news/evaluation-accelerator-fund-phase-5-project-summaries"
+  },
+  {
     "title": "Battle for the Atlantic",
     "date": "2026-09-17T09:58",
     "location": "TBC",
@@ -1594,6 +1702,18 @@
     "why": "…RAF Wyton opens new FAIRFAX Collaboration Hub with industry partners, marking a key step in its growth as the UK&#x27;s <mark>intelligence</mark> hub.…",
     "watch": "Sourced from News and communications — verify dates and AI relevance.",
     "source": "https://www.gov.uk/government/news/defence-and-industry-unite-as-new-collaboration-hub-opens-at-raf-wyton"
+  },
+  {
+    "title": "Frontline services to receive funding to prevent violence against women and girls",
+    "date": "2026-09-21T14:20",
+    "location": "TBC",
+    "host": "News and communications",
+    "applies": "Monitor",
+    "tag": "AI Governance",
+    "angle": "AI Governance / policy & regulation",
+    "why": "Frontline services and communities across the country will receive targeted funding to transform how women and girls are protected from violence and abuse.",
+    "watch": "Sourced from News and communications — verify dates and AI relevance.",
+    "source": "https://www.gov.uk/government/news/frontline-services-to-receive-funding-to-prevent-violence-against-women-and-girls"
   },
   {
     "title": "Government launches National Taskforce for Tackling Misogyny",
