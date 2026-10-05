@@ -1,5 +1,17 @@
 [
   {
+    "title": "Containing the Autonomous Operator: A Defense-in-Depth Framework and Reference Architecture for Securing AI Agents on…",
+    "date": "Mon, 05 Oct 2026",
+    "location": "TBC",
+    "host": "cs.CR updates on arXiv.org",
+    "applies": "Attend",
+    "tag": "Multilateral",
+    "angle": "Multilateral / technical AI",
+    "why": "Large language model (LLM) agents are moving from chat interfaces into infrastructure operations, where they read telemetry, call tools, generate and execute code, and change the state of production…",
+    "watch": "Sourced from cs.CR updates on arXiv.org — verify dates and AI relevance.",
+    "source": "https://arxiv.org/abs/2610.02861"
+  },
+  {
     "title": "EU Kids Act Won't Keep the Internet Accountable and Trustworthy",
     "date": "Mon, 21 Sep 2026",
     "location": "TBC",
@@ -120,6 +132,42 @@
     "source": "https://www.europol.europa.eu/media-press/newsroom/news/eu-law-enforcement-chiefs-gather-to-discuss-new-challenges-in-eu-security"
   },
   {
+    "title": "On-Premises Multi-Course RAG Tutoring for Business Education: Hardware-Software Trade-offs in a Campus AI Tutor",
+    "date": "Mon, 05 Oct 2026",
+    "location": "TBC",
+    "host": "cs.AI updates on arXiv.org",
+    "applies": "Attend",
+    "tag": "Election Integrity",
+    "angle": "Election Integrity / governance & institutions",
+    "why": "Campus AI tutors based on retrieval-augmented generation (RAG) must ground answers in assigned course materials while keeping textbooks and student dialogue on institutional infrastructure. We…",
+    "watch": "Sourced from cs.AI updates on arXiv.org — verify dates and AI relevance.",
+    "source": "https://arxiv.org/abs/2610.02510"
+  },
+  {
+    "title": "Interrupting the Chain: Human Perception of AI-Generated Disinformation Through a Kill Chain Lens",
+    "date": "Mon, 05 Oct 2026",
+    "location": "TBC",
+    "host": "cs.CY updates on arXiv.org",
+    "applies": "Attend",
+    "tag": "Cybersecurity",
+    "angle": "Cybersecurity / technical AI",
+    "why": "Generative AI enables customized misinformation at scale, yet defenses remain largely reactive. We present empirical findings from a human-subject study (n=504 participants, n=2,438 judgments) in…",
+    "watch": "Sourced from cs.CY updates on arXiv.org — verify dates and AI relevance.",
+    "source": "https://arxiv.org/abs/2608.21389"
+  },
+  {
+    "title": "A population-level assessment framework for flood-related wellbeing from public discourse in Ireland",
+    "date": "Mon, 05 Oct 2026",
+    "location": "TBC",
+    "host": "cs.CY updates on arXiv.org",
+    "applies": "Attend",
+    "tag": "Multilateral",
+    "angle": "Multilateral / policy & regulation",
+    "why": "\\ textbf{Background.} Ireland's position on the eastern North Atlantic exposes it to moisture-laden westerlies and frequent low-pressure systems, generating abundant precipitation and substantial…",
+    "watch": "Sourced from cs.CY updates on arXiv.org — verify dates and AI relevance.",
+    "source": "https://arxiv.org/abs/2610.03334"
+  },
+  {
     "title": "Government leaders call for treaty negotiations on autonomous weapons for the first time",
     "date": "Mon, 28 Sep 2026",
     "location": "TBC",
@@ -130,6 +178,42 @@
     "why": "At a New York forum cosponsored by six governments, the ICRC, The Elders and FLI, ministers and UN officials called on states to begin negotiating a legally binding instrument on autonomous weapons…",
     "watch": "Sourced from Future of Life Institute — verify dates and AI relevance.",
     "source": "https://futureoflife.org/ai-policy/government-leaders-call-for-treaty-negotiations-on-autonomous-weapons-for-the-first-time/"
+  },
+  {
+    "title": "Digital Twin-Assisted Mapping of ICS Telemetry to ATT&CK for ICS with Evidence-Driven Dependency Reasoning",
+    "date": "Mon, 05 Oct 2026",
+    "location": "TBC",
+    "host": "cs.CR updates on arXiv.org",
+    "applies": "Attend",
+    "tag": "AI Governance",
+    "angle": "AI Governance / technical AI",
+    "why": "Reconstructing adversarial behavior from Industrial Control System (ICS) telemetry is difficult because process observations reveal physical changes more directly than the actions that produced them.…",
+    "watch": "Sourced from cs.CR updates on arXiv.org — verify dates and AI relevance.",
+    "source": "https://arxiv.org/abs/2610.02955"
+  },
+  {
+    "title": "AgentTrap: Stateful Feedback Deception against Autonomous Penetration Testing Agents",
+    "date": "Mon, 05 Oct 2026",
+    "location": "TBC",
+    "host": "cs.CR updates on arXiv.org",
+    "applies": "Attend",
+    "tag": "Multilateral",
+    "angle": "Multilateral / technical AI",
+    "why": "Autonomous penetration testing agents conduct multi-step attacks by continuously adapting their plans and actions to target responses. As a common defense, honeypots can be deployed to divert these…",
+    "watch": "Sourced from cs.CR updates on arXiv.org — verify dates and AI relevance.",
+    "source": "https://arxiv.org/abs/2610.02869"
+  },
+  {
+    "title": "CorrectGuard: Eyes-Off Correctness Estimation for Black-Box Security Guardrails",
+    "date": "Mon, 05 Oct 2026",
+    "location": "TBC",
+    "host": "cs.CR updates on arXiv.org",
+    "applies": "Attend",
+    "tag": "Privacy & Surveillance",
+    "angle": "Privacy & Surveillance / policy & regulation",
+    "why": "AI services increasingly rely on black-box security guardrails, yet privacy-preserving model auditing regimes often cannot measure how well these systems perform in both a human eyes-off production…",
+    "watch": "Sourced from cs.CR updates on arXiv.org — verify dates and AI relevance.",
+    "source": "https://arxiv.org/abs/2610.03470"
   },
   {
     "title": "Congress Has Another Site-Blocking Bill, And This One Targets VPNs",
@@ -204,6 +288,18 @@
     "source": "https://www.un.org/en/civil-society/third-united-nations-conference-landlocked-developing-countries-lldc3"
   },
   {
+    "title": "Answering clinicians' questions over trial evidence tables with verifiable, feedback-driven language models",
+    "date": "Mon, 05 Oct 2026",
+    "location": "TBC",
+    "host": "cs.AI updates on arXiv.org",
+    "applies": "Monitor",
+    "tag": "AI Governance",
+    "angle": "AI Governance / policy & regulation",
+    "why": "Systematic reviews condense clinical trials into evidence tables, yet clinicians can interrogate these tables only through database queries, and many questions concern attributes that the table does…",
+    "watch": "Sourced from cs.AI updates on arXiv.org — verify dates and AI relevance.",
+    "source": "https://arxiv.org/abs/2610.02576"
+  },
+  {
     "title": "KDD-MLF 2025",
     "date": "Event",
     "location": "Where",
@@ -252,6 +348,18 @@
     "source": "https://www.europol.europa.eu/media-press/newsroom/news/seven-arrests-in-brazil-during-crackdown-south-america-europe-cocaine-pipeline"
   },
   {
+    "title": "SoK: Stablecoins in the Quantum Era",
+    "date": "Mon, 05 Oct 2026",
+    "location": "TBC",
+    "host": "cs.CR updates on arXiv.org",
+    "applies": "Monitor",
+    "tag": "Privacy & Surveillance",
+    "angle": "Privacy & Surveillance / policy & regulation",
+    "why": "Stablecoins support payments, trading, collateral, and cross-chain settlement across the digital-asset ecosystem. They also concentrate value behind issuer, custody, upgrade, oracle, and bridge keys…",
+    "watch": "Sourced from cs.CR updates on arXiv.org — verify dates and AI relevance.",
+    "source": "https://arxiv.org/abs/2610.02435"
+  },
+  {
     "title": "ICAIR 2024",
     "date": "4th International Conference on AI Research (formally the European Conference on the Impact of Artificial Intelligence and Robotics)",
     "location": "TBC",
@@ -274,6 +382,18 @@
     "why": "When the rich and powerful try to use the court to silence negative reporting about themselves, it’s worth calling out that behavior for what it is: an attack on free speech. This is why EFF is happy…",
     "watch": "Sourced from Deeplinks — verify dates and AI relevance.",
     "source": "https://www.eff.org/deeplinks/2026/09/victory-california-appeals-court-refuses-revive-surveillance-tech-ceos-meritless"
+  },
+  {
+    "title": "A Semi-Automated System for Generating Dialogue-Based TTS Lessons Using Large Language Models: An Exploratory Study of…",
+    "date": "Mon, 05 Oct 2026",
+    "location": "TBC",
+    "host": "cs.CY updates on arXiv.org",
+    "applies": "Monitor",
+    "tag": "EU Governance",
+    "angle": "EU Governance / technical AI",
+    "why": "This study proposes a semi-automated system for generating dialogue-based lessons using Large Language Models (LLMs) and Text-to-Speech (TTS) technology, and exploratorily examines its educational…",
+    "watch": "Sourced from cs.CY updates on arXiv.org — verify dates and AI relevance.",
+    "source": "https://arxiv.org/abs/2607.12235"
   },
   {
     "title": "Governing GP AI Systems 2026",
@@ -384,6 +504,30 @@
     "source": "https://partnershiponai.org/pai-and-costa-rica-submit-recommendations-to-un-global-dialogue-co-chairs/"
   },
   {
+    "title": "HXAI: Hierarchical Privacy-Preserving Explainable AI in Distributed Energy Systems",
+    "date": "Mon, 05 Oct 2026",
+    "location": "TBC",
+    "host": "cs.AI updates on arXiv.org",
+    "applies": "Monitor",
+    "tag": "Privacy & Surveillance",
+    "angle": "Privacy & Surveillance / policy & regulation",
+    "why": "Balancing electricity demand and supply is increasingly difficult due to the inherent intermittency of renewable power generation and the stochastic power consumption. Grid operators require…",
+    "watch": "Sourced from cs.AI updates on arXiv.org — verify dates and AI relevance.",
+    "source": "https://arxiv.org/abs/2610.02504"
+  },
+  {
+    "title": "Securing Computer-Use Agents Against Branch Steering Attacks",
+    "date": "Mon, 05 Oct 2026",
+    "location": "TBC",
+    "host": "cs.CR updates on arXiv.org",
+    "applies": "Monitor",
+    "tag": "AI Governance",
+    "angle": "AI Governance / technical AI",
+    "why": "Modern Computer Use Agents (CUAs) directly interact with graphical user interfaces and execute third-party web tools, exposing them to indirect prompt injection across every rendered page and tool…",
+    "watch": "Sourced from cs.CR updates on arXiv.org — verify dates and AI relevance.",
+    "source": "https://arxiv.org/abs/2610.03089"
+  },
+  {
     "title": "India AI Impact Summit panel: Towards multilateral agreement on enforcing red lines",
     "date": "TBC",
     "location": "TBC",
@@ -478,6 +622,18 @@
     "why": "Foreign Secretary address on <mark>artificial</mark> <mark>intelligence</mark> and international security – United Nations Security Council",
     "watch": "Sourced from News and communications — verify dates and AI relevance.",
     "source": "https://www.gov.uk/government/speeches/foreign-secretary-address-to-the-unsc-on-artificial-intelligence--2"
+  },
+  {
+    "title": "Hypothesis-guided discovery of cognitive algorithms via program refinement",
+    "date": "Mon, 05 Oct 2026",
+    "location": "TBC",
+    "host": "cs.AI updates on arXiv.org",
+    "applies": "Monitor",
+    "tag": "AI Governance",
+    "angle": "AI Governance / technical AI",
+    "why": "Developing cognitive models of algorithmic reasoning from behavioral data is a central problem in cognitive science that challenges current methods. Traditional approaches to cognitive modeling are…",
+    "watch": "Sourced from cs.AI updates on arXiv.org — verify dates and AI relevance.",
+    "source": "https://arxiv.org/abs/2610.02523"
   },
   {
     "title": "Ordering violence from abroad: five suspects arrested in Spain, Morocco, and France",
@@ -598,18 +754,6 @@
     "why": "Security Minister Dan Jarvis&#39; speech for the annual International Security Expo on 30 September 2026.",
     "watch": "Sourced from News and communications — verify dates and AI relevance.",
     "source": "https://www.gov.uk/government/speeches/security-ministers-speech-at-the-international-security-expo"
-  },
-  {
-    "title": "Information Commission succeeds the ICO as UK's data protection regulator",
-    "date": "2026-09-30T12:00",
-    "location": "TBC",
-    "host": "News and communications",
-    "applies": "Monitor",
-    "tag": "Privacy & Surveillance",
-    "angle": "Privacy & Surveillance / policy & regulation",
-    "why": "From today, the new Information Commission takes over the ICO’s functions, modernising the <mark>regulator’s</mark> governance while maintaining its independent oversight and existing powers to…",
-    "watch": "Sourced from News and communications — verify dates and AI relevance.",
-    "source": "https://www.gov.uk/government/news/information-commission-succeeds-the-ico-as-uks-data-protection-regulator"
   },
   {
     "title": "NIST Launches Center to Drive the Manufacture of Quantum Technologies",
@@ -888,6 +1032,18 @@
     "source": "https://www.ncsc.gov.uk/report/nhs-covid-19-app-privacy-security-report"
   },
   {
+    "title": "CoRWM visit to Sweden’s radioactive waste facilities",
+    "date": "2026-10-05T10:00",
+    "location": "TBC",
+    "host": "News and communications",
+    "applies": "Monitor",
+    "tag": "AI Governance",
+    "angle": "AI Governance / policy & regulation",
+    "why": "Members of CoRWM recently visited the Forsmark and Clab sites in Sweden.",
+    "watch": "Sourced from News and communications — verify dates and AI relevance.",
+    "source": "https://www.gov.uk/government/news/corwm-visit-to-swedens-radioactive-waste-facilities"
+  },
+  {
     "title": "PM meeting with Prime Minister Støre of Norway: 27 September 2026",
     "date": "2026-09-27T19:12",
     "location": "TBC",
@@ -924,6 +1080,18 @@
     "source": "https://www.gov.uk/government/news/84-million-to-boost-plymouths-defence-growth-plans"
   },
   {
+    "title": "Domestic abusers to be marked and tracked in boost to victims’ safety",
+    "date": "2026-10-05T08:48",
+    "location": "TBC",
+    "host": "News and communications",
+    "applies": "Monitor",
+    "tag": "AI Governance",
+    "angle": "AI Governance / policy & regulation",
+    "why": "Victims and survivors of domestic abuse will be better protected as new measures come into force today (Monday 5 October), which require courts to make a formal record when domestic abuse was a…",
+    "watch": "Sourced from News and communications — verify dates and AI relevance.",
+    "source": "https://www.gov.uk/government/news/domestic-abusers-to-be-marked-and-tracked-in-boost-to-victims-safety"
+  },
+  {
     "title": "Justice reforms to be rolled out faster as Justice Secretary sets out changes to Courts Bill",
     "date": "2026-10-04T00:01",
     "location": "TBC",
@@ -948,16 +1116,16 @@
     "source": "https://www.gov.uk/government/news/support-for-families-and-babies-rolled-out-to-all-family-hubs"
   },
   {
-    "title": "Two local authorities get C3 consumer grade from RSH",
-    "date": "2026-09-30T09:30",
+    "title": "Supported housing residents to keep more of what they earn as new rules come into force",
+    "date": "2026-10-05T00:01",
     "location": "TBC",
     "host": "News and communications",
     "applies": "Monitor",
     "tag": "AI Governance",
     "angle": "AI Governance / policy & regulation",
-    "why": "The Regulator of Social Housing published regulatory judgements for 10 landlords today.",
+    "why": "More than 325,000 residents in supported housing and temporary accommodation will keep more of what they earn when they take up work or increase their hours.",
     "watch": "Sourced from News and communications — verify dates and AI relevance.",
-    "source": "https://www.gov.uk/government/news/two-local-authorities-get-c3-consumer-grade-from-rsh"
+    "source": "https://www.gov.uk/government/news/supported-housing-residents-to-keep-more-of-what-they-earn-as-new-rules-come-into-force"
   },
   {
     "title": "New streamlined planning role for Natural England takes effect",
@@ -1152,18 +1320,6 @@
     "source": "https://www.gov.uk/government/news/un-human-rights-council-63-uk-statement-for-the-annual-discussion-on-the-integration-of-a-gender-perspective-at-the-human-rights-council"
   },
   {
-    "title": "Food Standards Agency and Food Standards Scotland publish latest package of guidance to support innovative food…",
-    "date": "2026-09-30T09:54",
-    "location": "TBC",
-    "host": "News and communications",
-    "applies": "Monitor",
-    "tag": "AI Governance",
-    "angle": "AI Governance / governance & institutions",
-    "why": "The Food Standards Agency (FSA) and Food Standards Scotland (FSS) have today published a new package of supplementary guidance for businesses developing cell-cultivated products, the latest milestone…",
-    "watch": "Sourced from News and communications — verify dates and AI relevance.",
-    "source": "https://www.gov.uk/government/news/food-standards-agency-and-food-standards-scotland-publish-latest-package-of-guidance-to-support-innovative-food-businesses"
-  },
-  {
     "title": "NIST Finalizes Guidelines on Protecting Online Identity and Access Tokens From Misuse",
     "date": "Tue, 15 Sep 2026",
     "location": "TBC",
@@ -1186,18 +1342,6 @@
     "why": "A NIST-led team has created a new AI model that can identify safe evacuation routes in a single-story floor plan during a fire, with a multilevel version in the works.",
     "watch": "Sourced from NIST News — verify dates and AI relevance.",
     "source": "https://www.nist.gov/news-events/news/2026/06/new-ai-model-shows-how-evacuate-fires-one-safe-step-time"
-  },
-  {
-    "title": "Announcing the &quot;AI Agent Standards Initiative&quot; for Interoperable and Secure Innovation",
-    "date": "Tue, 17 Feb 2026",
-    "location": "TBC",
-    "host": "NIST News",
-    "applies": "Monitor",
-    "tag": "AI Governance",
-    "angle": "AI Governance / governance & institutions",
-    "why": "The Initiative will ensure that the next generation of AI is widely adopted with confidence, can function securely on behalf of its users, and can interoperate smoothly across the digital ecosystem.",
-    "watch": "Sourced from NIST News — verify dates and AI relevance.",
-    "source": "https://www.nist.gov/news-events/news/2026/02/announcing-ai-agent-standards-initiative-interoperable-and-secure"
   },
   {
     "title": "Until we meet again",
@@ -1452,16 +1596,16 @@
     "source": "https://www.gov.uk/government/speeches/chief-of-the-air-staff-air-chief-marshal-sir-harv-smyths-speech-at-the-uk-space-power-conference"
   },
   {
-    "title": "RAF launches first ever space squadron dedicated to defending Britain's satellites",
-    "date": "2026-09-23T06:00",
+    "title": "YJB responds to CJB Wales Annual Report and Anti-Racism Report",
+    "date": "2026-10-05T12:19",
     "location": "TBC",
     "host": "News and communications",
     "applies": "Monitor",
     "tag": "AI Governance",
     "angle": "AI Governance / policy & regulation",
-    "why": "The RAF has launched No. III Space Effects Squadron, its first dedicated unit to counter hostile threats to UK satellites.",
+    "why": "The Youth Justice Board&#39;s (YJB) response to the publication of the Criminal Justice Board (CJB) Wales Annual Report and Anti-Racism Report.",
     "watch": "Sourced from News and communications — verify dates and AI relevance.",
-    "source": "https://www.gov.uk/government/news/raf-launches-first-ever-space-squadron-dedicated-to-defending-britains-satellites"
+    "source": "https://www.gov.uk/government/news/yjb-responds-to-cjb-wales-annual-report-and-anti-racism-report"
   },
   {
     "title": "UK and Taiwan deepen trade and technology cooperation",
@@ -1596,6 +1740,18 @@
     "source": "https://www.gov.uk/government/news/new-flood-scheme-opens-to-protect-tonbridge-and-hildenborough"
   },
   {
+    "title": "Board member appointed to the Children and Family Court Advisory and Support Service",
+    "date": "2026-10-05T09:00",
+    "location": "TBC",
+    "host": "News and communications",
+    "applies": "Monitor",
+    "tag": "Child Safety",
+    "angle": "Child Safety / policy & regulation",
+    "why": "The Secretary of State for Justice has approved the appointment of Kathryn Gillatt as a board member of Children and Family Court Advisory and Support Service (CAFCASS).",
+    "watch": "Sourced from News and communications — verify dates and AI relevance.",
+    "source": "https://www.gov.uk/government/news/board-member-appointed-to-the-children-and-family-court-advisory-and-support-service"
+  },
+  {
     "title": "England’s reservoirs continue to feel drought strain after sixth dry month of 2026",
     "date": "2026-10-02T13:38",
     "location": "TBC",
@@ -1654,6 +1810,18 @@
     "why": "The governments of UK and Solomon Islands agree the next phase of an energy programme, including a roadmap to create an independent energy <mark>regulator</mark>.",
     "watch": "Sourced from News and communications — verify dates and AI relevance.",
     "source": "https://www.gov.uk/government/news/uk-set-for-next-stage-of-energy-reform-in-solomon-islands"
+  },
+  {
+    "title": "Physicist Jun Ye Wins Wolf Prize in Physics",
+    "date": "Mon, 05 Oct 2026",
+    "location": "TBC",
+    "host": "NIST News",
+    "applies": "Monitor",
+    "tag": "AI Governance",
+    "angle": "AI Governance / policy & regulation",
+    "why": "The award cites Ye’s achievement in “transformative, widely applicable advances in the control of ultracold atomic systems.”",
+    "watch": "Sourced from NIST News — verify dates and AI relevance.",
+    "source": "https://www.nist.gov/news-events/news/2026/10/physicist-jun-ye-wins-wolf-prize-physics"
   },
   {
     "title": "NIST Researchers Supersize Quantum Technology to Help Detect Faint Photons",
