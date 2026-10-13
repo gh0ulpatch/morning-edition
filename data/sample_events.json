@@ -156,18 +156,6 @@
     "source": "https://www.eff.org/deeplinks/2026/10/congress-has-another-site-blocking-bill-and-one-targets-vpns"
   },
   {
-    "title": "EFF Welcomes Alexander Macgillivray to its Board of Directors",
-    "date": "Wed, 16 Sep 2026",
-    "location": "TBC",
-    "host": "Deeplinks",
-    "applies": "Attend",
-    "tag": "AI Governance",
-    "angle": "AI Governance / policy & regulation",
-    "why": "The Electronic Frontier Foundation (EFF) is honored to announce today that Alexander “ amac ” Macgillivray — a former White House official who also served in top legal capacities at Twitter and…",
-    "watch": "Sourced from Deeplinks — verify dates and AI relevance.",
-    "source": "https://www.eff.org/deeplinks/2026/09/eff-welcomes-alexander-macgillivray-its-board-directors"
-  },
-  {
     "title": "ICCWS 2027",
     "date": "Event",
     "location": "Where",
@@ -252,18 +240,6 @@
     "source": "https://www.europol.europa.eu/media-press/newsroom/news/european-and-ecuadorian-cooperation-leads-to-20-arrests-in-major-hit-against-drug-trafficking"
   },
   {
-    "title": "Adversarial Attacks Reveal Divergent Deception Competence in Humans and Generative Language Models",
-    "date": "Mon, 12 Oct 2026",
-    "location": "TBC",
-    "host": "cs.CY updates on arXiv.org",
-    "applies": "Monitor",
-    "tag": "Cybersecurity",
-    "angle": "Cybersecurity / technical AI",
-    "why": "Machine learning models typically outperform humans in deception detection. A threat to machine learning models is their vulnerability to adversarial attacks: subtle yet targeted perturbations of…",
-    "watch": "Sourced from cs.CY updates on arXiv.org — verify dates and AI relevance.",
-    "source": "https://arxiv.org/abs/2610.13363"
-  },
-  {
     "title": "RWS 2025",
     "date": "Event",
     "location": "Where",
@@ -289,7 +265,7 @@
   },
   {
     "title": "Learning More by Training Less: Uncertainty-Guided Progressive Contraction for Efficient Reasoning Post-Training",
-    "date": "Mon, 12 Oct 2026",
+    "date": "Tue, 13 Oct 2026",
     "location": "TBC",
     "host": "cs.AI updates on arXiv.org",
     "applies": "Monitor",
@@ -298,18 +274,6 @@
     "why": "Large language models have achieved remarkable advances in complex reasoning. However, scaling reasoning post-training with ever-larger corpora can substantially increase training cost without…",
     "watch": "Sourced from cs.AI updates on arXiv.org — verify dates and AI relevance.",
     "source": "https://arxiv.org/abs/2610.12933"
-  },
-  {
-    "title": "APEX-Harm: Evaluating Agent Safety in Shared Professional Workspaces",
-    "date": "Mon, 12 Oct 2026",
-    "location": "TBC",
-    "host": "cs.CR updates on arXiv.org",
-    "applies": "Monitor",
-    "tag": "AI Safety",
-    "angle": "AI Safety / policy & regulation",
-    "why": "Professional agents increasingly work through command-line interfaces and multiple tools over shared workspaces containing files, messages, and business applications. These environments create safety…",
-    "watch": "Sourced from cs.CR updates on arXiv.org — verify dates and AI relevance.",
-    "source": "https://arxiv.org/abs/2610.13623"
   },
   {
     "title": "ICAIR 2024",
@@ -420,18 +384,6 @@
     "source": "https://futureoflife.org/press-release/prominent-scientists-faith-leaders-policymakers-and-artists-call-for-a-prohibition-on-superintelligence/"
   },
   {
-    "title": "Nearly 50 arrests in people smuggling crackdown at Irish border",
-    "date": "2026-09-29T12:08",
-    "location": "TBC",
-    "host": "News and communications",
-    "applies": "Monitor",
-    "tag": "AI Governance",
-    "angle": "AI Governance / policy & regulation",
-    "why": "Week of action targets criminal gangs who illegally try to enter the UK from Ireland, comes alongside a wider 74% surge in organised immigration crime arrests.",
-    "watch": "Sourced from News and communications — verify dates and AI relevance.",
-    "source": "https://www.gov.uk/government/news/nearly-50-arrests-in-people-smuggling-crackdown-at-irish-border"
-  },
-  {
     "title": "UN Global Dialogue Co-Leads Issue Call to Action on Safe, Secure, and Trustworthy AI",
     "date": "Mon, 31 Aug 2026",
     "location": "TBC",
@@ -442,18 +394,6 @@
     "why": "The post UN Global Dialogue Co-Leads Issue Call to Action on Safe, Secure, and Trustworthy AI appeared first on Partnership on AI .",
     "watch": "Sourced from Partnership on AI — verify dates and AI relevance.",
     "source": "https://partnershiponai.org/pai-and-costa-rica-submit-recommendations-to-un-global-dialogue-co-chairs/"
-  },
-  {
-    "title": "AgentValve: Sybil-Resilient Payment Authorization for Permissionless AI Markets",
-    "date": "Mon, 12 Oct 2026",
-    "location": "TBC",
-    "host": "cs.CR updates on arXiv.org",
-    "applies": "Monitor",
-    "tag": "AI Governance",
-    "angle": "AI Governance / technical AI",
-    "why": "AI agents increasingly select and pay service providers without human review. In emerging permissionless markets, however, adversaries can create inexpensive identities and fabricate feedback to…",
-    "watch": "Sourced from cs.CR updates on arXiv.org — verify dates and AI relevance.",
-    "source": "https://arxiv.org/abs/2610.12948"
   },
   {
     "title": "India AI Impact Summit panel: Towards multilateral agreement on enforcing red lines",
@@ -541,7 +481,7 @@
   },
   {
     "title": "SmartSalesBench: A Resistance-Aware Multi-Turn Benchmark for Evaluating LLM Sales Agents",
-    "date": "Mon, 12 Oct 2026",
+    "date": "Tue, 13 Oct 2026",
     "location": "TBC",
     "host": "cs.AI updates on arXiv.org",
     "applies": "Monitor",
@@ -768,18 +708,6 @@
     "source": "https://www.gov.uk/government/news/dia-and-mhra-announce-speaker-line-up-for-inaugural-global-summit"
   },
   {
-    "title": "Earlier action, faster recovery, tougher on fraud: Insolvency Service launches strategy to strengthen confidence and…",
-    "date": "2026-09-29T10:00",
-    "location": "TBC",
-    "host": "News and communications",
-    "applies": "Monitor",
-    "tag": "Financial Crime",
-    "angle": "Financial Crime / policy & regulation",
-    "why": "New strategy marks significant shift for the Agency – helping people and businesses deal with financial trouble earlier, as well as making quicker returns to the economy, and stepping up action…",
-    "watch": "Sourced from News and communications — verify dates and AI relevance.",
-    "source": "https://www.gov.uk/government/news/earlier-action-faster-recovery-tougher-on-fraud-insolvency-service-launches-strategy-to-strengthen-confidence-and-growth"
-  },
-  {
     "title": "NIST Expands Its Library of ‘Chemical Fingerprints’ to Identify Unknown Substances",
     "date": "Tue, 09 Jun 2026",
     "location": "TBC",
@@ -960,6 +888,18 @@
     "source": "https://www.ncsc.gov.uk/report/nhs-covid-19-app-privacy-security-report"
   },
   {
+    "title": "National security",
+    "date": "2026-10-12T18:18",
+    "location": "TBC",
+    "host": "News and communications",
+    "applies": "Monitor",
+    "tag": "AI Governance",
+    "angle": "AI Governance / policy & regulation",
+    "why": "The Home Secretary delivered an oral statement on government action to tackle national security threats and improve our protective security system.",
+    "watch": "Sourced from News and communications — verify dates and AI relevance.",
+    "source": "https://www.gov.uk/government/speeches/home-secretary-oral-statement-on-national-security"
+  },
+  {
     "title": "Building a Safer, More Secure Britain in the age of AI",
     "date": "2026-10-12T12:59",
     "location": "TBC",
@@ -1020,16 +960,16 @@
     "source": "https://www.gov.uk/government/news/corwm-visit-to-swedens-radioactive-waste-facilities"
   },
   {
-    "title": "PM meeting with Prime Minister Støre of Norway: 27 September 2026",
-    "date": "2026-09-27T19:12",
+    "title": "MHRA authorises Onswik (insulin efsitora alfa) for adults with type 2 diabetes",
+    "date": "2026-10-13T14:10",
     "location": "TBC",
     "host": "News and communications",
     "applies": "Monitor",
     "tag": "AI Governance",
     "angle": "AI Governance / policy & regulation",
-    "why": "The Prime Minister welcomed the Prime Minister of Norway Jonas Støre to Liverpool today.",
+    "why": "The new treatment option is administered once weekly, potentially reducing the number of injections from up to 365 a year to 52 for some adults with type 2 diabetes.",
     "watch": "Sourced from News and communications — verify dates and AI relevance.",
-    "source": "https://www.gov.uk/government/news/pm-meeting-with-prime-minister-store-of-norway-27-september-2026"
+    "source": "https://www.gov.uk/government/news/mhra-authorises-onswik-insulin-efsitora-alfa-for-adults-with-type-2-diabetes"
   },
   {
     "title": "PM statement to the House of Commons: 12 October 2026",
@@ -1075,7 +1015,7 @@
     "applies": "Monitor",
     "tag": "AI Governance",
     "angle": "AI Governance / policy & regulation",
-    "why": "Minister for Social Care and Mental Health, Alison McGovern, delivered a speech at the Fonagy Review launch event hosted by Rethink Mental Illness",
+    "why": "Minister for Social Care and Mental Health, Alison McGovern, delivered a speech at the Fonagy review launch event hosted by Rethink Mental Illness.",
     "watch": "Sourced from News and communications — verify dates and AI relevance.",
     "source": "https://www.gov.uk/government/speeches/minister-mcgovern-speech-on-mental-health-adhd-and-autism"
   },
@@ -1224,6 +1164,18 @@
     "source": "https://www.ncsc.gov.uk/report/a-method-to-assess-forgivable-vs-unforgivable-vulnerabilities"
   },
   {
+    "title": "Recruitment",
+    "date": "2026-10-13T13:00",
+    "location": "TBC",
+    "host": "News and communications",
+    "applies": "Monitor",
+    "tag": "AI Governance",
+    "angle": "AI Governance / governance & institutions",
+    "why": "Help shape the future of food <mark>safety</mark> in the UK. Join the FSA’s Scientific Advisory Committees and Science Council and contribute to evidence-based decision making.",
+    "watch": "Sourced from News and communications — verify dates and AI relevance.",
+    "source": "https://www.gov.uk/government/news/fsa-sac-recruitment"
+  },
+  {
     "title": "8th UK-India Science and Innovation Council Statement",
     "date": "2026-10-12T14:07",
     "location": "TBC",
@@ -1234,6 +1186,18 @@
     "why": "The UK and India have agreed new science and innovation partnerships, including on technology, research and <mark>AI</mark> cooperation, to boost growth and innovation.",
     "watch": "Sourced from News and communications — verify dates and AI relevance.",
     "source": "https://www.gov.uk/government/news/8th-uk-india-science-and-innovation-council-statement"
+  },
+  {
+    "title": "Appointment of Tim De Meyer as the Policing Member of the Sentencing Council",
+    "date": "2026-10-13T09:30",
+    "location": "TBC",
+    "host": "News and communications",
+    "applies": "Monitor",
+    "tag": "AI Governance",
+    "angle": "AI Governance / governance & institutions",
+    "why": "The Lord Chancellor has approved the appointment of Tim De Meyer as Policing member of the Sentencing Council for three years from 1 October 2026.",
+    "watch": "Sourced from News and communications — verify dates and AI relevance.",
+    "source": "https://www.gov.uk/government/news/appointment-of-tim-de-meyer-as-the-policing-member-of-the-sentencing-council"
   },
   {
     "title": "Regulator investigates education charity over concerns about its governance and financial management",
@@ -1320,18 +1284,6 @@
     "source": "https://futureoflife.org/statement/attack-against-sam-altmans-home/"
   },
   {
-    "title": "Response to Supreme Court judgment",
-    "date": "2026-10-09T12:07",
-    "location": "TBC",
-    "host": "News and communications",
-    "applies": "Monitor",
-    "tag": "Financial Crime",
-    "angle": "Financial Crime / cross-sector harm",
-    "why": "A statement by the Serious Fraud Office on R v Hayes and R v Palombo.",
-    "watch": "Sourced from News and communications — verify dates and AI relevance.",
-    "source": "https://www.gov.uk/government/news/response-to-supreme-court-judgment"
-  },
-  {
     "title": "The threat from commercial cyber proliferation",
     "date": "Wed, 19 Apr 2023",
     "location": "TBC",
@@ -1414,6 +1366,42 @@
     "why": "A summary of the NCSC’s security analysis for the UK telecoms sector",
     "watch": "Sourced from Report Feed — verify dates and AI relevance.",
     "source": "https://www.ncsc.gov.uk/report/summary-of-ncsc-security-analysis-for-the-uk-telecoms-sector"
+  },
+  {
+    "title": "Government sets out next steps on Standard Essential Patents",
+    "date": "2026-10-13T11:04",
+    "location": "TBC",
+    "host": "News and communications",
+    "applies": "Monitor",
+    "tag": "AI Governance",
+    "angle": "AI Governance / policy & regulation",
+    "why": "Targeted measures announced to make SEP licensing clearer, more accessible and more efficient.",
+    "watch": "Sourced from News and communications — verify dates and AI relevance.",
+    "source": "https://www.gov.uk/government/news/government-sets-out-next-steps-on-standard-essential-patents"
+  },
+  {
+    "title": "Quantum firms backed to keep railways running and cut waiting lists as UK harnesses potential of future tech",
+    "date": "2026-10-13T10:32",
+    "location": "TBC",
+    "host": "News and communications",
+    "applies": "Monitor",
+    "tag": "AI Governance",
+    "angle": "AI Governance / policy & regulation",
+    "why": "Businesses across the UK backed with a share of £50 million to help turn innovations into products that make a difference in the real world",
+    "watch": "Sourced from News and communications — verify dates and AI relevance.",
+    "source": "https://www.gov.uk/government/news/quantum-firms-backed-to-keep-railways-running-and-cut-waiting-lists-as-uk-harnesses-potential-of-future-tech"
+  },
+  {
+    "title": "UK National Intervention on Media Freedom in the OSCE Region: Warsaw Human Dimension Conference 2026",
+    "date": "2026-10-13T10:28",
+    "location": "TBC",
+    "host": "News and communications",
+    "applies": "Monitor",
+    "tag": "AI Governance",
+    "angle": "AI Governance / policy & regulation",
+    "why": "Ambassador Neil Holland calls on OSCE participating States to uphold media freedom, protect journalists and secure the release of media workers held by Russia.",
+    "watch": "Sourced from News and communications — verify dates and AI relevance.",
+    "source": "https://www.gov.uk/government/speeches/uk-national-intervention-on-media-freedom-in-the-osce-region-warsaw-human-dimension-conference-2026"
   },
   {
     "title": "Britain steps up national defences against growing AI risks",
@@ -1500,16 +1488,28 @@
     "source": "https://www.gov.uk/government/speeches/renewal-not-rupture-the-future-of-the-uk-us-relationship--2"
   },
   {
-    "title": "New research ship to be built in Britain, boosting British shipbuilding and transforming UK ocean science",
-    "date": "2026-09-28T12:38",
+    "title": "Warning over buying and selling second-hand bluetongue vaccines",
+    "date": "2026-10-13T10:34",
     "location": "TBC",
     "host": "News and communications",
     "applies": "Monitor",
     "tag": "AI Governance",
     "angle": "AI Governance / policy & regulation",
-    "why": "Government to invest in a new sea monitoring ship to be built in UK shipyards – creating British jobs.",
+    "why": "Animal keepers are being urged not to buy, sell or exchange leftover bluetongue serotype 3 (BTV-3) vaccines through online marketplaces, social media platforms or private arrangements.",
     "watch": "Sourced from News and communications — verify dates and AI relevance.",
-    "source": "https://www.gov.uk/government/news/new-research-ship-to-be-built-in-britain-boosting-british-shipbuilding-and-transforming-uk-ocean-science"
+    "source": "https://www.gov.uk/government/news/warning-over-buying-and-selling-second-hand-bluetongue-vaccines"
+  },
+  {
+    "title": "Root-and-branch review of security for those in public life",
+    "date": "2026-10-12T18:36",
+    "location": "TBC",
+    "host": "News and communications",
+    "applies": "Monitor",
+    "tag": "AI Governance",
+    "angle": "AI Governance / policy & regulation",
+    "why": "The Home Secretary has expanded dedicated police support and launched a review into protective security for those in public life.",
+    "watch": "Sourced from News and communications — verify dates and AI relevance.",
+    "source": "https://www.gov.uk/government/news/root-and-branch-review-of-security-for-those-in-public-life"
   },
   {
     "title": "Vice Admiral Dr Budi Purwanto receives 2026 Alexander Dalrymple Award",
@@ -1560,40 +1560,16 @@
     "source": "https://www.gov.uk/government/news/brits-to-benefit-from-faster-recovery-from-surgeries-and-better-harvests-through-new-backing-for-robotics"
   },
   {
-    "title": "Stop using pimple popping toys with needles, says OPSS",
-    "date": "2026-10-09T12:16",
+    "title": "ASEAN advances regional grid through UK, France and Brussels study visit",
+    "date": "2026-10-13T06:29",
     "location": "TBC",
     "host": "News and communications",
     "applies": "Monitor",
-    "tag": "AI Governance",
-    "angle": "AI Governance / policy & regulation",
-    "why": "OPSS warns consumers to stop using pimple popping squishy toys with sharp needles or syringes due to the risk of injury.",
+    "tag": "EU Governance",
+    "angle": "EU Governance / policy & regulation",
+    "why": "ASEAN officials visit the UK, France and Brussels to exchange expertise on cross-border electricity connectivity to advance the ASEAN Power Grid.",
     "watch": "Sourced from News and communications — verify dates and AI relevance.",
-    "source": "https://www.gov.uk/government/news/stop-using-pimple-popping-toys-with-needles-says-opss"
-  },
-  {
-    "title": "Lord Chancellor swearing-in speech: Rt Hon Alex Norris MP",
-    "date": "2026-10-09T11:24",
-    "location": "TBC",
-    "host": "News and communications",
-    "applies": "Monitor",
-    "tag": "AI Governance",
-    "angle": "AI Governance / policy & regulation",
-    "why": "Speech given by the Rt Hon Alex Norris MP as he was sworn in as Lord Chancellor at the Royal Courts of Justice.",
-    "watch": "Sourced from News and communications — verify dates and AI relevance.",
-    "source": "https://www.gov.uk/government/speeches/lord-chancellor-swearing-in-speech-rt-hon-alex-norris-mp"
-  },
-  {
-    "title": "Science and Technology Ethics Advisory Committee commission 2026 to 2027",
-    "date": "2026-10-09T11:00",
-    "location": "TBC",
-    "host": "News and communications",
-    "applies": "Monitor",
-    "tag": "AI Governance",
-    "angle": "AI Governance / policy & regulation",
-    "why": "Commissioning letter to the Science and Technology Ethics Advisory Committee setting out work priorities for 2026 to 2027.",
-    "watch": "Sourced from News and communications — verify dates and AI relevance.",
-    "source": "https://www.gov.uk/government/publications/science-and-technology-ethics-advisory-committee-commission-2026-to-2027"
+    "source": "https://www.gov.uk/government/news/asean-advances-regional-grid-through-uk-france-and-brussels-study-visit"
   },
   {
     "title": "Scottish Businesses Take India Trade Deal To Market",
@@ -1656,28 +1632,16 @@
     "source": "https://www.gov.uk/government/news/environment-agency-declares-drought-status-in-yorkshire"
   },
   {
-    "title": "Company which promised directors they could ‘walk away’ from failing businesses is shut down",
+    "title": "Stop using pimple popping toys with needles, says OPSS",
     "date": "2026-10-09T12:16",
     "location": "TBC",
     "host": "News and communications",
     "applies": "Monitor",
     "tag": "AI Governance",
     "angle": "AI Governance / policy & regulation",
-    "why": "Ellan NW Ltd told directors it could help them walk away from their responsibilities.",
+    "why": "OPSS warns consumers to stop using pimple popping squishy toys with sharp needles or syringes due to the risk of injury.",
     "watch": "Sourced from News and communications — verify dates and AI relevance.",
-    "source": "https://www.gov.uk/government/news/company-which-promised-directors-they-could-walk-away-from-failing-businesses-is-shut-down"
-  },
-  {
-    "title": "Member Appointed to the Reviewing Committee on the Export of Works of Art and Objects of Cultural Interest",
-    "date": "2026-10-09T12:00",
-    "location": "TBC",
-    "host": "News and communications",
-    "applies": "Monitor",
-    "tag": "AI Governance",
-    "angle": "AI Governance / policy & regulation",
-    "why": "The Secretary of State for Digital, Culture, Media &amp; Sport has appointed Dr Jessica Harrison-Hall for a four-year term from 4 November 2026 to 3 November 2030.",
-    "watch": "Sourced from News and communications — verify dates and AI relevance.",
-    "source": "https://www.gov.uk/government/news/member-appointed-to-the-reviewing-committee-on-the-export-of-works-of-art-and-objects-of-cultural-interest"
+    "source": "https://www.gov.uk/government/news/stop-using-pimple-popping-toys-with-needles-says-opss"
   },
   {
     "title": "Physicist Jun Ye Wins Wolf Prize in Physics",
