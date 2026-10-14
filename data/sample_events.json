@@ -264,18 +264,6 @@
     "source": "https://www.europol.europa.eu/media-press/newsroom/news/teenager-suspected-of-leading-killsec-ransomware-group-law-enforcement-seizes-servers-and-leak-site"
   },
   {
-    "title": "Learning More by Training Less: Uncertainty-Guided Progressive Contraction for Efficient Reasoning Post-Training",
-    "date": "Tue, 13 Oct 2026",
-    "location": "TBC",
-    "host": "cs.AI updates on arXiv.org",
-    "applies": "Monitor",
-    "tag": "AI Governance",
-    "angle": "AI Governance / policy & regulation",
-    "why": "Large language models have achieved remarkable advances in complex reasoning. However, scaling reasoning post-training with ever-larger corpora can substantially increase training cost without…",
-    "watch": "Sourced from cs.AI updates on arXiv.org — verify dates and AI relevance.",
-    "source": "https://arxiv.org/abs/2610.12933"
-  },
-  {
     "title": "ICAIR 2024",
     "date": "4th International Conference on AI Research (formally the European Conference on the Impact of Artificial Intelligence and Robotics)",
     "location": "TBC",
@@ -480,18 +468,6 @@
     "source": "http://www.wikicfp.com/cfp/servlet/event.showcfp?eventid=96777&copyownerid=143386"
   },
   {
-    "title": "SmartSalesBench: A Resistance-Aware Multi-Turn Benchmark for Evaluating LLM Sales Agents",
-    "date": "Tue, 13 Oct 2026",
-    "location": "TBC",
-    "host": "cs.AI updates on arXiv.org",
-    "applies": "Monitor",
-    "tag": "AI Governance",
-    "angle": "AI Governance / technical AI",
-    "why": "We present SmartSalesBench, the first multi-turn conversational benchmark explicitly designed to evaluate large language model (LLM) sales agents against psychologically grounded, resistant buyer…",
-    "watch": "Sourced from cs.AI updates on arXiv.org — verify dates and AI relevance.",
-    "source": "https://arxiv.org/abs/2610.12975"
-  },
-  {
     "title": "Ordering violence from abroad: five suspects arrested in Spain, Morocco, and France",
     "date": "TBC",
     "location": "TBC",
@@ -526,6 +502,18 @@
     "why": "An updated report from the NCSC explaining how UK law firms - of all sizes - can protect themselves from common cyber threats.",
     "watch": "Sourced from Report Feed — verify dates and AI relevance.",
     "source": "https://www.ncsc.gov.uk/report/cyber-threat-report-uk-legal-sector"
+  },
+  {
+    "title": "MHRA 2030 Strategy to modernise patient-centred regulation for the era of AI and personalised medicines",
+    "date": "2026-10-14T10:00",
+    "location": "TBC",
+    "host": "News and communications",
+    "applies": "Monitor",
+    "tag": "AI Governance",
+    "angle": "AI Governance / policy & regulation",
+    "why": "The Medicines and Healthcare products Regulatory Agency (MHRA) has set out ambitious plans to translate cutting-edge scientific and technological innovation into better health outcomes for patients…",
+    "watch": "Sourced from News and communications — verify dates and AI relevance.",
+    "source": "https://www.gov.uk/government/news/mhra-2030-strategy-to-modernise-patient-centred-regulation-for-the-era-of-ai-and-personalised-medicines"
   },
   {
     "title": "NIST Study Shows How the Toxic Substances Mixed Into Fentanyl Vary Across the U.S. and Change Over Time",
@@ -612,40 +600,16 @@
     "source": "https://www.gov.uk/government/news/uk-and-germany-launch-joint-partnership-to-counter-sabotage-and-cyber-attacks"
   },
   {
-    "title": "Security Minister's speech at the International Security Expo",
-    "date": "2026-09-30T15:41",
+    "title": "RSH gives two local authorities a C3 consumer grade",
+    "date": "2026-10-14T09:30",
     "location": "TBC",
     "host": "News and communications",
     "applies": "Monitor",
     "tag": "AI Governance",
     "angle": "AI Governance / policy & regulation",
-    "why": "Security Minister Dan Jarvis&#39; speech for the annual International Security Expo on 30 September 2026.",
+    "why": "RSH has published regulatory judgements for 8 landlords including C3 grades for Kirklees Metropolitan Borough Council and Royal Borough of Kingston upon Thames",
     "watch": "Sourced from News and communications — verify dates and AI relevance.",
-    "source": "https://www.gov.uk/government/speeches/security-ministers-speech-at-the-international-security-expo"
-  },
-  {
-    "title": "The Food Standards Agency calls on businesses to withdraw and recall eggs from one Ukrainian food business as…",
-    "date": "2026-10-10T16:49",
-    "location": "TBC",
-    "host": "News and communications",
-    "applies": "Monitor",
-    "tag": "AI Governance",
-    "angle": "AI Governance / policy & regulation",
-    "why": "The Food Standards Agency (FSA) has issued a Food Alert for Action to businesses, including caterers, manufacturers, wholesalers and consumers, as ongoing investigations found that eggs from one…",
-    "watch": "Sourced from News and communications — verify dates and AI relevance.",
-    "source": "https://www.gov.uk/government/news/the-food-standards-agency-calls-on-businesses-to-withdraw-and-recall-eggs-from-one-ukrainian-food-business-as-investigations-find-salmonella-enteritid"
-  },
-  {
-    "title": "PM speech at the Innovation Nation Summit: 9 October 2026",
-    "date": "2026-10-09T15:42",
-    "location": "TBC",
-    "host": "News and communications",
-    "applies": "Monitor",
-    "tag": "AI Governance",
-    "angle": "AI Governance / policy & regulation",
-    "why": "Prime Minister Andy Burnham delivered a speech at the Innovation Nation Summit this morning.",
-    "watch": "Sourced from News and communications — verify dates and AI relevance.",
-    "source": "https://www.gov.uk/government/speeches/pm-speech-at-the-innovation-nation-summit-9-october-2026"
+    "source": "https://www.gov.uk/government/news/rsh-gives-two-local-authorities-a-c3-consumer-grade"
   },
   {
     "title": "NIST Launches Center to Drive the Manufacture of Quantum Technologies",
@@ -694,18 +658,6 @@
     "why": "But in a win for transparency, five leading companies participated in the scorecard's survey for the first time, providing critical new information to the public.",
     "watch": "Sourced from Future of Life Institute — verify dates and AI relevance.",
     "source": "https://futureoflife.org/press-release/ai-company-safety-practices-fall-short-of-public-commitments/"
-  },
-  {
-    "title": "DIA and MHRA announce speaker line-up for inaugural global summit",
-    "date": "2026-09-30T16:06",
-    "location": "TBC",
-    "host": "News and communications",
-    "applies": "Monitor",
-    "tag": "AI Governance",
-    "angle": "AI Governance / governance & institutions",
-    "why": "International leaders will gather to address some of the most significant opportunities and challenges facing healthcare today at the DIA-MHRA Global Summit.",
-    "watch": "Sourced from News and communications — verify dates and AI relevance.",
-    "source": "https://www.gov.uk/government/news/dia-and-mhra-announce-speaker-line-up-for-inaugural-global-summit"
   },
   {
     "title": "NIST Expands Its Library of ‘Chemical Fingerprints’ to Identify Unknown Substances",
@@ -1008,16 +960,28 @@
     "source": "https://www.gov.uk/government/news/india-trade-mission-unlocks-hundreds-of-uk-jobs-and-new-deals"
   },
   {
-    "title": "Minister McGovern speech on mental health, ADHD and autism",
-    "date": "2026-10-09T15:30",
+    "title": "CMA fines firms £6 million for misleading sales tactics",
+    "date": "2026-10-14T10:00",
     "location": "TBC",
     "host": "News and communications",
     "applies": "Monitor",
     "tag": "AI Governance",
     "angle": "AI Governance / policy & regulation",
-    "why": "Minister for Social Care and Mental Health, Alison McGovern, delivered a speech at the Fonagy review launch event hosted by Rethink Mental Illness.",
+    "why": "Customers will receive around £440,000 in refunds.",
     "watch": "Sourced from News and communications — verify dates and AI relevance.",
-    "source": "https://www.gov.uk/government/speeches/minister-mcgovern-speech-on-mental-health-adhd-and-autism"
+    "source": "https://www.gov.uk/government/news/cma-fines-firms-6-million-for-misleading-sales-tactics"
+  },
+  {
+    "title": "Stronger protections for heating oil customers",
+    "date": "2026-10-13T16:33",
+    "location": "TBC",
+    "host": "News and communications",
+    "applies": "Monitor",
+    "tag": "AI Governance",
+    "angle": "AI Governance / policy & regulation",
+    "why": "Reforms to the heating oil sector are being planned to ensure stronger <mark>regulation</mark> and protections for consumers",
+    "watch": "Sourced from News and communications — verify dates and AI relevance.",
+    "source": "https://www.gov.uk/government/news/stronger-protections-for-heating-oil-customers"
   },
   {
     "title": "NIST Provides Updates on National Construction Safety Team Activities",
@@ -1164,6 +1128,18 @@
     "source": "https://www.ncsc.gov.uk/report/a-method-to-assess-forgivable-vs-unforgivable-vulnerabilities"
   },
   {
+    "title": "Exchequer Secretary to the Treasury speech at the West Midlands Growth Summit",
+    "date": "2026-10-13T17:22",
+    "location": "TBC",
+    "host": "News and communications",
+    "applies": "Monitor",
+    "tag": "AI Governance",
+    "angle": "AI Governance / governance & institutions",
+    "why": "The Exchequer Secretary to the Treasury delivered his speech at the West Midlands Growth Summit on 8 October 2026.",
+    "watch": "Sourced from News and communications — verify dates and AI relevance.",
+    "source": "https://www.gov.uk/government/speeches/exchequer-secretary-to-the-treasury-speech-at-the-west-midlands-growth-summit"
+  },
+  {
     "title": "Recruitment",
     "date": "2026-10-13T13:00",
     "location": "TBC",
@@ -1186,6 +1162,18 @@
     "why": "The UK and India have agreed new science and innovation partnerships, including on technology, research and <mark>AI</mark> cooperation, to boost growth and innovation.",
     "watch": "Sourced from News and communications — verify dates and AI relevance.",
     "source": "https://www.gov.uk/government/news/8th-uk-india-science-and-innovation-council-statement"
+  },
+  {
+    "title": "The UK is committed to respecting and defending the right of the people of its Overseas Territories to determine their…",
+    "date": "2026-10-13T17:36",
+    "location": "TBC",
+    "host": "News and communications",
+    "applies": "Monitor",
+    "tag": "Multilateral",
+    "angle": "Multilateral / governance & institutions",
+    "why": "Statement by Ambassador Kate Foster, UK Deputy Permanent Representative to the UN, at the UN’s Special Political and Decolonisation Fourth Committee.",
+    "watch": "Sourced from News and communications — verify dates and AI relevance.",
+    "source": "https://www.gov.uk/government/speeches/the-uk-is-committed-to-respecting-and-defending-the-right-of-the-people-of-its-overseas-territories-to-determine-their-own-future-uk-statement-at-the-"
   },
   {
     "title": "Appointment of Tim De Meyer as the Policing Member of the Sentencing Council",
@@ -1284,6 +1272,18 @@
     "source": "https://futureoflife.org/statement/attack-against-sam-altmans-home/"
   },
   {
+    "title": "Former Scottish health chief appointed to lead transformation of military medicine",
+    "date": "2026-10-14T10:56",
+    "location": "TBC",
+    "host": "News and communications",
+    "applies": "Monitor",
+    "tag": "AI Governance",
+    "angle": "AI Governance / cross-sector harm",
+    "why": "Professor Jason Leitch CBE, Scotland’s former National Clinical Director, appointed Chief of Defence Medical to spearhead the transformation of military healthcare.",
+    "watch": "Sourced from News and communications — verify dates and AI relevance.",
+    "source": "https://www.gov.uk/government/news/former-scottish-health-chief-appointed-to-lead-transformation-of-military-medicine"
+  },
+  {
     "title": "The threat from commercial cyber proliferation",
     "date": "Wed, 19 Apr 2023",
     "location": "TBC",
@@ -1366,6 +1366,30 @@
     "why": "A summary of the NCSC’s security analysis for the UK telecoms sector",
     "watch": "Sourced from Report Feed — verify dates and AI relevance.",
     "source": "https://www.ncsc.gov.uk/report/summary-of-ncsc-security-analysis-for-the-uk-telecoms-sector"
+  },
+  {
+    "title": "Seven linked companies shut down after Insolvency Service investigation with Companies House",
+    "date": "2026-10-14T13:12",
+    "location": "TBC",
+    "host": "News and communications",
+    "applies": "Monitor",
+    "tag": "AI Governance",
+    "angle": "AI Governance / policy & regulation",
+    "why": "The companies appeared unrelated until a joint investigation uncovered similar conduct concerns.",
+    "watch": "Sourced from News and communications — verify dates and AI relevance.",
+    "source": "https://www.gov.uk/government/news/seven-linked-companies-shut-down-after-insolvency-service-investigation-with-companies-house"
+  },
+  {
+    "title": "Plan to unlock organic market for stronger farms, more homegrown food",
+    "date": "2026-10-14T11:56",
+    "location": "TBC",
+    "host": "News and communications",
+    "applies": "Monitor",
+    "tag": "AI Governance",
+    "angle": "AI Governance / policy & regulation",
+    "why": "Long-term plan to grow England’s organic sector and help farmers meet growing consumer demand launched",
+    "watch": "Sourced from News and communications — verify dates and AI relevance.",
+    "source": "https://www.gov.uk/government/news/plan-to-unlock-organic-market-for-stronger-farms-more-homegrown-food"
   },
   {
     "title": "Government sets out next steps on Standard Essential Patents",
@@ -1488,6 +1512,30 @@
     "source": "https://www.gov.uk/government/speeches/renewal-not-rupture-the-future-of-the-uk-us-relationship--2"
   },
   {
+    "title": "Andy Lord appointed Interim Chair of NAD Group Advisory Board",
+    "date": "2026-10-14T12:40",
+    "location": "TBC",
+    "host": "News and communications",
+    "applies": "Monitor",
+    "tag": "AI Governance",
+    "angle": "AI Governance / policy & regulation",
+    "why": "The Board provides independent support and challenge, helping to ensure the Group is well run and manages its strategy, performance and risks effectively.",
+    "watch": "Sourced from News and communications — verify dates and AI relevance.",
+    "source": "https://www.gov.uk/government/news/andy-lord-appointed-interim-chair-of-nad-group-advisory-board"
+  },
+  {
+    "title": "UK-Canada renewed AI security partnership",
+    "date": "2026-10-13T16:23",
+    "location": "TBC",
+    "host": "News and communications",
+    "applies": "Monitor",
+    "tag": "AI Governance",
+    "angle": "AI Governance / policy & regulation",
+    "why": "The United Kingdom and Canada announce a renewed <mark>AI</mark> security partnership",
+    "watch": "Sourced from News and communications — verify dates and AI relevance.",
+    "source": "https://www.gov.uk/government/news/uk-canada-renewed-ai-security-partnership"
+  },
+  {
     "title": "Warning over buying and selling second-hand bluetongue vaccines",
     "date": "2026-10-13T10:34",
     "location": "TBC",
@@ -1524,40 +1572,28 @@
     "source": "https://www.gov.uk/government/news/vice-admiral-dr-budi-purwanto-receives-2026-alexander-dalrymple-award"
   },
   {
-    "title": "Statement from the Secretary of State for Northern Ireland on Drumcree Parade",
-    "date": "2026-10-09T20:54",
+    "title": "Recruitment for two Veterinary Pharmacovigilance Inspectors",
+    "date": "2026-10-14T12:01",
     "location": "TBC",
     "host": "News and communications",
     "applies": "Monitor",
     "tag": "AI Governance",
     "angle": "AI Governance / policy & regulation",
-    "why": "The Secretary of State has now considered the Section 9 request from the Chief Constable of the PSNI and has reviewed the determination. He has now made an order under Section 11.",
+    "why": "Vacancy for two Veterinary Pharmacovigilance Inspectors working on the UK veterinary medicinal product pharmacovigilance inspection programme.",
     "watch": "Sourced from News and communications — verify dates and AI relevance.",
-    "source": "https://www.gov.uk/government/news/statement-from-the-secretary-of-state-for-northern-ireland-on-drumcree-parade"
+    "source": "https://www.gov.uk/government/news/recruitment-for-two-veterinary-pharmacovigilance-inspectors"
   },
   {
-    "title": "Kent prison to gain nearly 250 extra places",
-    "date": "2026-10-09T13:10",
+    "title": "Ofqual fines ABRSM £150,000 over data retention failures",
+    "date": "2026-10-14T09:30",
     "location": "TBC",
     "host": "News and communications",
     "applies": "Monitor",
     "tag": "AI Governance",
     "angle": "AI Governance / policy & regulation",
-    "why": "Kent prison to gain nearly 250 extra places as part of largest prison expansion since Victorian era",
+    "why": "The Associated Board of the Royal Schools of Music has been fined over serious shortcomings in its arrangements for retaining and managing assessment evidence.",
     "watch": "Sourced from News and communications — verify dates and AI relevance.",
-    "source": "https://www.gov.uk/government/news/kent-prison-to-gain-nearly-250-extra-places"
-  },
-  {
-    "title": "Brits to benefit from faster recovery from surgeries and better harvests through new backing for robotics",
-    "date": "2026-10-09T12:18",
-    "location": "TBC",
-    "host": "News and communications",
-    "applies": "Monitor",
-    "tag": "AI Governance",
-    "angle": "AI Governance / policy & regulation",
-    "why": "Hubs across the country will give businesses and public services the support they need to adopt cutting-edge robotics technology",
-    "watch": "Sourced from News and communications — verify dates and AI relevance.",
-    "source": "https://www.gov.uk/government/news/brits-to-benefit-from-faster-recovery-from-surgeries-and-better-harvests-through-new-backing-for-robotics"
+    "source": "https://www.gov.uk/government/news/ofqual-fines-abrsm-150000-over-data-retention-failures"
   },
   {
     "title": "ASEAN advances regional grid through UK, France and Brussels study visit",
@@ -1608,42 +1644,6 @@
     "source": "https://www.gov.uk/government/news/new-member-appointed-to-the-national-lottery-community-fund-board"
   },
   {
-    "title": "Faster front-line delivery with new Testing and Evaluation programme",
-    "date": "2026-10-10T09:30",
-    "location": "TBC",
-    "host": "News and communications",
-    "applies": "Monitor",
-    "tag": "AI Governance",
-    "angle": "AI Governance / policy & regulation",
-    "why": "MOD and QinetiQ launch Project Safari, a joint programme opening up access to UK test and evaluation facilities for SMEs.",
-    "watch": "Sourced from News and communications — verify dates and AI relevance.",
-    "source": "https://www.gov.uk/government/news/faster-front-line-delivery-with-new-testing-and-evaluation-programme"
-  },
-  {
-    "title": "Environment Agency declares drought status in Yorkshire",
-    "date": "2026-10-09T12:26",
-    "location": "TBC",
-    "host": "News and communications",
-    "applies": "Monitor",
-    "tag": "AI Governance",
-    "angle": "AI Governance / policy & regulation",
-    "why": "Drought announced due to low water levels in reservoirs and rivers in many parts of Yorkshire despite recent rainfall.",
-    "watch": "Sourced from News and communications — verify dates and AI relevance.",
-    "source": "https://www.gov.uk/government/news/environment-agency-declares-drought-status-in-yorkshire"
-  },
-  {
-    "title": "Stop using pimple popping toys with needles, says OPSS",
-    "date": "2026-10-09T12:16",
-    "location": "TBC",
-    "host": "News and communications",
-    "applies": "Monitor",
-    "tag": "AI Governance",
-    "angle": "AI Governance / policy & regulation",
-    "why": "OPSS warns consumers to stop using pimple popping squishy toys with sharp needles or syringes due to the risk of injury.",
-    "watch": "Sourced from News and communications — verify dates and AI relevance.",
-    "source": "https://www.gov.uk/government/news/stop-using-pimple-popping-toys-with-needles-says-opss"
-  },
-  {
     "title": "Physicist Jun Ye Wins Wolf Prize in Physics",
     "date": "Mon, 05 Oct 2026",
     "location": "TBC",
@@ -1663,7 +1663,7 @@
     "applies": "Monitor",
     "tag": "AI Governance",
     "angle": "AI Governance / policy & regulation",
-    "why": "Our everyday life is flooded with photons, the quantum building blocks of light. For cutting-edge technology, from quantum computing to deep-tissue imaging, detecting every single photon counts.…",
+    "why": "For cutting-edge technology, from quantum computing to deep-tissue imaging, detecting every single photon counts.",
     "watch": "Sourced from NIST News — verify dates and AI relevance.",
     "source": "https://www.nist.gov/news-events/news/2026/08/nist-researchers-supersize-quantum-technology-help-detect-faint-photons"
   },
