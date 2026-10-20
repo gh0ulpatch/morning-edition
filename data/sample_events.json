@@ -24,18 +24,6 @@
     "source": "https://www.eff.org/deeplinks/2026/10/turkish-crackdown-lgbtq-organizations-threatens-freedom-expression-and-association"
   },
   {
-    "title": "EU Kids Act Won't Keep the Internet Accountable and Trustworthy",
-    "date": "Mon, 21 Sep 2026",
-    "location": "TBC",
-    "host": "Deeplinks",
-    "applies": "Attend",
-    "tag": "EU Governance",
-    "angle": "EU Governance / policy & regulation",
-    "why": "The EU Commission draft law to restrict young people’s access to the internet that it presented last week will come at a high cost: it will put online services behind age gates, expand the use of…",
-    "watch": "Sourced from Deeplinks — verify dates and AI relevance.",
-    "source": "https://www.eff.org/deeplinks/2026/09/eu-kids-act-wont-keep-internet-accountable-and-trustworthy"
-  },
-  {
     "title": "DHS Inspector General Finds That TSA is Not Properly Safeguarding Passenger Facial Recognition Data",
     "date": "Wed, 14 Oct 2026",
     "location": "TBC",
@@ -108,18 +96,6 @@
     "source": "https://www.eff.org/deeplinks/2026/10/memoriam-barry-steinhardt"
   },
   {
-    "title": "EFF Statement on California Governor's Executive Order on AI",
-    "date": "Fri, 18 Sep 2026",
-    "location": "TBC",
-    "host": "Deeplinks",
-    "applies": "Attend",
-    "tag": "Cybersecurity",
-    "angle": "Cybersecurity / policy & regulation",
-    "why": "California Gov. Gavin Newsom's executive order is an opportunity for a needed, thoughtful conversation about artificial intelligence and its potential harms. Everyday Californians are feeling real…",
-    "watch": "Sourced from Deeplinks — verify dates and AI relevance.",
-    "source": "https://www.eff.org/deeplinks/2026/09/eff-statement-california-governors-executive-order-ai"
-  },
-  {
     "title": "EFF to San Francisco Police: Drones are Powerful Surveillance Tools That Require a Robust Policy",
     "date": "Mon, 28 Sep 2026",
     "location": "TBC",
@@ -130,18 +106,6 @@
     "why": "The San Francisco Police Department (SFPD) began regularly deploying drones two years ago and has since expanded their use in a way that has outpaced its documented policy and evaded existing local…",
     "watch": "Sourced from Deeplinks — verify dates and AI relevance.",
     "source": "https://www.eff.org/deeplinks/2026/09/eff-san-francisco-police-drones-are-powerful-surveillance-tools-require-robust"
-  },
-  {
-    "title": "MobileInject: Evaluating Reasoning-to-Action Security of MLLM-Based Mobile Agents under Cross-Modal Consistency…",
-    "date": "Mon, 19 Oct 2026",
-    "location": "TBC",
-    "host": "cs.CR updates on arXiv.org",
-    "applies": "Attend",
-    "tag": "Cybersecurity",
-    "angle": "Cybersecurity / technical AI",
-    "why": "Multimodal large language model (MLLM)-based mobile agents are rapidly evolving from conversational assistants into autonomous systems that perceive, reason over, and act on smartphone environments.…",
-    "watch": "Sourced from cs.CR updates on arXiv.org — verify dates and AI relevance.",
-    "source": "https://arxiv.org/abs/2610.23307"
   },
   {
     "title": "EU law enforcement chiefs gather to discuss new challenges in EU security",
@@ -156,16 +120,16 @@
     "source": "https://www.europol.europa.eu/media-press/newsroom/news/eu-law-enforcement-chiefs-gather-to-discuss-new-challenges-in-eu-security"
   },
   {
-    "title": "Harmful YouTube Video Detection: A Taxonomy of Online Harm and MLLMs as Alternative Annotators",
+    "title": "Require Police to Get a Warrant to Search ALPR Data",
     "date": "Mon, 19 Oct 2026",
     "location": "TBC",
-    "host": "cs.CY updates on arXiv.org",
+    "host": "Deeplinks",
     "applies": "Attend",
-    "tag": "Trust & Safety",
-    "angle": "Trust & Safety / technical AI",
-    "why": "arXiv:2411.05854v2 Announce Type: replace-cross Abstract: Video platforms, used by billions globally, are criticized for exposing users to harmful content. Yet, detecting online harm remains…",
-    "watch": "Sourced from cs.CY updates on arXiv.org — verify dates and AI relevance.",
-    "source": "https://arxiv.org/abs/2411.05854"
+    "tag": "Privacy & Surveillance",
+    "angle": "Privacy & Surveillance / policy & regulation",
+    "why": "This post was co-written by Andi Cao , an EFF legal intern. Automated license plate readers (ALPRs) are mass surveillance. They photograph every passing car and log where and when it was captured,…",
+    "watch": "Sourced from Deeplinks — verify dates and AI relevance.",
+    "source": "https://www.eff.org/deeplinks/2026/10/require-police-get-warrant-search-alpr-data"
   },
   {
     "title": "Government leaders call for treaty negotiations on autonomous weapons to begin in November",
@@ -178,42 +142,6 @@
     "why": "At a New York forum cosponsored by six governments, OHCHR, the ICRC, The Elders and FLI, ministers and UN officials called on states to begin negotiating a legally binding instrument on autonomous…",
     "watch": "Sourced from Future of Life Institute — verify dates and AI relevance.",
     "source": "https://futureoflife.org/ai-policy/government-leaders-call-for-treaty-negotiations-on-autonomous-weapons-to-begin-in-november/"
-  },
-  {
-    "title": "Veil-Then-Reveal: Protecting PII Privacy via Reversible Pseudo-Anonymization in Zero-Trust User--LLM Interaction",
-    "date": "Mon, 19 Oct 2026",
-    "location": "TBC",
-    "host": "cs.CR updates on arXiv.org",
-    "applies": "Attend",
-    "tag": "Multilateral",
-    "angle": "Multilateral / technical AI",
-    "why": "Large language models (LLMs) increasingly process sensitive documents and personal information, yet sending prompts containing personally identifiable information (PII) to remote providers exposes…",
-    "watch": "Sourced from cs.CR updates on arXiv.org — verify dates and AI relevance.",
-    "source": "https://arxiv.org/abs/2610.22800"
-  },
-  {
-    "title": "Cryptographically Secure Agent-to-Agent Communication in Multi-Agent Systems",
-    "date": "Mon, 19 Oct 2026",
-    "location": "TBC",
-    "host": "cs.CR updates on arXiv.org",
-    "applies": "Attend",
-    "tag": "Multilateral",
-    "angle": "Multilateral / policy & regulation",
-    "why": "Multi-agent systems (MAS) comprise AI agents that collaborate or compete to perform complex, distributed tasks. Their dynamic interactions create opportunities for threat actors to target and…",
-    "watch": "Sourced from cs.CR updates on arXiv.org — verify dates and AI relevance.",
-    "source": "https://arxiv.org/abs/2610.23078"
-  },
-  {
-    "title": "Trojan Horse: Automated Repository Poisoning against Coding Agents",
-    "date": "Mon, 19 Oct 2026",
-    "location": "TBC",
-    "host": "cs.CR updates on arXiv.org",
-    "applies": "Attend",
-    "tag": "Election Integrity",
-    "angle": "Election Integrity / technical AI",
-    "why": "Coding agents are increasingly capable with autonomy, which exposes them to repository-level poisoning. Existing red-teaming studies remain restricted to manual selection for malicious payload…",
-    "watch": "Sourced from cs.CR updates on arXiv.org — verify dates and AI relevance.",
-    "source": "https://arxiv.org/abs/2610.23109"
   },
   {
     "title": "Congress Has Another Site-Blocking Bill, And This One Targets VPNs",
@@ -264,42 +192,6 @@
     "source": "https://www.un.org/en/civil-society/third-united-nations-conference-landlocked-developing-countries-lldc3"
   },
   {
-    "title": "Generative AI Produces and Transmits Beauty Bias",
-    "date": "Mon, 19 Oct 2026",
-    "location": "TBC",
-    "host": "cs.CY updates on arXiv.org",
-    "applies": "Monitor",
-    "tag": "AI Governance",
-    "angle": "AI Governance / technical AI",
-    "why": "Societies reward people judged to be attractive by standards intertwined with gender and race. In this paper, we examine if and how generative AI may contribute to these dynamics. We audited 27…",
-    "watch": "Sourced from cs.CY updates on arXiv.org — verify dates and AI relevance.",
-    "source": "https://arxiv.org/abs/2610.22553"
-  },
-  {
-    "title": "Everyone's a little bit racist: a novel ML backdoor attack in black-box mode",
-    "date": "Mon, 19 Oct 2026",
-    "location": "TBC",
-    "host": "cs.CR updates on arXiv.org",
-    "applies": "Monitor",
-    "tag": "AI Governance",
-    "angle": "AI Governance / technical AI",
-    "why": "Backdoors are among the most impactful attacks against Machine Learning (ML), yet most existing methods assume some form of training-time poisoning or direct model manipulation. This is often…",
-    "watch": "Sourced from cs.CR updates on arXiv.org — verify dates and AI relevance.",
-    "source": "https://arxiv.org/abs/2610.22459"
-  },
-  {
-    "title": "When Core-Network Elements Become Reachable: Field-Level Exploitability Analysis in Diameter",
-    "date": "Mon, 19 Oct 2026",
-    "location": "TBC",
-    "host": "cs.CR updates on arXiv.org",
-    "applies": "Monitor",
-    "tag": "Cybersecurity",
-    "angle": "Cybersecurity / technical AI",
-    "why": "The increasing exposure of cellular core-network elements to public networks has turned Diameter signaling interfaces into a practical attack surface. While large language models (LLMs) show promise…",
-    "watch": "Sourced from cs.CR updates on arXiv.org — verify dates and AI relevance.",
-    "source": "https://arxiv.org/abs/2610.22943"
-  },
-  {
     "title": "KDD-MLF 2025",
     "date": "Event",
     "location": "Where",
@@ -322,18 +214,6 @@
     "why": "The operation, codenamed Operation CANTABRIA, underscores the success of strong cooperation between European and Ecuadorian law enforcement agencies, proving that joint efforts are key to tackling…",
     "watch": "Sourced from News — verify dates and AI relevance.",
     "source": "https://www.europol.europa.eu/media-press/newsroom/news/european-and-ecuadorian-cooperation-leads-to-20-arrests-in-major-hit-against-drug-trafficking"
-  },
-  {
-    "title": "What It Is, Not What It Says: Securing Agentic Browsing Interactions with Web Semantics",
-    "date": "Mon, 19 Oct 2026",
-    "location": "TBC",
-    "host": "cs.CR updates on arXiv.org",
-    "applies": "Monitor",
-    "tag": "Multilateral",
-    "angle": "Multilateral / technical AI",
-    "why": "AI agents increasingly browse the web on users' behalf, yet they consume webpages as screenshots or text, exposing their LLMs to unvetted third-party content. Browsers enforce semantics under which…",
-    "watch": "Sourced from cs.CR updates on arXiv.org — verify dates and AI relevance.",
-    "source": "https://arxiv.org/abs/2610.22697"
   },
   {
     "title": "RWS 2025",
@@ -384,18 +264,6 @@
     "source": "https://www.eff.org/deeplinks/2026/09/victory-california-appeals-court-refuses-revive-surveillance-tech-ceos-meritless"
   },
   {
-    "title": "Can AI interview? Comparing AI-led to Human-led Chat Interviews",
-    "date": "Mon, 19 Oct 2026",
-    "location": "TBC",
-    "host": "cs.CY updates on arXiv.org",
-    "applies": "Monitor",
-    "tag": "EU Governance",
-    "angle": "EU Governance / technical AI",
-    "why": "Large language model chatbots have been proposed as AI-interviewers for collecting qualitative interview data at scale, potentially bridging social science's longstanding divide between the breadth…",
-    "watch": "Sourced from cs.CY updates on arXiv.org — verify dates and AI relevance.",
-    "source": "https://arxiv.org/abs/2610.23149"
-  },
-  {
     "title": "Governing GP AI Systems 2026",
     "date": "Event",
     "location": "Where",
@@ -430,18 +298,6 @@
     "why": "Nearly 50 suspects have been arrested in an international operation targeting a drug trafficking network with Western Balkan members, linked to killings, kidnappings and grenade attacks across Europe.",
     "watch": "Sourced from News — verify dates and AI relevance.",
     "source": "https://www.europol.europa.eu/media-press/newsroom/news/almost-50-arrested-police-target-western-balkan-network-linked-to-killings"
-  },
-  {
-    "title": "The UK and the Arctic: Minister Kumaran's speech at the launch of the United Kingdom's Arctic Policy Framework",
-    "date": "2026-10-15T17:10",
-    "location": "TBC",
-    "host": "News and communications",
-    "applies": "Monitor",
-    "tag": "AI Governance",
-    "angle": "AI Governance / policy & regulation",
-    "why": "Minister for the Polar Regions, Uma Kumaran MP, delivers remarks at the launch of the Update to the United Kingdom&#39;s Arctic Policy Framework",
-    "watch": "Sourced from News and communications — verify dates and AI relevance.",
-    "source": "https://www.gov.uk/government/speeches/the-uk-and-the-arctic-minister-kumarans-speech-at-the-launch-of-the-united-kingdoms-arctic-policy-framework"
   },
   {
     "title": "Protecting citizens, preserving rights",
@@ -624,6 +480,30 @@
     "source": "https://www.ncsc.gov.uk/report/cyber-threat-report-uk-legal-sector"
   },
   {
+    "title": "UK regulator brings new AI and MedTech agenda to AdvaMed",
+    "date": "2026-10-19T16:06",
+    "location": "TBC",
+    "host": "News and communications",
+    "applies": "Monitor",
+    "tag": "AI Governance",
+    "angle": "AI Governance / policy & regulation",
+    "why": "UK’s Medicines and Healthcare products Regulatory Agency (MHRA) sets out its next phase of MedTech and <mark>AI</mark> regulation to US industry leaders at AdvaMed 2026.",
+    "watch": "Sourced from News and communications — verify dates and AI relevance.",
+    "source": "https://www.gov.uk/government/news/uk-regulator-brings-new-ai-and-medtech-agenda-to-advamed"
+  },
+  {
+    "title": "Serious offenders detained in hospital will no longer receive benefits",
+    "date": "2026-10-20T10:43",
+    "location": "TBC",
+    "host": "News and communications",
+    "applies": "Monitor",
+    "tag": "AI Governance",
+    "angle": "AI Governance / policy & regulation",
+    "why": "Convicted killers and serious sexual offenders detained in hospital are among those who will lose their entitlement to benefits under <mark>regulations</mark> laid in Parliament today.",
+    "watch": "Sourced from News and communications — verify dates and AI relevance.",
+    "source": "https://www.gov.uk/government/news/serious-offenders-detained-in-hospital-will-no-longer-receive-benefits"
+  },
+  {
     "title": "NIST Study Shows How the Toxic Substances Mixed Into Fentanyl Vary Across the U.S. and Change Over Time",
     "date": "Thu, 08 Oct 2026",
     "location": "TBC",
@@ -694,6 +574,18 @@
     "why": "FLI celebrates a landmark moment for the AI safety movement and highlights its growing momentum",
     "watch": "Sourced from Future of Life Institute — verify dates and AI relevance.",
     "source": "https://futureoflife.org/ai-policy/michael-kleinman-reacts-to-breakthrough-ai-safety-legislation/"
+  },
+  {
+    "title": "Attorney General's speech at the London Conference on International Law 2026",
+    "date": "2026-10-20T10:00",
+    "location": "TBC",
+    "host": "News and communications",
+    "applies": "Monitor",
+    "tag": "AI Governance",
+    "angle": "AI Governance / policy & regulation",
+    "why": "Full text of the speech given by the Rt Hon Ellie Reeves KC MP at the London Conference on International Law 2026, on 1 October 2026.",
+    "watch": "Sourced from News and communications — verify dates and AI relevance.",
+    "source": "https://www.gov.uk/government/news/attorney-generals-speech-at-the-london-conference-on-international-law-2026"
   },
   {
     "title": "NIST Launches Center to Drive the Manufacture of Quantum Technologies",
@@ -1008,16 +900,28 @@
     "source": "https://www.gov.uk/government/publications/keep-britain-working-review-update-a-national-growth-opportunity-september-2026"
   },
   {
-    "title": "Illegal waste at Hoad’s Wood fully cleared as crackdown continues",
-    "date": "2026-10-09T00:01",
+    "title": "MHRA authorises plozasiran (Redemplo) for adults with familial chylomicronaemia syndrome",
+    "date": "2026-10-19T16:42",
     "location": "TBC",
     "host": "News and communications",
     "applies": "Monitor",
     "tag": "AI Governance",
     "angle": "AI Governance / policy & regulation",
-    "why": "Well-loved local beauty spot in Kent cleared of 39,500 tonnes of illegal waste.",
+    "why": "The Medicines and Healthcare products Regulatory Agency (MHRA) has today, 19 October 2026, authorised plozasiran (Redemplo)",
     "watch": "Sourced from News and communications — verify dates and AI relevance.",
-    "source": "https://www.gov.uk/government/news/illegal-waste-at-hoads-wood-fully-cleared-as-crackdown-continues"
+    "source": "https://www.gov.uk/government/news/mhra-authorises-plozasiran-redemplo-for-adults-with-familial-chylomicronaemia-syndrome"
+  },
+  {
+    "title": "Nottingham's first Youth Guarantee Jobs Fair attracts hundreds of young jobseekers",
+    "date": "2026-10-19T16:38",
+    "location": "TBC",
+    "host": "News and communications",
+    "applies": "Monitor",
+    "tag": "AI Governance",
+    "angle": "AI Governance / policy & regulation",
+    "why": "Hundreds of young people attended Nottingham&#39;s first Youth Guarantee Jobs Fair, to explore opportunities for jobs, apprenticeships, training and work experience at some of the UK’s largest…",
+    "watch": "Sourced from News and communications — verify dates and AI relevance.",
+    "source": "https://www.gov.uk/government/news/nottinghams-first-youth-guarantee-jobs-fair-attracts-hundreds-of-young-jobseekers--2"
   },
   {
     "title": "CNC wins national award for occupational health and wellbeing",
@@ -1090,18 +994,6 @@
     "why": "Prime Minister Andy Burnham&#39;s remarks at the King’s Trust Centre in Manchester today.",
     "watch": "Sourced from News and communications — verify dates and AI relevance.",
     "source": "https://www.gov.uk/government/speeches/pm-remarks-at-the-kings-trust-centre-15-october-2026"
-  },
-  {
-    "title": "Government activates plan to protect consumers as severe drought declared in parts of England",
-    "date": "2026-10-15T12:31",
-    "location": "TBC",
-    "host": "News and communications",
-    "applies": "Monitor",
-    "tag": "AI Governance",
-    "angle": "AI Governance / policy & regulation",
-    "why": "The Government has declared severe drought in parts of Cornwall, Devon, Dorset, Somerset, East Sussex and West Sussex.",
-    "watch": "Sourced from News and communications — verify dates and AI relevance.",
-    "source": "https://www.gov.uk/government/news/government-activates-plan-to-protect-consumers-as-severe-drought-declared-in-parts-of-england"
   },
   {
     "title": "NIST Provides Updates on National Construction Safety Team Activities",
@@ -1272,18 +1164,6 @@
     "source": "https://www.gov.uk/government/speeches/defence-secretary-wes-streeting-speech-at-the-center-for-strategic-and-international-studies"
   },
   {
-    "title": "Chancellor says ‘It is my job to protect resilience of the UK economy and the budget will do that’ in the face of…",
-    "date": "2026-10-15T15:51",
-    "location": "TBC",
-    "host": "News and communications",
-    "applies": "Monitor",
-    "tag": "AI Governance",
-    "angle": "AI Governance / governance & institutions",
-    "why": "Chancellor of the Exchequer, John Healey used the IMF Annual Meetings in Bangkok to set out how the UK and its international partners can work together to respond to global economic headwinds and…",
-    "watch": "Sourced from News and communications — verify dates and AI relevance.",
-    "source": "https://www.gov.uk/government/news/chancellor-says-it-is-my-job-to-protect-resilience-of-the-uk-economy-and-the-budget-will-do-that-in-the-face-of-international-headwinds"
-  },
-  {
     "title": "NIST Joins White House Effort to Drive ‘A New Golden Age of Science’",
     "date": "Thu, 08 Oct 2026",
     "location": "TBC",
@@ -1354,18 +1234,6 @@
     "why": "Anthony Aguirre, President and CEO of the Future of Life Institute, issued the following statement in response to the attack [&#8230;]",
     "watch": "Sourced from Future of Life Institute — verify dates and AI relevance.",
     "source": "https://futureoflife.org/statement/attack-against-sam-altmans-home/"
-  },
-  {
-    "title": "Calder Hall: Decommissioning the world’s first commercial nuclear power station",
-    "date": "2026-10-15T17:06",
-    "location": "TBC",
-    "host": "News and communications",
-    "applies": "Monitor",
-    "tag": "Nuclear & WMD",
-    "angle": "Nuclear & WMD / cross-sector harm",
-    "why": "Seventy years after opening, Calder Hall continues to make history as teams safely decommission the world&#39;s first commercial nuclear power station.",
-    "watch": "Sourced from News and communications — verify dates and AI relevance.",
-    "source": "https://www.gov.uk/government/case-studies/calder-hall-decommissioning-the-worlds-first-commercial-nuclear-power-station"
   },
   {
     "title": "The threat from commercial cyber proliferation",
@@ -1450,6 +1318,18 @@
     "why": "A summary of the NCSC’s security analysis for the UK telecoms sector",
     "watch": "Sourced from Report Feed — verify dates and AI relevance.",
     "source": "https://www.ncsc.gov.uk/report/summary-of-ncsc-security-analysis-for-the-uk-telecoms-sector"
+  },
+  {
+    "title": "Marine Licensing Decisions Deliver Safer Communities, Stronger Infrastructure and Healthier Seas",
+    "date": "2026-10-20T11:32",
+    "location": "TBC",
+    "host": "News and communications",
+    "applies": "Monitor",
+    "tag": "AI Governance",
+    "angle": "AI Governance / policy & regulation",
+    "why": "From Harbour Bridges to Oyster Reefs: Marine Licensing Enables Vital Coastal Projects.",
+    "watch": "Sourced from News and communications — verify dates and AI relevance.",
+    "source": "https://www.gov.uk/government/news/marine-licensing-decisions-deliver-safer-communities-stronger-infrastructure-and-healthier-seas"
   },
   {
     "title": "A precious treasure: sustaining charities, building communities and protecting public trust",
@@ -1584,16 +1464,16 @@
     "source": "https://www.gov.uk/government/news/uk-japan-science-and-technology-joint-committee-joint-statement"
   },
   {
-    "title": "Teenagers back vocational reforms and defy outdated stigma",
-    "date": "2026-10-09T00:01",
+    "title": "Over 100,000 job and training opportunities a year to give young people a route into Britain’s growth industries as…",
+    "date": "2026-10-19T16:08",
     "location": "TBC",
     "host": "News and communications",
     "applies": "Monitor",
     "tag": "AI Governance",
     "angle": "AI Governance / policy & regulation",
-    "why": "Majority of young people support more hands-on learning from age 14.",
+    "why": "Young people will get thousands more opportunities to start skilled careers in some of Britain’s fastest-growing industries, as government and businesses join forces to expand apprenticeships, work…",
     "watch": "Sourced from News and communications — verify dates and AI relevance.",
-    "source": "https://www.gov.uk/government/news/teenagers-back-vocational-reforms-and-defy-outdated-stigma"
+    "source": "https://www.gov.uk/government/news/over-100000-job-and-training-opportunities-a-year-to-give-young-people-a-route-into-britains-growth-industries-as-part-of-industrial-strategy"
   },
   {
     "title": "SS Richard Montgomery mast removal project",
@@ -1692,6 +1572,18 @@
     "source": "https://www.gov.uk/government/news/cma-takes-first-steps-to-ensure-choice-in-business-software"
   },
   {
+    "title": "Ofcom Board Member Appointment",
+    "date": "2026-10-20T12:00",
+    "location": "TBC",
+    "host": "News and communications",
+    "applies": "Monitor",
+    "tag": "AI Governance",
+    "angle": "AI Governance / policy & regulation",
+    "why": "The Secretary of State for Digital, Culture, Media &amp; Sport has extended the first term of Will Harding as a Non-Executive Member of the Ofcom Board for six months.",
+    "watch": "Sourced from News and communications — verify dates and AI relevance.",
+    "source": "https://www.gov.uk/government/news/ofcom-board-member-appointment"
+  },
+  {
     "title": "Stronger safeguards for wheelchair users and better-trained staff to support disabled air passengers",
     "date": "2026-10-19T10:00",
     "location": "TBC",
@@ -1726,42 +1618,6 @@
     "why": "Ofsted&#39;s Chief Inspector, Sir Martyn Oliver, spoke at the Confederation of School Trusts 2026 annual conference in Birmingham.",
     "watch": "Sourced from News and communications — verify dates and AI relevance.",
     "source": "https://www.gov.uk/government/speeches/martyn-olivers-speech-to-the-confederation-of-school-trusts-annual-conference"
-  },
-  {
-    "title": "Trustees appointed to the National Museums Liverpool Board",
-    "date": "2026-10-15T12:30",
-    "location": "TBC",
-    "host": "News and communications",
-    "applies": "Monitor",
-    "tag": "AI Governance",
-    "angle": "AI Governance / policy & regulation",
-    "why": "The Secretary of State for Digital, Culture, Media &amp; Sport has appointed Oliver Enwonwu and Katie Wray; and reappointed Dinah Birch, John Belchem, Lynn Collins and Anna Farthing to the National…",
-    "watch": "Sourced from News and communications — verify dates and AI relevance.",
-    "source": "https://www.gov.uk/government/news/trustees-appointed-to-the-national-museums-liverpool-board"
-  },
-  {
-    "title": "Unnamed small migrant boat preliminary assessment update",
-    "date": "2026-10-15T12:26",
-    "location": "TBC",
-    "host": "News and communications",
-    "applies": "Monitor",
-    "tag": "AI Governance",
-    "angle": "AI Governance / policy & regulation",
-    "why": "MAIB statement on preliminary assessment.",
-    "watch": "Sourced from News and communications — verify dates and AI relevance.",
-    "source": "https://www.gov.uk/government/news/unnamed-small-migrant-boat-preliminary-assessment-update"
-  },
-  {
-    "title": "Education Secretary speech at CST Conference 2026",
-    "date": "2026-10-15T11:08",
-    "location": "TBC",
-    "host": "News and communications",
-    "applies": "Monitor",
-    "tag": "Child Safety",
-    "angle": "Child Safety / policy & regulation",
-    "why": "In her speech, Lucy Powell set out a bold vision to reimagine childhood for a new era.",
-    "watch": "Sourced from News and communications — verify dates and AI relevance.",
-    "source": "https://www.gov.uk/government/speeches/education-secretary-speech-at-cst-conference-2026"
   },
   {
     "title": "New Chip-Based ‘Tape Measure’ for Light Could Revolutionize Mobile Timekeeping and Enhance National Security",
