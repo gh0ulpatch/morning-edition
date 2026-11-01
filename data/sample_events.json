@@ -72,6 +72,18 @@
     "source": "https://www.eff.org/deeplinks/2026/10/memoriam-barry-steinhardt"
   },
   {
+    "title": "PALS 2027",
+    "date": "Event",
+    "location": "Where",
+    "host": "TBC",
+    "applies": "Attend",
+    "tag": "EU Governance",
+    "angle": "EU Governance / policy & regulation",
+    "why": "PALS 2027",
+    "watch": "Sourced via WikiCFP — check agenda for AI harm/misuse sessions.",
+    "source": "http://www.wikicfp.com/cfp/servlet/event.showcfp?eventid=203937&copyownerid=199303"
+  },
+  {
     "title": "Require Police to Get a Warrant to Search ALPR Data",
     "date": "Mon, 19 Oct 2026",
     "location": "TBC",
@@ -142,30 +154,6 @@
     "why": "Michael Lodge (Secretary General, International Seabed Authority) and Emilie McGloane (Director, Peace Boat US) met at the SDG Media Zone to discuss the importance of a new historic treaty - the…",
     "watch": "Sourced from United Nations — verify dates and AI relevance.",
     "source": "https://www.un.org/en/card/209805"
-  },
-  {
-    "title": "Evaluating Causal Reasoning in LLMs: A Case Study in the Challenges of Procedural Generation",
-    "date": "Sat, 31 Oct 2026",
-    "location": "TBC",
-    "host": "cs.AI updates on arXiv.org",
-    "applies": "Monitor",
-    "tag": "Cybersecurity",
-    "angle": "Cybersecurity / technical AI",
-    "why": "Large language models (LLMs) appear to represent and reason about a large range of phenomena. In particular, recent studies have examined whether LLMs can accurately reason about causation. One of…",
-    "watch": "Sourced from cs.AI updates on arXiv.org — verify dates and AI relevance.",
-    "source": "https://arxiv.org/abs/2610.38100"
-  },
-  {
-    "title": "AI-Driven Digital Twin Framework for Warehouse Logistics Automation Optimization",
-    "date": "Sat, 31 Oct 2026",
-    "location": "TBC",
-    "host": "cs.AI updates on arXiv.org",
-    "applies": "Monitor",
-    "tag": "Multilateral",
-    "angle": "Multilateral / policy & regulation",
-    "why": "In recent years, warehouse logistics optimization has increasingly focused on intelligent, data-driven systems to enhance operational efficiency. Conventional static product placement strategies are…",
-    "watch": "Sourced from cs.AI updates on arXiv.org — verify dates and AI relevance.",
-    "source": "https://arxiv.org/abs/2610.38101"
   },
   {
     "title": "Third United Nations Conference on Landlocked Developing Countries (LLDC3)",
@@ -240,16 +228,16 @@
     "source": "http://www.wikicfp.com/cfp/servlet/event.showcfp?eventid=178495&copyownerid=8438"
   },
   {
-    "title": "Governing GP AI Systems 2026",
+    "title": "IMBSA 2027",
     "date": "Event",
     "location": "Where",
     "host": "TBC",
     "applies": "Monitor",
     "tag": "AI Safety",
     "angle": "AI Safety / technical AI",
-    "why": "Governing GP AI Systems 2026",
+    "why": "IMBSA 2027",
     "watch": "Sourced via WikiCFP — check agenda for AI harm/misuse sessions.",
-    "source": "http://www.wikicfp.com/cfp/servlet/event.showcfp?eventid=199886&copyownerid=199099"
+    "source": "http://www.wikicfp.com/cfp/servlet/event.showcfp?eventid=202536&copyownerid=132142"
   },
   {
     "title": "ICBAP 2024",
@@ -322,30 +310,6 @@
     "why": "Initial signatories include AI pioneers Yoshua Bengio and Geoffrey Hinton, leading media voices Steve Bannon and Glenn Beck, Obama's National Security Advisor Susan Rice, business trailblazers Steve…",
     "watch": "Sourced from Future of Life Institute — verify dates and AI relevance.",
     "source": "https://futureoflife.org/press-release/prominent-scientists-faith-leaders-policymakers-and-artists-call-for-a-prohibition-on-superintelligence/"
-  },
-  {
-    "title": "VerifiedLab: Harnessing Knowns for Unknowns",
-    "date": "Sat, 31 Oct 2026",
-    "location": "TBC",
-    "host": "cs.AI updates on arXiv.org",
-    "applies": "Monitor",
-    "tag": "Multilateral",
-    "angle": "Multilateral / policy & regulation",
-    "why": "Across human history, knowledge has undergone several transitions, from orality to writing and then to digital archives. At each transition, humans established new conventions to preserve knowledge…",
-    "watch": "Sourced from cs.AI updates on arXiv.org — verify dates and AI relevance.",
-    "source": "https://arxiv.org/abs/2610.37923"
-  },
-  {
-    "title": "PALS 2027",
-    "date": "1st International Workshop on Privacy, AI, and Legal Security",
-    "location": "TBC",
-    "host": "TBC",
-    "applies": "Monitor",
-    "tag": "Privacy & Surveillance",
-    "angle": "Privacy & Surveillance / governance & institutions",
-    "why": "PALS 2027",
-    "watch": "Sourced via WikiCFP — check agenda for AI harm/misuse sessions.",
-    "source": "http://www.wikicfp.com/cfp/servlet/event.showcfp?eventid=203937&copyownerid=199303"
   },
   {
     "title": "The UK is ready to work across the wider UN membership to ensure emerging technologies help deliver safer seas: UK…",
@@ -1186,6 +1150,18 @@
     "why": "Anthony Aguirre, President and CEO of the Future of Life Institute, issued the following statement in response to the attack [&#8230;]",
     "watch": "Sourced from Future of Life Institute — verify dates and AI relevance.",
     "source": "https://futureoflife.org/statement/attack-against-sam-altmans-home/"
+  },
+  {
+    "title": "'See it. Say it. Sorted.' marks a decade of keeping Britain's railways safe",
+    "date": "2026-10-31T22:30",
+    "location": "TBC",
+    "host": "News and communications",
+    "applies": "Monitor",
+    "tag": "AI Governance",
+    "angle": "AI Governance / cross-sector harm",
+    "why": "Almost 83,000 crimes have been recorded through the 61016 number since the public <mark>safety</mark> campaign launched in 2016.…",
+    "watch": "Sourced from News and communications — verify dates and AI relevance.",
+    "source": "https://www.gov.uk/government/news/see-it-say-it-sorted-marks-a-decade-of-keeping-britains-railways-safe"
   },
   {
     "title": "The threat from commercial cyber proliferation",
