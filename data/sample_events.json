@@ -48,18 +48,6 @@
     "source": "https://www.eff.org/deeplinks/2026/10/vulnerability-apocalypse-and-why-we-should-fund-open-source"
   },
   {
-    "title": "Require Police to Get a Warrant to Search ALPR Data",
-    "date": "Mon, 19 Oct 2026",
-    "location": "TBC",
-    "host": "Deeplinks",
-    "applies": "Attend",
-    "tag": "Privacy & Surveillance",
-    "angle": "Privacy & Surveillance / policy & regulation",
-    "why": "This post was co-written by Andi Cao , an EFF legal intern. Automated license plate readers (ALPRs) are mass surveillance. They photograph every passing car and log where and when it was captured,…",
-    "watch": "Sourced from Deeplinks — verify dates and AI relevance.",
-    "source": "https://www.eff.org/deeplinks/2026/10/require-police-get-warrant-search-alpr-data"
-  },
-  {
     "title": "Government leaders call for treaty negotiations on autonomous weapons to begin in November",
     "date": "Mon, 28 Sep 2026",
     "location": "TBC",
@@ -144,30 +132,6 @@
     "source": "https://www.eff.org/deeplinks/2026/11/join-eff-celebrate-life-aaron-swartz"
   },
   {
-    "title": "Stealthy Malicious Interference Detection in UAV Formations: A Power-Domain Signaling Game Approach",
-    "date": "Fri, 06 Nov 2026",
-    "location": "TBC",
-    "host": "cs.CR updates on arXiv.org",
-    "applies": "Monitor",
-    "tag": "Multilateral",
-    "angle": "Multilateral / technical AI",
-    "why": "Reliable intra-swarm communication is fundamental to cooperative sensing, control, and mission execution in unmanned aerial vehicle (UAV) swarms. In open low-altitude shared-spectrum environments,…",
-    "watch": "Sourced from cs.CR updates on arXiv.org — verify dates and AI relevance.",
-    "source": "https://arxiv.org/abs/2611.07977"
-  },
-  {
-    "title": "CANMentor: A Large-Small Model Collaboration Framework for CAN Bus Intrusion Detection",
-    "date": "Fri, 06 Nov 2026",
-    "location": "TBC",
-    "host": "cs.CR updates on arXiv.org",
-    "applies": "Monitor",
-    "tag": "Cybersecurity",
-    "angle": "Cybersecurity / technical AI",
-    "why": "The Controller Area Network (CAN) bus lacks built-in security mechanisms, making real-time intrusion detection necessary. However, resource and latency constraints limit vehicle-side intrusion…",
-    "watch": "Sourced from cs.CR updates on arXiv.org — verify dates and AI relevance.",
-    "source": "https://arxiv.org/abs/2611.07853"
-  },
-  {
     "title": "5th EMPACT Hackathon leads to the detection of 51 potential victims",
     "date": "TBC",
     "location": "TBC",
@@ -240,18 +204,6 @@
     "source": "https://futureoflife.org/press-release/prominent-scientists-faith-leaders-policymakers-and-artists-call-for-a-prohibition-on-superintelligence/"
   },
   {
-    "title": "How Generative AI Redefines Personalization and Diversity in the Newsroom",
-    "date": "Fri, 06 Nov 2026",
-    "location": "TBC",
-    "host": "cs.CY updates on arXiv.org",
-    "applies": "Monitor",
-    "tag": "Child Safety",
-    "angle": "Child Safety / policy & regulation",
-    "why": "The tension between news personalization and information diversity has traditionally been understood as a matter of different content reaching different people, with diversity evaluated by the range…",
-    "watch": "Sourced from cs.CY updates on arXiv.org — verify dates and AI relevance.",
-    "source": "https://arxiv.org/abs/2611.07931"
-  },
-  {
     "title": "Self-Employed? Solopreneur? NIST Has a Cybersecurity Guide Just for You",
     "date": "Mon, 02 Nov 2026",
     "location": "TBC",
@@ -288,18 +240,6 @@
     "source": "https://partnershiponai.org/pai-and-costa-rica-submit-recommendations-to-un-global-dialogue-co-chairs/"
   },
   {
-    "title": "faulTPM: Exposing AMD fTPMs' Deepest Secrets",
-    "date": "Fri, 06 Nov 2026",
-    "location": "TBC",
-    "host": "cs.CR updates on arXiv.org",
-    "applies": "Monitor",
-    "tag": "Cybersecurity",
-    "angle": "Cybersecurity / technical AI",
-    "why": "Trusted Platform Modules constitute an integral building block of modern security features. Moreover, as Windows 11 made a TPM 2.0 mandatory, they are subject to an ever-increasing academic…",
-    "watch": "Sourced from cs.CR updates on arXiv.org — verify dates and AI relevance.",
-    "source": "https://arxiv.org/abs/2304.14717"
-  },
-  {
     "title": "India AI Impact Summit panel: Towards multilateral agreement on enforcing red lines",
     "date": "TBC",
     "location": "TBC",
@@ -310,18 +250,6 @@
     "why": "The Ada Lovelace Institute is hosting a panel session at the India AI Impact Summit on 18 February 2026.",
     "watch": "Event from Ada Lovelace Institute — check agenda for AI harm content.",
     "source": "https://www.adalovelaceinstitute.org/event/enforcing-red-lines/"
-  },
-  {
-    "title": "Decision Models as Retrieval Gates Against Injection and Pollution",
-    "date": "Fri, 06 Nov 2026",
-    "location": "TBC",
-    "host": "cs.CR updates on arXiv.org",
-    "applies": "Monitor",
-    "tag": "AI Governance",
-    "angle": "AI Governance / technical AI",
-    "why": "Retrieved web text can carry instructions aimed at the language model, or synthetic pages written to mislead. We test whether released open-weight decision models, which answer typed questions about…",
-    "watch": "Sourced from cs.CR updates on arXiv.org — verify dates and AI relevance.",
-    "source": "https://arxiv.org/abs/2611.08325"
   },
   {
     "title": "Ordering violence from abroad: five suspects arrested in Spain, Morocco, and France",
@@ -828,18 +756,6 @@
     "source": "https://www.gov.uk/government/news/care-workers-women-returning-to-employment-and-builders-to-gain-practical-ai-skills"
   },
   {
-    "title": "Hundreds of employers handed penalties for illegally underpaying workers",
-    "date": "2026-11-02T12:09",
-    "location": "TBC",
-    "host": "News and communications",
-    "applies": "Monitor",
-    "tag": "AI Governance",
-    "angle": "AI Governance / policy & regulation",
-    "why": "389 employers from across the UK named for failing to pay workers the minimum wage to tens of thousands of workers.",
-    "watch": "Sourced from News and communications — verify dates and AI relevance.",
-    "source": "https://www.gov.uk/government/news/hundreds-of-employers-handed-penalties-for-illegally-underpaying-workers"
-  },
-  {
     "title": "Government to end 'wild west' e-bike parking with new powers for local leaders",
     "date": "2026-11-05T09:52",
     "location": "TBC",
@@ -1176,6 +1092,18 @@
     "source": "https://futureoflife.org/statement/attack-against-sam-altmans-home/"
   },
   {
+    "title": "UK military satellite Titania launches into orbit following £3bn space investment into defence of space",
+    "date": "2026-11-07T00:01",
+    "location": "TBC",
+    "host": "News and communications",
+    "applies": "Monitor",
+    "tag": "AI Governance",
+    "angle": "AI Governance / cross-sector harm",
+    "why": "UK launches Titania into orbit, giving the Armed Forces improved observation from space, along with new trial network of ground sensors to monitor threats to UK satellites.",
+    "watch": "Sourced from News and communications — verify dates and AI relevance.",
+    "source": "https://www.gov.uk/government/news/uk-military-satellite-titania-launches-into-orbit-following-3bn-space-investment-into-defence-of-space"
+  },
+  {
     "title": "Russia must show the evidence behind its claims: UK statement to the OSCE",
     "date": "2026-11-05T11:11",
     "location": "TBC",
@@ -1344,6 +1272,18 @@
     "source": "https://www.gov.uk/government/news/new-government-backed-cyber-security-protections-could-save-uk-businesses-thousands"
   },
   {
+    "title": "Better access to public services central to new Class Unit agenda",
+    "date": "2026-11-06T15:41",
+    "location": "TBC",
+    "host": "News and communications",
+    "applies": "Monitor",
+    "tag": "AI Governance",
+    "angle": "AI Governance / policy & regulation",
+    "why": "The creation of the Class Unit marks a renewed drive to stamp out the inequalities and barriers that exist for working-class communities.",
+    "watch": "Sourced from News and communications — verify dates and AI relevance.",
+    "source": "https://www.gov.uk/government/news/better-access-to-public-services-central-to-new-class-unit-agenda"
+  },
+  {
     "title": "Joint Statement by the Informal Group of Friends of Safety of Journalists, November 2026",
     "date": "2026-11-05T14:37",
     "location": "TBC",
@@ -1402,18 +1342,6 @@
     "why": "Buffer stop collision at Liverpool Street station, London, 15 October 2026.",
     "watch": "Sourced from News and communications — verify dates and AI relevance.",
     "source": "https://www.gov.uk/government/news/buffer-stop-collision-at-liverpool-street-station"
-  },
-  {
-    "title": "One million more scans to help catch cancer sooner",
-    "date": "2026-11-03T00:05",
-    "location": "TBC",
-    "host": "News and communications",
-    "applies": "Monitor",
-    "tag": "AI Governance",
-    "angle": "AI Governance / policy & regulation",
-    "why": "125 more NHS scanners and <mark>AI</mark> technology are helping deliver a million extra scans each year, supporting earlier cancer diagnosis and faster treatment.…",
-    "watch": "Sourced from News and communications — verify dates and AI relevance.",
-    "source": "https://www.gov.uk/government/news/one-million-more-scans-to-help-catch-cancer-sooner"
   },
   {
     "title": "Investigation over risk to multi-million pound charity property",
