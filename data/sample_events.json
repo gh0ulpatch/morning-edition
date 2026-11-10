@@ -12,18 +12,6 @@
     "source": "https://www.eff.org/deeplinks/2026/11/reflecting-digital-rights-wins-and-losses-sacramento"
   },
   {
-    "title": "EFF’s State Legislative Agenda to End ALPR Mass Surveillance",
-    "date": "Wed, 21 Oct 2026",
-    "location": "TBC",
-    "host": "Deeplinks",
-    "applies": "Attend",
-    "tag": "Privacy & Surveillance",
-    "angle": "Privacy & Surveillance / policy & regulation",
-    "why": "Police agencies across the U.S. have deployed Automated License Plate Readers (ALPRs) to capture images of passing vehicles along with time, date, and GPS coordinates. While the technology itself…",
-    "watch": "Sourced from Deeplinks — verify dates and AI relevance.",
-    "source": "https://www.eff.org/deeplinks/2026/10/effs-state-legislative-agenda-end-alpr-mass-surveillance"
-  },
-  {
     "title": "New Records Obtained by EFF Expose More Problems with Medicare’s AI Experiment",
     "date": "Tue, 27 Oct 2026",
     "location": "TBC",
@@ -34,6 +22,18 @@
     "why": "New records obtained by EFF expose additional issues with Medicare’s AI-driven prior authorization program and show why we need stronger legal limits around government use of automated…",
     "watch": "Sourced from Deeplinks — verify dates and AI relevance.",
     "source": "https://www.eff.org/deeplinks/2026/10/new-records-obtained-eff-expose-more-problems-medicares-ai-experiment"
+  },
+  {
+    "title": "U.S. Supreme Court Deals Final Blow to Corporate Human Rights Accountability",
+    "date": "Mon, 09 Nov 2026",
+    "location": "TBC",
+    "host": "Deeplinks",
+    "applies": "Attend",
+    "tag": "Privacy & Surveillance",
+    "angle": "Privacy & Surveillance / policy & regulation",
+    "why": "For the past two decades, the U.S. Supreme Court has been slowly weakening the Alien Tort Statute (ATS) , a key human rights law that allows foreign nationals to sue persons or entities in civil…",
+    "watch": "Sourced from Deeplinks — verify dates and AI relevance.",
+    "source": "https://www.eff.org/deeplinks/2026/11/us-supreme-court-deals-final-blow-corporate-human-rights-accountability"
   },
   {
     "title": "The Vulnerability Apocalypse and Why We Should Fund Open Source",
@@ -72,28 +72,16 @@
     "source": "http://www.wikicfp.com/cfp/servlet/event.showcfp?eventid=203937&copyownerid=199303"
   },
   {
-    "title": "Decomposing Yes-No Bias in LLM Moral Judgment: Stance, Position, Word, and Verdict",
+    "title": "Why Fewer People Are Challenging Bad Patents",
     "date": "Mon, 09 Nov 2026",
     "location": "TBC",
-    "host": "cs.CY updates on arXiv.org",
+    "host": "Deeplinks",
     "applies": "Attend",
-    "tag": "Multilateral",
-    "angle": "Multilateral / technical AI",
-    "why": "arXiv:2607.05552v2 Announce Type: replace-cross Abstract: Large language models (LLMs) increasingly issue binary verdicts - safety gates, judge decisions, value probes - and the answer is read as the…",
-    "watch": "Sourced from cs.CY updates on arXiv.org — verify dates and AI relevance.",
-    "source": "https://arxiv.org/abs/2607.05552"
-  },
-  {
-    "title": "ABHBench: Evaluating Moral Decision-Making of Foundation Models from an Agentic Perspective",
-    "date": "Mon, 09 Nov 2026",
-    "location": "TBC",
-    "host": "cs.CY updates on arXiv.org",
-    "applies": "Attend",
-    "tag": "AI Governance",
-    "angle": "AI Governance / policy & regulation",
-    "why": "Foundation models are increasingly deployed as agentic systems that perceive context and act autonomously, raising the need to evaluate their moral behavior as active decision-makers. Existing…",
-    "watch": "Sourced from cs.CY updates on arXiv.org — verify dates and AI relevance.",
-    "source": "https://arxiv.org/abs/2611.09326"
+    "tag": "Nuclear & WMD",
+    "angle": "Nuclear & WMD / policy & regulation",
+    "why": "The number of petitions being filed at the Patent Trial and Appeal Board (PTAB) has collapsed. That’s not reason for celebration. The PTAB is an important line of defense against low-quality software…",
+    "watch": "Sourced from Deeplinks — verify dates and AI relevance.",
+    "source": "https://www.eff.org/deeplinks/2026/11/why-fewer-people-are-challenging-bad-patents"
   },
   {
     "title": "Government leaders call for treaty negotiations on autonomous weapons to begin in November",
@@ -372,16 +360,16 @@
     "source": "https://partnershiponai.org/pai-and-costa-rica-submit-recommendations-to-un-global-dialogue-co-chairs/"
   },
   {
-    "title": "AI out-persuades expert humans in text-based dialogue",
+    "title": "Palantir hires a former Democratic senator as it faces scrutiny in new Congress",
     "date": "Mon, 09 Nov 2026",
     "location": "TBC",
-    "host": "cs.CY updates on arXiv.org",
+    "host": "AI Now Institute",
     "applies": "Monitor",
-    "tag": "Child Safety",
-    "angle": "Child Safety / policy & regulation",
-    "why": "Many societal decisions are settled by contests of persuasion. Conversational AI is a powerful new entrant in these contests, but whether it can out-persuade skilled and highly incentivized humans…",
-    "watch": "Sourced from cs.CY updates on arXiv.org — verify dates and AI relevance.",
-    "source": "https://arxiv.org/abs/2606.16475"
+    "tag": "Multilateral",
+    "angle": "Multilateral / governance & institutions",
+    "why": "As tech companies face growing criticism and backlash, AI Now's Senior Economic and National Security Fellow Aya Ibrahim warns that they will go to great lengths to burnish their reputations and…",
+    "watch": "Sourced from AI Now Institute — verify dates and AI relevance.",
+    "source": "https://ainowinstitute.org/news/palantir-hires-a-former-democratic-senator-as-it-faces-scrutiny-in-new-congress"
   },
   {
     "title": "India AI Impact Summit panel: Towards multilateral agreement on enforcing red lines",
@@ -430,18 +418,6 @@
     "why": "IWSPA 2026",
     "watch": "Sourced via WikiCFP — check agenda for AI harm/misuse sessions.",
     "source": "http://www.wikicfp.com/cfp/servlet/event.showcfp?eventid=191556&copyownerid=196658"
-  },
-  {
-    "title": "IDA 2027",
-    "date": "Event",
-    "location": "Where",
-    "host": "TBC",
-    "applies": "Monitor",
-    "tag": "EU Governance",
-    "angle": "EU Governance / technical AI",
-    "why": "IDA 2027",
-    "watch": "Sourced via WikiCFP — check agenda for AI harm/misuse sessions.",
-    "source": "http://www.wikicfp.com/cfp/servlet/event.showcfp?eventid=203874&copyownerid=186075"
   },
   {
     "title": "FATES 2021",
@@ -960,6 +936,42 @@
     "source": "https://www.gov.uk/government/news/stronger-laws-for-police-using-facial-recognition-technology"
   },
   {
+    "title": "Strengthened guidance to take the next leap to phone-free schools",
+    "date": "2026-11-10T12:41",
+    "location": "TBC",
+    "host": "News and communications",
+    "applies": "Monitor",
+    "tag": "Child Safety",
+    "angle": "Child Safety / policy & regulation",
+    "why": "Children will benefit from distraction-free learning under strengthened mobile phone guidance.",
+    "watch": "Sourced from News and communications — verify dates and AI relevance.",
+    "source": "https://www.gov.uk/government/news/strengthened-guidance-to-take-the-next-leap-to-phone-free-schools"
+  },
+  {
+    "title": "Minister for Defence Readiness and Industry Luke Pollard MP's speech at ISPC 2026",
+    "date": "2026-11-10T12:13",
+    "location": "TBC",
+    "host": "News and communications",
+    "applies": "Monitor",
+    "tag": "AI Governance",
+    "angle": "AI Governance / policy & regulation",
+    "why": "Minister Pollard highlighting the increasing importance of the Maritime industry in an era of intensifying strategic competition.",
+    "watch": "Sourced from News and communications — verify dates and AI relevance.",
+    "source": "https://www.gov.uk/government/speeches/minister-for-defence-readiness-and-industry-luke-pollard-mps-speech-at-ispc-2026"
+  },
+  {
+    "title": "Safety the focus as Maritime and Coastguard Agency seeks feedback on pleasure vessel definition",
+    "date": "2026-11-10T10:28",
+    "location": "TBC",
+    "host": "News and communications",
+    "applies": "Monitor",
+    "tag": "AI Governance",
+    "angle": "AI Governance / policy & regulation",
+    "why": "Call for evidence launched over how the definition is used in practice",
+    "watch": "Sourced from News and communications — verify dates and AI relevance.",
+    "source": "https://www.gov.uk/government/news/safety-the-focus-as-maritime-and-coastguard-agency-seeks-feedback-on-pleasure-vessel-definition"
+  },
+  {
     "title": "Martyn's Law: working together to prepare",
     "date": "2026-11-09T12:21",
     "location": "TBC",
@@ -996,16 +1008,16 @@
     "source": "https://www.gov.uk/government/news/government-to-end-wild-west-e-bike-parking-with-new-powers-for-local-leaders"
   },
   {
-    "title": "Plan to drive down homelessness for young people leaving care",
-    "date": "2026-11-05T00:01",
+    "title": "Major clean-up begins at notorious illegal waste site in Wigan",
+    "date": "2026-11-10T00:01",
     "location": "TBC",
     "host": "News and communications",
     "applies": "Monitor",
     "tag": "AI Governance",
     "angle": "AI Governance / policy & regulation",
-    "why": "Government sets out new Action Plan to reduce homelessness for care-experienced young people, building on PM’s pledge to tackle rough sleeping.",
+    "why": "Government-funded operation to remove 18,000 tonnes of waste from illegal site",
     "watch": "Sourced from News and communications — verify dates and AI relevance.",
-    "source": "https://www.gov.uk/government/news/plan-to-drive-down-homelessness-for-young-people-leaving-care"
+    "source": "https://www.gov.uk/government/news/major-clean-up-begins-at-notorious-illegal-waste-site-in-wigan"
   },
   {
     "title": "New cameras and sensors to help protect fish stocks & marine life in English waters",
@@ -1030,18 +1042,6 @@
     "why": "The Disclosure and Barring Service (DBS) is supporting Wales National Safeguarding Week, providing its expertise to a range of informative, awareness-focused activities.",
     "watch": "Sourced from News and communications — verify dates and AI relevance.",
     "source": "https://www.gov.uk/government/news/dbs-supports-wales-national-safeguarding-week-2026"
-  },
-  {
-    "title": "Recovery of £59,000 for five IT Agency Workers",
-    "date": "2026-11-04T14:25",
-    "location": "TBC",
-    "host": "News and communications",
-    "applies": "Monitor",
-    "tag": "AI Governance",
-    "angle": "AI Governance / policy & regulation",
-    "why": "More than £59,000 recovered in unpaid wages following action by the Fair Work Agency",
-    "watch": "Sourced from News and communications — verify dates and AI relevance.",
-    "source": "https://www.gov.uk/government/news/recovery-of-59000-for-five-it-agency-workers"
   },
   {
     "title": "NIST Provides Updates on National Construction Safety Team Activities",
@@ -1234,6 +1234,18 @@
     "why": "MHRA issues new guidance on its approach to clinical trial applications that rely on non-clinical safety data generated outside the OECD Mutual Acceptance of Data system.",
     "watch": "Sourced from News and communications — verify dates and AI relevance.",
     "source": "https://www.gov.uk/government/news/mhra-guidance-on-its-assessment-of-non-clinical-data-generated-outside-oecd-system"
+  },
+  {
+    "title": "53rd Universal Periodic Review of human rights: UK Statement on Thailand",
+    "date": "2026-11-10T10:41",
+    "location": "TBC",
+    "host": "News and communications",
+    "applies": "Monitor",
+    "tag": "AI Governance",
+    "angle": "AI Governance / governance & institutions",
+    "why": "Statement by the UK&#39;s Human Rights Ambassador, Eleanor Sanders, at Thailand&#39;s Universal Periodic Review at the Human Rights Council in Geneva.",
+    "watch": "Sourced from News and communications — verify dates and AI relevance.",
+    "source": "https://www.gov.uk/government/speeches/53rd-universal-periodic-review-of-human-rights-uk-statement-on-thailand"
   },
   {
     "title": "NIST Joins White House Effort to Drive ‘A New Golden Age of Science’",
@@ -1512,6 +1524,30 @@
     "source": "https://www.gov.uk/government/news/new-government-backed-cyber-security-protections-could-save-uk-businesses-thousands"
   },
   {
+    "title": "£90 million investment for new drones and sensors to protect undersea cables and hunt Russian submarines",
+    "date": "2026-11-10T11:20",
+    "location": "TBC",
+    "host": "News and communications",
+    "applies": "Monitor",
+    "tag": "AI Governance",
+    "angle": "AI Governance / policy & regulation",
+    "why": "The UK will be more secure from Russian undersea threats in the North Atlantic following a new £90 million investment in new drones, sensors and <mark>AI</mark> systems for the Royal Navy.",
+    "watch": "Sourced from News and communications — verify dates and AI relevance.",
+    "source": "https://www.gov.uk/government/news/90-million-investment-for-new-drones-and-sensors-to-protect-undersea-cables-and-hunt-russian-submarines"
+  },
+  {
+    "title": "Mine water heat network wins national award",
+    "date": "2026-11-10T09:45",
+    "location": "TBC",
+    "host": "News and communications",
+    "applies": "Monitor",
+    "tag": "AI Governance",
+    "angle": "AI Governance / policy & regulation",
+    "why": "Seaham Garden Village&#39;s heat network, which uses water from our Dawdon mine water treatment scheme, has won a Gamechanger Award.",
+    "watch": "Sourced from News and communications — verify dates and AI relevance.",
+    "source": "https://www.gov.uk/government/news/mine-water-heat-network-wins-national-award"
+  },
+  {
     "title": "Report 12/2026: Collision between a passenger train and a van at Bax level crossing",
     "date": "2026-11-09T09:56",
     "location": "TBC",
@@ -1572,18 +1608,6 @@
     "source": "https://www.gov.uk/government/news/sovereign-ai-puts-cash-and-compute-behind-uk-startup-using-ai-to-redefine-chemistry"
   },
   {
-    "title": "UK engineering firm appointed to deliver major decommissioning project at Dungeness A",
-    "date": "2026-11-05T09:34",
-    "location": "TBC",
-    "host": "News and communications",
-    "applies": "Monitor",
-    "tag": "AI Governance",
-    "angle": "AI Governance / policy & regulation",
-    "why": "NRS has appointed UK supply-chain company Aureos to deliver the next major phase of decommissioning at Dungeness A in Kent, paving the way for the removal of some of the site’s largest remaining…",
-    "watch": "Sourced from News and communications — verify dates and AI relevance.",
-    "source": "https://www.gov.uk/government/news/uk-engineering-firm-appointed-to-deliver-major-decommissioning-project-at-dungeness-a"
-  },
-  {
     "title": "Investigation over risk to multi-million pound charity property",
     "date": "2026-11-05T16:01",
     "location": "TBC",
@@ -1594,6 +1618,18 @@
     "why": "The Charity Commission has opened a statutory inquiry into The House of St Barnabas in Soho (Charity number 207242-1).",
     "watch": "Sourced from News and communications — verify dates and AI relevance.",
     "source": "https://www.gov.uk/government/news/investigation-over-risk-to-multi-million-pound-charity-property"
+  },
+  {
+    "title": "UK engineering firm appointed to deliver major decommissioning project at Dungeness A",
+    "date": "2026-11-05T09:34",
+    "location": "TBC",
+    "host": "News and communications",
+    "applies": "Monitor",
+    "tag": "AI Governance",
+    "angle": "AI Governance / policy & regulation",
+    "why": "NRS has appointed UK supply-chain company Aureos to deliver the next major phase of decommissioning at Dungeness A in Kent, paving the way for the removal of some of the site’s largest remaining…",
+    "watch": "Sourced from News and communications — verify dates and AI relevance.",
+    "source": "https://www.gov.uk/government/news/uk-engineering-firm-appointed-to-deliver-major-decommissioning-project-at-dungeness-a"
   },
   {
     "title": "New Chip-Based ‘Tape Measure’ for Light Could Revolutionize Mobile Timekeeping and Enhance National Security",
