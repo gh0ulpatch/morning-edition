@@ -96,6 +96,18 @@
     "source": "https://www.europol.europa.eu/media-press/newsroom/news/354-dark-web-vendors-and-buyers-arrested-in-europol-coordinated-global-crackdown"
   },
   {
+    "title": "Government leaders call for treaty negotiations on autonomous weapons to begin in November",
+    "date": "Mon, 28 Sep 2026",
+    "location": "TBC",
+    "host": "Future of Life Institute",
+    "applies": "Attend",
+    "tag": "Multilateral",
+    "angle": "Multilateral / policy & regulation",
+    "why": "At a New York forum cosponsored by six governments, OHCHR, the ICRC, The Elders and FLI, ministers and UN officials called on states to begin negotiating a legally binding instrument on autonomous…",
+    "watch": "Sourced from Future of Life Institute — verify dates and AI relevance.",
+    "source": "https://futureoflife.org/ai-policy/government-leaders-call-for-treaty-negotiations-on-autonomous-weapons-to-begin-in-november/"
+  },
+  {
     "title": "ICCWS 2027",
     "date": "Event",
     "location": "Where",
@@ -132,18 +144,6 @@
     "source": "https://www.eff.org/deeplinks/2026/10/french-courts-site-blocking-orders-drive-quad9-out-france"
   },
   {
-    "title": "Modifying AI Under the EU AI Act: Lessons from Practice on Classification and Compliance",
-    "date": "Wed, 05 Nov 2025",
-    "location": "TBC",
-    "host": "Future of Life Institute",
-    "applies": "Monitor",
-    "tag": "EU Governance",
-    "angle": "EU Governance / policy & regulation",
-    "why": "This is a guest post written by legal compliance professionals Øystein Endal, Andrea Vcric, Sidsel Nag, Nick Malter and Daylan [&#8230;]",
-    "watch": "Sourced from Future of Life Institute — verify dates and AI relevance.",
-    "source": "https://futureoflife.org/uncategorized/modifying-ai-under-the-eu-ai-act/"
-  },
-  {
     "title": "International Seabed Authority",
     "date": "Thu, 21 Sep 2023",
     "location": "TBC",
@@ -178,18 +178,6 @@
     "why": "KDD-MLF 2025",
     "watch": "Sourced via WikiCFP — check agenda for AI harm/misuse sessions.",
     "source": "http://www.wikicfp.com/cfp/servlet/event.showcfp?eventid=186399&copyownerid=192394"
-  },
-  {
-    "title": "European and Ecuadorian cooperation leads to 20 arrests in major hit against drug trafficking",
-    "date": "TBC",
-    "location": "TBC",
-    "host": "News",
-    "applies": "Monitor",
-    "tag": "EU Governance",
-    "angle": "EU Governance / policy & regulation",
-    "why": "The operation, codenamed Operation CANTABRIA, underscores the success of strong cooperation between European and Ecuadorian law enforcement agencies, proving that joint efforts are key to tackling…",
-    "watch": "Sourced from News — verify dates and AI relevance.",
-    "source": "https://www.europol.europa.eu/media-press/newsroom/news/european-and-ecuadorian-cooperation-leads-to-20-arrests-in-major-hit-against-drug-trafficking"
   },
   {
     "title": "Join EFF to Celebrate the Life of Aaron Swartz",
@@ -240,18 +228,6 @@
     "source": "https://www.europol.europa.eu/media-press/newsroom/news/eu-most-wanted-19-fugitives-wanted-for-targeting-vulnerable"
   },
   {
-    "title": "The EU AI Act’s Transparency Rules: A Practical Guide to Article 50",
-    "date": "Thu, 14 May 2026",
-    "location": "TBC",
-    "host": "Future of Life Institute",
-    "applies": "Monitor",
-    "tag": "EU Governance",
-    "angle": "EU Governance / policy & regulation",
-    "why": "What providers and deployers must do by August 2026",
-    "watch": "Sourced from Future of Life Institute — verify dates and AI relevance.",
-    "source": "https://futureoflife.org/uncategorized/transparency-rules-article-50/"
-  },
-  {
     "title": "ICAIR 2024",
     "date": "4th International Conference on AI Research (formally the European Conference on the Impact of Artificial Intelligence and Robotics)",
     "location": "TBC",
@@ -274,6 +250,18 @@
     "why": "Government, law enforcement and industry leaders from around the world met in London this week to strengthen the global response to financial crime.",
     "watch": "Sourced from News and communications — verify dates and AI relevance.",
     "source": "https://www.gov.uk/government/news/uk-hosts-global-summit-to-combat-financial-crime"
+  },
+  {
+    "title": "CMMC on Hold: Charting a Path Forward",
+    "date": "TBC",
+    "location": "TBC",
+    "host": "CSIS",
+    "applies": "Monitor",
+    "tag": "Cybersecurity",
+    "angle": "Cybersecurity / governance & institutions",
+    "why": "On this episode of All About the Base, Dr. Jerry McGinn speaks with Stephanie Sanok Kostro, President of the Professional Services Council, about the DoD’s CMMC pause, industry concerns over…",
+    "watch": "Event from CSIS — check agenda for AI harm content.",
+    "source": "https://www.csis.org/events/cmmc-hold-charting-path-forward"
   },
   {
     "title": "IMBSA 2027",
@@ -348,52 +336,40 @@
     "source": "http://www.wikicfp.com/cfp/servlet/event.showcfp?eventid=194448&copyownerid=190712"
   },
   {
-    "title": "Enforcement of Chapter V under the EU AI Act",
-    "date": "Tue, 31 Mar 2026",
+    "title": "ASEAN-OECD meeting: UK supports regional regulatory reform",
+    "date": "2026-11-13T10:12",
     "location": "TBC",
-    "host": "Future of Life Institute",
+    "host": "News and communications",
     "applies": "Monitor",
-    "tag": "EU Governance",
-    "angle": "EU Governance / policy & regulation",
-    "why": "This page aims to provide an overview of the EU AI Act&#8217;s enforcement provisions relating to Chapter V, namely the [&#8230;]",
-    "watch": "Sourced from Future of Life Institute — verify dates and AI relevance.",
-    "source": "https://futureoflife.org/uncategorized/enforcement-of-chapter-v-under-the-eu-ai-act/"
+    "tag": "Multilateral",
+    "angle": "Multilateral / policy & regulation",
+    "why": "ASEAN and OECD policymakers met in Manila to share regulatory simplification approaches, with UK backing reforms that boost growth, investment and innovation.",
+    "watch": "Sourced from News and communications — verify dates and AI relevance.",
+    "source": "https://www.gov.uk/government/news/asean-oecd-meeting-uk-supports-regional-regulatory-reform"
   },
   {
-    "title": "Whistleblowing and the EU AI Act",
-    "date": "Mon, 11 Aug 2025",
+    "title": "Law enforcement dismantle cocaine network from Ecuador to Europe",
+    "date": "TBC",
     "location": "TBC",
-    "host": "Future of Life Institute",
-    "applies": "Monitor",
-    "tag": "EU Governance",
-    "angle": "EU Governance / policy & regulation",
-    "why": "This page aims to provide an overview of the EU Whistleblowing Directive (2019) and how it relates to the EU [&#8230;]",
-    "watch": "Sourced from Future of Life Institute — verify dates and AI relevance.",
-    "source": "https://futureoflife.org/uncategorized/whistleblowing-and-the-eu-ai-act/"
-  },
-  {
-    "title": "Overview of the Code of Practice",
-    "date": "Wed, 30 Jul 2025",
-    "location": "TBC",
-    "host": "Future of Life Institute",
+    "host": "News",
     "applies": "Monitor",
     "tag": "AI Governance",
     "angle": "AI Governance / policy & regulation",
-    "why": "The Code of Practice offers a clear framework to help developers of General Purpose AI (GPAI) models meet the requirements [&#8230;]",
-    "watch": "Sourced from Future of Life Institute — verify dates and AI relevance.",
-    "source": "https://futureoflife.org/uncategorized/code-of-practice-overview/"
+    "why": "An international investigation supported by Europol and Eurojust has dismantled a criminal network suspected of importing cocaine into Europe from Ecuador and other Latin American countries.…",
+    "watch": "Sourced from News — verify dates and AI relevance.",
+    "source": "https://www.europol.europa.eu/media-press/newsroom/news/law-enforcement-dismantle-cocaine-network-ecuador-to-europe"
   },
   {
-    "title": "AI Regulatory Sandbox Approaches: EU Member State Overview",
-    "date": "Fri, 02 May 2025",
+    "title": "Prominent Scientists, Faith Leaders, Policymakers and Artists Call for a Prohibition on Superintelligence, as Poll…",
+    "date": "Fri, 27 Mar 2026",
     "location": "TBC",
     "host": "Future of Life Institute",
     "applies": "Monitor",
-    "tag": "EU Governance",
-    "angle": "EU Governance / policy & regulation",
-    "why": "AI regulatory sandboxes are an important part of the implementation of the EU AI Act. According to Article 57 of [&#8230;]",
+    "tag": "Multilateral",
+    "angle": "Multilateral / policy & regulation",
+    "why": "Initial signatories include AI pioneers Yoshua Bengio and Geoffrey Hinton, leading media voices Steve Bannon and Glenn Beck, Obama's National Security Advisor Susan Rice, business trailblazers Steve…",
     "watch": "Sourced from Future of Life Institute — verify dates and AI relevance.",
-    "source": "https://futureoflife.org/uncategorized/ai-regulatory-sandbox-approaches-eu-member-state-overview/"
+    "source": "https://futureoflife.org/press-release/prominent-scientists-faith-leaders-policymakers-and-artists-call-for-a-prohibition-on-superintelligence/"
   },
   {
     "title": "Self-Employed? Solopreneur? NIST Has a Cybersecurity Guide Just for You",
@@ -408,40 +384,16 @@
     "source": "https://www.nist.gov/news-events/news/2026/11/self-employed-solopreneur-nist-has-cybersecurity-guide-just-you"
   },
   {
-    "title": "AI Therapy under the EU AI Act",
-    "date": "Fri, 07 Aug 2026",
+    "title": "Statement: The pro-human movement is winning",
+    "date": "Thu, 05 Nov 2026",
     "location": "TBC",
     "host": "Future of Life Institute",
     "applies": "Monitor",
-    "tag": "EU Governance",
-    "angle": "EU Governance / policy & regulation",
-    "why": "This page aims to provide an overview of AI systems, and in particular general-purpose AI (GPAI) systems, used for the [&#8230;]",
+    "tag": "Election Integrity",
+    "angle": "Election Integrity / policy & regulation",
+    "why": "FLI's Head of U.S. Policy Michael Kleinman issues a statement on the U.S. Senate Midterm Election results.",
     "watch": "Sourced from Future of Life Institute — verify dates and AI relevance.",
-    "source": "https://futureoflife.org/uncategorized/ai-therapy-under-the-eu-ai-act/"
-  },
-  {
-    "title": "What the EU AI Act Means for Staffing Businesses",
-    "date": "Tue, 17 Mar 2026",
-    "location": "TBC",
-    "host": "Future of Life Institute",
-    "applies": "Monitor",
-    "tag": "EU Governance",
-    "angle": "EU Governance / policy & regulation",
-    "why": "If your business uses AI to screen, rank, or match candidates, the EU now regulates those tools as high-risk systems. Here is what changed, what it means for your operating model, and what you should…",
-    "watch": "Sourced from Future of Life Institute — verify dates and AI relevance.",
-    "source": "https://futureoflife.org/uncategorized/what-the-act-means-for-staffing-businesses/"
-  },
-  {
-    "title": "Overview of Guidelines for GPAI Models",
-    "date": "Wed, 30 Jul 2025",
-    "location": "TBC",
-    "host": "Future of Life Institute",
-    "applies": "Monitor",
-    "tag": "EU Governance",
-    "angle": "EU Governance / policy & regulation",
-    "why": "On 18 July 2025, the European Commission published draft Guidelines clarifying key provisions of the EU AI Act applicable to [&#8230;]",
-    "watch": "Sourced from Future of Life Institute — verify dates and AI relevance.",
-    "source": "https://futureoflife.org/uncategorized/gpai-guidelines-overview/"
+    "source": "https://futureoflife.org/statement/statement-the-pro-human-movement-is-winning/"
   },
   {
     "title": "UN Global Dialogue Co-Leads Issue Call to Action on Safe, Secure, and Trustworthy AI",
@@ -547,7 +499,7 @@
     "applies": "Monitor",
     "tag": "AI Governance",
     "angle": "AI Governance / governance & institutions",
-    "why": "A joint statement by the UK and Norway to deepen cooperation on <mark>AI</mark>, including compute, defence, <mark>AI</mark> security, and international governance.",
+    "why": "A joint statement by the UK and Norway to deepen cooperation on AI, including compute, defence, AI security, and international governance.",
     "watch": "Sourced from News and communications — verify dates and AI relevance.",
     "source": "https://www.gov.uk/government/news/united-kingdom-norway-joint-statement-of-intent-on-artificial-intelligence"
   },
@@ -564,18 +516,6 @@
     "source": "https://www.ncsc.gov.uk/report/cyber-threat-report-uk-legal-sector"
   },
   {
-    "title": "MHRA sets out approach to strengthen patient and public involvement and engagement in medicines and medical device…",
-    "date": "2026-11-05T16:00",
-    "location": "TBC",
-    "host": "News and communications",
-    "applies": "Monitor",
-    "tag": "AI Governance",
-    "angle": "AI Governance / policy & regulation",
-    "why": "New plan will broaden participation and make clearer how patient experience informs regulatory decisions, safety and innovation",
-    "watch": "Sourced from News and communications — verify dates and AI relevance.",
-    "source": "https://www.gov.uk/government/news/mhra-sets-out-approach-to-strengthen-patient-and-public-involvement-and-engagement-in-medicines-and-medical-device-regulation"
-  },
-  {
     "title": "NIST Study Shows How the Toxic Substances Mixed Into Fentanyl Vary Across the U.S. and Change Over Time",
     "date": "Thu, 08 Oct 2026",
     "location": "TBC",
@@ -588,28 +528,52 @@
     "source": "https://www.nist.gov/news-events/news/2026/10/nist-study-shows-how-toxic-substances-mixed-fentanyl-vary-across-us-and"
   },
   {
-    "title": "Job Opportunities at the European AI Office for Legal and Policy Backgrounds",
-    "date": "Mon, 16 Dec 2024",
+    "title": "Statement: Head of US Policy on the White House AI legislative recommendations",
+    "date": "Sun, 22 Mar 2026",
     "location": "TBC",
     "host": "Future of Life Institute",
     "applies": "Monitor",
-    "tag": "EU Governance",
-    "angle": "EU Governance / policy & regulation",
-    "why": "The Commission has opened two calls for expression of interest to recruit new members for the European AI Office. Apply [&#8230;]",
+    "tag": "AI Governance",
+    "angle": "AI Governance / policy & regulation",
+    "why": "The White House published it&#8217;s long-awaited AI legislative recommendations on Friday, and it still includes a call for Congress to [&#8230;]",
     "watch": "Sourced from Future of Life Institute — verify dates and AI relevance.",
-    "source": "https://futureoflife.org/uncategorized/job-opportunities-european-ai-office/"
+    "source": "https://futureoflife.org/statement/head-of-us-policy-on-the-white-house-ai-legislative-recommendations/"
   },
   {
-    "title": "The AI Act: Responsibilities of the European Commission (AI Office)",
-    "date": "Thu, 22 Aug 2024",
+    "title": "Statement from Max Tegmark on the Department of War’s ultimatum",
+    "date": "Fri, 27 Feb 2026",
     "location": "TBC",
     "host": "Future of Life Institute",
     "applies": "Monitor",
-    "tag": "EU Governance",
-    "angle": "EU Governance / policy & regulation",
-    "why": "If you are unsure who is implementing and enforcing the new digital law and what the specific time frames are, [&#8230;]",
+    "tag": "AI Governance",
+    "angle": "AI Governance / policy & regulation",
+    "why": "\"Our safety and basic rights must not be at the mercy of a company's internal policy; lawmakers must work to codify these overwhelmingly popular red lines into law.\"",
     "watch": "Sourced from Future of Life Institute — verify dates and AI relevance.",
-    "source": "https://futureoflife.org/uncategorized/responsibilities-of-european-commission-ai-office/"
+    "source": "https://futureoflife.org/ai/tegmark-statement-on-dow-ultimatum/"
+  },
+  {
+    "title": "Future of Life Institute Launches Multimillion Dollar Nationwide AI Regulation Campaign",
+    "date": "Mon, 09 Feb 2026",
+    "location": "TBC",
+    "host": "Future of Life Institute",
+    "applies": "Monitor",
+    "tag": "AI Safety",
+    "angle": "AI Safety / policy & regulation",
+    "why": "The Protect What’s Human campaign will push for commonsense AI safety rules at federal and state level",
+    "watch": "Sourced from Future of Life Institute — verify dates and AI relevance.",
+    "source": "https://futureoflife.org/press-release/fli-launches-multimillion-dollar-nationwide-ai-regulation-campaign/"
+  },
+  {
+    "title": "The U.S. Public Wants Regulation (or Prohibition) of Expert‑Level and Superhuman AI",
+    "date": "Sun, 19 Oct 2025",
+    "location": "TBC",
+    "host": "Future of Life Institute",
+    "applies": "Monitor",
+    "tag": "AI Governance",
+    "angle": "AI Governance / policy & regulation",
+    "why": "Three‑quarters of U.S. adults want strong regulations on AI development, preferring oversight akin to pharmaceuticals rather than industry \"self‑regulation.\"",
+    "watch": "Sourced from Future of Life Institute — verify dates and AI relevance.",
+    "source": "https://futureoflife.org/recent-news/americans-want-regulation-or-prohibition-of-superhuman-ai/"
   },
   {
     "title": "Joint Statement on the Withdrawal Agreement Joint Committee, 10 November 2026",
@@ -684,64 +648,40 @@
     "source": "https://www.europol.europa.eu/media-press/newsroom/news/five-tefaf-robbery-suspects-added-to-eu-most-wanted"
   },
   {
-    "title": "The Scientific Panel of Independent Experts: What Is It And How Does It Work?",
-    "date": "Tue, 07 Jul 2026",
+    "title": "Statement: We must pressure AI companies to immediately limit the use of recursive self improvement",
+    "date": "Mon, 28 Sep 2026",
     "location": "TBC",
     "host": "Future of Life Institute",
-    "applies": "Monitor",
-    "tag": "EU Governance",
-    "angle": "EU Governance / policy & regulation",
-    "why": "The scientific panel of independent experts (the Scientific Panel) is a body established under the EU AI Act to support [&#8230;]",
-    "watch": "Sourced from Future of Life Institute — verify dates and AI relevance.",
-    "source": "https://futureoflife.org/uncategorized/scientific-panel/"
-  },
-  {
-    "title": "AI Literacy Programs in Europe – Supporting Article 4 of the EU AI Act",
-    "date": "Fri, 23 May 2025",
-    "location": "TBC",
-    "host": "Future of Life Institute",
-    "applies": "Monitor",
-    "tag": "EU Governance",
-    "angle": "EU Governance / policy & regulation",
-    "why": "As organisations across Europe navigate the implementation of the EU AI Act — including Article 4, which addresses the importance [&#8230;]",
-    "watch": "Sourced from Future of Life Institute — verify dates and AI relevance.",
-    "source": "https://futureoflife.org/uncategorized/ai-literacy-programs/"
-  },
-  {
-    "title": "Small Businesses’ Guide to the AI Act",
-    "date": "Wed, 19 Feb 2025",
-    "location": "TBC",
-    "host": "Future of Life Institute",
-    "applies": "Monitor",
-    "tag": "EU Governance",
-    "angle": "EU Governance / policy & regulation",
-    "why": "Everything you need to know about the AI Act, for small and medium-sized enterprises (SMEs) in the EU and beyond.",
-    "watch": "Sourced from Future of Life Institute — verify dates and AI relevance.",
-    "source": "https://futureoflife.org/uncategorized/small-businesses-guide-to-the-ai-act/"
-  },
-  {
-    "title": "The AI Act: Responsibilities of the EU Member States",
-    "date": "Thu, 22 Aug 2024",
-    "location": "TBC",
-    "host": "Future of Life Institute",
-    "applies": "Monitor",
-    "tag": "EU Governance",
-    "angle": "EU Governance / policy & regulation",
-    "why": "If you are unsure who is implementing and enforcing the EU AI Act and what the specific time frames are, [&#8230;]",
-    "watch": "Sourced from Future of Life Institute — verify dates and AI relevance.",
-    "source": "https://futureoflife.org/uncategorized/responsibilities-of-member-states/"
-  },
-  {
-    "title": "UK-Switzerland Financial Dialogue 2026 Joint Statement",
-    "date": "2026-11-05T13:00",
-    "location": "TBC",
-    "host": "News and communications",
     "applies": "Monitor",
     "tag": "AI Governance",
-    "angle": "AI Governance / governance & institutions",
-    "why": "Joint Statement between HM Treasury and State Secretariat for International Finance on the UK-Switzerland Financial Dialogue.",
-    "watch": "Sourced from News and communications — verify dates and AI relevance.",
-    "source": "https://www.gov.uk/government/publications/uk-switzerland-financial-dialogue-2026-joint-statement"
+    "angle": "AI Governance / policy & regulation",
+    "why": "FLI's Director of Policy Mark Brakel responds to \"A Call for Control of Frontier AI Models\", joint statement by heads of states.",
+    "watch": "Sourced from Future of Life Institute — verify dates and AI relevance.",
+    "source": "https://futureoflife.org/statement/statement-we-must-pressure-ai-companies-to-immediately-limit-the-use-of-recursive-self-improvement/"
+  },
+  {
+    "title": "Statement: World leaders at the UN call to rein in superintelligence race",
+    "date": "Thu, 24 Sep 2026",
+    "location": "TBC",
+    "host": "Future of Life Institute",
+    "applies": "Monitor",
+    "tag": "Multilateral",
+    "angle": "Multilateral / policy & regulation",
+    "why": "Calls for pacing, coordination, and capacity-building are welcome, but the urgency of our shared situation requires practical solutions.",
+    "watch": "Sourced from Future of Life Institute — verify dates and AI relevance.",
+    "source": "https://futureoflife.org/statement/statement-world-leaders-at-the-un-call-to-rein-in-superintelligence-race/"
+  },
+  {
+    "title": "AI Company Safety Practices Fall Short of Public Commitments and Show Structural Weaknesses, as Top Performers Widen…",
+    "date": "Tue, 02 Dec 2025",
+    "location": "TBC",
+    "host": "Future of Life Institute",
+    "applies": "Monitor",
+    "tag": "AI Governance",
+    "angle": "AI Governance / policy & regulation",
+    "why": "But in a win for transparency, five leading companies participated in the scorecard's survey for the first time, providing critical new information to the public.",
+    "watch": "Sourced from Future of Life Institute — verify dates and AI relevance.",
+    "source": "https://futureoflife.org/press-release/ai-company-safety-practices-fall-short-of-public-commitments/"
   },
   {
     "title": "NIST Expands Its Library of ‘Chemical Fingerprints’ to Identify Unknown Substances",
@@ -984,18 +924,6 @@
     "source": "https://www.gov.uk/government/news/bii-launches-new-investment-strategy-for-growth-in-kenya"
   },
   {
-    "title": "RSH data indicates increase in social housing tenant satisfaction",
-    "date": "2026-11-05T09:30",
-    "location": "TBC",
-    "host": "News and communications",
-    "applies": "Monitor",
-    "tag": "AI Governance",
-    "angle": "AI Governance / policy & regulation",
-    "why": "Social housing landlords in England have reported an increase in the average level of tenant satisfaction across the sector.",
-    "watch": "Sourced from News and communications — verify dates and AI relevance.",
-    "source": "https://www.gov.uk/government/news/rsh-data-indicates-increase-in-social-housing-tenant-satisfaction"
-  },
-  {
     "title": "Minister Doughty Statement to the House of Commons: 12 November 2026",
     "date": "2026-11-12T14:05",
     "location": "TBC",
@@ -1030,30 +958,6 @@
     "why": "Speech delivered by Children&#39;s Minister at annual NCASC conference in Liverpool",
     "watch": "Sourced from News and communications — verify dates and AI relevance.",
     "source": "https://www.gov.uk/government/speeches/josh-macalister-national-children-and-adult-services-conference"
-  },
-  {
-    "title": "Strengthened guidance to take the next leap to phone-free schools",
-    "date": "2026-11-10T12:41",
-    "location": "TBC",
-    "host": "News and communications",
-    "applies": "Monitor",
-    "tag": "Child Safety",
-    "angle": "Child Safety / policy & regulation",
-    "why": "Children will benefit from distraction-free learning under strengthened mobile phone guidance.",
-    "watch": "Sourced from News and communications — verify dates and AI relevance.",
-    "source": "https://www.gov.uk/government/news/strengthened-guidance-to-take-the-next-leap-to-phone-free-schools"
-  },
-  {
-    "title": "Minister for Defence Readiness and Industry Luke Pollard MP's speech at ISPC 2026",
-    "date": "2026-11-10T12:13",
-    "location": "TBC",
-    "host": "News and communications",
-    "applies": "Monitor",
-    "tag": "AI Governance",
-    "angle": "AI Governance / policy & regulation",
-    "why": "Minister Pollard highlighting the increasing importance of the Maritime industry in an era of intensifying strategic competition.",
-    "watch": "Sourced from News and communications — verify dates and AI relevance.",
-    "source": "https://www.gov.uk/government/speeches/minister-for-defence-readiness-and-industry-luke-pollard-mps-speech-at-ispc-2026"
   },
   {
     "title": "Government to stamp illegal deforestation out of UK supply chains",
@@ -1164,28 +1068,28 @@
     "source": "https://www.europol.europa.eu/media-press/newsroom/news/not-game-europol-and-partners-target-terrorist-role-playing-online"
   },
   {
-    "title": "Overview of all AI Act National Implementation Plans",
-    "date": "Fri, 08 Nov 2024",
+    "title": "Should AIs be people too?",
+    "date": "Fri, 19 Jun 2026",
     "location": "TBC",
     "host": "Future of Life Institute",
     "applies": "Monitor",
-    "tag": "EU Governance",
-    "angle": "EU Governance / policy & regulation",
-    "why": "This post gives an overview of the national authorities to be designated under the AI Act and what we know about the national implementation plans.",
+    "tag": "AI Governance",
+    "angle": "AI Governance / policy & regulation",
+    "why": "The Dutch East India company was among the first modern companies to receive legal personhood. Should we reconsider what personhood means in the age of AI?",
     "watch": "Sourced from Future of Life Institute — verify dates and AI relevance.",
-    "source": "https://futureoflife.org/uncategorized/national-implementation-plans/"
+    "source": "https://futureoflife.org/ai/should-ais-be-people-too/"
   },
   {
-    "title": "An Introduction to the Code of Practice for General-Purpose AI",
-    "date": "Wed, 03 Jul 2024",
+    "title": "FLI President on the White House Executive Order",
+    "date": "Wed, 03 Jun 2026",
     "location": "TBC",
     "host": "Future of Life Institute",
     "applies": "Monitor",
-    "tag": "EU Governance",
-    "angle": "EU Governance / policy & regulation",
-    "why": "Last updated: 14 August 2025. As AI Act implementation gradually unfolds, it is important to understand the different mechanisms of [&#8230;]",
+    "tag": "AI Governance",
+    "angle": "AI Governance / policy & regulation",
+    "why": "\"This is an important step in the right direction... but voluntary frameworks are not enough\"",
     "watch": "Sourced from Future of Life Institute — verify dates and AI relevance.",
-    "source": "https://futureoflife.org/uncategorized/introduction-to-code-of-practice/"
+    "source": "https://futureoflife.org/statement/fli-president-on-white-house-executive-order/"
   },
   {
     "title": "Steering AI’s Economic Impacts, Before They Arrive",
@@ -1248,18 +1152,6 @@
     "source": "https://www.gov.uk/government/news/scotland-at-the-heart-of-europes-defence-summit"
   },
   {
-    "title": "Defending media freedom and the safety of journalists: UK statement to the OSCE, November 2026",
-    "date": "2026-11-05T14:16",
-    "location": "TBC",
-    "host": "News and communications",
-    "applies": "Monitor",
-    "tag": "AI Governance",
-    "angle": "AI Governance / technical AI",
-    "why": "Ambassador Neil Holland reaffirms UK support for media freedom and the safety of journalists across the OSCE region. He called for journalists held by Russia to be released, attacks investigated,…",
-    "watch": "Sourced from News and communications — verify dates and AI relevance.",
-    "source": "https://www.gov.uk/government/speeches/defending-media-freedom-and-the-safety-of-journalists-uk-statement-to-the-osce-november-2026"
-  },
-  {
     "title": "UK Commandos to get AI-enabled edge from British scale-up Arondite, as company expands to NATO's northern flank",
     "date": "2026-11-12T10:00",
     "location": "TBC",
@@ -1282,18 +1174,6 @@
     "why": "The Regulator of Social Housing also published its first large batch of stability checks today.",
     "watch": "Sourced from News and communications — verify dates and AI relevance.",
     "source": "https://www.gov.uk/government/news/rsh-finds-serious-failings-at-bury-metropolitan-borough-council"
-  },
-  {
-    "title": "53rd Universal Periodic Review of human rights: UK Statement on Thailand",
-    "date": "2026-11-10T10:41",
-    "location": "TBC",
-    "host": "News and communications",
-    "applies": "Monitor",
-    "tag": "AI Governance",
-    "angle": "AI Governance / governance & institutions",
-    "why": "Statement by the UK&#39;s Human Rights Ambassador, Eleanor Sanders, at Thailand&#39;s Universal Periodic Review at the Human Rights Council in Geneva.",
-    "watch": "Sourced from News and communications — verify dates and AI relevance.",
-    "source": "https://www.gov.uk/government/speeches/53rd-universal-periodic-review-of-human-rights-uk-statement-on-thailand"
   },
   {
     "title": "NIST Joins White House Effort to Drive ‘A New Golden Age of Science’",
@@ -1356,16 +1236,16 @@
     "source": "https://www.un.org/en/card/209823"
   },
   {
-    "title": "Providers of General-Purpose AI Models — What We Know About Who Will Qualify",
-    "date": "Fri, 25 Apr 2025",
+    "title": "FLI CEO’s statement on the attack against Sam Altman’s home",
+    "date": "Fri, 10 Apr 2026",
     "location": "TBC",
     "host": "Future of Life Institute",
     "applies": "Monitor",
     "tag": "AI Governance",
     "angle": "AI Governance / technical AI",
-    "why": "This content is outdated – Draft guidelines have now been published by the AI Office, which you can learn more [&#8230;]",
+    "why": "Anthony Aguirre, President and CEO of the Future of Life Institute, issued the following statement in response to the attack [&#8230;]",
     "watch": "Sourced from Future of Life Institute — verify dates and AI relevance.",
-    "source": "https://futureoflife.org/uncategorized/providers-of-general-purpose-ai-models-what-we-know-about-who-will-qualify/"
+    "source": "https://futureoflife.org/statement/attack-against-sam-altmans-home/"
   },
   {
     "title": "UK military satellite Titania launches into orbit following £3bn space investment into defence of space",
@@ -1378,18 +1258,6 @@
     "why": "UK launches Titania into orbit, giving the Armed Forces improved observation from space, along with new trial network of ground sensors to monitor threats to UK satellites.",
     "watch": "Sourced from News and communications — verify dates and AI relevance.",
     "source": "https://www.gov.uk/government/news/uk-military-satellite-titania-launches-into-orbit-following-3bn-space-investment-into-defence-of-space"
-  },
-  {
-    "title": "Russia must show the evidence behind its claims: UK statement to the OSCE",
-    "date": "2026-11-05T11:11",
-    "location": "TBC",
-    "host": "News and communications",
-    "applies": "Monitor",
-    "tag": "AI Governance",
-    "angle": "AI Governance / cross-sector harm",
-    "why": "UK Senior Military Advisor, Colonel Joby Rimmer, condemns Russia&#39;s deadly strikes on Ukrainian civilians, including in Dnipro and Komyshuvakha, and challenges Russia&#39;s use of unverified…",
-    "watch": "Sourced from News and communications — verify dates and AI relevance.",
-    "source": "https://www.gov.uk/government/speeches/russia-must-show-the-evidence-behind-its-claims-uk-statement-to-the-osce"
   },
   {
     "title": "Over 400 antibiotic-resistant infections each week in 2025",
@@ -1488,6 +1356,54 @@
     "source": "https://www.ncsc.gov.uk/report/decrypting-diversity-2021-diversity-and-inclusion-in-cyber-security"
   },
   {
+    "title": "More than 80,000 knives taken off the streets",
+    "date": "2026-11-13T00:01",
+    "location": "TBC",
+    "host": "News and communications",
+    "applies": "Monitor",
+    "tag": "AI Governance",
+    "angle": "AI Governance / policy & regulation",
+    "why": "Knife-enabled robbery down 24% across the 7 most affected police forces.",
+    "watch": "Sourced from News and communications — verify dates and AI relevance.",
+    "source": "https://www.gov.uk/government/news/more-than-80000-knives-taken-off-the-streets"
+  },
+  {
+    "title": "Joint Declaration on a Strategic Partnership between the United Kingdom of Great Britain and Northern Ireland and the…",
+    "date": "2026-11-12T18:00",
+    "location": "TBC",
+    "host": "News and communications",
+    "applies": "Monitor",
+    "tag": "AI Governance",
+    "angle": "AI Governance / policy & regulation",
+    "why": "Joint Declaration on a Strategic Partnership between the United Kingdom of Great Britain and Northern Ireland and the Republic of Azerbaijan.",
+    "watch": "Sourced from News and communications — verify dates and AI relevance.",
+    "source": "https://www.gov.uk/government/news/joint-declaration-on-a-strategic-partnership-between-the-united-kingdom-of-great-britain-and-northern-ireland-and-the-republic-of-azerbaijan"
+  },
+  {
+    "title": "GAD’s Annual Report and Accounts 2025 to 2026",
+    "date": "2026-11-12T17:09",
+    "location": "TBC",
+    "host": "News and communications",
+    "applies": "Monitor",
+    "tag": "AI Governance",
+    "angle": "AI Governance / policy & regulation",
+    "why": "GAD’s Annual Report and Accounts 2025 to 2026 show a record year for the department and our progress in achieving the 2030 strategy.",
+    "watch": "Sourced from News and communications — verify dates and AI relevance.",
+    "source": "https://www.gov.uk/government/news/gads-annual-report-and-accounts-2025-to-2026"
+  },
+  {
+    "title": "Ukraine’s drone pioneers bring battle-tested tech and high-skilled jobs to Britain",
+    "date": "2026-11-12T17:07",
+    "location": "TBC",
+    "host": "News and communications",
+    "applies": "Monitor",
+    "tag": "AI Governance",
+    "angle": "AI Governance / policy & regulation",
+    "why": "High-skilled jobs are coming to Britain as Ukrainian drone pioneers UFORCE expand their UK operations, bringing battle-tested technology developed on the frontline to the UK.",
+    "watch": "Sourced from News and communications — verify dates and AI relevance.",
+    "source": "https://www.gov.uk/government/news/ukraines-drone-pioneers-bring-battle-tested-tech-and-high-skilled-jobs-to-britain"
+  },
+  {
     "title": "Defence Secretary Wes Streeting speech at Atlantic Future Forum",
     "date": "2026-11-12T16:06",
     "location": "TBC",
@@ -1548,6 +1464,30 @@
     "source": "https://www.gov.uk/government/news/uk-partnership-opens-more-opportunities-for-pakistanis-to-study-in-britain"
   },
   {
+    "title": "New 1,700-place Leicestershire prison moves a step closer",
+    "date": "2026-11-13T11:38",
+    "location": "TBC",
+    "host": "News and communications",
+    "applies": "Monitor",
+    "tag": "AI Governance",
+    "angle": "AI Governance / policy & regulation",
+    "why": "A new 1,700-place prison in Leicestershire has reached a major construction milestone this week, with final structural works now complete.",
+    "watch": "Sourced from News and communications — verify dates and AI relevance.",
+    "source": "https://www.gov.uk/government/news/new-1700-place-leicestershire-prison-moves-a-step-closer"
+  },
+  {
+    "title": "MHRA: services during Microsoft outage",
+    "date": "2026-11-13T11:19",
+    "location": "TBC",
+    "host": "News and communications",
+    "applies": "Monitor",
+    "tag": "AI Governance",
+    "angle": "AI Governance / policy & regulation",
+    "why": "We have been experiencing problems sending and receiving emails.",
+    "watch": "Sourced from News and communications — verify dates and AI relevance.",
+    "source": "https://www.gov.uk/government/news/mhra-services-during-microsoft-outage"
+  },
+  {
     "title": "Clean Energy Jobs Fair held in Birmingham",
     "date": "2026-11-12T15:21",
     "location": "TBC",
@@ -1594,18 +1534,6 @@
     "why": "Eligible 18 and 19 year-olds, as well as older first year students at university, have until New Year&#39;s Eve to get their first dose.",
     "watch": "Sourced from News and communications — verify dates and AI relevance.",
     "source": "https://www.gov.uk/government/news/time-running-out-for-over-580000-young-people-to-get-1st-dose-of-menb"
-  },
-  {
-    "title": "£90 million investment for new drones and sensors to protect undersea cables and hunt Russian submarines",
-    "date": "2026-11-10T11:20",
-    "location": "TBC",
-    "host": "News and communications",
-    "applies": "Monitor",
-    "tag": "AI Governance",
-    "angle": "AI Governance / policy & regulation",
-    "why": "The UK will be more secure from Russian undersea threats in the North Atlantic following a new £90 million investment in new drones, sensors and <mark>AI</mark> systems for the Royal Navy.",
-    "watch": "Sourced from News and communications — verify dates and AI relevance.",
-    "source": "https://www.gov.uk/government/news/90-million-investment-for-new-drones-and-sensors-to-protect-undersea-cables-and-hunt-russian-submarines"
   },
   {
     "title": "Water bosses must not be rewarded for failure by another name, says Environment Secretary",
@@ -1872,28 +1800,88 @@
     "source": "https://www.un.org/en/card/209800"
   },
   {
-    "title": "The Advisory Forum: What Is It And How Does It Work?",
-    "date": "Fri, 19 Jun 2026",
+    "title": "AI and the Protestant Vision of Spirituality, Work, and Technology",
+    "date": "Thu, 10 Sep 2026",
     "location": "TBC",
     "host": "Future of Life Institute",
     "applies": "Monitor",
-    "tag": "EU Governance",
-    "angle": "EU Governance / policy & regulation",
-    "why": "The Advisory Forum (the Forum) is a general advisory body to the European Commission and the AI Board, established to [&#8230;]",
+    "tag": "AI Governance",
+    "angle": "AI Governance / policy & regulation",
+    "why": "An evangelical thinker explores how AI might be repurposed into a tool that serves human flourishing, in line with a post-Reformation understanding of work.",
     "watch": "Sourced from Future of Life Institute — verify dates and AI relevance.",
-    "source": "https://futureoflife.org/uncategorized/the-advisory-forum-what-is-it-and-how-does-it-work/"
+    "source": "https://futureoflife.org/religion/ai-and-the-protestant-vision-of-spirituality-work-and-technology/"
   },
   {
-    "title": "The AI Office is hiring a Lead Scientific Advisor for AI",
-    "date": "Tue, 19 Nov 2024",
+    "title": "Statement: Anthropic warns of AI self-improvement risks, considers a pause",
+    "date": "Mon, 08 Jun 2026",
     "location": "TBC",
     "host": "Future of Life Institute",
     "applies": "Monitor",
-    "tag": "EU Governance",
-    "angle": "EU Governance / policy & regulation",
-    "why": "This opportunity has now passed. A very important job opening has opened up at the European AI Office: They are [&#8230;]",
+    "tag": "AI Governance",
+    "angle": "AI Governance / policy & regulation",
+    "why": "\"We are approaching a runaway to superintelligence that could threaten our shared human future.\"",
     "watch": "Sourced from Future of Life Institute — verify dates and AI relevance.",
-    "source": "https://futureoflife.org/uncategorized/ai-office-hiring-a-lead-scientific-advisor-for-ai/"
+    "source": "https://futureoflife.org/statement/statement-anthropic-warns-of-ai-self-improvement-risks/"
+  },
+  {
+    "title": "Magnificent Humanity – The Pope’s First Encyclical Concerns AI",
+    "date": "Wed, 20 May 2026",
+    "location": "TBC",
+    "host": "Future of Life Institute",
+    "applies": "Monitor",
+    "tag": "AI Governance",
+    "angle": "AI Governance / policy & regulation",
+    "why": "Everything you need to know about the upcoming encyclical on AI.",
+    "watch": "Sourced from Future of Life Institute — verify dates and AI relevance.",
+    "source": "https://futureoflife.org/religion/magnificent-humanity-the-popes-first-encyclical-concerns-ai/"
+  },
+  {
+    "title": "White House working group on AI – Statement from FLI’s Anthony Aguirre",
+    "date": "Tue, 05 May 2026",
+    "location": "TBC",
+    "host": "Future of Life Institute",
+    "applies": "Monitor",
+    "tag": "AI Governance",
+    "angle": "AI Governance / policy & regulation",
+    "why": "\"This move by the White House is also a recognition that Big Tech cannot self-regulate, and that the status quo is unacceptable.\"",
+    "watch": "Sourced from Future of Life Institute — verify dates and AI relevance.",
+    "source": "https://futureoflife.org/statement/white-house-working-group-on-ai/"
+  },
+  {
+    "title": "FLI’s President and CEO on Trump’s support for an AI ‘kill switch’",
+    "date": "Thu, 16 Apr 2026",
+    "location": "TBC",
+    "host": "Future of Life Institute",
+    "applies": "Monitor",
+    "tag": "AI Governance",
+    "angle": "AI Governance / policy & regulation",
+    "why": "President Trump said during an interview aired yesterday by Fox Business that &#8220;there should be&#8221; when asked if AI needs [&#8230;]",
+    "watch": "Sourced from Future of Life Institute — verify dates and AI relevance.",
+    "source": "https://futureoflife.org/statement/trumps-support-for-an-ai-kill-switch/"
+  },
+  {
+    "title": "Governor DeSantis Directs Florida State Agencies to Partner with Future of Life Institute to Shield Families from AI…",
+    "date": "Mon, 09 Mar 2026",
+    "location": "TBC",
+    "host": "Future of Life Institute",
+    "applies": "Monitor",
+    "tag": "AI Governance",
+    "angle": "AI Governance / policy & regulation",
+    "why": "The collaboration will produce a Crisis Counselor Training Curriculum and a statewide AI Harms Reporting Form targeting dangerous AI companion applications",
+    "watch": "Sourced from Future of Life Institute — verify dates and AI relevance.",
+    "source": "https://futureoflife.org/press-release/desantis-directs-florida-agencies-to-partner-with-fli/"
+  },
+  {
+    "title": "“This is What it Means to be Pro-Human” Declares Broad Coalition of Conservative, Progressive, and Civil Society Groups…",
+    "date": "Wed, 04 Mar 2026",
+    "location": "TBC",
+    "host": "Future of Life Institute",
+    "applies": "Monitor",
+    "tag": "AI Governance",
+    "angle": "AI Governance / policy & regulation",
+    "why": "Amid a rising backlash to Silicon Valley overreach, a remarkably diverse group from across the political spectrum announced a set of AI principles to clearly define the goals of the emerging…",
+    "watch": "Sourced from Future of Life Institute — verify dates and AI relevance.",
+    "source": "https://futureoflife.org/press-release/statement-of-shared-principles-on-ai/"
   },
   {
     "title": "Partnership on AI Welcomes Eight New Partners Advancing Mental Health and Well-being",
