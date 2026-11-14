@@ -144,6 +144,18 @@
     "source": "https://www.eff.org/deeplinks/2026/10/french-courts-site-blocking-orders-drive-quad9-out-france"
   },
   {
+    "title": "Same Task, Different Statement: When and How Reformulation Helps LLM Problem Solving",
+    "date": "Sat, 14 Nov 2026",
+    "location": "TBC",
+    "host": "cs.AI updates on arXiv.org",
+    "applies": "Monitor",
+    "tag": "AI Governance",
+    "angle": "AI Governance / policy & regulation",
+    "why": "When people face a hard problem, they often restate it in a clearer way before solving it. We study whether the same habit helps large language models by rewriting the statement of a problem. A legal…",
+    "watch": "Sourced from cs.AI updates on arXiv.org — verify dates and AI relevance.",
+    "source": "https://arxiv.org/abs/2611.14997"
+  },
+  {
     "title": "International Seabed Authority",
     "date": "Thu, 21 Sep 2023",
     "location": "TBC",
@@ -204,6 +216,18 @@
     "source": "http://www.wikicfp.com/cfp/servlet/event.showcfp?eventid=183005&copyownerid=189704"
   },
   {
+    "title": "Lawfare Daily: Aya Ibrahim on Progressive Priorities for the New Democratic Congress",
+    "date": "Fri, 13 Nov 2026",
+    "location": "TBC",
+    "host": "AI Now Institute",
+    "applies": "Monitor",
+    "tag": "Election Integrity",
+    "angle": "Election Integrity / policy & regulation",
+    "why": "AI Now's Aya Ibrahim joins Lawfare Contributing Editor and host of the Security Economics podcast Peter Harrell to talk about AI regulation and U.S.-China policy. The post Lawfare Daily: Aya Ibrahim…",
+    "watch": "Sourced from AI Now Institute — verify dates and AI relevance.",
+    "source": "https://ainowinstitute.org/news/lawfare-daily-aya-ibrahim-on-progressive-priorities-for-the-new-democratic-congress"
+  },
+  {
     "title": "6.4 million victim datasets secured in international operation against malware networks",
     "date": "TBC",
     "location": "TBC",
@@ -252,7 +276,7 @@
     "source": "https://www.gov.uk/government/news/uk-hosts-global-summit-to-combat-financial-crime"
   },
   {
-    "title": "CMMC on Hold: Charting a Path Forward",
+    "title": "Beyond the Pause: What's Next for CMMC",
     "date": "TBC",
     "location": "TBC",
     "host": "CSIS",
@@ -261,7 +285,7 @@
     "angle": "Cybersecurity / governance & institutions",
     "why": "On this episode of All About the Base, Dr. Jerry McGinn speaks with Stephanie Sanok Kostro, President of the Professional Services Council, about the DoD’s CMMC pause, industry concerns over…",
     "watch": "Event from CSIS — check agenda for AI harm content.",
-    "source": "https://www.csis.org/events/cmmc-hold-charting-path-forward"
+    "source": "https://www.csis.org/events/beyond-pause-whats-next-cmmc"
   },
   {
     "title": "IMBSA 2027",
@@ -502,6 +526,18 @@
     "why": "A joint statement by the UK and Norway to deepen cooperation on AI, including compute, defence, AI security, and international governance.",
     "watch": "Sourced from News and communications — verify dates and AI relevance.",
     "source": "https://www.gov.uk/government/news/united-kingdom-norway-joint-statement-of-intent-on-artificial-intelligence"
+  },
+  {
+    "title": "SynthCorp: A Platform for Creating Benchmarks for Data Agents",
+    "date": "Sat, 14 Nov 2026",
+    "location": "TBC",
+    "host": "cs.AI updates on arXiv.org",
+    "applies": "Monitor",
+    "tag": "AI Governance",
+    "angle": "AI Governance / technical AI",
+    "why": "Current benchmarks for LLM-driven data agents saturate quickly and cannot target specific capabilities. We present SynthCorp, a platform that creates customizable data estates and benchmarks by…",
+    "watch": "Sourced from cs.AI updates on arXiv.org — verify dates and AI relevance.",
+    "source": "https://arxiv.org/abs/2611.14765"
   },
   {
     "title": "Cyber Threat Report: UK Legal Sector",
@@ -1462,6 +1498,18 @@
     "why": "The UK Government’s Chevening programme and Allied Bank Limited (ABL) have launched a new partnership that will enable talented Pakistanis to pursue fully funded master’s degrees at leading UK…",
     "watch": "Sourced from News and communications — verify dates and AI relevance.",
     "source": "https://www.gov.uk/government/news/uk-partnership-opens-more-opportunities-for-pakistanis-to-study-in-britain"
+  },
+  {
+    "title": "Stronger savings for hundreds of thousands of workers",
+    "date": "2026-11-14T11:07",
+    "location": "TBC",
+    "host": "News and communications",
+    "applies": "Monitor",
+    "tag": "AI Governance",
+    "angle": "AI Governance / policy & regulation",
+    "why": "Workers can join schemes where a proportion of their salary, chosen by them, automatically goes into their own savings pot.",
+    "watch": "Sourced from News and communications — verify dates and AI relevance.",
+    "source": "https://www.gov.uk/government/news/stronger-savings-for-hundreds-of-thousands-of-workers"
   },
   {
     "title": "New 1,700-place Leicestershire prison moves a step closer",
