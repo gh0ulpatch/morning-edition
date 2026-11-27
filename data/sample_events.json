@@ -48,18 +48,6 @@
     "source": "https://www.eff.org/deeplinks/2026/11/effs-ai-cybersecurity-policy-framework"
   },
   {
-    "title": "Beyond the Efficiency-Efficacy Dilemma: A Critical Analysis of Transferability in Adversarial Malware Detection",
-    "date": "Thu, 26 Nov 2026",
-    "location": "TBC",
-    "host": "cs.CR updates on arXiv.org",
-    "applies": "Attend",
-    "tag": "Cybersecurity",
-    "angle": "Cybersecurity / technical AI",
-    "why": "Machine Learning (ML) models are already being deployed at scale for malware detection. Therefore there is a pressing need to rigorously study adversarial robustness. To that end, we introduce the…",
-    "watch": "Sourced from cs.CR updates on arXiv.org — verify dates and AI relevance.",
-    "source": "https://arxiv.org/abs/2611.33243"
-  },
-  {
     "title": "LoyalAgents@AAAI 2027",
     "date": "Event",
     "location": "Where",
@@ -120,16 +108,16 @@
     "source": "https://www.europol.europa.eu/media-press/newsroom/news/354-dark-web-vendors-and-buyers-arrested-in-europol-coordinated-global-crackdown"
   },
   {
-    "title": "Condition-Triggered Cryptographic Asset Control via Dormant Authorization Paths",
-    "date": "Thu, 26 Nov 2026",
+    "title": "PeerReveal: Learning to Generalize in AI Peer Review Detection",
+    "date": "Fri, 27 Nov 2026",
     "location": "TBC",
-    "host": "cs.CR updates on arXiv.org",
+    "host": "cs.AI updates on arXiv.org",
     "applies": "Attend",
-    "tag": "AI Governance",
-    "angle": "AI Governance / policy & regulation",
-    "why": "Control of encrypted digital assets is traditionally equated with permanent possession of private keys, a model that precludes regulatory supervision, conditional delegation, and legally compliant…",
-    "watch": "Sourced from cs.CR updates on arXiv.org — verify dates and AI relevance.",
-    "source": "https://arxiv.org/abs/2603.07933"
+    "tag": "Multilateral",
+    "angle": "Multilateral / technical AI",
+    "why": "Can we distinguish fully AI-generated reviews from those using AI only to rewrite human judgement? Furthermore, can we do so reliably when reviews are generated from diverse AI models and workflows…",
+    "watch": "Sourced from cs.AI updates on arXiv.org — verify dates and AI relevance.",
+    "source": "https://arxiv.org/abs/2611.33555"
   },
   {
     "title": "Outage Chaos: Who Turned Off All The Computer?",
@@ -204,6 +192,18 @@
     "source": "https://www.un.org/en/card/209805"
   },
   {
+    "title": "JOVE ICE: Intent Guided Cloud Edge Device Collaboration for AI Glasses",
+    "date": "Fri, 27 Nov 2026",
+    "location": "TBC",
+    "host": "cs.AI updates on arXiv.org",
+    "applies": "Monitor",
+    "tag": "Multilateral",
+    "angle": "Multilateral / policy & regulation",
+    "why": "Recent advances in large language models (LLMs) and LLM based agents have expanded the capabilities of AI glasses, enabling egocentric visual question answering, memory retrieval, and proactive…",
+    "watch": "Sourced from cs.AI updates on arXiv.org — verify dates and AI relevance.",
+    "source": "https://arxiv.org/abs/2611.33735"
+  },
+  {
     "title": "Third United Nations Conference on Landlocked Developing Countries (LLDC3)",
     "date": "Tue, 24 Oct 2023",
     "location": "TBC",
@@ -214,6 +214,18 @@
     "why": "Third UN Conference on&nbsp; Landlocked Developing Countries&nbsp; Awaza, Turkmenistan&nbsp; 5-8 August&nbsp;2025&nbsp; Driving Progress through partnerships&nbsp; &nbsp; &nbsp; The United Nations…",
     "watch": "Sourced from United Nations — verify dates and AI relevance.",
     "source": "https://www.un.org/en/civil-society/third-united-nations-conference-landlocked-developing-countries-lldc3"
+  },
+  {
+    "title": "General-Purpose Decision Models for AI Configuration Tuning",
+    "date": "Fri, 27 Nov 2026",
+    "location": "TBC",
+    "host": "cs.AI updates on arXiv.org",
+    "applies": "Monitor",
+    "tag": "Multilateral",
+    "angle": "Multilateral / technical AI",
+    "why": "AI configuration tuning searches for settings that improve the performance of AI systems under a limited budget. Existing tuners use different sampling and search policies, making the choice of…",
+    "watch": "Sourced from cs.AI updates on arXiv.org — verify dates and AI relevance.",
+    "source": "https://arxiv.org/abs/2611.33190"
   },
   {
     "title": "KDD-MLF 2025",
@@ -238,18 +250,6 @@
     "why": "Join us to celebrate the legacy of Aaron Swartz on Nov. 8, 2026. With the organizers of Aaron Swartz Day , we’re honoring his life with an in-person and remote hackathon. This event is supported by…",
     "watch": "Sourced from Deeplinks — verify dates and AI relevance.",
     "source": "https://www.eff.org/deeplinks/2026/11/join-eff-celebrate-life-aaron-swartz"
-  },
-  {
-    "title": "IntentMiner: Intent Inversion Attack via Tool Call Analysis in the Model Context Protocol",
-    "date": "Thu, 26 Nov 2026",
-    "location": "TBC",
-    "host": "cs.CR updates on arXiv.org",
-    "applies": "Monitor",
-    "tag": "Cybersecurity",
-    "angle": "Cybersecurity / technical AI",
-    "why": "The evolution of Large Language Models (LLMs) into Agentic AI has established the Model Context Protocol (MCP) as the standard for connecting reasoning engines with external tools. Although this…",
-    "watch": "Sourced from cs.CR updates on arXiv.org — verify dates and AI relevance.",
-    "source": "https://arxiv.org/abs/2512.14166"
   },
   {
     "title": "RWS 2025",
@@ -324,6 +324,18 @@
     "source": "https://www.europol.europa.eu/media-press/newsroom/news/eu-most-wanted-19-fugitives-wanted-for-targeting-vulnerable"
   },
   {
+    "title": "Certify What You Plant: Shortcut-Free Proof Depth in Logical Reasoning Data",
+    "date": "Fri, 27 Nov 2026",
+    "location": "TBC",
+    "host": "cs.AI updates on arXiv.org",
+    "applies": "Monitor",
+    "tag": "AI Governance",
+    "angle": "AI Governance / policy & regulation",
+    "why": "Procedurally generated logic problems are used to both evaluate and train reasoning in language models. Their difficulty is usually set by planting a proof, that is, by sampling a proof of the…",
+    "watch": "Sourced from cs.AI updates on arXiv.org — verify dates and AI relevance.",
+    "source": "https://arxiv.org/abs/2611.33303"
+  },
+  {
     "title": "ICAIR 2024",
     "date": "4th International Conference on AI Research (formally the European Conference on the Impact of Artificial Intelligence and Robotics)",
     "location": "TBC",
@@ -334,6 +346,18 @@
     "why": "ICAIR 2024",
     "watch": "Sourced via WikiCFP — check agenda for AI harm/misuse sessions.",
     "source": "http://www.wikicfp.com/cfp/servlet/event.showcfp?eventid=178495&copyownerid=8438"
+  },
+  {
+    "title": "Learning from Natural Images Untangles Number Sense",
+    "date": "Fri, 27 Nov 2026",
+    "location": "TBC",
+    "host": "cs.AI updates on arXiv.org",
+    "applies": "Monitor",
+    "tag": "Multilateral",
+    "angle": "Multilateral / technical AI",
+    "why": "Numerical cognition is a simple yet fundamental ability that remains challenging for modern vision-language models. Meanwhile, number sense is already present in numerically na\\\"ive animals,…",
+    "watch": "Sourced from cs.AI updates on arXiv.org — verify dates and AI relevance.",
+    "source": "https://arxiv.org/abs/2611.33615"
   },
   {
     "title": "IMBSA 2027",
@@ -516,6 +540,18 @@
     "source": "http://www.wikicfp.com/cfp/servlet/event.showcfp?eventid=96777&copyownerid=143386"
   },
   {
+    "title": "Top story - Parliament reforms - Boosting Parliament's integrity and strengthening trust",
+    "date": "Tue, 25 Jul 2023",
+    "location": "TBC",
+    "host": "Top stories - European Parliament",
+    "applies": "Monitor",
+    "tag": "EU Governance",
+    "angle": "EU Governance / policy & regulation",
+    "why": "Discover the measures reinforcing Parliament’s integrity and closing loopholes to protect the institution and MEPs from outside interference. Source : © European Union, 2024 - EP",
+    "watch": "Sourced from Top stories - European Parliament — verify dates and AI relevance.",
+    "source": "https://www.europarl.europa.eu/news/en/headlines/priorities/parliament-reforms"
+  },
+  {
     "title": "Cyber Threat Report: UK Legal Sector",
     "date": "Thu, 22 Jun 2023",
     "location": "TBC",
@@ -540,6 +576,18 @@
     "source": "https://www.gov.uk/government/news/cutting-costs-bill-to-make-doing-business-with-europe-cheaper-and-easier"
   },
   {
+    "title": "Government correspondence on the regulation of actuaries",
+    "date": "2026-11-27T11:35",
+    "location": "TBC",
+    "host": "News and communications",
+    "applies": "Monitor",
+    "tag": "AI Governance",
+    "angle": "AI Governance / policy & regulation",
+    "why": "Correspondence relating to the government’s approach to the <mark>regulation</mark> of actuaries.",
+    "watch": "Sourced from News and communications — verify dates and AI relevance.",
+    "source": "https://www.gov.uk/government/publications/government-correspondence-on-the-regulation-of-actuaries"
+  },
+  {
     "title": "RPC statement: impact of Energy Independence Bill from DESNZ",
     "date": "2026-11-26T16:09",
     "location": "TBC",
@@ -550,18 +598,6 @@
     "why": "Update on our scrutiny of the impact assessments from the Department for Energy Security and Net Zero",
     "watch": "Sourced from News and communications — verify dates and AI relevance.",
     "source": "https://www.gov.uk/government/news/rpc-statement-impact-of-energy-independence-bill-from-desnz"
-  },
-  {
-    "title": "Working with social science experts to shape electricity grid transformation",
-    "date": "2026-11-26T10:07",
-    "location": "TBC",
-    "host": "News and communications",
-    "applies": "Monitor",
-    "tag": "AI Governance",
-    "angle": "AI Governance / policy & regulation",
-    "why": "How the Government Office for Science brought together academics, practitioners and policymakers to help put people at the centre of energy system change.",
-    "watch": "Sourced from News and communications — verify dates and AI relevance.",
-    "source": "https://www.gov.uk/government/case-studies/working-with-social-science-experts-to-shape-electricity-grid-transformation"
   },
   {
     "title": "NIST Study Shows How the Toxic Substances Mixed Into Fentanyl Vary Across the U.S. and Change Over Time",
@@ -648,6 +684,30 @@
     "source": "https://www.gov.uk/government/news/landmark-study-into-uk-government-policy-during-the-troubles-launched-as-thousands-more-archival-records-made-available-online"
   },
   {
+    "title": "Minister of State for International Development speech at the RSA-UK Bilateral Forum Reception",
+    "date": "2026-11-27T15:34",
+    "location": "TBC",
+    "host": "News and communications",
+    "applies": "Monitor",
+    "tag": "AI Governance",
+    "angle": "AI Governance / policy & regulation",
+    "why": "Minister Kirsty McNeill&#39;s speech at the RSA-UK Bilateral Forum Reception on Thursday 26 November 2026.",
+    "watch": "Sourced from News and communications — verify dates and AI relevance.",
+    "source": "https://www.gov.uk/government/speeches/minister-of-state-for-international-development-speech-at-the-rsa-uk-bilateral-forum-reception"
+  },
+  {
+    "title": "International Symposium on Lawful Access 2026",
+    "date": "2026-11-27T13:48",
+    "location": "TBC",
+    "host": "News and communications",
+    "applies": "Monitor",
+    "tag": "AI Governance",
+    "angle": "AI Governance / policy & regulation",
+    "why": "Co-chairs&#39; readout from the 2026 meeting of the International Symposium on Lawful Access (ISLA), co-chaired by the UK and Sweden.",
+    "watch": "Sourced from News and communications — verify dates and AI relevance.",
+    "source": "https://www.gov.uk/government/publications/international-symposium-on-lawful-access-2026"
+  },
+  {
     "title": "International Day for the Elimination of Violence Against Women and Girls 2026: Joint statement to the OSCE",
     "date": "2026-11-26T15:37",
     "location": "TBC",
@@ -658,18 +718,6 @@
     "why": "Speaking on behalf of 42 participating States, Ambassador Holland marks the 2026 International Day for the Elimination of Violence against Women and Girls and the beginning of the 16 Days of Activism…",
     "watch": "Sourced from News and communications — verify dates and AI relevance.",
     "source": "https://www.gov.uk/government/speeches/international-day-for-the-elimination-of-violence-against-women-and-girls-2026-joint-statement-to-the-osce"
-  },
-  {
-    "title": "RSH gives top consumer grade to housing association and council",
-    "date": "2026-11-25T09:30",
-    "location": "TBC",
-    "host": "News and communications",
-    "applies": "Monitor",
-    "tag": "AI Governance",
-    "angle": "AI Governance / policy & regulation",
-    "why": "ForHousing Limited, New Forest District Council and The Community Housing Group received C1 grades in today&#39;s regulatory judgements.",
-    "watch": "Sourced from News and communications — verify dates and AI relevance.",
-    "source": "https://www.gov.uk/government/news/rsh-gives-top-consumer-grade-to-housing-association-and-council"
   },
   {
     "title": "NIST Report Provides Guidelines for Transition to Post-Quantum Cryptography Standards",
@@ -694,6 +742,66 @@
     "why": "NIST has announced an agreement with SRI International to establish the Quantum Manufacturing Engineering Center (QMEC).",
     "watch": "Sourced from NIST News — verify dates and AI relevance.",
     "source": "https://www.nist.gov/news-events/news/2026/06/nist-launches-center-drive-manufacture-quantum-technologies"
+  },
+  {
+    "title": "Top story - Consumer protection - How the EU protects consumer rights",
+    "date": "Tue, 21 Feb 2023",
+    "location": "TBC",
+    "host": "Top stories - European Parliament",
+    "applies": "Monitor",
+    "tag": "EU Governance",
+    "angle": "EU Governance / policy & regulation",
+    "why": "Find out how the EU protects consumers and about Parliament’s initiatives to improve those rights. Source : © European Union, 2024 - EP",
+    "watch": "Sourced from Top stories - European Parliament — verify dates and AI relevance.",
+    "source": "https://www.europarl.europa.eu/news/en/headlines/priorities/consumer-protection-in-the-eu"
+  },
+  {
+    "title": "Top story - This is Europe: plenary debates with EU leaders - How do EU heads of state and government see the current…",
+    "date": "Fri, 09 Sep 2022",
+    "location": "TBC",
+    "host": "Top stories - European Parliament",
+    "applies": "Monitor",
+    "tag": "EU Governance",
+    "angle": "EU Governance / policy & regulation",
+    "why": "In a series of plenary debates, the European Parliament invites EU leaders to share their views and solutions to the challenges facing Europe. Source : © European Union, 2024 - EP",
+    "watch": "Sourced from Top stories - European Parliament — verify dates and AI relevance.",
+    "source": "https://www.europarl.europa.eu/news/en/headlines/priorities/this-is-europe-debates"
+  },
+  {
+    "title": "Top story - Conference on the Future of Europe: follow-up - Meeting people’s expectations for the EU",
+    "date": "Mon, 13 Jun 2022",
+    "location": "TBC",
+    "host": "Top stories - European Parliament",
+    "applies": "Monitor",
+    "tag": "EU Governance",
+    "angle": "EU Governance / policy & regulation",
+    "why": "The European Parliament is working to create a more effective and democratic EU, in line with citizens’ proposals at the Conference on the Future of Europe. Source : © European Union, 2024 - EP",
+    "watch": "Sourced from Top stories - European Parliament — verify dates and AI relevance.",
+    "source": "https://www.europarl.europa.eu/news/en/headlines/priorities/eu-future-conference-follow-up"
+  },
+  {
+    "title": "Top story - Gender equality in the EU - The EU fight for women’s rights",
+    "date": "Wed, 13 Apr 2022",
+    "location": "TBC",
+    "host": "Top stories - European Parliament",
+    "applies": "Monitor",
+    "tag": "EU Governance",
+    "angle": "EU Governance / policy & regulation",
+    "why": "Gender equality has always been a priority for the EU. Discover the main issues and what the Parliament does to tackle them. Source : © European Union, 2023 - EP",
+    "watch": "Sourced from Top stories - European Parliament — verify dates and AI relevance.",
+    "source": "https://www.europarl.europa.eu/news/en/headlines/priorities/gender-equality"
+  },
+  {
+    "title": "Top story - Covid-19 recovery plan - How Parliament scrutinises EU support for overcoming the crisis",
+    "date": "Thu, 17 Mar 2022",
+    "location": "TBC",
+    "host": "Top stories - European Parliament",
+    "applies": "Monitor",
+    "tag": "EU Governance",
+    "angle": "EU Governance / policy & regulation",
+    "why": "The EU’s recovery plan supports the way out of the Covid-19 crisis and builds resilience for the future. Learn how the European Parliament scrutinises the plan. Source : © European Union, 2022 - EP",
+    "watch": "Sourced from Top stories - European Parliament — verify dates and AI relevance.",
+    "source": "https://www.europarl.europa.eu/news/en/headlines/priorities/covid-19-recovery"
   },
   {
     "title": "Five TEFAF robbery suspects added to EU Most Wanted",
@@ -972,6 +1080,30 @@
     "source": "https://www.gov.uk/government/news/uk-launches-new-platform-in-kenya-to-help-businesses-find-investors-and-create-jobs"
   },
   {
+    "title": "MHRA approves zanidatamab (Ziihera) for the treatment of gastroesophageal cancer",
+    "date": "2026-11-27T15:41",
+    "location": "TBC",
+    "host": "News and communications",
+    "applies": "Monitor",
+    "tag": "AI Governance",
+    "angle": "AI Governance / policy & regulation",
+    "why": "The Medicines and Healthcare products Regulatory Agency (MHRA) has today, 27 November 2026, approved a variation to the existing authorisation for zanidatamab (Ziihera) for the treatment of…",
+    "watch": "Sourced from News and communications — verify dates and AI relevance.",
+    "source": "https://www.gov.uk/government/news/mhra-approves-zanidatamab-ziihera-for-the-treatment-of-gastroesophageal-cancer"
+  },
+  {
+    "title": "MHRA approves linvoseltamab to treat adults with multiple myeloma",
+    "date": "2026-11-27T14:26",
+    "location": "TBC",
+    "host": "News and communications",
+    "applies": "Monitor",
+    "tag": "AI Governance",
+    "angle": "AI Governance / policy & regulation",
+    "why": "The Medicines and Healthcare products Regulatory Agency (MHRA) has approved linvoseltamab (Lynozyfic), a cancer medicine used to treat adults with multiple myeloma, a type of cancer of the bone…",
+    "watch": "Sourced from News and communications — verify dates and AI relevance.",
+    "source": "https://www.gov.uk/government/news/mhra-approves-linvoseltamab-to-treat-adults-with-multiple-myeloma"
+  },
+  {
     "title": "Obicetrapib approved to lower LDL-cholesterol in adults with primary hypercholesterolaemia and/or mixed dyslipidaemia",
     "date": "2026-11-26T11:11",
     "location": "TBC",
@@ -996,16 +1128,28 @@
     "source": "https://www.gov.uk/government/publications/research-and-innovation-devolution"
   },
   {
-    "title": "Two people convicted of running an illegal school in central Birmingham",
-    "date": "2026-11-25T11:47",
+    "title": "Establishing the Alternative Methods Expert Committee: response",
+    "date": "2026-11-27T11:58",
     "location": "TBC",
     "host": "News and communications",
     "applies": "Monitor",
     "tag": "AI Governance",
     "angle": "AI Governance / policy & regulation",
-    "why": "Two people have been found guilty of running an illegal school in Birmingham following an Ofsted investigation.",
+    "why": "Minister McDonald has responded to the Animals in Science Committee’s advice on establishing the Alternative Methods Expert Committee.",
     "watch": "Sourced from News and communications — verify dates and AI relevance.",
-    "source": "https://www.gov.uk/government/news/two-people-convicted-of-running-an-illegal-school-in-central-birmingham"
+    "source": "https://www.gov.uk/government/publications/establishing-the-alternative-methods-expert-committee-response"
+  },
+  {
+    "title": "Over half a million households to get help with water bills",
+    "date": "2026-11-27T00:01",
+    "location": "TBC",
+    "host": "News and communications",
+    "applies": "Monitor",
+    "tag": "AI Governance",
+    "angle": "AI Governance / policy & regulation",
+    "why": "Up to 250,000 more vulnerable households to be supported with £428 a year off their water bills",
+    "watch": "Sourced from News and communications — verify dates and AI relevance.",
+    "source": "https://www.gov.uk/government/news/over-half-a-million-households-to-get-help-with-water-bills"
   },
   {
     "title": "LAA mileage rates to increase",
@@ -1018,30 +1162,6 @@
     "why": "Legal aid mileage rates will increase in December 2026.",
     "watch": "Sourced from News and communications — verify dates and AI relevance.",
     "source": "https://www.gov.uk/government/news/laa-mileage-rates-to-increase"
-  },
-  {
-    "title": "CMA study reveals catalogue of concerns in private dentistry market",
-    "date": "2026-11-26T07:00",
-    "location": "TBC",
-    "host": "News and communications",
-    "applies": "Monitor",
-    "tag": "AI Governance",
-    "angle": "AI Governance / policy & regulation",
-    "why": "The CMA has today published interim findings in its market study into the UK’s £8 billion private dentistry market.",
-    "watch": "Sourced from News and communications — verify dates and AI relevance.",
-    "source": "https://www.gov.uk/government/news/cma-study-reveals-catalogue-of-concerns-in-private-dentistry-market"
-  },
-  {
-    "title": "DfE Update 25 November 2026",
-    "date": "2026-11-25T13:45",
-    "location": "TBC",
-    "host": "News and communications",
-    "applies": "Monitor",
-    "tag": "AI Governance",
-    "angle": "AI Governance / policy & regulation",
-    "why": "Latest information and actions from the Department for Education about funding, assurance and resource management, for academies, local authorities and further education providers.",
-    "watch": "Sourced from News and communications — verify dates and AI relevance.",
-    "source": "https://www.gov.uk/government/publications/dfe-update-25-november-2026"
   },
   {
     "title": "NIST Provides Updates on National Construction Safety Team Activities",
@@ -1128,6 +1248,42 @@
     "source": "https://www.nist.gov/news-events/news/2026/07/nist-receives-new-patent-microbe-killing-water-heater"
   },
   {
+    "title": "Top story - The European Parliament’s Sakharov Prize 2023 - Parliament honours Jina Mahsa Amini and Iranian women…",
+    "date": "Wed, 08 Nov 2023",
+    "location": "TBC",
+    "host": "Top stories - European Parliament",
+    "applies": "Monitor",
+    "tag": "EU Governance",
+    "angle": "EU Governance / policy & regulation",
+    "why": "The European Parliament's 2023 Sakharov Prize for Freedom of Thought has been awarded to Jina Mahsa Amini and the Woman, Life, Freedom movement in Iran. Source : © European Union, 2023 - EP",
+    "watch": "Sourced from Top stories - European Parliament — verify dates and AI relevance.",
+    "source": "https://www.europarl.europa.eu/news/en/headlines/priorities/sakharov-2023"
+  },
+  {
+    "title": "Top story - Changes in the European Commission 2023 - Hoekstra, Ivanova backed for commissioners, new role for…",
+    "date": "Thu, 20 Jul 2023",
+    "location": "TBC",
+    "host": "Top stories - European Parliament",
+    "applies": "Monitor",
+    "tag": "EU Governance",
+    "angle": "EU Governance / policy & regulation",
+    "why": "Parliament approved Wopke Hoekstra and Iliana Ivanova as new commissioners and supported giving Maroš Šefčovič responsibility for the Green Deal. Source : © European Union, 2023 - EP",
+    "watch": "Sourced from Top stories - European Parliament — verify dates and AI relevance.",
+    "source": "https://www.europarl.europa.eu/news/en/headlines/priorities/commission-changes"
+  },
+  {
+    "title": "Top story - European Parliament’s Sakharov Prize 2022 - The brave Ukrainian people honoured",
+    "date": "Fri, 21 Oct 2022",
+    "location": "TBC",
+    "host": "Top stories - European Parliament",
+    "applies": "Monitor",
+    "tag": "EU Governance",
+    "angle": "EU Governance / policy & regulation",
+    "why": "The European Parliament's 2022 Sakharov Prize for Freedom of Thought has been awarded to the brave people of Ukraine, represented by their president, elected leaders and civil society. Source : ©…",
+    "watch": "Sourced from Top stories - European Parliament — verify dates and AI relevance.",
+    "source": "https://www.europarl.europa.eu/news/en/headlines/priorities/sakharov-2022"
+  },
+  {
     "title": "Not a game: Europol and partners target terrorist role-playing online",
     "date": "TBC",
     "location": "TBC",
@@ -1210,6 +1366,30 @@
     "why": "UK Government’s Sovereign AI Fund and the National Security Strategic Investment Fund (NSSIF) invest in AI defence firm Agon",
     "watch": "Sourced from News and communications — verify dates and AI relevance.",
     "source": "https://www.gov.uk/government/news/sovereign-ai-and-national-security-strategic-investment-fund-backing-british-autonomous-defence-systems-firm"
+  },
+  {
+    "title": "Mini lab-grown human organs to boost search for new treatments as £20m Cambridge lab opens",
+    "date": "2026-11-27T15:34",
+    "location": "TBC",
+    "host": "News and communications",
+    "applies": "Monitor",
+    "tag": "AI Governance",
+    "angle": "AI Governance / technical AI",
+    "why": "As the £20 million UK Preclinical Translational Models Hub opens its doors, the laboratory will help to usher in a world of new possibilities for patients.",
+    "watch": "Sourced from News and communications — verify dates and AI relevance.",
+    "source": "https://www.gov.uk/government/news/mini-lab-grown-human-organs-to-boost-search-for-new-treatments-as-20m-cambridge-lab-opens"
+  },
+  {
+    "title": "Raising standards in private security: a discussion with leaders",
+    "date": "2026-11-27T13:55",
+    "location": "TBC",
+    "host": "News and communications",
+    "applies": "Monitor",
+    "tag": "AI Governance",
+    "angle": "AI Governance / governance & institutions",
+    "why": "Private security business leaders from the largest companies came together to discuss raising standards across the industry.",
+    "watch": "Sourced from News and communications — verify dates and AI relevance.",
+    "source": "https://www.gov.uk/government/news/raising-standards-in-private-security-a-discussion-with-leaders"
   },
   {
     "title": "Research project: exploring the effects of Minimum Energy Efficiency Standards in the private rented sector on fuel…",
@@ -1404,6 +1584,18 @@
     "source": "https://www.ncsc.gov.uk/report/decrypting-diversity-2021-diversity-and-inclusion-in-cyber-security"
   },
   {
+    "title": "PARTNERSHIP WITH EUROPE, NOT SEPARATION, THE ANSWER FOR BRITAIN",
+    "date": "2026-11-27T16:31",
+    "location": "TBC",
+    "host": "News and communications",
+    "applies": "Monitor",
+    "tag": "AI Governance",
+    "angle": "AI Governance / policy & regulation",
+    "why": "Scottish Secretary Douglas Alexander’s speech at the Pontignano Conference, Rome, 27 November 2026.",
+    "watch": "Sourced from News and communications — verify dates and AI relevance.",
+    "source": "https://www.gov.uk/government/speeches/partnership-with-europe-not-separation-the-answer-for-britain"
+  },
+  {
     "title": "How the government has gripped the migration system in 6 charts",
     "date": "2026-11-26T15:07",
     "location": "TBC",
@@ -1512,16 +1704,52 @@
     "source": "https://www.gov.uk/government/speeches/secretary-of-state-speech-to-cosla-conference"
   },
   {
-    "title": "UK and Norway further boost Ukrainian Navy at Coalition of the Willing meeting",
-    "date": "2026-11-19T12:19",
+    "title": "MoD launches new website to help small businesses access Defence & industry testing ranges for innovative new kit",
+    "date": "2026-11-27T14:47",
     "location": "TBC",
     "host": "News and communications",
     "applies": "Monitor",
     "tag": "AI Governance",
     "angle": "AI Governance / policy & regulation",
-    "why": "UK and Norway further boost Ukrainian Navy at Coalition of the Willing meeting",
+    "why": "MOD launches Test and Evaluation Marketplace, a single online portal to help businesses test their tech faster.",
     "watch": "Sourced from News and communications — verify dates and AI relevance.",
-    "source": "https://www.gov.uk/government/news/uk-and-norway-further-boost-ukrainian-navy-at-coalition-of-the-willing-meeting--2"
+    "source": "https://www.gov.uk/government/news/mod-launches-new-website-to-help-small-businesses-access-defence-industry-testing-ranges-for-innovative-new-kit"
+  },
+  {
+    "title": "Nearly £100 million boost to tackle violence against women and girls",
+    "date": "2026-11-27T14:37",
+    "location": "TBC",
+    "host": "News and communications",
+    "applies": "Monitor",
+    "tag": "AI Governance",
+    "angle": "AI Governance / policy & regulation",
+    "why": "Funding includes over £70 million for behaviour change programmes, plus over £23 million for helplines and advocacy services.",
+    "watch": "Sourced from News and communications — verify dates and AI relevance.",
+    "source": "https://www.gov.uk/government/news/nearly-100-million-boost-to-tackle-violence-against-women-and-girls"
+  },
+  {
+    "title": "UK education support in Syria reaches one million children",
+    "date": "2026-11-27T14:09",
+    "location": "TBC",
+    "host": "News and communications",
+    "applies": "Monitor",
+    "tag": "Child Safety",
+    "angle": "Child Safety / policy & regulation",
+    "why": "The Syria Education Programme (SEP) has supported the education of one million children across northwest Syria since 2018. Following the success of the project, the UK government is also announcing…",
+    "watch": "Sourced from News and communications — verify dates and AI relevance.",
+    "source": "https://www.gov.uk/government/news/uk-education-support-in-syria-reaches-one-million-children"
+  },
+  {
+    "title": "Just a third of people with long-term health conditions vaccinated against flu",
+    "date": "2026-11-27T13:34",
+    "location": "TBC",
+    "host": "News and communications",
+    "applies": "Monitor",
+    "tag": "AI Governance",
+    "angle": "AI Governance / policy & regulation",
+    "why": "UKHSA is reminding those at severe risk from flu to get vaccinated as soon as possible.",
+    "watch": "Sourced from News and communications — verify dates and AI relevance.",
+    "source": "https://www.gov.uk/government/news/just-a-third-of-people-with-long-term-health-conditions-vaccinated-against-flu"
   },
   {
     "title": "\"Maintain a clear purpose\", RSH Chief Executive tells landlords",
@@ -1572,64 +1800,16 @@
     "source": "https://www.gov.uk/government/news/certification-officer-announcements--2"
   },
   {
-    "title": "Disability Confident shake-up gives disabled people a greater say",
-    "date": "2026-11-26T00:01",
+    "title": "Tribunal upholds regulator's disqualification of two trustees",
+    "date": "2026-11-27T10:53",
     "location": "TBC",
     "host": "News and communications",
     "applies": "Monitor",
     "tag": "AI Governance",
     "angle": "AI Governance / policy & regulation",
-    "why": "More disabled people will have the chance to start and stay in work under major reforms to the Disability Confident scheme announced today.",
+    "why": "The tribunal has issued its decisions upholding the Charity Commission’s disqualification of two trustees of Al-Tawheed (TUCF) Charitable Trust.",
     "watch": "Sourced from News and communications — verify dates and AI relevance.",
-    "source": "https://www.gov.uk/government/news/disability-confident-shake-up-gives-disabled-people-a-greater-say"
-  },
-  {
-    "title": "Uniting private security leaders to improve public safety",
-    "date": "2026-11-25T17:13",
-    "location": "TBC",
-    "host": "News and communications",
-    "applies": "Monitor",
-    "tag": "AI Governance",
-    "angle": "AI Governance / policy & regulation",
-    "why": "Leaders from the private security industry met to talk about working with the police to keep the public safe, and what comes next.",
-    "watch": "Sourced from News and communications — verify dates and AI relevance.",
-    "source": "https://www.gov.uk/government/news/uniting-private-security-leaders-to-improve-public-safety"
-  },
-  {
-    "title": "Steel Fabrication Company Fined for Supplying False Documentation",
-    "date": "2026-11-25T14:40",
-    "location": "TBC",
-    "host": "News and communications",
-    "applies": "Monitor",
-    "tag": "AI Governance",
-    "angle": "AI Governance / policy & regulation",
-    "why": "OPSS prosecuted J.T.L. Steel Fabrications Ltd for supplying a construction product with falsified documentation and no compliant declaration of performance.",
-    "watch": "Sourced from News and communications — verify dates and AI relevance.",
-    "source": "https://www.gov.uk/government/news/steel-fabrication-company-fined-for-supplying-false-documentation"
-  },
-  {
-    "title": "Over £10 million in support approved since Fisheries and Seafood Scheme reopened",
-    "date": "2026-11-25T12:54",
-    "location": "TBC",
-    "host": "News and communications",
-    "applies": "Monitor",
-    "tag": "AI Governance",
-    "angle": "AI Governance / policy & regulation",
-    "why": "Since reopening on 13 April 2026, over £10 million in funding has been approved through the Fisheries and Seafood Scheme (FaSS). Around 60% of approved applications are from the Small Scale Coastal…",
-    "watch": "Sourced from News and communications — verify dates and AI relevance.",
-    "source": "https://www.gov.uk/government/news/over-10-million-in-support-approved-since-fisheries-and-seafood-scheme-reopened"
-  },
-  {
-    "title": "Government reappoints AI Champions to drive next phase of AI in financial services",
-    "date": "2026-11-25T11:33",
-    "location": "TBC",
-    "host": "News and communications",
-    "applies": "Monitor",
-    "tag": "AI Governance",
-    "angle": "AI Governance / policy & regulation",
-    "why": "…Rohit Dhawan have been reappointed as government’s Financial Services <mark>AI</mark> Champions until 2027.",
-    "watch": "Sourced from News and communications — verify dates and AI relevance.",
-    "source": "https://www.gov.uk/government/news/government-reappoints-ai-champions-to-drive-next-phase-of-ai-in-financial-services"
+    "source": "https://www.gov.uk/government/news/tribunal-upholds-regulators-disqualification-of-two-trustees"
   },
   {
     "title": "Unpaid work for directors of abandoned Corfe Mullen waste site",
@@ -1786,6 +1966,18 @@
     "why": "Lunar craters in permanent shadow could be ideal locations for building the most stable optical lasers ever made.",
     "watch": "Sourced from NIST News — verify dates and AI relevance.",
     "source": "https://www.nist.gov/news-events/news/2026/05/shooting-moon-ultrastable-lasers-dark-craters-could-enable-lunar-navigation"
+  },
+  {
+    "title": "Top story - LUX Audience Award 2022 - The best of European cinema",
+    "date": "Tue, 15 Mar 2022",
+    "location": "TBC",
+    "host": "Top stories - European Parliament",
+    "applies": "Monitor",
+    "tag": "EU Governance",
+    "angle": "EU Governance / policy & regulation",
+    "why": "Quo Vadis, Aida? won the 2022 LUX Audience Award Source : © European Union, 2022 - EP",
+    "watch": "Sourced from Top stories - European Parliament — verify dates and AI relevance.",
+    "source": "https://www.europarl.europa.eu/news/en/headlines/priorities/lux-award-2022"
   },
   {
     "title": "#UNGA78 - Wrap Day 4",
